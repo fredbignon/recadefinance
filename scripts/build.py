@@ -1,0 +1,279 @@
+#!/usr/bin/env python3
+"""
+Générateur statique — Récade Finance
+======================================
+Lit les fichiers Markdown de /posts, génère les pages HTML dans /docs
+(le dossier servi par GitHub Pages). Aucune dépendance lourde : juste
+`markdown` et `pyyaml` (déjà présents dans la plupart des environnements
+Python, sinon : pip install markdown pyyaml).
+
+Usage : python3 scripts/build.py
+"""
+
+import os
+import re
+import glob
+import yaml
+import markdown
+from datetime import datetime
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+POSTS_DIR = os.path.join(ROOT, "posts")
+DOCS_DIR = os.path.join(ROOT, "docs")
+SITE_TITLE = "Récade Finance"
+SITE_TAGLINE = "Économie · Dette souveraine · IA — Un regard africain"
+SITE_URL = "https://recade-finance.com"
+
+CATEGORY_LABELS = {
+    "analyses": "Analyses",
+    "focus-benin": "Focus Bénin",
+}
+
+MOIS_FR = ["janvier", "février", "mars", "avril", "mai", "juin",
+           "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+
+
+def date_fr(d, with_day=False):
+    if with_day:
+        return f"{d.day} {MOIS_FR[d.month - 1]} {d.year}"
+    return f"{MOIS_FR[d.month - 1]} {d.year}"
+
+# ---------------------------------------------------------------------------
+# Lecture des articles Markdown (frontmatter YAML + corps)
+# ---------------------------------------------------------------------------
+
+def parse_post(filepath):
+    with open(filepath, encoding="utf-8") as f:
+        raw = f.read()
+    m = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)$", raw, re.DOTALL)
+    if not m:
+        raise ValueError(f"Frontmatter manquant dans {filepath}")
+    meta = yaml.safe_load(m.group(1))
+    body_md = m.group(2)
+    html_body = markdown.markdown(body_md, extensions=["extra"])
+    slug = os.path.splitext(os.path.basename(filepath))[0]
+    slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", slug)  # retire la date du nom de fichier
+    meta["slug"] = slug
+    meta["html_body"] = html_body
+    if isinstance(meta["date"], str):
+        meta["date"] = datetime.strptime(meta["date"], "%Y-%m-%d").date()
+    return meta
+
+
+def load_all_posts():
+    files = sorted(glob.glob(os.path.join(POSTS_DIR, "*.md")), reverse=True)
+    posts = [parse_post(f) for f in files]
+    posts.sort(key=lambda p: p["date"], reverse=True)
+    return posts
+
+
+# ---------------------------------------------------------------------------
+# Gabarits HTML (chaînes Python — volontairement simples, sans dépendance
+# à un moteur de templating externe)
+# ---------------------------------------------------------------------------
+
+HEAD = """<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title}</title>
+<meta name="description" content="{description}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{root}assets/style.css">
+</head>
+<body>
+"""
+
+FOOTER_HTML = """
+<footer class="site">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">RÉCADE FINANCE</span>
+      <p class="footer-tagline">Économie · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Explorer</h4>
+        <a href="{root}index.html#articles">Analyses</a>
+        <a href="{root}index.html#articles">Focus Bénin</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:contact@recade-finance.com">contact@recade-finance.com</a>
+        <a href="https://instagram.com/recadefinance">Instagram @recadefinance</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; {year} Récade Finance — analyses personnelles, n'engagent aucun employeur.</span>
+    <span>recade-finance.com</span>
+  </div>
+</footer>
+</body>
+</html>
+"""
+
+HEADER_HTML = """
+<header class="site">
+  <div class="header-inner">
+    <a href="{root}index.html" class="brand">
+      <svg width="30" height="30" viewBox="0 0 100 100" fill="none">
+        <path d="M35 30 A18 14 0 1 0 63 26" stroke="#B5622A" stroke-width="5" stroke-linecap="round"/>
+        <line x1="47" y1="28" x2="47" y2="80" stroke="#B5622A" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="66" cy="20" r="6" fill="#D9A441"/>
+      </svg>
+      <span class="brand-name">RÉCADE FINANCE</span>
+    </a>
+    <nav class="main-nav">
+      <a href="{root}index.html">Accueil</a>
+      <a href="{root}index.html#articles">Analyses</a>
+      <a href="{root}a-propos.html">À propos</a>
+    </nav>
+  </div>
+</header>
+"""
+
+
+def render_card(post, root=""):
+    cat_key = post.get("category", "analyses")
+    cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
+    date_str = date_fr(post["date"])
+    return f"""
+      <article class="card">
+        <div class="card-tag-row">
+          <span class="tag {cat_key}">{cat_label}</span>
+          <span class="card-date">{date_str}</span>
+        </div>
+        <div class="card-body">
+          <h3><a href="{root}articles/{post['slug']}.html">{post['title']}</a></h3>
+          <p>{post['excerpt']}</p>
+          <a href="{root}articles/{post['slug']}.html" class="read-more">Lire l'analyse →</a>
+        </div>
+      </article>"""
+
+
+def render_homepage(posts):
+    featured = next((p for p in posts if p.get("featured")), posts[0] if posts else None)
+    others = [p for p in posts if p is not featured]
+
+    cards_html = "\n".join(render_card(p) for p in others)
+
+    featured_block = ""
+    if featured:
+        featured_block = f"""
+<section class="featured">
+  <div class="featured-inner">
+    <div class="featured-text">
+      <span class="badge">Projet phare</span>
+      <h2>{featured['title']}</h2>
+      <p>{featured['excerpt']}</p>
+      <a href="articles/{featured['slug']}.html" class="btn btn-primary">Lire le livre blanc</a>
+    </div>
+  </div>
+</section>"""
+
+    html = HEAD.format(
+        title=f"{SITE_TITLE} — {SITE_TAGLINE}",
+        description=SITE_TAGLINE,
+        root="",
+    )
+    html += HEADER_HTML.format(root="")
+    html += f"""
+<section class="hero">
+  <div class="staff-thread" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <span class="eyebrow">{SITE_TAGLINE}</span>
+    <h1>Une parole économique vérifiable, depuis l'Afrique</h1>
+    <p class="lede">Récade Finance vulgarise la réglementation bancaire, la notation souveraine et la finance climatique avec la rigueur d'un travail de modélisation professionnel.</p>
+    <div class="hero-actions">
+      <a href="#articles" class="btn btn-primary">Lire les dernières analyses</a>
+    </div>
+  </div>
+</section>
+{featured_block}
+<section class="section" id="articles">
+  <div class="wrap">
+    <div class="section-head"><h2>Dernières analyses</h2></div>
+    <div class="grid">
+      {cards_html}
+    </div>
+  </div>
+</section>
+"""
+    html += FOOTER_HTML.format(root="", year=datetime.now().year)
+    return html
+
+
+def render_article(post):
+    html = HEAD.format(
+        title=f"{post['title']} — {SITE_TITLE}",
+        description=post["excerpt"],
+        root="../",
+    )
+    html += HEADER_HTML.format(root="../")
+    cat_key = post.get("category", "analyses")
+    cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
+    html += f"""
+<article class="section article-single">
+  <div class="wrap" style="max-width:760px;">
+    <span class="tag {cat_key}">{cat_label}</span>
+    <span class="card-date" style="margin-left:10px;">{date_fr(post['date'], with_day=True)}</span>
+    <h1 style="margin-top:18px;">{post['title']}</h1>
+    <div class="article-body">
+      {post['html_body']}
+    </div>
+  </div>
+</article>
+"""
+    html += FOOTER_HTML.format(root="../", year=datetime.now().year)
+    return html
+
+
+def render_about():
+    html = HEAD.format(title=f"À propos — {SITE_TITLE}", description=SITE_TAGLINE, root="")
+    html += HEADER_HTML.format(root="")
+    html += """
+<section class="section">
+  <div class="wrap" style="max-width:760px;">
+    <h1>Récade Finance</h1>
+    <p style="margin-top:20px; font-size:1.05rem;"><em>La récade — du portugais recado, « message » — était le sceptre remis par les rois du Dahomey à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance porte cette même exigence : une parole économique sourcée, vérifiable, qui ne se contente jamais d'un chiffre brut.</em></p>
+    <p>Récade Finance est un espace de veille et de vulgarisation consacré à trois sujets qui se recoupent de plus en plus : la finance bancaire et réglementaire, la dette souveraine, et l'intelligence artificielle appliquée à ces domaines — regardés depuis et pour l'Afrique.</p>
+    <p>Un ancrage particulier est porté au Bénin, pays d'origine de l'auteur, et à l'espace UEMOA.</p>
+    <p><em>Les analyses publiées ici sont personnelles et n'engagent aucune organisation ou employeur.</em></p>
+  </div>
+</section>
+"""
+    html += FOOTER_HTML.format(root="", year=datetime.now().year)
+    return html
+
+
+# ---------------------------------------------------------------------------
+# Écriture des fichiers
+# ---------------------------------------------------------------------------
+
+def main():
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
+
+    posts = load_all_posts()
+    print(f"{len(posts)} article(s) trouvé(s) dans /posts")
+
+    with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(render_homepage(posts))
+
+    with open(os.path.join(DOCS_DIR, "a-propos.html"), "w", encoding="utf-8") as f:
+        f.write(render_about())
+
+    for post in posts:
+        out_path = os.path.join(DOCS_DIR, "articles", f"{post['slug']}.html")
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(render_article(post))
+        print(f"  → articles/{post['slug']}.html")
+
+    print("Site généré dans /docs — prêt à être poussé sur GitHub.")
+
+
+if __name__ == "__main__":
+    main()
