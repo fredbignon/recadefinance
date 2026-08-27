@@ -19,6 +19,7 @@ from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POSTS_DIR = os.path.join(ROOT, "posts")
+ACTUALITES_DIR = os.path.join(ROOT, "actualites")
 DOCS_DIR = os.path.join(ROOT, "docs")
 CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
 SITE_TITLE = "Récade Finance"
@@ -69,6 +70,13 @@ def load_all_posts():
     posts = [parse_post(f) for f in files]
     posts.sort(key=lambda p: p["date"], reverse=True)
     return posts
+
+
+def load_all_actualites():
+    files = sorted(glob.glob(os.path.join(ACTUALITES_DIR, "*.md")), reverse=True)
+    items = [parse_post(f) for f in files]
+    items.sort(key=lambda p: p["date"], reverse=True)
+    return items
 
 
 # ---------------------------------------------------------------------------
@@ -145,6 +153,7 @@ HEADER_HTML = """
       <a href="{root}index.html">Accueil</a>
       <a href="{root}index.html#articles">Analyses</a>
       <a href="{root}index.html#articles">Focus Bénin</a>
+      <a href="{root}actualites.html">Actualités</a>
       <a href="{root}index.html#tribune">Tribune</a>
       <a href="{root}a-propos.html">À propos</a>
     </nav>
@@ -304,16 +313,11 @@ def render_homepage(posts):
 
 <section class="newsletter" id="newsletter">
   <div class="newsletter-inner">
-    <!--
-      FORMULAIRE MAILCHIMP — à compléter avant publication.
-      1. Va dans ton compte Mailchimp → Audience → Signup forms → Embedded forms
-      2. Copie l'attribut "action" du <form> généré (commence par https://XXXX.usX.list-manage.com/subscribe/post...)
-      3. Colle-le ci-dessous à la place de "COLLE_ICI_TON_URL_MAILCHIMP"
-      4. Mailchimp ajoute aussi un champ caché anti-spam (name="b_xxxxx_xxxxx") -
-         copie-le aussi et ajoute-le tel quel dans le <form> ci-dessous
-    -->
-    <form action="COLLE_ICI_TON_URL_MAILCHIMP" method="post" class="subscribe-form" target="_blank" novalidate>
+    <form action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank" novalidate>
       <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" required>
+      <div aria-hidden="true" style="position: absolute; left: -5000px;">
+        <input type="text" name="b_0727619b3152a006e7015d1c8_cd759a0ccc" tabindex="-1" value="">
+      </div>
       <button class="btn btn-primary" type="submit">{n['cta_label']}</button>
     </form>
   </div>
@@ -351,6 +355,50 @@ def render_article(post):
     return html
 
 
+def render_actualite_item(item):
+    tags = item.get("tags", [])
+    tags_html = " ".join(f'<span class="actu-tag">{t}</span>' for t in tags)
+    source = item.get("source", "")
+    source_url = item.get("source_url", "")
+    source_html = f'<a href="{source_url}" target="_blank" rel="noopener">Source : {source} ↗</a>' if source else ""
+    return f"""
+      <article class="actu-item">
+        <div class="actu-meta">
+          <span class="card-date">{date_fr(item['date'], with_day=True)}</span>
+          {tags_html}
+        </div>
+        <h3>{item['title']}</h3>
+        <div class="actu-body">{item['html_body']}</div>
+        <div class="actu-source">{source_html}</div>
+      </article>"""
+
+
+def render_actualites_page(actualites):
+    html = HEAD.format(
+        title=f"Actualités — {SITE_TITLE}",
+        description="Veille régulière sur la finance, la dette souveraine et l'économie africaine.",
+        root="",
+    )
+    html += HEADER_HTML.format(root="")
+    items_html = "\n".join(render_actualite_item(a) for a in actualites) if actualites else \
+        '<p style="color:#8a7a6a;">Aucune actualité publiée pour le moment — revenez bientôt.</p>'
+    html += f"""
+<section class="section">
+  <div class="wrap" style="max-width:760px;">
+    <div class="section-head">
+      <span class="eyebrow">Veille régulière</span>
+      <h1>Actualités</h1>
+    </div>
+    <div class="actu-list">
+      {items_html}
+    </div>
+  </div>
+</section>
+"""
+    html += render_footer(root="")
+    return html
+
+
 def render_about():
     a = CONTENT["about_page"]
     html = HEAD.format(title=f"À propos — {SITE_TITLE}", description=SITE_TAGLINE, root="")
@@ -383,11 +431,17 @@ def main():
     posts = load_all_posts()
     print(f"{len(posts)} article(s) trouvé(s) dans /posts")
 
+    actualites = load_all_actualites()
+    print(f"{len(actualites)} actualité(s) trouvée(s) dans /actualites")
+
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_homepage(posts))
 
     with open(os.path.join(DOCS_DIR, "a-propos.html"), "w", encoding="utf-8") as f:
         f.write(render_about())
+
+    with open(os.path.join(DOCS_DIR, "actualites.html"), "w", encoding="utf-8") as f:
+        f.write(render_actualites_page(actualites))
 
     for post in posts:
         out_path = os.path.join(DOCS_DIR, "articles", f"{post['slug']}.html")

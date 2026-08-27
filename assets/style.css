@@ -62,6 +62,17 @@ nav.main-nav a:hover{border-color:var(--ocre);}
 
 .article-body{margin-top:24px; font-size:1.05rem;}
 .article-banner{width:100%; border-radius:6px; margin:24px 0; display:block;}
+
+.actu-list{margin-top:32px;}
+.actu-item{padding:26px 0; border-bottom:1px solid rgba(74,38,16,0.12);}
+.actu-item:first-child{padding-top:0;}
+.actu-meta{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:10px;}
+.actu-tag{font-family:'IBM Plex Mono',monospace; font-size:0.68rem; letter-spacing:0.06em; text-transform:uppercase; background:rgba(181,98,42,0.1); color:var(--terracotta-dark); padding:4px 10px; border-radius:3px;}
+.actu-item h3{font-size:1.3rem; margin-bottom:10px;}
+.actu-body{font-size:0.98rem; color:#4a4038;}
+.actu-body p{margin-bottom:12px;}
+.actu-source{margin-top:12px; font-size:0.85rem;}
+.actu-source a{color:var(--terracotta); font-weight:600;}
 .article-body h2{margin-top:36px; font-size:1.5rem;}
 .article-body p{margin-bottom:18px;}
 .article-body em{color:#5a4f44;}
