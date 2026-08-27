@@ -129,8 +129,12 @@ HEADER_HTML = """
     <nav class="main-nav">
       <a href="{root}index.html">Accueil</a>
       <a href="{root}index.html#articles">Analyses</a>
+      <a href="{root}index.html#articles">Focus Bénin</a>
+      <a href="{root}index.html#tribune">Tribune</a>
+      <a href="{root}index.html#souverain-ia">SOUVERAIN-IA</a>
       <a href="{root}a-propos.html">À propos</a>
     </nav>
+    <a href="{root}index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
   </div>
 </header>
 """
@@ -154,22 +158,52 @@ def render_card(post, root=""):
       </article>"""
 
 
+def render_list_item(post, root=""):
+    cat_key = post.get("category", "analyses")
+    cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
+    date_str = date_fr(post["date"])
+    return f"""
+      <div class="article-list-item">
+        <span class="card-date">{cat_label} — {date_str}</span>
+        <h4><a href="{root}articles/{post['slug']}.html">{post['title']}</a></h4>
+        <p>{post['excerpt']}</p>
+      </div>"""
+
+
 def render_homepage(posts):
-    featured = next((p for p in posts if p.get("featured")), posts[0] if posts else None)
-    others = [p for p in posts if p is not featured]
+    featured_project = next((p for p in posts if p.get("featured")), posts[0] if posts else None)
+    remaining = [p for p in posts if p is not featured_project]
 
-    cards_html = "\n".join(render_card(p) for p in others)
+    # Article vedette (le plus récent des "remaining") + liste pour le reste
+    article_feature = remaining[0] if remaining else None
+    article_list = remaining[1:] if len(remaining) > 1 else []
 
-    featured_block = ""
-    if featured:
-        featured_block = f"""
-<section class="featured">
+    featured_html = ""
+    if article_feature:
+        cat_key = article_feature.get("category", "analyses")
+        cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
+        featured_html = f"""
+        <article class="article-feature-card">
+          <div class="card-body">
+            <span class="tag {cat_key}">{cat_label}</span>
+            <h3 style="margin-top:14px;"><a href="articles/{article_feature['slug']}.html">{article_feature['title']}</a></h3>
+            <p>{article_feature['excerpt']}</p>
+            <a href="articles/{article_feature['slug']}.html" class="read-more">Lire l'analyse →</a>
+          </div>
+        </article>"""
+
+    list_html = "\n".join(render_list_item(p) for p in article_list)
+
+    featured_project_block = ""
+    if featured_project:
+        featured_project_block = f"""
+<section class="featured" id="souverain-ia">
   <div class="featured-inner">
     <div class="featured-text">
       <span class="badge">Projet phare</span>
-      <h2>{featured['title']}</h2>
-      <p>{featured['excerpt']}</p>
-      <a href="articles/{featured['slug']}.html" class="btn btn-primary">Lire le livre blanc</a>
+      <h2>{featured_project['title']}</h2>
+      <p>{featured_project['excerpt']}</p>
+      <a href="articles/{featured_project['slug']}.html" class="btn btn-primary">Lire le livre blanc</a>
     </div>
   </div>
 </section>"""
@@ -184,21 +218,71 @@ def render_homepage(posts):
 <section class="hero">
   <div class="staff-thread" aria-hidden="true"></div>
   <div class="hero-inner">
+    <span class="launch-badge"><span class="dot"></span> Nouveau dans l'écosystème francophone</span>
     <span class="eyebrow">{SITE_TAGLINE}</span>
     <h1>Une parole économique vérifiable, depuis l'Afrique</h1>
-    <p class="lede">Récade Finance vulgarise la réglementation bancaire, la notation souveraine et la finance climatique avec la rigueur d'un travail de modélisation professionnel.</p>
+    <p class="lede">Récade Finance vulgarise la réglementation bancaire, la notation souveraine et la finance climatique avec la rigueur d'un travail de modélisation professionnel — sources primaires à l'appui, limites méthodologiques assumées.</p>
     <div class="hero-actions">
       <a href="#articles" class="btn btn-primary">Lire les dernières analyses</a>
     </div>
   </div>
 </section>
-{featured_block}
+
+<section class="video-section">
+  <div class="video-inner">
+    <span class="eyebrow">En 60 secondes</span>
+    <h2>Ce que Récade Finance apporte</h2>
+    <div class="video-frame">
+      <video src="assets/recade_finance_teaser.mp4" autoplay muted loop playsinline controls></video>
+    </div>
+  </div>
+</section>
+
+<section class="credibility">
+  <div class="credibility-inner">
+    <div class="cred-item"><span class="num">{len(posts)}</span><span class="label">analyses publiées, sources primaires citées</span></div>
+    <div class="cred-item"><span class="num">FMI · BCEAO · BM</span><span class="label">sources institutionnelles vérifiées</span></div>
+    <div class="cred-item"><span class="num">100%</span><span class="label">méthode transparente, limites assumées</span></div>
+  </div>
+</section>
+
+{featured_project_block}
+
 <section class="section" id="articles">
   <div class="wrap">
     <div class="section-head"><h2>Dernières analyses</h2></div>
-    <div class="grid">
-      {cards_html}
+    <div class="articles-diversified">
+      <div>{featured_html}</div>
+      <div>{list_html}</div>
     </div>
+  </div>
+</section>
+
+<section class="tribune" id="tribune">
+  <div class="tribune-inner">
+    <div class="tribune-header">
+      <span class="eyebrow">À venir</span>
+      <h2>Une tribune pour des voix qui comptent</h2>
+    </div>
+    <div class="tribune-card">
+      <div class="tribune-card-text">
+        <h3>Interviews et regards croisés</h3>
+        <p>À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de la dette souveraine et de l'économie africaine viennent partager leur analyse — au même niveau d'exigence méthodologique que le reste du site.</p>
+      </div>
+      <span class="coming-soon-tag">Prochainement</span>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter" id="newsletter">
+  <div class="newsletter-inner">
+    <span class="eyebrow">Construire cette référence avec vous</span>
+    <h2>Une analyse par semaine, pas une de plus</h2>
+    <p>L'ambition est simple : devenir une source de référence crédible sur ces sujets. La newsletter grandira avec le contenu — sources primaires, méthode explicite, jamais de chiffre sans son périmètre exact.</p>
+    <form class="subscribe-form" onsubmit="return false;">
+      <input type="email" placeholder="votre@email.com" aria-label="Adresse email">
+      <button class="btn btn-primary" type="submit">S'abonner</button>
+    </form>
   </div>
 </section>
 """
