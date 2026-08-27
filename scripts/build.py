@@ -20,9 +20,13 @@ from datetime import datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POSTS_DIR = os.path.join(ROOT, "posts")
 DOCS_DIR = os.path.join(ROOT, "docs")
+CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
 SITE_TITLE = "Récade Finance"
 SITE_TAGLINE = "Économie · Dette souveraine · IA — Un regard africain"
 SITE_URL = "https://recade-finance.com"
+
+with open(CONTENT_FILE, encoding="utf-8") as f:
+    CONTENT = yaml.safe_load(f)
 
 CATEGORY_LABELS = {
     "analyses": "Analyses",
@@ -91,24 +95,35 @@ FOOTER_HTML = """
   <div class="footer-inner">
     <div class="footer-brand">
       <span class="brand-name">RÉCADE FINANCE</span>
-      <p class="footer-tagline">Économie · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA.</p>
+      <p class="footer-tagline">{footer_tagline}</p>
     </div>
     <div class="footer-cols">
       <div class="footer-col">
         <h4>Explorer</h4>
         <a href="{root}index.html#articles">Analyses</a>
         <a href="{root}index.html#articles">Focus Bénin</a>
+        <a href="{root}index.html#tribune">Tribune</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <a href="mailto:contact@recade-finance.com">contact@recade-finance.com</a>
-        <a href="https://instagram.com/recadefinance">Instagram @recadefinance</a>
+        <a href="https://{footer_website}" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><ellipse cx="20" cy="20" rx="7.5" ry="17" fill="none" stroke="currentColor" stroke-width="2.4"/><line x1="3" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="2.4"/></svg>
+          {footer_website}
+        </a>
+        <a href="https://instagram.com/recadefinance" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34" rx="11" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="8.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="29.5" cy="10.5" r="2.2" fill="currentColor"/></svg>
+          {footer_instagram}
+        </a>
+        <a href="mailto:{footer_email}" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="8" width="34" height="24" fill="none" stroke="currentColor" stroke-width="2.4"/><polyline points="3,8 20,23 37,8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
+          {footer_email}
+        </a>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; {year} Récade Finance — analyses personnelles, n'engagent aucun employeur.</span>
-    <span>recade-finance.com</span>
+    <span>&copy; {year} Récade Finance.</span>
+    <span>{footer_website}</span>
   </div>
 </footer>
 </body>
@@ -131,7 +146,6 @@ HEADER_HTML = """
       <a href="{root}index.html#articles">Analyses</a>
       <a href="{root}index.html#articles">Focus Bénin</a>
       <a href="{root}index.html#tribune">Tribune</a>
-      <a href="{root}index.html#souverain-ia">SOUVERAIN-IA</a>
       <a href="{root}a-propos.html">À propos</a>
     </nav>
     <a href="{root}index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
@@ -140,7 +154,13 @@ HEADER_HTML = """
 """
 
 
-def render_card(post, root=""):
+def render_footer(root=""):
+    f = CONTENT["footer"]
+    return FOOTER_HTML.format(
+        root=root, year=datetime.now().year,
+        footer_tagline=f["tagline"], footer_email=f["email"], footer_instagram=f["instagram"],
+        footer_website=f.get("website", "recade-finance.com"),
+    )
     cat_key = post.get("category", "analyses")
     cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
     date_str = date_fr(post["date"])
@@ -171,7 +191,7 @@ def render_list_item(post, root=""):
 
 
 def render_homepage(posts):
-    featured_project = next((p for p in posts if p.get("featured")), posts[0] if posts else None)
+    featured_project = next((p for p in posts if p.get("featured")), None)
     remaining = [p for p in posts if p is not featured_project]
 
     # Article vedette (le plus récent des "remaining") + liste pour le reste
@@ -182,8 +202,11 @@ def render_homepage(posts):
     if article_feature:
         cat_key = article_feature.get("category", "analyses")
         cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
+        banner = article_feature.get("banner_image")
+        banner_html = f'<img src="{banner}" alt="{article_feature["title"]}" class="feature-banner">' if banner else ""
         featured_html = f"""
         <article class="article-feature-card">
+          {banner_html}
           <div class="card-body">
             <span class="tag {cat_key}">{cat_label}</span>
             <h3 style="margin-top:14px;"><a href="articles/{article_feature['slug']}.html">{article_feature['title']}</a></h3>
@@ -214,24 +237,29 @@ def render_homepage(posts):
         root="",
     )
     html += HEADER_HTML.format(root="")
+    h = CONTENT["hero"]
+    v = CONTENT["video_section"]
+    c = CONTENT["credibility"]
+    t = CONTENT["tribune"]
+    n = CONTENT["newsletter"]
     html += f"""
 <section class="hero">
   <div class="staff-thread" aria-hidden="true"></div>
   <div class="hero-inner">
-    <span class="launch-badge"><span class="dot"></span> Nouveau dans l'écosystème francophone</span>
-    <span class="eyebrow">{SITE_TAGLINE}</span>
-    <h1>Une parole économique vérifiable, depuis l'Afrique</h1>
-    <p class="lede">Récade Finance vulgarise la réglementation bancaire, la notation souveraine et la finance climatique avec la rigueur d'un travail de modélisation professionnel — sources primaires à l'appui, limites méthodologiques assumées.</p>
+    <span class="launch-badge"><span class="dot"></span> {h['launch_badge']}</span>
+    <span class="eyebrow">{h['eyebrow']}</span>
+    <h1>{h['title']}</h1>
+    <p class="lede">{h['lede']}</p>
     <div class="hero-actions">
-      <a href="#articles" class="btn btn-primary">Lire les dernières analyses</a>
+      <a href="#articles" class="btn btn-primary">{h['cta_label']}</a>
     </div>
   </div>
 </section>
 
 <section class="video-section">
   <div class="video-inner">
-    <span class="eyebrow">En 60 secondes</span>
-    <h2>Ce que Récade Finance apporte</h2>
+    <span class="eyebrow">{v['eyebrow']}</span>
+    <h2>{v['title']}</h2>
     <div class="video-frame">
       <video src="assets/recade_finance_teaser.mp4" autoplay muted loop playsinline controls></video>
     </div>
@@ -240,9 +268,9 @@ def render_homepage(posts):
 
 <section class="credibility">
   <div class="credibility-inner">
-    <div class="cred-item"><span class="num">{len(posts)}</span><span class="label">analyses publiées, sources primaires citées</span></div>
-    <div class="cred-item"><span class="num">FMI · BCEAO · BM</span><span class="label">sources institutionnelles vérifiées</span></div>
-    <div class="cred-item"><span class="num">100%</span><span class="label">méthode transparente, limites assumées</span></div>
+    <div class="cred-item"><span class="num">{len(posts)}</span><span class="label">{c['label_1']}</span></div>
+    <div class="cred-item"><span class="num">{c['stat_2']}</span><span class="label">{c['label_2']}</span></div>
+    <div class="cred-item"><span class="num">{c['stat_3']}</span><span class="label">{c['label_3']}</span></div>
   </div>
 </section>
 
@@ -261,32 +289,37 @@ def render_homepage(posts):
 <section class="tribune" id="tribune">
   <div class="tribune-inner">
     <div class="tribune-header">
-      <span class="eyebrow">À venir</span>
-      <h2>Une tribune pour des voix qui comptent</h2>
+      <span class="eyebrow">{t['eyebrow']}</span>
+      <h2>{t['title']}</h2>
     </div>
     <div class="tribune-card">
       <div class="tribune-card-text">
-        <h3>Interviews et regards croisés</h3>
-        <p>À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de la dette souveraine et de l'économie africaine viennent partager leur analyse — au même niveau d'exigence méthodologique que le reste du site.</p>
+        <h3>{t['card_title']}</h3>
+        <p>{t['card_text']}</p>
       </div>
-      <span class="coming-soon-tag">Prochainement</span>
+      <span class="coming-soon-tag">{t['tag']}</span>
     </div>
   </div>
 </section>
 
 <section class="newsletter" id="newsletter">
   <div class="newsletter-inner">
-    <span class="eyebrow">Construire cette référence avec vous</span>
-    <h2>Une analyse par semaine, pas une de plus</h2>
-    <p>L'ambition est simple : devenir une source de référence crédible sur ces sujets. La newsletter grandira avec le contenu — sources primaires, méthode explicite, jamais de chiffre sans son périmètre exact.</p>
-    <form class="subscribe-form" onsubmit="return false;">
-      <input type="email" placeholder="votre@email.com" aria-label="Adresse email">
-      <button class="btn btn-primary" type="submit">S'abonner</button>
+    <!--
+      FORMULAIRE MAILCHIMP — à compléter avant publication.
+      1. Va dans ton compte Mailchimp → Audience → Signup forms → Embedded forms
+      2. Copie l'attribut "action" du <form> généré (commence par https://XXXX.usX.list-manage.com/subscribe/post...)
+      3. Colle-le ci-dessous à la place de "COLLE_ICI_TON_URL_MAILCHIMP"
+      4. Mailchimp ajoute aussi un champ caché anti-spam (name="b_xxxxx_xxxxx") -
+         copie-le aussi et ajoute-le tel quel dans le <form> ci-dessous
+    -->
+    <form action="COLLE_ICI_TON_URL_MAILCHIMP" method="post" class="subscribe-form" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" required>
+      <button class="btn btn-primary" type="submit">{n['cta_label']}</button>
     </form>
   </div>
 </section>
 """
-    html += FOOTER_HTML.format(root="", year=datetime.now().year)
+    html += render_footer(root="")
     return html
 
 
@@ -299,37 +332,43 @@ def render_article(post):
     html += HEADER_HTML.format(root="../")
     cat_key = post.get("category", "analyses")
     cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
+    banner = post.get("banner_image")
+    banner_html = f'<img src="../{banner}" alt="{post["title"]}" class="article-banner">' if banner else ""
     html += f"""
 <article class="section article-single">
   <div class="wrap" style="max-width:760px;">
     <span class="tag {cat_key}">{cat_label}</span>
     <span class="card-date" style="margin-left:10px;">{date_fr(post['date'], with_day=True)}</span>
     <h1 style="margin-top:18px;">{post['title']}</h1>
+    {banner_html}
     <div class="article-body">
       {post['html_body']}
     </div>
   </div>
 </article>
 """
-    html += FOOTER_HTML.format(root="../", year=datetime.now().year)
+    html += render_footer(root="../")
     return html
 
 
 def render_about():
+    a = CONTENT["about_page"]
     html = HEAD.format(title=f"À propos — {SITE_TITLE}", description=SITE_TAGLINE, root="")
     html += HEADER_HTML.format(root="")
-    html += """
+    disclaimer_html = f"<p><em>{a['disclaimer']}</em></p>" if a.get("disclaimer") else ""
+    html += f"""
 <section class="section">
   <div class="wrap" style="max-width:760px;">
     <h1>Récade Finance</h1>
-    <p style="margin-top:20px; font-size:1.05rem;"><em>La récade — du portugais recado, « message » — était le sceptre remis par les rois du Dahomey à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance porte cette même exigence : une parole économique sourcée, vérifiable, qui ne se contente jamais d'un chiffre brut.</em></p>
-    <p>Récade Finance est un espace de veille et de vulgarisation consacré à trois sujets qui se recoupent de plus en plus : la finance bancaire et réglementaire, la dette souveraine, et l'intelligence artificielle appliquée à ces domaines — regardés depuis et pour l'Afrique.</p>
-    <p>Un ancrage particulier est porté au Bénin, pays d'origine de l'auteur, et à l'espace UEMOA.</p>
-    <p><em>Les analyses publiées ici sont personnelles et n'engagent aucune organisation ou employeur.</em></p>
+    <p style="margin-top:20px; font-size:1.05rem;"><em>{a['intro_quote']}</em></p>
+    <p>{a['paragraph_1']}</p>
+    <p>{a['paragraph_2']}</p>
+    <p>{a.get('paragraph_3', '')}</p>
+    {disclaimer_html}
   </div>
 </section>
 """
-    html += FOOTER_HTML.format(root="", year=datetime.now().year)
+    html += render_footer(root="")
     return html
 
 

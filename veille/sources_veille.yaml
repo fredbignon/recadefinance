@@ -1,0 +1,54 @@
+# ============================================================
+# Récade Finance — sources de veille automatisée
+# ============================================================
+# Chaque source a besoin d'une URL de flux RSS valide. Beaucoup de
+# sites d'actualité (WordPress notamment) exposent un flux à
+# l'adresse "https://LE-SITE.com/feed/" — souvent trouvable en
+# cherchant "rss" dans le code source de la page d'accueil, ou en
+# testant simplement cette URL.
+#
+# Les URLs ci-dessous sont des CANDIDATS À VÉRIFIER — je n'ai pas pu
+# tester de vraies requêtes réseau en écrivant ce fichier (mon
+# environnement n'y a pas accès). Teste chaque URL dans un
+# navigateur avant la première exécution : si elle affiche du XML,
+# c'est bon ; si elle affiche une erreur 404, cherche le bon lien
+# directement sur le site concerné.
+
+sources:
+  - name: "Financial Afrik"
+    rss_url: "https://www.financialafrik.com/feed/"
+    poids: 1.0
+
+  - name: "Agence Ecofin — Finance"
+    rss_url: "https://www.agenceecofin.com/finance/rss"
+    poids: 1.0
+
+  - name: "Agence Ecofin — Gouvernance économique"
+    rss_url: "https://www.agenceecofin.com/gouvernance-economique/rss"
+    poids: 0.8
+
+  # La BCEAO n'expose pas de flux RSS public connu à ce jour — ses
+  # communiqués (bceao.int/fr/communique-presse) sont à vérifier
+  # manuellement en complément de ce script, au moins au début.
+  # Idem pour la CAGD (cagd.bj), dont le site bloque l'accès
+  # automatisé (bot detection) d'après nos tests précédents.
+
+# Mots-clés qui déclenchent une remontée dans le digest (recherche
+# insensible à la casse, sur le titre ET le résumé de chaque article)
+mots_cles:
+  - "UEMOA"
+  - "BCEAO"
+  - "Bénin"
+  - "Côte d'Ivoire"
+  - "dette souveraine"
+  - "notation souveraine"
+  - "Moody's"
+  - "FMI"
+  - "Bâle"
+  - "IFRS 9"
+  - "risque de crédit"
+  - "crypto"
+  - "fintech"
+  - "intelligence artificielle"
+  - "stress test"
+  - "CAGD"

@@ -1,0 +1,48 @@
+# ============================================================
+# Récade Finance — contenu éditable de la page d'accueil
+# ============================================================
+# Modifie librement les textes ci-dessous (entre guillemets).
+# Ne touche pas aux noms à gauche du ":" (ex. "hero_title:") —
+# ce sont des repères utilisés par le générateur.
+# Après modification : python3 scripts/build.py, puis git push.
+
+hero:
+  launch_badge: "Nouveau dans l'écosystème francophone"
+  eyebrow: "Économie · Finance · Dette souveraine · IA — Un regard africain"
+  title: "Une parole économique et financière vérifiable, depuis l'Afrique"
+  lede: "Récade Finance vulgarise l'économie, la finance bancaire, la notation souveraine, la finance climatique en Afrique, avec un focus sur le Bénin."
+  cta_label: "Lire les dernières analyses"
+
+video_section:
+  eyebrow: "En 60 secondes"
+  title: "Ce que Récade Finance apporte"
+
+credibility:
+  label_1: "analyses publiées, sources primaires citées"
+  label_2: "sources institutionnelles vérifiées"
+  stat_2: "FMI · BCEAO · BM"
+  label_3: "méthode transparente, limites assumées"
+  stat_3: "100%"
+
+tribune:
+  eyebrow: "À venir"
+  title: "Une tribune pour des voix qui comptent"
+  card_title: "Interviews et regards croisés"
+  card_text: "À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de la dette souveraine et de l'économie africaine viennent partager leur analyse."
+  tag: "Prochainement"
+
+newsletter:
+  cta_label: "S'abonner"
+
+footer:
+  tagline: "Économie · Finance · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA."
+  email: "contact@recade-finance.com"
+  instagram: "@recadefinance"
+  website: "recade-finance.com"
+
+about_page:
+  intro_quote: "La récade — du portugais recado, « message » — était le sceptre remis par les rois du Dahomey à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance porte cette même exigence : une parole économique sourcée, vérifiable, qui ne se contente jamais d'un chiffre brut."
+  paragraph_1: "Récade Finance est un espace de veille et de vulgarisation consacré à trois sujets qui se recoupent de plus en plus : la finance bancaire et réglementaire, la dette souveraine, et l'intelligence artificielle appliquée à ces domaines — regardés depuis et pour l'Afrique."
+  paragraph_2: "Ce n'est pas un simple relais d'actualité. C'est un agora où chaque article et publication se veut être un véhicule d'analyse, de transmission et de partage de connaissances techniques sur les sujets phares ayant trait à l'économie, la finance et l'IA — vu du continent africain, spécialement la zone ouest africaine."
+  paragraph_3: "Récade Finance se veut être aussi un contributeur à l'essor et la promotion de profils inspirants de professionnels africains de la finance évoluant en Afrique et dans le monde."
+  disclaimer: ""

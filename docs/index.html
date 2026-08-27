@@ -26,7 +26,6 @@
       <a href="index.html#articles">Analyses</a>
       <a href="index.html#articles">Focus Bénin</a>
       <a href="index.html#tribune">Tribune</a>
-      <a href="index.html#souverain-ia">SOUVERAIN-IA</a>
       <a href="a-propos.html">À propos</a>
     </nav>
     <a href="index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
@@ -37,9 +36,9 @@
   <div class="staff-thread" aria-hidden="true"></div>
   <div class="hero-inner">
     <span class="launch-badge"><span class="dot"></span> Nouveau dans l'écosystème francophone</span>
-    <span class="eyebrow">Économie · Dette souveraine · IA — Un regard africain</span>
-    <h1>Une parole économique vérifiable, depuis l'Afrique</h1>
-    <p class="lede">Récade Finance vulgarise la réglementation bancaire, la notation souveraine et la finance climatique avec la rigueur d'un travail de modélisation professionnel — sources primaires à l'appui, limites méthodologiques assumées.</p>
+    <span class="eyebrow">Économie · Finance · Dette souveraine · IA — Un regard africain</span>
+    <h1>Une parole économique et financière vérifiable, depuis l'Afrique</h1>
+    <p class="lede">Récade Finance vulgarise l'économie, la finance bancaire, la notation souveraine, la finance climatique en Afrique, avec un focus sur le Bénin.</p>
     <div class="hero-actions">
       <a href="#articles" class="btn btn-primary">Lire les dernières analyses</a>
     </div>
@@ -58,23 +57,13 @@
 
 <section class="credibility">
   <div class="credibility-inner">
-    <div class="cred-item"><span class="num">3</span><span class="label">analyses publiées, sources primaires citées</span></div>
+    <div class="cred-item"><span class="num">1</span><span class="label">analyses publiées, sources primaires citées</span></div>
     <div class="cred-item"><span class="num">FMI · BCEAO · BM</span><span class="label">sources institutionnelles vérifiées</span></div>
     <div class="cred-item"><span class="num">100%</span><span class="label">méthode transparente, limites assumées</span></div>
   </div>
 </section>
 
 
-<section class="featured" id="souverain-ia">
-  <div class="featured-inner">
-    <div class="featured-text">
-      <span class="badge">Projet phare</span>
-      <h2>SOUVERAIN-IA : livre blanc</h2>
-      <p>Un prototype d'outil de pilotage interne de la notation souveraine du Bénin — backtesting compris, résultats imparfaits assumés.</p>
-      <a href="articles/souverain-ia-livre-blanc.html" class="btn btn-primary">Lire le livre blanc</a>
-    </div>
-  </div>
-</section>
 
 <section class="section" id="articles">
   <div class="wrap">
@@ -82,19 +71,15 @@
     <div class="articles-diversified">
       <div>
         <article class="article-feature-card">
+          <img src="assets/banniere-trajectoire-notation-benin.png" alt="La trajectoire de notation du Bénin : cinq ans qui ont changé la lecture du pays" class="feature-banner">
           <div class="card-body">
             <span class="tag focus-benin">Focus Bénin</span>
-            <h3 style="margin-top:14px;"><a href="articles/dette-publique-notation-benin.html">Dette publique et notation du risque pays du Bénin</a></h3>
-            <p>Pourquoi deux sources donnent deux ratios d'endettement différents pour la même année — et ce que ça révèle sur le périmètre de consolidation.</p>
-            <a href="articles/dette-publique-notation-benin.html" class="read-more">Lire l'analyse →</a>
+            <h3 style="margin-top:14px;"><a href="articles/trajectoire-notation-benin.html">La trajectoire de notation du Bénin : cinq ans qui ont changé la lecture du pays</a></h3>
+            <p>De B2 à Ba3 en cinq ans : ce que la trajectoire de notation du Bénin révèle sur la manière dont les agences lisent réellement un pays.</p>
+            <a href="articles/trajectoire-notation-benin.html" class="read-more">Lire l'analyse →</a>
           </div>
         </article></div>
-      <div>
-      <div class="article-list-item">
-        <span class="card-date">Analyses — août 2026</span>
-        <h4><a href="articles/dispositif-prudentiel-umoa.html">Le dispositif prudentiel UMOA face au CRR/CRD</a></h4>
-        <p>Pourquoi l'absence d'approche IRB dans l'UEMOA change la nature même du métier de risque de crédit dans la région.</p>
-      </div></div>
+      <div></div>
     </div>
   </div>
 </section>
@@ -108,7 +93,7 @@
     <div class="tribune-card">
       <div class="tribune-card-text">
         <h3>Interviews et regards croisés</h3>
-        <p>À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de la dette souveraine et de l'économie africaine viennent partager leur analyse — au même niveau d'exigence méthodologique que le reste du site.</p>
+        <p>À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de la dette souveraine et de l'économie africaine viennent partager leur analyse.</p>
       </div>
       <span class="coming-soon-tag">Prochainement</span>
     </div>
@@ -117,11 +102,16 @@
 
 <section class="newsletter" id="newsletter">
   <div class="newsletter-inner">
-    <span class="eyebrow">Construire cette référence avec vous</span>
-    <h2>Une analyse par semaine, pas une de plus</h2>
-    <p>L'ambition est simple : devenir une source de référence crédible sur ces sujets. La newsletter grandira avec le contenu — sources primaires, méthode explicite, jamais de chiffre sans son périmètre exact.</p>
-    <form class="subscribe-form" onsubmit="return false;">
-      <input type="email" placeholder="votre@email.com" aria-label="Adresse email">
+    <!--
+      FORMULAIRE MAILCHIMP — à compléter avant publication.
+      1. Va dans ton compte Mailchimp → Audience → Signup forms → Embedded forms
+      2. Copie l'attribut "action" du <form> généré (commence par https://XXXX.usX.list-manage.com/subscribe/post...)
+      3. Colle-le ci-dessous à la place de "COLLE_ICI_TON_URL_MAILCHIMP"
+      4. Mailchimp ajoute aussi un champ caché anti-spam (name="b_xxxxx_xxxxx") -
+         copie-le aussi et ajoute-le tel quel dans le <form> ci-dessous
+    -->
+    <form action="COLLE_ICI_TON_URL_MAILCHIMP" method="post" class="subscribe-form" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" required>
       <button class="btn btn-primary" type="submit">S'abonner</button>
     </form>
   </div>
@@ -131,23 +121,34 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <span class="brand-name">RÉCADE FINANCE</span>
-      <p class="footer-tagline">Économie · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA.</p>
+      <p class="footer-tagline">Économie · Finance · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA.</p>
     </div>
     <div class="footer-cols">
       <div class="footer-col">
         <h4>Explorer</h4>
         <a href="index.html#articles">Analyses</a>
         <a href="index.html#articles">Focus Bénin</a>
+        <a href="index.html#tribune">Tribune</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <a href="mailto:contact@recade-finance.com">contact@recade-finance.com</a>
-        <a href="https://instagram.com/recadefinance">Instagram @recadefinance</a>
+        <a href="https://recade-finance.com" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><ellipse cx="20" cy="20" rx="7.5" ry="17" fill="none" stroke="currentColor" stroke-width="2.4"/><line x1="3" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="2.4"/></svg>
+          recade-finance.com
+        </a>
+        <a href="https://instagram.com/recadefinance" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34" rx="11" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="8.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="29.5" cy="10.5" r="2.2" fill="currentColor"/></svg>
+          @recadefinance
+        </a>
+        <a href="mailto:contact@recade-finance.com" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="8" width="34" height="24" fill="none" stroke="currentColor" stroke-width="2.4"/><polyline points="3,8 20,23 37,8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
+          contact@recade-finance.com
+        </a>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2026 Récade Finance — analyses personnelles, n'engagent aucun employeur.</span>
+    <span>&copy; 2026 Récade Finance.</span>
     <span>recade-finance.com</span>
   </div>
 </footer>

@@ -1,0 +1,38 @@
+name: Veille automatisée Récade Finance
+
+# S'exécute tous les jours à 6h00 UTC (7h ou 8h heure française selon
+# la saison), et peut aussi être lancé manuellement depuis l'onglet
+# "Actions" du dépôt GitHub (bouton "Run workflow").
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install feedparser pyyaml
+
+      - name: Lancer la veille
+        run: python3 veille/veille.py
+
+      - name: Committer les résultats s'il y en a de nouveaux
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add veille/digest.md veille/deja_vus.json
+          git diff --quiet --cached || git commit -m "Veille automatisée : $(date -u +%Y-%m-%d)"
+          git push
