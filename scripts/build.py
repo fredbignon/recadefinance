@@ -129,6 +129,9 @@ FOOTER_HTML = """
       </div>
     </div>
   </div>
+  <div class="footer-disclaimer">
+    <span>⚠️ {site_disclaimer}</span>
+  </div>
   <div class="footer-bottom">
     <span>&copy; {year} Récade Finance.</span>
     <span>{footer_website}</span>
@@ -165,26 +168,13 @@ HEADER_HTML = """
 
 def render_footer(root=""):
     f = CONTENT["footer"]
+    disclaimer = CONTENT.get("site_disclaimer_short", "")
     return FOOTER_HTML.format(
         root=root, year=datetime.now().year,
         footer_tagline=f["tagline"], footer_email=f["email"], footer_instagram=f["instagram"],
         footer_website=f.get("website", "recade-finance.com"),
+        site_disclaimer=disclaimer,
     )
-    cat_key = post.get("category", "analyses")
-    cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
-    date_str = date_fr(post["date"])
-    return f"""
-      <article class="card">
-        <div class="card-tag-row">
-          <span class="tag {cat_key}">{cat_label}</span>
-          <span class="card-date">{date_str}</span>
-        </div>
-        <div class="card-body">
-          <h3><a href="{root}articles/{post['slug']}.html">{post['title']}</a></h3>
-          <p>{post['excerpt']}</p>
-          <a href="{root}articles/{post['slug']}.html" class="read-more">Lire l'analyse →</a>
-        </div>
-      </article>"""
 
 
 def render_list_item(post, root=""):
