@@ -304,15 +304,28 @@ def render_homepage(posts):
 
 <section class="newsletter" id="newsletter">
   <div class="newsletter-inner">
-    <form action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank" novalidate>
+    <form action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank" novalidate onsubmit="return rfCheckHoneypot(this)">
       <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" required>
       <div aria-hidden="true" style="position: absolute; left: -5000px;">
         <input type="text" name="b_0727619b3152a006e7015d1c8_cd759a0ccc" tabindex="-1" value="">
+      </div>
+      <!-- Piège anti-bot : champ invisible pour un humain, souvent rempli
+           aveuglément par les robots qui scannent les formulaires publics. -->
+      <div aria-hidden="true" style="position:absolute; left:-9999px; top:-9999px;">
+        <label for="rf-site-web">Ne pas remplir ce champ</label>
+        <input type="text" id="rf-site-web" name="site_web" tabindex="-1" autocomplete="off">
       </div>
       <button class="btn btn-primary" type="submit">{n['cta_label']}</button>
     </form>
   </div>
 </section>
+<script>
+function rfCheckHoneypot(form) {{
+  var trap = form.querySelector('#rf-site-web');
+  if (trap && trap.value !== '') {{ return false; }}
+  return true;
+}}
+</script>
 """
     html += render_footer(root="")
     return html
