@@ -15,6 +15,7 @@ import re
 import glob
 import yaml
 import markdown
+import shutil
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -417,6 +418,17 @@ def render_about():
 def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
+
+    # Copie systématique de /assets vers /docs/assets — garantit que tout
+    # changement de style, image ou vidéo se propage sans étape manuelle.
+    assets_src = os.path.join(ROOT, "assets")
+    assets_dst = os.path.join(DOCS_DIR, "assets")
+    os.makedirs(assets_dst, exist_ok=True)
+    for filename in os.listdir(assets_src):
+        src_path = os.path.join(assets_src, filename)
+        if os.path.isfile(src_path):
+            shutil.copy2(src_path, os.path.join(assets_dst, filename))
+    print(f"Assets copiés vers {assets_dst}")
 
     posts = load_all_posts()
     print(f"{len(posts)} article(s) trouvé(s) dans /posts")

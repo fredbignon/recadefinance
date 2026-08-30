@@ -1,0 +1,43 @@
+name: Reconstruction automatique du site
+
+# Se déclenche à chaque push sur main qui touche le contenu du site
+# (mais pas /docs lui-même, pour éviter une boucle infinie).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "posts/**"
+      - "actualites/**"
+      - "assets/**"
+      - "scripts/build.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install markdown pyyaml
+
+      - name: Reconstruire le site
+        run: python3 scripts/build.py
+
+      - name: Committer le site reconstruit s'il a changé
+        run: |
+          git config user.name "build-bot"
+          git config user.email "build-bot@users.noreply.github.com"
+          git add docs/
+          git diff --quiet --cached || git commit -m "Reconstruction automatique du site : $(date -u +%Y-%m-%d\ %H:%M)"
+          git push
