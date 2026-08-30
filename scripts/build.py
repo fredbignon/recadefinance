@@ -21,6 +21,8 @@ from datetime import datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POSTS_DIR = os.path.join(ROOT, "posts")
 ACTUALITES_DIR = os.path.join(ROOT, "actualites")
+MINUTE_ECO_DIR = os.path.join(ROOT, "minute-eco")
+INSTANT_IA_DIR = os.path.join(ROOT, "instant-ia")
 DOCS_DIR = os.path.join(ROOT, "docs")
 CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
 SITE_TITLE = "Récade Finance"
@@ -68,6 +70,7 @@ def parse_post(filepath):
 
 def load_all_posts():
     files = sorted(glob.glob(os.path.join(POSTS_DIR, "*.md")), reverse=True)
+    files = [f for f in files if os.path.basename(f).upper() != "README.MD"]
     posts = [parse_post(f) for f in files]
     posts.sort(key=lambda p: p["date"], reverse=True)
     return posts
@@ -75,6 +78,18 @@ def load_all_posts():
 
 def load_all_actualites():
     files = sorted(glob.glob(os.path.join(ACTUALITES_DIR, "*.md")), reverse=True)
+    files = [f for f in files if os.path.basename(f).upper() != "README.MD"]
+    items = [parse_post(f) for f in files]
+    items.sort(key=lambda p: p["date"], reverse=True)
+    return items
+
+
+def load_markdown_folder(folder):
+    """Chargeur générique réutilisé pour La Minute Éco et L'Instant IA —
+    même structure que /actualites (titre, date, extrait, corps Markdown).
+    Exclut README.md (documentation de format, pas un billet)."""
+    files = sorted(glob.glob(os.path.join(folder, "*.md")), reverse=True)
+    files = [f for f in files if os.path.basename(f).upper() != "README.MD"]
     items = [parse_post(f) for f in files]
     items.sort(key=lambda p: p["date"], reverse=True)
     return items
@@ -110,7 +125,9 @@ FOOTER_HTML = """
       <div class="footer-col">
         <h4>Explorer</h4>
         <a href="{root}index.html#articles">Analyses</a>
-        <a href="{root}index.html#articles">Focus Bénin</a>
+        <a href="{root}actualites.html">Actualités</a>
+        <a href="{root}minute-eco.html">La Minute Éco</a>
+        <a href="{root}instant-ia.html">L'Instant IA</a>
         <a href="{root}index.html#tribune">Tribune</a>
       </div>
       <div class="footer-col">
@@ -153,17 +170,33 @@ HEADER_HTML = """
       </svg>
       <span class="brand-name">RÉCADE FINANCE</span>
     </a>
-    <nav class="main-nav">
+    <nav class="main-nav" id="rf-main-nav">
       <a href="{root}index.html">Accueil</a>
       <a href="{root}index.html#articles">Analyses</a>
-      <a href="{root}index.html#articles">Focus Bénin</a>
       <a href="{root}actualites.html">Actualités</a>
+      <a href="{root}minute-eco.html">La Minute Éco</a>
+      <a href="{root}instant-ia.html">L'Instant IA</a>
       <a href="{root}index.html#tribune">Tribune</a>
       <a href="{root}a-propos.html">À propos</a>
     </nav>
-    <a href="{root}index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
+    <div class="header-actions">
+      <a href="{root}index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
+      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    </div>
   </div>
 </header>
+<script>
+(function() {{
+  var toggle = document.getElementById('rf-nav-toggle');
+  var nav = document.getElementById('rf-main-nav');
+  if (toggle && nav) {{
+    toggle.addEventListener('click', function() {{
+      var isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }});
+  }}
+}})();
+</script>
 """
 
 
@@ -359,6 +392,80 @@ def render_article(post):
     return html
 
 
+def render_video_embed(video_url):
+    """Accepte soit un lien YouTube, soit un chemin vers un fichier vidéo
+    local (mp4) placé dans /assets."""
+    if not video_url:
+        return ""
+    if "youtube.com" in video_url or "youtu.be" in video_url:
+        # Extrait l'identifiant de la vidéo pour construire l'URL d'intégration
+        vid_id = ""
+        if "youtu.be/" in video_url:
+            vid_id = video_url.split("youtu.be/")[-1].split("?")[0]
+        elif "watch?v=" in video_url:
+            vid_id = video_url.split("watch?v=")[-1].split("&")[0]
+        embed_src = f"https://www.youtube.com/embed/{vid_id}"
+        return f"""
+        <div class="video-embed-wrapper">
+          <iframe src="{embed_src}" title="Vidéo" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>"""
+    # sinon on suppose un fichier vidéo local (mp4) référencé depuis /assets
+    return f"""
+        <div class="video-embed-wrapper">
+          <video src="{video_url}" controls></video>
+        </div>"""
+
+
+def render_contributor_item(item, root=""):
+    author_name = item.get("author_name", "")
+    author_title = item.get("author_title", "")
+    byline_html = ""
+    if author_name:
+        byline_html = f'<div class="contrib-byline"><span class="contrib-name">{author_name}</span>'
+        if author_title:
+            byline_html += f'<span class="contrib-title"> — {author_title}</span>'
+        byline_html += '</div>'
+
+    video_url = item.get("video_url", "")
+    video_html = render_video_embed(f"{root}{video_url}" if video_url and not video_url.startswith("http") else video_url)
+
+    return f"""
+      <article class="actu-item">
+        <div class="actu-meta">
+          <span class="card-date">{date_fr(item['date'], with_day=True)}</span>
+        </div>
+        <h3>{item['title']}</h3>
+        {video_html}
+        <div class="actu-body">{item['html_body']}</div>
+        {byline_html}
+      </article>"""
+
+
+def render_contributor_page(items, page_title, eyebrow, intro_text, description):
+    html = HEAD.format(title=f"{page_title} — {SITE_TITLE}", description=description, root="")
+    html += HEADER_HTML.format(root="")
+    items_html = "\n".join(render_contributor_item(i) for i in items) if items else \
+        '<p style="color:#8a7a6a;">Aucun billet publié pour le moment — le premier arrive bientôt.</p>'
+    html += f"""
+<section class="section">
+  <div class="wrap" style="max-width:760px;">
+    <div class="section-head">
+      <span class="eyebrow">{eyebrow}</span>
+      <h1>{page_title}</h1>
+      <p style="margin-top:14px; color:#5a4f44;">{intro_text}</p>
+    </div>
+    <div class="actu-list" style="margin-top:36px;">
+      {items_html}
+    </div>
+  </div>
+</section>
+"""
+    html += render_footer(root="")
+    return html
+
+
 def render_actualite_item(item):
     tags = item.get("tags", [])
     tags_html = " ".join(f'<span class="actu-tag">{t}</span>' for t in tags)
@@ -449,11 +556,31 @@ def main():
     actualites = load_all_actualites()
     print(f"{len(actualites)} actualité(s) trouvée(s) dans /actualites")
 
+    minute_eco = load_markdown_folder(MINUTE_ECO_DIR)
+    print(f"{len(minute_eco)} billet(s) trouvé(s) dans /minute-eco")
+
+    instant_ia = load_markdown_folder(INSTANT_IA_DIR)
+    print(f"{len(instant_ia)} billet(s) trouvé(s) dans /instant-ia")
+
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_homepage(posts))
 
     with open(os.path.join(DOCS_DIR, "a-propos.html"), "w", encoding="utf-8") as f:
         f.write(render_about())
+
+    with open(os.path.join(DOCS_DIR, "minute-eco.html"), "w", encoding="utf-8") as f:
+        f.write(render_contributor_page(
+            minute_eco, "La Minute Éco", "Format court, écrit ou vidéo",
+            "Une notion ou une thématique économique, souvent trop technique, expliquée simplement — en quelques minutes, à l'écrit ou en vidéo.",
+            "La Minute Éco — vulgariser une notion économique à la fois, en quelques minutes.",
+        ))
+
+    with open(os.path.join(DOCS_DIR, "instant-ia.html"), "w", encoding="utf-8") as f:
+        f.write(render_contributor_page(
+            instant_ia, "L'Instant IA", "Format court, écrit ou vidéo",
+            "Une notion ou une thématique liée à l'intelligence artificielle, souvent trop technique, expliquée simplement — en quelques minutes, à l'écrit ou en vidéo.",
+            "L'Instant IA — vulgariser une notion d'IA à la fois, en quelques minutes.",
+        ))
 
     with open(os.path.join(DOCS_DIR, "actualites.html"), "w", encoding="utf-8") as f:
         f.write(render_actualites_page(actualites))

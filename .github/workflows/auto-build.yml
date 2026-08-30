@@ -9,6 +9,8 @@ on:
       - "content/**"
       - "posts/**"
       - "actualites/**"
+      - "minute-eco/**"
+      - "instant-ia/**"
       - "assets/**"
       - "scripts/build.py"
   workflow_dispatch: {}

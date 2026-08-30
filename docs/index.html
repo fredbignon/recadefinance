@@ -21,17 +21,33 @@
       </svg>
       <span class="brand-name">RÉCADE FINANCE</span>
     </a>
-    <nav class="main-nav">
+    <nav class="main-nav" id="rf-main-nav">
       <a href="index.html">Accueil</a>
       <a href="index.html#articles">Analyses</a>
-      <a href="index.html#articles">Focus Bénin</a>
       <a href="actualites.html">Actualités</a>
+      <a href="minute-eco.html">La Minute Éco</a>
+      <a href="instant-ia.html">L'Instant IA</a>
       <a href="index.html#tribune">Tribune</a>
       <a href="a-propos.html">À propos</a>
     </nav>
-    <a href="index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
+    <div class="header-actions">
+      <a href="index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
+      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    </div>
   </div>
 </header>
+<script>
+(function() {
+  var toggle = document.getElementById('rf-nav-toggle');
+  var nav = document.getElementById('rf-main-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function() {
+      var isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  }
+})();
+</script>
 
 <section class="hero">
   <div class="staff-thread" aria-hidden="true"></div>
@@ -136,7 +152,9 @@ function rfCheckHoneypot(form) {
       <div class="footer-col">
         <h4>Explorer</h4>
         <a href="index.html#articles">Analyses</a>
-        <a href="index.html#articles">Focus Bénin</a>
+        <a href="actualites.html">Actualités</a>
+        <a href="minute-eco.html">La Minute Éco</a>
+        <a href="instant-ia.html">L'Instant IA</a>
         <a href="index.html#tribune">Tribune</a>
       </div>
       <div class="footer-col">
