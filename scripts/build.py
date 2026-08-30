@@ -279,7 +279,6 @@ def render_homepage(posts):
 <section class="hero">
   <div class="staff-thread" aria-hidden="true"></div>
   <div class="hero-inner">
-    <span class="launch-badge"><span class="dot"></span> {h['launch_badge']}</span>
     <span class="eyebrow">{h['eyebrow']}</span>
     <h1>{h['title']}</h1>
     <p class="lede">{h['lede']}</p>
@@ -299,14 +298,6 @@ def render_homepage(posts):
     <div class="video-frame">
       <video src="assets/recade_finance_teaser.mp4" autoplay muted loop playsinline controls></video>
     </div>
-  </div>
-</section>
-
-<section class="credibility">
-  <div class="credibility-inner">
-    <div class="cred-item"><span class="num">{len(posts)}</span><span class="label">{c['label_1']}</span></div>
-    <div class="cred-item"><span class="num">{c['stat_2']}</span><span class="label">{c['label_2']}</span></div>
-    <div class="cred-item"><span class="num">{c['stat_3']}</span><span class="label">{c['label_3']}</span></div>
   </div>
 </section>
 

@@ -7,7 +7,6 @@
 # Après modification : python3 scripts/build.py, puis git push.
 
 hero:
-  launch_badge: "Nouveau dans l'écosystème francophone"
   eyebrow: "Économie · Finance · Dette souveraine · IA — Un regard africain"
   title: "Un espace de veille et d'analyse économique et financière — regardés depuis et pour l'Afrique."
   lede: "Récade Finance vulgarise l'économie, la finance, la notation souveraine et la finance climatique sur le continent africain — avec un focus sur le Bénin."
