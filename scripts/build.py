@@ -291,8 +291,11 @@ def render_homepage(posts):
 
 <section class="video-section">
   <div class="video-inner">
-    <span class="eyebrow">{v['eyebrow']}</span>
-    <h2>{v['title']}</h2>
+    <div class="video-text">
+      <span class="eyebrow">{v['eyebrow']}</span>
+      <h2>{v['title']}</h2>
+      <p>Un aperçu rapide de la démarche et du positionnement de Récade Finance, en une minute.</p>
+    </div>
     <div class="video-frame">
       <video src="assets/recade_finance_teaser.mp4" autoplay muted loop playsinline controls></video>
     </div>

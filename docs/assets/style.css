@@ -13,6 +13,15 @@ html{scroll-behavior:smooth;}
 body{
   margin:0; background:var(--sable); color:var(--charbon);
   font-family:'Inter',sans-serif; line-height:1.6;
+  position:relative;
+}
+/* Grain subtil en superposition — casse l'aspect "fond plat parfait" */
+body::before{
+  content:"";
+  position:fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events:none; z-index:9999;
+  opacity:0.035; mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 h1,h2,h3{font-family:'Fraunces',serif; font-weight:600; margin:0 0 16px; color:var(--terracotta-deep);}
 a{color:inherit; text-decoration:none;}
@@ -145,18 +154,24 @@ footer.site{background:var(--terracotta-deep); color:var(--sable); padding:56px 
 @media (prefers-reduced-motion: reduce){ .launch-badge .dot{animation:none;} }
 
 /* --- Section vidéo --- */
-.video-section{
-  background:var(--terracotta-deep); padding:64px 28px;
-}
-.video-inner{max-width:900px; margin:0 auto; text-align:center;}
-.video-inner .eyebrow{color:var(--ocre); display:block; margin-bottom:14px;
+.video-section{padding:64px 28px; background:var(--terracotta-deep);}
+.video-inner{max-width:1080px; margin:0 auto; display:flex; align-items:center; gap:56px; flex-wrap:wrap;}
+.video-text{flex:1; min-width:260px; text-align:left;}
+.video-text .eyebrow{color:var(--ocre); display:block; margin-bottom:14px;
   font-family:'IBM Plex Mono',monospace; font-size:0.75rem; letter-spacing:0.1em; text-transform:uppercase;}
-.video-inner h2{color:var(--sable); margin-bottom:28px;}
+.video-text h2{color:var(--sable); margin-bottom:14px; text-align:left;}
+.video-text p{color:#cbb9a6; font-size:0.98rem; max-width:38ch;}
 .video-frame{
   border-radius:6px; overflow:hidden; box-shadow:0 20px 50px rgba(0,0,0,0.35);
-  border:1px solid rgba(247,237,226,0.15);
+  border:1px solid rgba(247,237,226,0.15); flex-shrink:0;
 }
-.video-frame video{display:block; width:100%; max-width:520px; margin:0 auto; aspect-ratio:1/1;}
+.video-frame video{display:block; width:340px; max-width:100%; aspect-ratio:1/1;}
+@media (max-width:700px){
+  .video-inner{flex-direction:column; text-align:center;}
+  .video-text{text-align:center;}
+  .video-text h2{text-align:center;}
+  .video-text p{margin:0 auto;}
+}
 
 /* --- Bandeau crédibilité --- */
 .credibility{background:var(--sable-deep); padding:44px 28px; border-top:1px solid rgba(74,38,16,0.1); border-bottom:1px solid rgba(74,38,16,0.1);}
