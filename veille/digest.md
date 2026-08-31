@@ -34,3 +34,14 @@ Par Thierno Seydou Nourou SyPrésident de Nourou Financial Consultin...
 Côte...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-08-31
+
+### UEMOA : le Sénégal concentre 29,7 % de l’encours de monnaie électronique et s’impose comme leader régional
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/08/31/uemoa-le-senegal-concentre-297-de-lencours-de-monnaie-electronique-et-simpose-comme-leader-regional/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
