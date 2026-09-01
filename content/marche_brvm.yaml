@@ -3,7 +3,8 @@
 # ============================================================
 # À mettre à jour manuellement, idéalement chaque jour ouvré,
 # à partir des chiffres officiels publiés sur brvm.org (section
-# "Indices") ou d'un agrégateur fiable (ex. Sika Finance).
+# "Indices" et "Résumé") ou d'un agrégateur fiable (ex. Sika
+# Finance, brvmscreener.com).
 #
 # "sens" doit être "hausse" ou "baisse" — ça pilote la couleur
 # affichée (vert ou rouge) sur le site.
@@ -14,6 +15,7 @@
 
 date_cloture: "28 août 2026"
 
+# Indicateurs clés — résument le marché en un coup d'œil
 indices:
   - nom: "BRVM Composite"
     valeur: "530,06"
@@ -25,4 +27,24 @@ indices:
     variation: "+0,19 %"
     sens: "hausse"
 
+# Indicateurs désagrégés — donnent une lecture plus fine de la
+# même séance (respiration du marché, activité, taille)
+indicateurs_desagreges:
+  - label: "Avance / Déclin"
+    valeur: "17 ▲ · 22 ▼ · 8 ="
+    detail: "sur 47 valeurs cotées"
+
+  - label: "Volume échangé"
+    valeur: "732 946 titres"
+    detail: "2,4 Md FCFA sur la séance"
+
+  - label: "Capitalisation boursière"
+    valeur: "19 803 Md FCFA"
+    detail: "45 sociétés valorisées sur 47"
+
 source_label: "Cours officiels de clôture — Source : BRVM (brvm.org)"
+
+# Interprétation courte, à réécrire à chaque mise à jour des chiffres
+# ci-dessus — une lecture automatisée n'est pas possible ici, ça demande
+# un vrai regard sur ce que les chiffres du jour signifient.
+interpretation: "Une séance de faible amplitude en surface, mais plus contrastée en profondeur : malgré la légère hausse du Composite (+0,02 %), 22 valeurs reculent contre seulement 17 qui progressent. La performance de l'indice tient donc à quelques poids lourds plutôt qu'à un mouvement de marché généralisé — une nuance que le seul chiffre agrégé ne montre pas."

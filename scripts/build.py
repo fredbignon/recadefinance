@@ -117,7 +117,7 @@ HEAD = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="192x192" href="{root}assets/favicon-192.png">
 <meta name="theme-color" content="#3D171D">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}assets/style.css">
 <script type="application/ld+json">
 {{
@@ -248,6 +248,7 @@ def render_list_item(post, root=""):
 def render_brvm_widget():
     date = BRVM.get("date_cloture", "")
     source_label = BRVM.get("source_label", "")
+    interpretation = BRVM.get("interpretation", "")
     cards = ""
     for idx in BRVM.get("indices", []):
         sens = idx.get("sens", "hausse")
@@ -259,6 +260,18 @@ def render_brvm_widget():
         <span class="brvm-valeur">{idx['valeur']}</span>
         <span class="brvm-variation {css_class}">{arrow} {idx['variation']}</span>
       </div>"""
+
+    disagg_cards = ""
+    for d in BRVM.get("indicateurs_desagreges", []):
+        disagg_cards += f"""
+      <div class="brvm-disagg-card">
+        <span class="brvm-disagg-label">{d['label']}</span>
+        <span class="brvm-disagg-valeur">{d['valeur']}</span>
+        <span class="brvm-disagg-detail">{d['detail']}</span>
+      </div>"""
+    disagg_html = f'<div class="brvm-disagg-row">{disagg_cards}\n    </div>' if disagg_cards else ""
+
+    interpretation_html = f'<p class="brvm-interpretation">{interpretation}</p>' if interpretation else ""
     return f"""
 <section class="brvm-widget">
   <div class="brvm-inner">
@@ -267,6 +280,8 @@ def render_brvm_widget():
     </div>
     <div class="brvm-cards">{cards}
     </div>
+    {disagg_html}
+    {interpretation_html}
     <div class="brvm-footer">
       <span>{source_label}</span>
       <a href="https://www.brvm.org/fr/indices" target="_blank" rel="noopener">Voir en direct sur brvm.org →</a>
