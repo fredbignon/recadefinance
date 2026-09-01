@@ -1,0 +1,28 @@
+# ============================================================
+# Récade Finance — données du marché BRVM
+# ============================================================
+# À mettre à jour manuellement, idéalement chaque jour ouvré,
+# à partir des chiffres officiels publiés sur brvm.org (section
+# "Indices") ou d'un agrégateur fiable (ex. Sika Finance).
+#
+# "sens" doit être "hausse" ou "baisse" — ça pilote la couleur
+# affichée (vert ou rouge) sur le site.
+#
+# Après modification : python3 scripts/build.py puis git push
+# (ou laisser l'automatisation GitHub Actions s'en charger si le
+# fichier est modifié directement sur GitHub).
+
+date_cloture: "28 août 2026"
+
+indices:
+  - nom: "BRVM Composite"
+    valeur: "530,06"
+    variation: "+0,02 %"
+    sens: "hausse"
+
+  - nom: "BRVM 30"
+    valeur: "256,35"
+    variation: "+0,19 %"
+    sens: "hausse"
+
+source_label: "Cours officiels de clôture — Source : BRVM (brvm.org)"

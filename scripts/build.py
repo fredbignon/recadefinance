@@ -25,12 +25,16 @@ MINUTE_ECO_DIR = os.path.join(ROOT, "minute-eco")
 INSTANT_IA_DIR = os.path.join(ROOT, "instant-ia")
 DOCS_DIR = os.path.join(ROOT, "docs")
 CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
+BRVM_FILE = os.path.join(ROOT, "content", "marche_brvm.yaml")
 SITE_TITLE = "Récade Finance"
 SITE_TAGLINE = "Économie · Dette souveraine · IA — Un regard africain"
 SITE_URL = "https://recade-finance.com"
 
 with open(CONTENT_FILE, encoding="utf-8") as f:
     CONTENT = yaml.safe_load(f)
+
+with open(BRVM_FILE, encoding="utf-8") as f:
+    BRVM = yaml.safe_load(f)
 
 CATEGORY_LABELS = {
     "analyses": "Analyses",
@@ -241,6 +245,37 @@ def render_list_item(post, root=""):
       </div>"""
 
 
+def render_brvm_widget():
+    date = BRVM.get("date_cloture", "")
+    source_label = BRVM.get("source_label", "")
+    cards = ""
+    for idx in BRVM.get("indices", []):
+        sens = idx.get("sens", "hausse")
+        css_class = "brvm-up" if sens == "hausse" else "brvm-down"
+        arrow = "▲" if sens == "hausse" else "▼"
+        cards += f"""
+      <div class="brvm-card">
+        <span class="brvm-nom">{idx['nom']}</span>
+        <span class="brvm-valeur">{idx['valeur']}</span>
+        <span class="brvm-variation {css_class}">{arrow} {idx['variation']}</span>
+      </div>"""
+    return f"""
+<section class="brvm-widget">
+  <div class="brvm-inner">
+    <div class="brvm-header">
+      <span class="eyebrow">Marché BRVM — clôture du {date}</span>
+    </div>
+    <div class="brvm-cards">{cards}
+    </div>
+    <div class="brvm-footer">
+      <span>{source_label}</span>
+      <a href="https://www.brvm.org/fr/indices" target="_blank" rel="noopener">Voir en direct sur brvm.org →</a>
+    </div>
+  </div>
+</section>
+"""
+
+
 def render_homepage(posts):
     featured_project = next((p for p in posts if p.get("featured")), None)
     remaining = [p for p in posts if p is not featured_project]
@@ -305,6 +340,8 @@ def render_homepage(posts):
     </div>
   </div>
 </section>
+
+{render_brvm_widget()}
 
 <section class="video-section">
   <div class="video-inner">

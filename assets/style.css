@@ -1,6 +1,6 @@
 :root{
-  --sable:#F5EEE9;
-  --sable-deep:#E8DAD1;
+  --sable:#FAF9F7;
+  --sable-deep:#EFEDE9;
   --terracotta:#7A2E3A;
   --terracotta-dark:#5C222B;
   --terracotta-deep:#3D171D;
@@ -84,6 +84,27 @@ nav.main-nav a:hover{border-color:var(--ocre);}
 .actu-body p{margin-bottom:12px;}
 .actu-source{margin-top:12px; font-size:0.85rem;}
 .actu-source a{color:var(--terracotta); font-weight:600;}
+
+/* --- Widget marché BRVM --- */
+.brvm-widget{background:var(--sable-deep); padding:36px 28px; border-top:1px solid rgba(74,38,16,0.08); border-bottom:1px solid rgba(74,38,16,0.08);}
+.brvm-inner{max-width:1120px; margin:0 auto;}
+.brvm-header{margin-bottom:18px;}
+.brvm-cards{display:flex; gap:20px; flex-wrap:wrap;}
+.brvm-card{
+  background:var(--white); border:1px solid rgba(74,38,16,0.1); border-radius:6px;
+  padding:16px 24px; display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;
+}
+.brvm-nom{font-family:'IBM Plex Mono',monospace; font-size:0.8rem; color:#6b5d4f; min-width:130px;}
+.brvm-valeur{font-family:'Fraunces',serif; font-weight:600; font-size:1.3rem; color:var(--terracotta-deep);}
+.brvm-variation{font-family:'IBM Plex Mono',monospace; font-size:0.85rem; font-weight:600; padding:2px 8px; border-radius:3px;}
+.brvm-up{color:#1a7a3d; background:rgba(26,122,61,0.1);}
+.brvm-down{color:#b33a2e; background:rgba(179,58,46,0.1);}
+.brvm-footer{margin-top:16px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-size:0.78rem; color:#8a7a6a;}
+.brvm-footer a{color:var(--terracotta); font-weight:600;}
+@media (max-width:640px){
+  .brvm-cards{flex-direction:column;}
+  .brvm-card{width:100%;}
+}
 .contrib-byline{margin-top:14px; padding-top:12px; border-top:1px dashed rgba(74,38,16,0.15); font-size:0.88rem;}
 .contrib-name{font-weight:700; color:var(--terracotta-deep);}
 .contrib-title{color:#6b5d4f; font-style:italic;}
