@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://recade-finance.com/sitemap.xml

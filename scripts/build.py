@@ -107,9 +107,27 @@ HEAD = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
+<link rel="icon" type="image/png" sizes="32x32" href="{root}assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{root}assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{root}assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{root}assets/favicon-192.png">
+<meta name="theme-color" content="#3D171D">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}assets/style.css">
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Récade Finance",
+  "url": "https://recade-finance.com",
+  "logo": "https://recade-finance.com/assets/favicon-512.png",
+  "description": "Économie, finance, dette souveraine et IA — un regard africain.",
+  "sameAs": [
+    "https://instagram.com/recadefinance"
+  ]
+}}
+</script>
 </head>
 <body>
 """
@@ -164,9 +182,9 @@ HEADER_HTML = """
   <div class="header-inner">
     <a href="{root}index.html" class="brand">
       <svg width="30" height="30" viewBox="0 0 100 100" fill="none">
-        <path d="M35 30 A18 14 0 1 0 63 26" stroke="#B5622A" stroke-width="5" stroke-linecap="round"/>
-        <line x1="47" y1="28" x2="47" y2="80" stroke="#B5622A" stroke-width="5" stroke-linecap="round"/>
-        <circle cx="66" cy="20" r="6" fill="#D9A441"/>
+        <path d="M35 30 A18 14 0 1 0 63 26" stroke="#7A2E3A" stroke-width="5" stroke-linecap="round"/>
+        <line x1="47" y1="28" x2="47" y2="80" stroke="#7A2E3A" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="66" cy="20" r="6" fill="#C9A227"/>
       </svg>
       <span class="brand-name">RÉCADE FINANCE</span>
     </a>
@@ -529,6 +547,27 @@ def render_about():
 # Écriture des fichiers
 # ---------------------------------------------------------------------------
 
+def render_sitemap(posts):
+    urls = ["", "a-propos.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
+    urls += [f"articles/{p['slug']}.html" for p in posts]
+    entries = "\n".join(
+        f"  <url><loc>{SITE_URL}/{u}</loc></url>" for u in urls
+    )
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{entries}
+</urlset>
+"""
+
+
+def render_robots():
+    return f"""User-agent: *
+Allow: /
+
+Sitemap: {SITE_URL}/sitemap.xml
+"""
+
+
 def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
@@ -584,6 +623,14 @@ def main():
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(render_article(post))
         print(f"  → articles/{post['slug']}.html")
+
+    with open(os.path.join(DOCS_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write(render_sitemap(posts))
+    print("  → sitemap.xml")
+
+    with open(os.path.join(DOCS_DIR, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(render_robots())
+    print("  → robots.txt")
 
     print("Site généré dans /docs — prêt à être poussé sur GitHub.")
 

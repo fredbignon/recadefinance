@@ -1,11 +1,11 @@
 :root{
-  --sable:#F7EDE2;
-  --sable-deep:#EDDCC8;
-  --terracotta:#B5622A;
-  --terracotta-dark:#8C4A1F;
-  --terracotta-deep:#4A2610;
+  --sable:#F5EEE9;
+  --sable-deep:#E8DAD1;
+  --terracotta:#7A2E3A;
+  --terracotta-dark:#5C222B;
+  --terracotta-deep:#3D171D;
   --charbon:#2B2B2B;
-  --ocre:#D9A441;
+  --ocre:#C9A227;
   --white:#FFFFFF;
 }
 *{box-sizing:border-box;}
