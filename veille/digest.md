@@ -45,3 +45,46 @@ Côte...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-02
+
+### Sénégal : PTDS et accord avec le FMI, le retour au réalisme économique après deux années perdues
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/02/senegal-ptds-et-accord-avec-le-fmi-le-retour-au-realisme-economique-apres-deux-annees-perdues/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par professeur  Amath Ndiaye, FASEG/UCAD 
+Le lancement du Plan de traitement de la dette du Sénégal (PTDS) et l&rsquo;accord conclu au niveau des services avec le Fonds monétaire international constituent un tournant majeur dans la gestion de la crise financière sénégalaise. Pour...
+- **Statut** : [ ] à trier
+
+### Bénin, 100 jours après | Wadagni imprime sa marque
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/02/benin-100-jours-apres-wadagni-imprime-sa-marque/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Développement local, santé, jeunesse : des arbitrages majeurs 
+Cent jours après le début de son mandat, la feuille de route du président Romuald Wadagni se matérialise déjà par des arbitrages majeurs, à l&rsquo;instar de la prise en charge inconditionnelle des urgences médicales ...
+- **Statut** : [ ] à trier
+
+### Pape Demba Thiam : au delà du Sénégal et du FMI, des questions stratégiques pour l’Afrique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/02/pape-demba-thiam-au-dela-du-senegal-et-du-fmi-des-questions-strategiques-pour-lafrique/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Économiste, entrepreneur et ancien cadre de la Banque mondiale,&nbsp;Pape Demba Thiam&nbsp;est l’invité spécial de Financial Afrik pour un grand entretien consacré aux choix économiques de l’Afrique et aux mécanismes qui, selon lui, continuent d’entraver la transformation du cont...
+- **Statut** : [ ] à trier
+
+### Sénégal – FMI : un signal historique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/01/senegal-fmi-un-signal-historique/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par Lansana Gagny Sakho
+L&rsquo;accord au niveau des services du 1er septembre 2026 : ce qu&rsquo;il dit, ce qu&rsquo;il exige, et ce que les marchés observeront
+Il arrive dans l&rsquo;histoire économique d&rsquo;un pays des journées dont la portée dépasse celle de tous les disco...
+- **Statut** : [ ] à trier
+
+### Sénégal–FMI : un programme 2,2 milliards de dollars sans restructuration
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/01/senegal-fmi-un-programme-22-milliards-de-dollars-sans-restructuration/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
