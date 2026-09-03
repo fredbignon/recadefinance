@@ -88,3 +88,13 @@ Il arrive dans l&rsquo;histoire économique d&rsquo;un pays des journées dont l
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-03
+
+### Entretien avec Théodore Ganfle, directeur général de la SGI-AGI : « La question n’est pas seulement de trouver du capital »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/03/theodore-ganfle-sgi-agi-la-question-nest-pas-seulement-de-trouver-du-capital/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Pour Théodore Ganfle, directeur général de la SGI-AGI basée à Cotonou (Bénin), le paradoxe ouest-africain — liquidités abondantes, PME sous-financées — tient à un fossé de structuration : « la question n’est pas seulement de trouver du capital, mais de rendre les entreprises inve...
+- **Statut** : [ ] à trier
+
