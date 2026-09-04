@@ -98,3 +98,13 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Pour Théodore Ganfle, directeur général de la SGI-AGI basée à Cotonou (Bénin), le paradoxe ouest-africain — liquidités abondantes, PME sous-financées — tient à un fossé de structuration : « la question n’est pas seulement de trouver du capital, mais de rendre les entreprises inve...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-04
+
+### Burkina Faso : 151,5 milliards FCFA de « Diaspora Bonds » font leur entrée à la BRVM
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/03/burkina-faso-1515-milliards-fcfa-de-diaspora-bonds-font-leur-entree-a-la-brvm/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Le marché financier régional de l’UEMOA a enregistré, ce jeudi 3 septembre 2026, la première cotation, sur le compartiment obligataire de la BRVM, des emprunts « TPBF DIASPORA BONDS 6,75 % 2026-2031 » et « TPBF DIASPORA BONDS 6,85 % 2026-2033 », émis par l’État burkinabè entre le...
+- **Statut** : [ ] à trier
+
