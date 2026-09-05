@@ -108,3 +108,30 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Le marché financier régional de l’UEMOA a enregistré, ce jeudi 3 septembre 2026, la première cotation, sur le compartiment obligataire de la BRVM, des emprunts « TPBF DIASPORA BONDS 6,75 % 2026-2031 » et « TPBF DIASPORA BONDS 6,85 % 2026-2033 », émis par l’État burkinabè entre le...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-05
+
+### La soutenabilité de la dette publique au Sénégal : entre ajustement budgétaire, programme du FMI et éventuelle restructuration
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/04/la-soutenabilite-de-la-dette-publique-au-senegal-entre-ajustement-budgetaire-programme-du-fmi-et-eventuelle-restructuration/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par Dr Serigne Momar SECK, Economiste
+La soutenabilité de la dette publique du Sénégal s&rsquo;est progressivement imposée comme l&rsquo;un des principaux enjeux macroéconomiques du pays. Les résultats des audits réalisés depuis 2024, qui ont conduit à une réévaluation du niveau ...
+- **Statut** : [ ] à trier
+
+### Sénégal : FMI, PTDS, les enjeux et défis d’un nouveau départ
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/04/senegal-fmi-ptds-les-enjeux-et-defis-dun-nouveau-depart/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Nigéria : la fintech Nomba lève 3 millions USD pour les paiements transfrontaliers
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/04/nigeria-la-fintech-nomba-leve-3-millions-usd-pour-les-paiements-transfrontaliers/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
