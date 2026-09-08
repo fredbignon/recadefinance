@@ -135,3 +135,20 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-08
+
+### Bénin : Coris Bank International réclame 1,11 milliard de FCFA à SAN DISTRIBUTION
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/07/benin-coris-bank-international-reclame-111-milliard-de-fcfa-a-san-distribution/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Coris Bank International Bénin SA réclame une créance de 1,11 milliard de FCFA à la société SAN DISTRIBUTION SARL dans le cadre d’un différend qui les oppose. Une première décision a été rendue le 3 septembre 2026 et donne raison à la banque sur le point central de l’exception so...
+- **Statut** : [ ] à trier
+
+### Finance durable : avec trois émissions majeures à 90 milliards FCFA, CGF BOURSE assoit sa suprématie dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/06/finance-durable-avec-trois-emissions-majeures-a-90-milliards-fcfa-cgf-bourse-assoit-sa-suprematie-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Alors que le marché financier d’Afrique de l&rsquo;Ouest cherche à concilier rentabilité et impact social, CGF Bourse signe un coup de maître stratégique. Élue meilleure Société de Gestion et d’Intermédiation (SGI) de la zone UEMOA en 2025 puis en 2026, l’institution dakaroise ré...
+- **Statut** : [ ] à trier
+
