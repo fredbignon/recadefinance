@@ -152,3 +152,13 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Alors que le marché financier d’Afrique de l&rsquo;Ouest cherche à concilier rentabilité et impact social, CGF Bourse signe un coup de maître stratégique. Élue meilleure Société de Gestion et d’Intermédiation (SGI) de la zone UEMOA en 2025 puis en 2026, l’institution dakaroise ré...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-09
+
+### CEMAC : GIC Rating à l’assaut du marché de la notation
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/08/cemac-gic-rating-a-lassaut-du-marche-de-la-notation/
+- **Mots-clés déclencheurs** : risque de crédit
+- **Résumé (extrait automatique)** : Après avoir obtenu, le 7 août 2026, son agrément de la Commission de surveillance du marché d’Afrique centrale (COSUMAF) — le premier délivré par le régulateur à une agence de notation — Geneva Investment Corporation (GIC Rating) accélère son déploiement. Dès le lendemain, le Con...
+- **Statut** : [ ] à trier
+
