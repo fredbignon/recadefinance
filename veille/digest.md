@@ -162,3 +162,13 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Après avoir obtenu, le 7 août 2026, son agrément de la Commission de surveillance du marché d’Afrique centrale (COSUMAF) — le premier délivré par le régulateur à une agence de notation — Geneva Investment Corporation (GIC Rating) accélère son déploiement. Dès le lendemain, le Con...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-10
+
+### Ecobank Bénin, meilleur Spécialiste en Valeurs du Trésor de l’UEMOA 2024
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/10/ecobank-benin-meilleur-specialiste-en-valeurs-du-tresor-de-luemoa-2024/
+- **Mots-clés déclencheurs** : UEMOA, Bénin
+- **Résumé (extrait automatique)** : Ecobank Bénin s’est classée en tête des Spécialistes en Valeurs du Trésor (SVT) au Bénin en 2024. Une distinction qui repose à la fois sur la participation aux émissions de titres publics, l’activité sur le marché secondaire et la qualité de la relation avec le Trésor public. Lyd...
+- **Statut** : [ ] à trier
+
