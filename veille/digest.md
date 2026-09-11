@@ -172,3 +172,14 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Ecobank Bénin s’est classée en tête des Spécialistes en Valeurs du Trésor (SVT) au Bénin en 2024. Une distinction qui repose à la fois sur la participation aux émissions de titres publics, l’activité sur le marché secondaire et la qualité de la relation avec le Trésor public. Lyd...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-11
+
+### Politique monétaire : la BCEAO temporise, la BCE hausse le ton
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/11/politique-monetaire-la-bceao-temporise-la-bce-hausse-le-ton/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
