@@ -183,3 +183,14 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-14
+
+### Nvalaye Kourouma prend la tête du Consumer & Commercial Banking d’Ecobank pour la Côte d’Ivoire et l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/14/nvalaye-kourouma-prend-la-tete-du-consumer-commercial-banking-decobank-pour-la-cote-divoire-et-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
