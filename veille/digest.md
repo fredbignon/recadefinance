@@ -194,3 +194,21 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-15
+
+### Breaking News – Le Bénin rejoint le cercle des signatures souveraines africaines mieux notées : Bloomfield relève la note du pays à AA-
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/15/breaking-news-le-benin-rejoint-le-cercle-des-signatures-souveraines-africaines-mieux-notees-bloomfield-releve-la-note-du-pays-a-aa/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### UEMOA : Ouagadougou accueille une session de formation destinée aux journalistes économiques
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/14/uemoa-ouagadougou-accueille-une-session-de-formation-destinee-aux-journalistes-economiques/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : La Commission de l&rsquo;Union économique et monétaire ouest-africaine (UEMOA) a ouvert, ce lundi à Ouagadougou, au Burkina Faso, une session d&rsquo;information et de sensibilisation destinée aux professionnels des médias des huit États membres. Prévue du 14 au 18 septembre, cet...
+- **Statut** : [ ] à trier
+
