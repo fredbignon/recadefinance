@@ -212,3 +212,13 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : La Commission de l&rsquo;Union économique et monétaire ouest-africaine (UEMOA) a ouvert, ce lundi à Ouagadougou, au Burkina Faso, une session d&rsquo;information et de sensibilisation destinée aux professionnels des médias des huit États membres. Prévue du 14 au 18 septembre, cet...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-16
+
+### Trois PIB, le classement qui trompe
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/16/trois-pib-le-classement-qui-trompe/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Deux fois plus riche, ou moins ? Selon les projections du FMI pour 2026, un Ivoirien produit deux fois plus qu&rsquo;un Nigérian en PIB nominal — mais moins en parité de pouvoir d&rsquo;achat. Dans cette tribune, Roland BOA, CEO de PERCEP GROUP, décortique ce paradoxe : nominal, ...
+- **Statut** : [ ] à trier
+
