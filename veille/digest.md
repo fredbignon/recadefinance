@@ -222,3 +222,14 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Deux fois plus riche, ou moins ? Selon les projections du FMI pour 2026, un Ivoirien produit deux fois plus qu&rsquo;un Nigérian en PIB nominal — mais moins en parité de pouvoir d&rsquo;achat. Dans cette tribune, Roland BOA, CEO de PERCEP GROUP, décortique ce paradoxe : nominal, ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-17
+
+### Cameroun : l’État confie l’audit 2023 d’Eneo au groupement béninois Erudit-FCG
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/16/cameroun-letat-confie-laudit-2023-deneo-au-groupement-beninois-erudit-fcg/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
