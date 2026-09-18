@@ -233,3 +233,21 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-18
+
+### CEMAC–FMI : la BEAC tente de débloquer les nouveaux programmes du Cameroun, du Congo et du Gabon
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/17/cemac-fmi-la-beac-tente-de-debloquer-les-nouveaux-programmes-du-cameroun-du-congo-et-du-gabon/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Mauritanie : en direct du Forum International de l’Agriculture et des Ressources Africaines (FIARA 2026)
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/17/mauritanie-en-direct-du-forum-international-de-lagriculture-et-des-ressources-africaines-fiara-2026/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Le Forum International de l’Agriculture et des Ressources Africaines (FIARA 2026) s’ouvre ce jeudi 17 septembre 2026 à Nouakchott, en Mauritanie, et se poursuit jusqu’au 19 septembre, à l’ancien Palais des Congrès. Cette première édition veut réunir producteurs, entrepreneurs, in...
+- **Statut** : [ ] à trier
+
