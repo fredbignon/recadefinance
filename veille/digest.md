@@ -251,3 +251,14 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Le Forum International de l’Agriculture et des Ressources Africaines (FIARA 2026) s’ouvre ce jeudi 17 septembre 2026 à Nouakchott, en Mauritanie, et se poursuit jusqu’au 19 septembre, à l’ancien Palais des Congrès. Cette première édition veut réunir producteurs, entrepreneurs, in...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-19
+
+### Financement des startups en Afrique : le surprenant Bénin détrône l’Egypte et le Kenya
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/18/financement-des-startups-en-afrique-le-surprenant-benin-detrone-legypte-et-le-maroc/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
