@@ -262,3 +262,13 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-20
+
+### Croissance : l’UEMOA en surrégime, le Niger en tête à 7,0 % au deuxième trimestre
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/20/croissance-luemoa-en-surregime-le-niger-en-tete-a-70-au-deuxieme-trimestre/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : L’Union ouest-africaine confirme sa vitalité économique. Au deuxième trimestre 2026, le PIB réel de l’UEMOA a progressé de 6,0 % en glissement annuel, après 6,1 % au trimestre précédent, d’après les données du dernier Rapport de politique monétaire publié par la Banque centrale d...
+- **Statut** : [ ] à trier
+
