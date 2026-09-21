@@ -272,3 +272,22 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : L’Union ouest-africaine confirme sa vitalité économique. Au deuxième trimestre 2026, le PIB réel de l’UEMOA a progressé de 6,0 % en glissement annuel, après 6,1 % au trimestre précédent, d’après les données du dernier Rapport de politique monétaire publié par la Banque centrale d...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-21
+
+### Sénégal : les non-dits du débat sur la dette
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/21/senegal-les-non-dits-du-debat-sur-la-dette/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par&nbsp; Hannah Rae Armstrong* et John McIntire*
+Depuis que le Premier ministre sénégalais Ahmadou Al Amine Lô a présenté sa déclaration de politique générale, centrée sur une proposition d’un nouvel accord avec le FMI, le débat animé entre les législateurs et les économistes sé...
+- **Statut** : [ ] à trier
+
+### Zone UEMOA : quand les marchés préfèrent les Etats aux entreprises privées
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/20/zone-uemoa-quand-les-marches-preferent-les-etats-aux-entreprises-privees/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Par Lansana Gagny Sakho, Président du Cercle des Administrateurs Publics &nbsp;| &nbsp;PCA APIX-SA. 
+Inspiré par Mathilde Lemoine, cheffe économiste du groupe Edmond de Rothschild «&nbsp;Quand les marchés préfèrent les entreprises aux États&nbsp;» article publié dans la presse éc...
+- **Statut** : [ ] à trier
+
