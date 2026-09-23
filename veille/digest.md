@@ -291,3 +291,22 @@ Depuis que le Premier ministre sénégalais Ahmadou Al Amine Lô a présenté sa
 Inspiré par Mathilde Lemoine, cheffe économiste du groupe Edmond de Rothschild «&nbsp;Quand les marchés préfèrent les entreprises aux États&nbsp;» article publié dans la presse éc...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-23
+
+### Ecobank élargit le mandat de Korédé Odjo-Bella avec le pilotage régional des Produits Consumer & Commercial Banking en Côte d’Ivoire et dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/23/ecobank-elargit-le-mandat-de-korede-odjo-bella-avec-le-pilotage-regional-des-produits-consumer-commercial-banking-en-cote-divoire-et-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ecobank annonce la nomination de Korédé Odjo-Bella au poste de Head Produits CCB pour la Côte d’Ivoire et la région UEMOA, avec effet immédiat.
+Dans ses nouvelles fonctions, Korédé Odjo-Bella aura la responsabilité de définir et piloter la stratégie produits du Consumer &amp; Com...
+- **Statut** : [ ] à trier
+
+### Banques : Hausse de 19% du produit net bancaire de la Banque Internationale pour l’Industrie et le Commerce du Bénin au premier semestre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/23/banques-hausse-de-19-du-produit-net-bancaire-de-la-banque-internationale-pour-lindustrie-et-le-commerce-du-benin-au-premier-semestre-2026/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
