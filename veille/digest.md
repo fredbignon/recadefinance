@@ -310,3 +310,28 @@ Dans ses nouvelles fonctions, Korédé Odjo-Bella aura la responsabilité de dé
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-24
+
+### Kadotien Alassane Soro – Yango Côte d’Ivoire : « Construire sur les talents locaux, c’est notre ADN »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/kadotien-alassane-soro-yango-cote-divoire-construire-sur-les-talents-locaux-cest-notre-adn/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : À Abidjan, le Yango Fellowship a célébré sa troisième génération : 24 jeunes talents, sélectionnés parmi près de six cents candidats, venus de six pays africains. En marge de cette cérémonie panafricaine, Kadotien Alassane Soro, directeur pays de Yango Côte d&rsquo;Ivoire, revien...
+- **Statut** : [ ] à trier
+
+### Sarah Ndaw, Vice-présidente des ventes de Webb Fontaine : « La transformation digitale des ports est d’abord un projet de transformation avant d’être un projet informatique »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/sarah-ndaw-vice-presidente-des-ventes-de-webb-fontaine-la-transformation-digitale-des-ports-est-dabord-un-projet-de-transformation-avant-detre-un-projet-informatique/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : À l’occasion de la Journée mondiale de la mer, célébrée le 24 septembre, Financial Afrik s’est entretenu avec Sarah Ndaw, Vice-présidente des ventes de Webb Fontaine. L’experte analyse les mutations en cours dans le secteur maritime africain, les défis liés à la fluidification de...
+- **Statut** : [ ] à trier
+
+### Fintech, Mobile Money, Banques centrales : ce qui se passe réellement lorsqu’un euro devient un franc CFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/fintech-mobile-money-banques-centrales-ce-qui-se-passe-reellement-lorsquun-euro-devient-un-franc-cfa/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Par Raphaël NKOLWOUDOU, Docteur en droit (PhD – Université Paris Cité), Contract Manager chez&nbsp;Teragone Solutions, Paris, France.&nbsp;
+Pendant des décennies, le transfert d&rsquo;argent vers l&rsquo;Afrique était synonyme de&nbsp;Western Union, RIA&nbsp;ou de&nbsp;MoneyGram....
+- **Statut** : [ ] à trier
+
