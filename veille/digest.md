@@ -335,3 +335,22 @@ Lire la suite»...
 Pendant des décennies, le transfert d&rsquo;argent vers l&rsquo;Afrique était synonyme de&nbsp;Western Union, RIA&nbsp;ou de&nbsp;MoneyGram....
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-25
+
+### EN DIRECT DE NOUAKCHOTT | C’est parti pour Fintech Mauritania Hackathon 2026 !
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/25/en-direct-de-nouakchott-cest-parti-pour-fintech-mauritania-hackathon-2026/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Coup d’envoi de la deuxième édition du Fintech Mauritania Hackathon, organisée par Financial Afrik et Nouakchott Innovation Lab, du 25 au 28 septembre 2026.
+Au programme : innovation, intelligence collective et développement de solutions digitales au service de l’entrepreneuriat ...
+- **Statut** : [ ] à trier
+
+### Du Hackathon à l’écosystème : la Mauritanie passe-t-elle un cap ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/du-hackathon-a-lecosysteme-la-mauritanie-passe-t-elle-un-cap/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Par Hapsa Dia, Fondatrice de Nouakchott Innovation Lab (NIL) et Directrice de Founder Institute Mauritanie
+À la veille du démarrage de la deuxième édition du Fintech Mauritanie Hackathon, Hapsa Dia, initiatrice de Nouakchott Innovation Lab (NIL) et co-organisatrice de l’événement...
+- **Statut** : [ ] à trier
+
