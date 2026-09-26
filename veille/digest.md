@@ -354,3 +354,13 @@ Au programme : innovation, intelligence collective et développement de solution
 À la veille du démarrage de la deuxième édition du Fintech Mauritanie Hackathon, Hapsa Dia, initiatrice de Nouakchott Innovation Lab (NIL) et co-organisatrice de l’événement...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-26
+
+### Entretien exclusif avec Guy-Martial Awona, président de la FAPBEF-UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/25/entretien-exclusif-avec-guy-martial-awona-president-de-la-fapbef-uemoa/
+- **Mots-clés déclencheurs** : UEMOA, intelligence artificielle
+- **Résumé (extrait automatique)** : Le secteur bancaire de l’UEMOA fait preuve d’une résilience globale, avec des fonds propres et des bénéfices en progression, souligne Guy-Martial Awona, président de la Fédération des Associations Professionnelles des Banques et Établissements Financiers de l’UEMOA (FAPBEF-UEMOA)...
+- **Statut** : [ ] à trier
+
