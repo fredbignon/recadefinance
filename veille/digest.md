@@ -364,3 +364,20 @@ Au programme : innovation, intelligence collective et développement de solution
 - **Résumé (extrait automatique)** : Le secteur bancaire de l’UEMOA fait preuve d’une résilience globale, avec des fonds propres et des bénéfices en progression, souligne Guy-Martial Awona, président de la Fédération des Associations Professionnelles des Banques et Établissements Financiers de l’UEMOA (FAPBEF-UEMOA)...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-29
+
+### Cameroun : un PIB de près de 56 milliards USD en 2025
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/29/cameroun-un-pib-de-pres-de-56-milliards-usd-en-2025/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Selon les données de diverses institutions financières régionales et internationales (Banque de France et Fonds monétaire international (FMI)) qui suivent l’économie camerounaise, en 2025, le Produit intérieur brut (PIB) du pays est de 32.500 milliards de FCFA (environ 56,4 milli...
+- **Statut** : [ ] à trier
+
+### Les caisses de dépôt ont tenu leur rencontre annuelle 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/28/les-caisses-de-depot-ont-tenu-leur-rencontre-annuelle-2026/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : La Caisse des dépôts et consignations du Bénin a accueilli du 7 au 9 septembre 2026, au Sofitel Cotonou, la rencontre annuelle du Forum des caisses de dépôt, sur le thème « De la ressource à l&rsquo;impact : les CDC, catalyseurs du développement ». Une cinquantaine de délégations...
+- **Statut** : [ ] à trier
+
