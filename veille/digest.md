@@ -381,3 +381,21 @@ Au programme : innovation, intelligence collective et développement de solution
 - **Résumé (extrait automatique)** : La Caisse des dépôts et consignations du Bénin a accueilli du 7 au 9 septembre 2026, au Sofitel Cotonou, la rencontre annuelle du Forum des caisses de dépôt, sur le thème « De la ressource à l&rsquo;impact : les CDC, catalyseurs du développement ». Une cinquantaine de délégations...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-30
+
+### Filiga Michel Sawadogo : « Nos produits doivent trouver leur place chez nous avant de conquérir le continent »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/30/filiga-michel-sawadogo-nos-produits-doivent-trouver-leur-place-chez-nous-avant-de-conquerir-le-continent/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : À l’occasion de la 7e édition de l’initiative « Mois d’octobre, mois du consommer local » dans l’UEMOA, le Professeur Filiga Michel Sawadogo, Commissaire chargé du Département du Marché régional et de la Coopération de la Commission de l’UEMOA, revient sur les enjeux de souverain...
+- **Statut** : [ ] à trier
+
+### Contes* et courants : Est-ce bien vrai que la propriété à elle seule résoudrait la question de la souveraineté dans l’économie numérique?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/30/contes-et-courants-est-ce-bien-vrai-que-la-propriete-a-elle-seule-resoudrait-la-question-de-la-souverainete-dans-leconomie-numerique/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Par Gnagna Koné,  spécialiste en affaires publiques et stratégie réglementaire
+Il y a un an, soit dix-sept ans après le lancement commercial effectif des premières offres de  services financiers via téléphone mobile, la Banque Centrale des États de l’Afrique de l’Ouest (BCEAO) pr...
+- **Statut** : [ ] à trier
+
