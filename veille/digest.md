@@ -399,3 +399,21 @@ Au programme : innovation, intelligence collective et développement de solution
 Il y a un an, soit dix-sept ans après le lancement commercial effectif des premières offres de  services financiers via téléphone mobile, la Banque Centrale des États de l’Afrique de l’Ouest (BCEAO) pr...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-01
+
+### BCEAO : liste des 175 participants autorisés à ouvrir les services de PI-SPI au public au 30 septembre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/01/bceao-liste-des-175-participants-autorises-a-ouvrir-les-services-de-pi-spi-au-public-au-30-septembre-2026/
+- **Mots-clés déclencheurs** : BCEAO, Bénin
+- **Résumé (extrait automatique)** : La Banque centrale des États de l’Afrique de l’Ouest (BCEAO) a publié, mercredi 30 septembre 2026, la nouvelle liste des participants autorisés à ouvrir au public les services de la&nbsp;Plateforme interopérable du Système de paiement instantané (PI-SPI). Au total,&nbsp;175 établ...
+- **Statut** : [ ] à trier
+
+### Le Bénin obtient un financement bancaire international de 500 millions d’euros
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/30/le-benin-obtient-un-financement-bancaire-international-de-500-millions-deuros/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
