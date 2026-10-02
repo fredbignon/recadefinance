@@ -417,3 +417,20 @@ Il y a un an, soit dix-sept ans après le lancement commercial effectif des pre
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-02
+
+### ‎UMOA : croissance de 6 %, inflation et intégration financière au menu du Conseil des ministres
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/02/umoa-croissance-de-6-inflation-et-integration-financiere-au-menu-du-conseil-des-ministres/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : ‎La réunion ordinaire du Conseil des ministres de l’Union monétaire ouest-africaine (UMOA) s’est ouverte ce vendredi 2 octobre à Dakar, au siège de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO). Plusieurs dossiers portant notamment sur la protection sociale, l’inté...
+- **Statut** : [ ] à trier
+
+### AFRICA Day 2026 : au cœur des secteurs qui façonnent l’Afrique de demain
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/01/africa-day-2026-au-coeur-des-secteurs-qui-faconnent-lafrique-de-demain/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Porté par une adoption rapide du numérique, la montée en puissance de l&rsquo;intelligence artificielle et des investissements croissants dans la tech, le continent africain redéfinit ses modèles de croissance. A l’initiative de la French-African Foundation, du Groupe Axian et de...
+- **Statut** : [ ] à trier
+
