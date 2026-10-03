@@ -434,3 +434,13 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Porté par une adoption rapide du numérique, la montée en puissance de l&rsquo;intelligence artificielle et des investissements croissants dans la tech, le continent africain redéfinit ses modèles de croissance. A l’initiative de la French-African Foundation, du Groupe Axian et de...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-03
+
+### ‎À Dakar, le Conseil des ministres de l’UMOA adopte plusieurs réformes communautaires
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/02/a-dakar-le-conseil-des-ministres-de-lumoa-adopte-plusieurs-reformes-communautaires/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : ‎Au terme de la réunion ordinaire du Conseil des ministres de l’Union monétaire ouest-africaine (UMOA), tenue ce vendredi 2 octobre à Dakar, au siège de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), plusieurs décisions ont été adoptées. Elles traduisent la volonté...
+- **Statut** : [ ] à trier
+
