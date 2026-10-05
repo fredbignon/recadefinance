@@ -444,3 +444,14 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : ‎Au terme de la réunion ordinaire du Conseil des ministres de l’Union monétaire ouest-africaine (UMOA), tenue ce vendredi 2 octobre à Dakar, au siège de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), plusieurs décisions ont été adoptées. Elles traduisent la volonté...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-05
+
+### Investissements: Emmanuel Macron impulse une nouvelle dynamique avec le Bénin et le Sénégal
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/05/investissements-emmanuel-macron-impulse-une-nouvelle-dynamique-avec-le-benin-et-le-senegal/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
