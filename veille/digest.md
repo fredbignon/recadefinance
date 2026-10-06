@@ -455,3 +455,29 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-06
+
+### NSIA Banque Bénin : Edmond Koukou Adjikpè et Nina-Armelle Vignon Guendehou, un duo pour accélérer
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/06/nsia-banque-benin-edmond-koukou-adjikpe-et-nina-armelle-vignon-guendehou-un-duo-pour-accelerer/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : NSIA Banque Bénin ouvre une nouvelle page de sa gouvernance. Depuis le 1er octobre 2026, l’établissement est dirigé par Edmond Koukou Adjikpè, nommé Directeur général, tandis que Nina-Armelle Vignon Guendehou est reconduite dans ses fonctions de Directeur général adjoint. Un tand...
+- **Statut** : [ ] à trier
+
+### Bénin-France : reçu par Macron, Wadagni obtient près de 100 millions d’euros de financements
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/05/benin-france-recu-par-macron-wadagni-obtient-pres-de-100-millions-deuros-de-financements/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Sénégal : NSIA Banque Bénin fait condamner Africa Business Services à 111 millions FCFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/05/senegal-nsia-banque-benin-fait-condamner-africa-business-services-a-111-millions-fcfa/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
