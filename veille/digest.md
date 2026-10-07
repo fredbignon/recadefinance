@@ -481,3 +481,22 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-07
+
+### THÈME : Fraude au mobile money et responsabilité de l’émetteur de monnaie électronique dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/07/theme-fraude-au-mobile-money-et-responsabilite-de-lemetteur-de-monnaie-electronique-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Par KONÉ Péléni Jonathan Aimé, Docteur en droit privé de l’école de droit de l’Université Toulouse Capitole. Unité de recherche&nbsp;: Centre de Droit des Affaires. Spécialiste du droit bancaire, droit des services financiers, droit du crédit et de la consommation., 
+Résumé
+Le pr...
+- **Statut** : [ ] à trier
+
+### Lutte contre la criminalité financière : Cotonou accueille les « Benin Compliance Days » 2026 en novembre
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/06/lutte-contre-la-criminalite-financiere-cotonou-accueille-les-benin-compliance-days-2026-en-novembre/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Cotonou s’apprête à réunir les acteurs de la conformité et de la lutte contre la criminalité financière. L’Association Bénin Compliance (ABC) organisera les 13 et 14 novembre 2026 la première édition des Benin Compliance Days (BC Days), à l’Hôtel Azalaï de Cotonou. La rencontre, ...
+- **Statut** : [ ] à trier
+
