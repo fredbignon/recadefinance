@@ -500,3 +500,22 @@ Le pr...
 - **Résumé (extrait automatique)** : Cotonou s’apprête à réunir les acteurs de la conformité et de la lutte contre la criminalité financière. L’Association Bénin Compliance (ABC) organisera les 13 et 14 novembre 2026 la première édition des Benin Compliance Days (BC Days), à l’Hôtel Azalaï de Cotonou. La rencontre, ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-08
+
+### Mozambique : PawaPay, la fintech née avec un capital de 2 livres sterling,  décroche sa licence de paiement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/08/mozambique-pawapay-la-fintech-nee-avec-un-capital-de-2-livres-sterling-decroche-sa-licence-de-paiement/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Shelter Afrique lève 60 milliards FCFA sur le marché de l’UEMOA pour financer le logement abordable
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/07/shelter-afrique-leve-60-milliards-fcfa-sur-le-marche-de-luemoa-pour-financer-le-logement-abordable/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
