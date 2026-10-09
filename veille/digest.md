@@ -519,3 +519,14 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-09
+
+### Ghana : la Banque centrale pousse les fintechs vers l’usage réel des paiements numériques
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/ghana-la-banque-centrale-pousse-les-fintechs-vers-lusage-reel-des-paiements-numeriques/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
