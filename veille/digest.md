@@ -530,3 +530,27 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-10
+
+### UEMOA : la guerre au Moyen-Orient renchérit le carburant et pèse sur les finances publiques
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/uemoa-la-guerre-au-moyen-orient-rencherit-le-carburant-et-pese-sur-les-finances-publiques/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Kouakou Hyppolite Konan, directeur de la Surveillance multilatérale de la Commission de l’UEMOA, analyse les effets du conflit au Moyen-Orient sur les économies de l’Union. Dans L’Invité de l’intégration, il évoque la hausse des prix du carburant, les tensions sur les engrais et ...
+- **Statut** : [ ] à trier
+
+### UMOA : la BCEAO double le plafond des avoirs en monnaie électronique à 4 millions de FCFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/umoa-la-bceao-double-le-plafond-des-avoirs-en-monnaie-electronique-a-4-millions-de-fcfa/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : La Banque centrale des États de l’Afrique de l’Ouest (BCEAO) a adopté, le 8 octobre 2026, l’Instruction n° 020 modifiant l’Instruction n° 008-05-2015 du 21 mai 2015, qui encadre les conditions et modalités d’exercice des activités des émetteurs de monnaie électronique dans les Ét...
+- **Statut** : [ ] à trier
+
+### UEMOA : à Cotonou, les experts-comptables au cœur des enjeux de souveraineté financière
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/uemoa-a-cotonou-les-experts-comptables-au-coeur-des-enjeux-de-souverainete-financiere/
+- **Mots-clés déclencheurs** : UEMOA, Bénin
+- **Résumé (extrait automatique)** : Les 21 et 22 octobre 2026, la capitale économique béninoise accueillera le 8ᵉ Congrès des experts-comptables de l’UEMOA. Entre mobilisation des ressources internes, transparence financière, transformation numérique et intégration régionale, cette rencontre entend repositionner la...
+- **Statut** : [ ] à trier
+
