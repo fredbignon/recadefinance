@@ -554,3 +554,22 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Les 21 et 22 octobre 2026, la capitale économique béninoise accueillera le 8ᵉ Congrès des experts-comptables de l’UEMOA. Entre mobilisation des ressources internes, transparence financière, transformation numérique et intégration régionale, cette rencontre entend repositionner la...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-12
+
+### UEMOA : les Trésors publics amorcent leur intégration au système de paiement instantané
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/12/uemoa-les-tresors-publics-amorcent-leur-integration-au-systeme-de-paiement-instantane/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : La connexion des Trésors publics à la Plateforme interopérable du système de paiement instantané (PI-SPI) marque une nouvelle avancée dans la digitalisation des paiements publics au sein de l’Union économique et monétaire ouest-africaine (UEMOA).
+Grâce à cette plateforme mise en ...
+- **Statut** : [ ] à trier
+
+### La BCEAO double le plafond des wallets : quid du Kenya, du Maroc et du Nigeria ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/12/la-bceao-double-le-plafond-des-wallets-quid-du-kenya-du-maroc-et-du-nigeria/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
