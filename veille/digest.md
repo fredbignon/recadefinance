@@ -573,3 +573,14 @@ Grâce à cette plateforme mise en ...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-14
+
+### Nigéria : le FMI anticipe une croissance de 4,3 % en 2027 sur fond de désinflation
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/14/nigeria-le-fmi-anticipe-une-croissance-de-43-en-2027-sur-fond-de-desinflation/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
