@@ -584,3 +584,21 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-17
+
+### Dette du Sénégal : le FMI précise la clé du déblocage
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/17/dette-du-senegal-le-fmi-precise-la-cle-du-deblocage/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Les garanties de financement des créanciers officiels ouvriront la voie à l’examen du programme sénégalais par le conseil d’administration du FMI. À Bangkok, Zeine Ould Zeidane, directeur du département Afrique de l’institution, décrit une procédure en plusieurs étapes et soulign...
+- **Statut** : [ ] à trier
+
+### La quotidienne des marchés financiers africains : à Dakar, la BCEAO injecte des liquidités ; à Nairobi, statu quo sur le contrôle de Safaricom
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/16/la-quotidienne-des-marches-financiers-africains-a-dakar-la-bceao-injecte-des-liquidites-a-nairobi-statu-quo-sur-le-controle-de-safaricom/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
