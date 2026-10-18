@@ -602,3 +602,14 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-18
+
+### Assemblée de la Banque Mondiale et du FMI à Bangkok : chômage des jeunes et les lapalissades des dirigeants
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/18/assemblee-de-la-banque-mondiale-et-du-fmi-a-bangkok-chomage-des-jeunes-et-les-lapalissades-des-dirigeants/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
