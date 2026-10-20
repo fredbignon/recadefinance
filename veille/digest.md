@@ -613,3 +613,15 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-20
+
+### Entretien avec Paul SODOKIN,  Directeur du Bureau Bénin de NSIA ASSET MANAGEMENT
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/19/entretien-avec-paul-sodokin-directeur-du-bureau-benin-de-nsia-asset-management/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : &nbsp;
+« L’investissement à la portée de tous : les fonds communs de placement au service de l’inclusion financière »
+«Il n’est pas nécessaire d’être riche pour commencer à investir en Bourse&nbsp;», explique le Directeur de NSIA ASSET MANAGEMENT Bénin. Dans cet entretien,&nbsp;&...
+- **Statut** : [ ] à trier
+
