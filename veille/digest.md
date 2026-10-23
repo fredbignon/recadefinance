@@ -625,3 +625,30 @@ Lire la suite»...
 «Il n’est pas nécessaire d’être riche pour commencer à investir en Bourse&nbsp;», explique le Directeur de NSIA ASSET MANAGEMENT Bénin. Dans cet entretien,&nbsp;&...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-23
+
+### UEMOA : Alassane Ouattara signe le nouveau pacte de convergence
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/23/uemoa-alassane-ouattara-signe-le-nouveau-pacte-de-convergence/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Maroc : Saham Bank allie expertise humaine et intelligence artificielle dans son nouveau family office
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/23/maroc-saham-bank-allie-expertise-humaine-et-intelligence-artificielle-dans-son-nouveau-family-office/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Lettre ouverte à Kristalina Georgieva, directrice générale du FMI, et à Ajay Banga, président de la Banque mondiale
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/22/lettre-ouverte-a-kristalina-georgieva-directrice-generale-du-fmi-et-a-ajay-banga-president-de-la-banque-mondiale/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par Aboubakr Kaira Barry, CFA, directeur général de Results Associates et président du conseil d’administration de Omou Financial Literacy Center, Bethesda, Maryland, États-Unis
+D’abord, ne pas nuire : comment le FMI et la Banque mondiale peuvent aider l’Afrique à se financer ell...
+- **Statut** : [ ] à trier
+
