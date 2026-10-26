@@ -652,3 +652,22 @@ Lire la suite»...
 D’abord, ne pas nuire : comment le FMI et la Banque mondiale peuvent aider l’Afrique à se financer ell...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-26
+
+### Assurance : en fiançailles au Maroc, ASK fait du dilatoire au Bénin
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/25/assurance-en-fiancailles-au-maroc-ask-fait-du-dilatoire-au-benin/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Le Sénégal emprunte à plus de 8% sur UMOA -Titres : faut-il réguler les taux ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/25/le-senegal-emprunte-a-plus-de-8-sur-umoa-titres-faut-il-reguler-les-taux/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Par Pr Amath NDIAYE FASEG-UCAD
+L’adjudication du 23 octobre 2026 confirme le coût particulièrement élevé du financement de l’État sénégalais sur le marché régional. Si, la dégradation des finances publiques justifie une prime de risque, les avantages prudentiels dont bénéficient ...
+- **Statut** : [ ] à trier
+
