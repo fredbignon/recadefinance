@@ -671,3 +671,22 @@ Lire la suite»...
 L’adjudication du 23 octobre 2026 confirme le coût particulièrement élevé du financement de l’État sénégalais sur le marché régional. Si, la dégradation des finances publiques justifie une prime de risque, les avantages prudentiels dont bénéficient ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-27
+
+### Bénin : Bloomfield maintient la note A+ de la Loterie nationale (LNB)
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/26/benin-bloomfield-maintient-la-note-a-de-la-loterie-nationale-lnb/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Bénin: le Fonds d’investissement et de garantie des PME obtient l’agrément de la BCEAO
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/26/benin-le-fonds-dinvestissement-et-de-garantie-des-pme-obtient-lagrement-de-la-bceao/
+- **Mots-clés déclencheurs** : BCEAO, Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
