@@ -690,3 +690,20 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-28
+
+### Titrisation : Le pari réussi des 15 milliards de FCFA de BSIC Bénin pour le logement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/28/titrisation-le-pari-reussi-des-15-milliards-de-fcfa-de-bsic-benin-pour-le-logement/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Le FCTC ZAKA BSIC Bénin 2026-2033 a été intégralement souscrit et son placement clôturé, ce lundi 26 octobre, lors d’une cérémonie à Cotonou. Première opération de titrisation adossée à des créances commerciales dédiée au logement abordable au Bénin, elle a mobilisé 35 investisse...
+- **Statut** : [ ] à trier
+
+### Rapport InterGlobe : «Partenariats internationaux en Afrique de l’Ouest, quels apports ?»
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/27/rapport-interglobe-partenariats-internationaux-en-afrique-de-louest-quels-apports/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Présenté lors de la table ronde organisée par Bloomfield à Abidjan le 27 octobre sur la stratégie des pays côtiers de l’UEMOA et les pays de l’AES, le rapport d’InterGlobe s’intéresse au sujet clé « partenariats internationaux en Afrique de l’Ouest, quels apports ? ». Russie déce...
+- **Statut** : [ ] à trier
+
