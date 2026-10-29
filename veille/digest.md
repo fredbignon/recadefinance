@@ -707,3 +707,21 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Présenté lors de la table ronde organisée par Bloomfield à Abidjan le 27 octobre sur la stratégie des pays côtiers de l’UEMOA et les pays de l’AES, le rapport d’InterGlobe s’intéresse au sujet clé « partenariats internationaux en Afrique de l’Ouest, quels apports ? ». Russie déce...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-29
+
+### UEMOA : le COFEB et HEC Paris forment 26 cadres bancaires aux défis du numérique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/29/uemoa-le-cofeb-et-hec-paris-forment-26-cadres-bancaires-aux-defis-du-numerique/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Le Centre ouest-africain de formation et d’études bancaires (COFEB), centre de formation et de recherche de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), et HEC Paris ont organisé, le 28 octobre 2026 à Dakar, une cérémonie de remise des certificats du parcours de ...
+- **Statut** : [ ] à trier
+
+### Ecobank franchit les 2 milliards de dollars de revenus en dépit du boulet Nigérian et du recul de l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/28/ecobank-franchit-les-2-milliards-de-dollars-de-revenus-en-depit-du-boulet-nigerian-et-du-recul-de-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
