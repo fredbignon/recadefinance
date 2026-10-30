@@ -725,3 +725,13 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-30
+
+### Africa Prize 2026 : le Nigérien Mamane Kabirou Ousseini primé pour sa plateforme de surveillance médicale
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/29/africa-prize-2026-le-nigerien-mamane-kabirou-ousseini-prime-pour-sa-plateforme-de-surveillance-medicale/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Le Nigérien Mamane Kabirou Ousseini, directeur général et cofondateur de Likita Care, a remporté le 28 octobre 2026 l’Africa Prize for Engineering Innovation, présente comme le plus important prix consacré à l’ingénierie en Afrique, doté de 50 000 livres sterling (environ 67 000 ...
+- **Statut** : [ ] à trier
+
