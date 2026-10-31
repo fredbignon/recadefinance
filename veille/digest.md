@@ -735,3 +735,23 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Le Nigérien Mamane Kabirou Ousseini, directeur général et cofondateur de Likita Care, a remporté le 28 octobre 2026 l’Africa Prize for Engineering Innovation, présente comme le plus important prix consacré à l’ingénierie en Afrique, doté de 50 000 livres sterling (environ 67 000 ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-10-31
+
+### La révolution manquante du financement du développement africain
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/30/la-revolution-manquante-du-financement-du-developpement-africain/
+- **Mots-clés déclencheurs** : notation souveraine, FMI
+- **Résumé (extrait automatique)** : Par Dr Papa Demba Thiam, Économiste, architecte des transformations stratégiques.
+Sénégal–FMI : chronique d’un risque annoncé et révélateur de ce que les institutions financières africaines de développement devraient changer
+Le Sénégal traverse une crise financière dont les consé...
+- **Statut** : [ ] à trier
+
+### Bénin : 30 millions d’euros de financement pour le premier projet solaire IPP du pays
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/30/benin-30-millions-deuros-de-financement-pour-le-premier-projet-solaire-ipp-du-pays/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
