@@ -755,3 +755,22 @@ Le Sénégal traverse une crise financière dont les consé...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-01
+
+### Cybersécurité et finance numérique : Wave appelle à une mobilisation collective pour renforcer la confiance des utilisateurs
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/01/cybersecurite-et-finance-numerique-wave-appelle-a-une-mobilisation-collective-pour-renforcer-la-confiance-des-utilisateurs/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Hadjarata Ouattara, Bamako.
+À l&rsquo;occasion de la 4ᵉ édition des Journées Nationales de Cybersécurité (JNC), organisée à Bamako, Wave Mali a réaffirmé l&rsquo;importance d&rsquo;une collaboration renforcée entre les acteurs publics et privés pour sécuriser les services financi...
+- **Statut** : [ ] à trier
+
+### Loi des Finances Rectificative 2026 (LFR 2026) : sans accord avec le FMI, le Sénégal face au risque d’une crise systémique et d’une contagion régionale
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/31/loi-des-finances-rectificative-2026-lfr-2026-sans-accord-avec-le-fmi-le-senegal-face-au-risque-dune-crise-systemique-et-dune-contagion-regionale/
+- **Mots-clés déclencheurs** : UEMOA, dette souveraine, FMI
+- **Résumé (extrait automatique)** : Par Lansana Gagny SakhoSecrétaire général du Centre africain de veille et d’intelligence économique (CAVIE)
+Le second rejet de la Loi de finances rectificative fait entrer le Sénégal dans une zone de risque qui dépasse désormais le seul débat budgétaire. Dette souveraine, accès a...
+- **Statut** : [ ] à trier
+
