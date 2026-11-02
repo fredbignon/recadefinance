@@ -774,3 +774,15 @@ Lire la suite»...
 Le second rejet de la Loi de finances rectificative fait entrer le Sénégal dans une zone de risque qui dépasse désormais le seul débat budgétaire. Dette souveraine, accès a...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-02
+
+### Banques vs Fintechs : 10 clés pour ne pas perdre la bataille de la diaspora
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/01/banques-vs-fintechs-10-cles-pour-ne-pas-perdre-la-bataille-de-la-diaspora/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Par Samir Bouzidi, spécialiste de la mobilisation des diasporas africaines, ethnomarketer et CEO d&rsquo;Impact Diaspora
+Stratégie, budget 2027 : le moment est venu pour les banques d’évaluer leur véritable potentiel sur ce marché clé. 
+À l’approche des arbitrages budgétaires de ...
+- **Statut** : [ ] à trier
+
