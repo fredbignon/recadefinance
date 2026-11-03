@@ -786,3 +786,21 @@ Stratégie, budget 2027 : le moment est venu pour les banques d’évaluer leur 
 À l’approche des arbitrages budgétaires de ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-03
+
+### Sénégal : l’Assemblée nationale rejette le budget rectificatif 2026, l’accord avec le FMI dans l’impasse
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/03/senegal-lassemblee-nationale-rejette-le-budget-rectificatif-2026-laccord-avec-le-fmi-suspendu/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Inclusion financière dans l’UEMOA : le Bénin, champion toutes catégories
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/03/inclusion-financiere-dans-luemoa-le-benin-champion-toutes-categories/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO, Bénin
+- **Résumé (extrait automatique)** : Le rapport annuel 2025 de la BCEAO sur la situation de l&rsquo;inclusion financière  place le Bénin en tête des huit pays de l’Union économique et monétaire ouest-africaine (Uemoa) sur les six indicateurs de niveau retenus. Un sans-faute inédit, qui masque une région en pleine re...
+- **Statut** : [ ] à trier
+
