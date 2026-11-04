@@ -804,3 +804,14 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Le rapport annuel 2025 de la BCEAO sur la situation de l&rsquo;inclusion financière  place le Bénin en tête des huit pays de l’Union économique et monétaire ouest-africaine (Uemoa) sur les six indicateurs de niveau retenus. Un sans-faute inédit, qui masque une région en pleine re...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-04
+
+### Financer les PME, bâtir le Bénin
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/04/financer-les-pme-batir-le-benin/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Par José Herbert Ahodode, Chef Service Subventions et Facilités d&rsquo;Accès aux Financements à l&rsquo;ADPME.
+Au Bénin, plus de 90% du tissu économique est constitué de micro, petites et moyennes entreprises. Elles emploient, innovent et irriguent l&rsquo;économie locale, mais ...
+- **Statut** : [ ] à trier
+
