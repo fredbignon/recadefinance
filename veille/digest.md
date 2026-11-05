@@ -815,3 +815,35 @@ Lire la suite»...
 Au Bénin, plus de 90% du tissu économique est constitué de micro, petites et moyennes entreprises. Elles emploient, innovent et irriguent l&rsquo;économie locale, mais ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-05
+
+### Shelter Afrique Development Bank clôture avec succès son émission d’obligations durables de 60 milliards FCFA avec CGF Bourse comme Arrangeur et Chef de File
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/shelter-afrique-development-bank-cloture-avec-succes-son-emission-dobligations-durables-de-60-milliards-fcfa-avec-cgf-bourse-comme-arrangeur-et-chef-de-file/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Une opération dédiée exclusivement au financement du logement dans l&rsquo;espace UEMOA, qui illustre le rôle du marché financier régional dans la mobilisation de ressources au service du développement durable.
+Shelter Afrique Development Bank (ShafDB) a clôturé avec succès le 30...
+- **Statut** : [ ] à trier
+
+### Pape Demba Thiam : au delà du Sénégal et du FMI, des questions stratégiques pour l’Afrique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/pape-demba-thiam-au-dela-du-senegal-et-du-fmi-des-questions-strategiques-pour-lafrique-2/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Économiste, entrepreneur et ancien cadre de la Banque mondiale, Pape Demba Thiam est l’invité spécial de Financial Afrik pour un grand entretien consacré aux choix économiques de l’Afrique et aux mécanismes qui, selon lui, continuent d’entraver la transformation du continent.Né à...
+- **Statut** : [ ] à trier
+
+### Entretien avec  Guy-Martial Awona, président de la FAPBEF-UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/entretien-avec-guy-martial-awona-president-de-la-fapbef-uemoa/
+- **Mots-clés déclencheurs** : UEMOA, intelligence artificielle
+- **Résumé (extrait automatique)** : À l’occasion du Forum régional de la Fédération des Associations Professionnelles des Banques et Établissements Financiers de l’UEMOA (FAPBEF-UEMOA), tenu les 23 et 24 septembre 2026 à Dakar autour de l’intelligence artificielle et de la transformation bancaire, Financial Afrik s...
+- **Statut** : [ ] à trier
+
+### Oulimata Ndiaye, Directeur de UMOA-Titres, revient sur les grandes dynamiques du Marché des Titres Publics de l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/oulimata-ndiaye-directeur-de-umoa-titres-revient-sur-les-grandes-dynamiques-du-marche-des-titres-publics-de-luemoa/
+- **Mots-clés déclencheurs** : UEMOA, dette souveraine
+- **Résumé (extrait automatique)** : Dans cet entretien exclusif accordé à Financial Afrik, Oulimata Ndiaye, Directeur de UMOA-Titres, revient sur les grandes dynamiques du Marché des Titres Publics de l’UEMOA, devenu un levier central du financement des États de l’Union.Évolution des encours, profil des investisseu...
+- **Statut** : [ ] à trier
+
