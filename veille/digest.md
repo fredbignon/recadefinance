@@ -45,3 +45,805 @@ Côte...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-09-02
+
+### Sénégal : PTDS et accord avec le FMI, le retour au réalisme économique après deux années perdues
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/02/senegal-ptds-et-accord-avec-le-fmi-le-retour-au-realisme-economique-apres-deux-annees-perdues/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par professeur  Amath Ndiaye, FASEG/UCAD 
+Le lancement du Plan de traitement de la dette du Sénégal (PTDS) et l&rsquo;accord conclu au niveau des services avec le Fonds monétaire international constituent un tournant majeur dans la gestion de la crise financière sénégalaise. Pour...
+- **Statut** : [ ] à trier
+
+### Bénin, 100 jours après | Wadagni imprime sa marque
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/02/benin-100-jours-apres-wadagni-imprime-sa-marque/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Développement local, santé, jeunesse : des arbitrages majeurs 
+Cent jours après le début de son mandat, la feuille de route du président Romuald Wadagni se matérialise déjà par des arbitrages majeurs, à l&rsquo;instar de la prise en charge inconditionnelle des urgences médicales ...
+- **Statut** : [ ] à trier
+
+### Pape Demba Thiam : au delà du Sénégal et du FMI, des questions stratégiques pour l’Afrique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/02/pape-demba-thiam-au-dela-du-senegal-et-du-fmi-des-questions-strategiques-pour-lafrique/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Économiste, entrepreneur et ancien cadre de la Banque mondiale,&nbsp;Pape Demba Thiam&nbsp;est l’invité spécial de Financial Afrik pour un grand entretien consacré aux choix économiques de l’Afrique et aux mécanismes qui, selon lui, continuent d’entraver la transformation du cont...
+- **Statut** : [ ] à trier
+
+### Sénégal – FMI : un signal historique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/01/senegal-fmi-un-signal-historique/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par Lansana Gagny Sakho
+L&rsquo;accord au niveau des services du 1er septembre 2026 : ce qu&rsquo;il dit, ce qu&rsquo;il exige, et ce que les marchés observeront
+Il arrive dans l&rsquo;histoire économique d&rsquo;un pays des journées dont la portée dépasse celle de tous les disco...
+- **Statut** : [ ] à trier
+
+### Sénégal–FMI : un programme 2,2 milliards de dollars sans restructuration
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/01/senegal-fmi-un-programme-22-milliards-de-dollars-sans-restructuration/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-03
+
+### Entretien avec Théodore Ganfle, directeur général de la SGI-AGI : « La question n’est pas seulement de trouver du capital »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/03/theodore-ganfle-sgi-agi-la-question-nest-pas-seulement-de-trouver-du-capital/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Pour Théodore Ganfle, directeur général de la SGI-AGI basée à Cotonou (Bénin), le paradoxe ouest-africain — liquidités abondantes, PME sous-financées — tient à un fossé de structuration : « la question n’est pas seulement de trouver du capital, mais de rendre les entreprises inve...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-04
+
+### Burkina Faso : 151,5 milliards FCFA de « Diaspora Bonds » font leur entrée à la BRVM
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/03/burkina-faso-1515-milliards-fcfa-de-diaspora-bonds-font-leur-entree-a-la-brvm/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Le marché financier régional de l’UEMOA a enregistré, ce jeudi 3 septembre 2026, la première cotation, sur le compartiment obligataire de la BRVM, des emprunts « TPBF DIASPORA BONDS 6,75 % 2026-2031 » et « TPBF DIASPORA BONDS 6,85 % 2026-2033 », émis par l’État burkinabè entre le...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-05
+
+### La soutenabilité de la dette publique au Sénégal : entre ajustement budgétaire, programme du FMI et éventuelle restructuration
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/04/la-soutenabilite-de-la-dette-publique-au-senegal-entre-ajustement-budgetaire-programme-du-fmi-et-eventuelle-restructuration/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par Dr Serigne Momar SECK, Economiste
+La soutenabilité de la dette publique du Sénégal s&rsquo;est progressivement imposée comme l&rsquo;un des principaux enjeux macroéconomiques du pays. Les résultats des audits réalisés depuis 2024, qui ont conduit à une réévaluation du niveau ...
+- **Statut** : [ ] à trier
+
+### Sénégal : FMI, PTDS, les enjeux et défis d’un nouveau départ
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/04/senegal-fmi-ptds-les-enjeux-et-defis-dun-nouveau-depart/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Nigéria : la fintech Nomba lève 3 millions USD pour les paiements transfrontaliers
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/04/nigeria-la-fintech-nomba-leve-3-millions-usd-pour-les-paiements-transfrontaliers/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-08
+
+### Bénin : Coris Bank International réclame 1,11 milliard de FCFA à SAN DISTRIBUTION
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/07/benin-coris-bank-international-reclame-111-milliard-de-fcfa-a-san-distribution/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Coris Bank International Bénin SA réclame une créance de 1,11 milliard de FCFA à la société SAN DISTRIBUTION SARL dans le cadre d’un différend qui les oppose. Une première décision a été rendue le 3 septembre 2026 et donne raison à la banque sur le point central de l’exception so...
+- **Statut** : [ ] à trier
+
+### Finance durable : avec trois émissions majeures à 90 milliards FCFA, CGF BOURSE assoit sa suprématie dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/06/finance-durable-avec-trois-emissions-majeures-a-90-milliards-fcfa-cgf-bourse-assoit-sa-suprematie-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Alors que le marché financier d’Afrique de l&rsquo;Ouest cherche à concilier rentabilité et impact social, CGF Bourse signe un coup de maître stratégique. Élue meilleure Société de Gestion et d’Intermédiation (SGI) de la zone UEMOA en 2025 puis en 2026, l’institution dakaroise ré...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-09
+
+### CEMAC : GIC Rating à l’assaut du marché de la notation
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/08/cemac-gic-rating-a-lassaut-du-marche-de-la-notation/
+- **Mots-clés déclencheurs** : risque de crédit
+- **Résumé (extrait automatique)** : Après avoir obtenu, le 7 août 2026, son agrément de la Commission de surveillance du marché d’Afrique centrale (COSUMAF) — le premier délivré par le régulateur à une agence de notation — Geneva Investment Corporation (GIC Rating) accélère son déploiement. Dès le lendemain, le Con...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-10
+
+### Ecobank Bénin, meilleur Spécialiste en Valeurs du Trésor de l’UEMOA 2024
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/10/ecobank-benin-meilleur-specialiste-en-valeurs-du-tresor-de-luemoa-2024/
+- **Mots-clés déclencheurs** : UEMOA, Bénin
+- **Résumé (extrait automatique)** : Ecobank Bénin s’est classée en tête des Spécialistes en Valeurs du Trésor (SVT) au Bénin en 2024. Une distinction qui repose à la fois sur la participation aux émissions de titres publics, l’activité sur le marché secondaire et la qualité de la relation avec le Trésor public. Lyd...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-11
+
+### Politique monétaire : la BCEAO temporise, la BCE hausse le ton
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/11/politique-monetaire-la-bceao-temporise-la-bce-hausse-le-ton/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-14
+
+### Nvalaye Kourouma prend la tête du Consumer & Commercial Banking d’Ecobank pour la Côte d’Ivoire et l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/14/nvalaye-kourouma-prend-la-tete-du-consumer-commercial-banking-decobank-pour-la-cote-divoire-et-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-15
+
+### Breaking News – Le Bénin rejoint le cercle des signatures souveraines africaines mieux notées : Bloomfield relève la note du pays à AA-
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/15/breaking-news-le-benin-rejoint-le-cercle-des-signatures-souveraines-africaines-mieux-notees-bloomfield-releve-la-note-du-pays-a-aa/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### UEMOA : Ouagadougou accueille une session de formation destinée aux journalistes économiques
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/14/uemoa-ouagadougou-accueille-une-session-de-formation-destinee-aux-journalistes-economiques/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : La Commission de l&rsquo;Union économique et monétaire ouest-africaine (UEMOA) a ouvert, ce lundi à Ouagadougou, au Burkina Faso, une session d&rsquo;information et de sensibilisation destinée aux professionnels des médias des huit États membres. Prévue du 14 au 18 septembre, cet...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-16
+
+### Trois PIB, le classement qui trompe
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/16/trois-pib-le-classement-qui-trompe/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Deux fois plus riche, ou moins ? Selon les projections du FMI pour 2026, un Ivoirien produit deux fois plus qu&rsquo;un Nigérian en PIB nominal — mais moins en parité de pouvoir d&rsquo;achat. Dans cette tribune, Roland BOA, CEO de PERCEP GROUP, décortique ce paradoxe : nominal, ...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-17
+
+### Cameroun : l’État confie l’audit 2023 d’Eneo au groupement béninois Erudit-FCG
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/16/cameroun-letat-confie-laudit-2023-deneo-au-groupement-beninois-erudit-fcg/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-18
+
+### CEMAC–FMI : la BEAC tente de débloquer les nouveaux programmes du Cameroun, du Congo et du Gabon
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/17/cemac-fmi-la-beac-tente-de-debloquer-les-nouveaux-programmes-du-cameroun-du-congo-et-du-gabon/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Mauritanie : en direct du Forum International de l’Agriculture et des Ressources Africaines (FIARA 2026)
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/17/mauritanie-en-direct-du-forum-international-de-lagriculture-et-des-ressources-africaines-fiara-2026/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Le Forum International de l’Agriculture et des Ressources Africaines (FIARA 2026) s’ouvre ce jeudi 17 septembre 2026 à Nouakchott, en Mauritanie, et se poursuit jusqu’au 19 septembre, à l’ancien Palais des Congrès. Cette première édition veut réunir producteurs, entrepreneurs, in...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-19
+
+### Financement des startups en Afrique : le surprenant Bénin détrône l’Egypte et le Kenya
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/18/financement-des-startups-en-afrique-le-surprenant-benin-detrone-legypte-et-le-maroc/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-20
+
+### Croissance : l’UEMOA en surrégime, le Niger en tête à 7,0 % au deuxième trimestre
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/20/croissance-luemoa-en-surregime-le-niger-en-tete-a-70-au-deuxieme-trimestre/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : L’Union ouest-africaine confirme sa vitalité économique. Au deuxième trimestre 2026, le PIB réel de l’UEMOA a progressé de 6,0 % en glissement annuel, après 6,1 % au trimestre précédent, d’après les données du dernier Rapport de politique monétaire publié par la Banque centrale d...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-21
+
+### Sénégal : les non-dits du débat sur la dette
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/21/senegal-les-non-dits-du-debat-sur-la-dette/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par&nbsp; Hannah Rae Armstrong* et John McIntire*
+Depuis que le Premier ministre sénégalais Ahmadou Al Amine Lô a présenté sa déclaration de politique générale, centrée sur une proposition d’un nouvel accord avec le FMI, le débat animé entre les législateurs et les économistes sé...
+- **Statut** : [ ] à trier
+
+### Zone UEMOA : quand les marchés préfèrent les Etats aux entreprises privées
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/20/zone-uemoa-quand-les-marches-preferent-les-etats-aux-entreprises-privees/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Par Lansana Gagny Sakho, Président du Cercle des Administrateurs Publics &nbsp;| &nbsp;PCA APIX-SA. 
+Inspiré par Mathilde Lemoine, cheffe économiste du groupe Edmond de Rothschild «&nbsp;Quand les marchés préfèrent les entreprises aux États&nbsp;» article publié dans la presse éc...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-23
+
+### Ecobank élargit le mandat de Korédé Odjo-Bella avec le pilotage régional des Produits Consumer & Commercial Banking en Côte d’Ivoire et dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/23/ecobank-elargit-le-mandat-de-korede-odjo-bella-avec-le-pilotage-regional-des-produits-consumer-commercial-banking-en-cote-divoire-et-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ecobank annonce la nomination de Korédé Odjo-Bella au poste de Head Produits CCB pour la Côte d’Ivoire et la région UEMOA, avec effet immédiat.
+Dans ses nouvelles fonctions, Korédé Odjo-Bella aura la responsabilité de définir et piloter la stratégie produits du Consumer &amp; Com...
+- **Statut** : [ ] à trier
+
+### Banques : Hausse de 19% du produit net bancaire de la Banque Internationale pour l’Industrie et le Commerce du Bénin au premier semestre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/23/banques-hausse-de-19-du-produit-net-bancaire-de-la-banque-internationale-pour-lindustrie-et-le-commerce-du-benin-au-premier-semestre-2026/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-24
+
+### Kadotien Alassane Soro – Yango Côte d’Ivoire : « Construire sur les talents locaux, c’est notre ADN »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/kadotien-alassane-soro-yango-cote-divoire-construire-sur-les-talents-locaux-cest-notre-adn/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : À Abidjan, le Yango Fellowship a célébré sa troisième génération : 24 jeunes talents, sélectionnés parmi près de six cents candidats, venus de six pays africains. En marge de cette cérémonie panafricaine, Kadotien Alassane Soro, directeur pays de Yango Côte d&rsquo;Ivoire, revien...
+- **Statut** : [ ] à trier
+
+### Sarah Ndaw, Vice-présidente des ventes de Webb Fontaine : « La transformation digitale des ports est d’abord un projet de transformation avant d’être un projet informatique »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/sarah-ndaw-vice-presidente-des-ventes-de-webb-fontaine-la-transformation-digitale-des-ports-est-dabord-un-projet-de-transformation-avant-detre-un-projet-informatique/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : À l’occasion de la Journée mondiale de la mer, célébrée le 24 septembre, Financial Afrik s’est entretenu avec Sarah Ndaw, Vice-présidente des ventes de Webb Fontaine. L’experte analyse les mutations en cours dans le secteur maritime africain, les défis liés à la fluidification de...
+- **Statut** : [ ] à trier
+
+### Fintech, Mobile Money, Banques centrales : ce qui se passe réellement lorsqu’un euro devient un franc CFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/fintech-mobile-money-banques-centrales-ce-qui-se-passe-reellement-lorsquun-euro-devient-un-franc-cfa/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Par Raphaël NKOLWOUDOU, Docteur en droit (PhD – Université Paris Cité), Contract Manager chez&nbsp;Teragone Solutions, Paris, France.&nbsp;
+Pendant des décennies, le transfert d&rsquo;argent vers l&rsquo;Afrique était synonyme de&nbsp;Western Union, RIA&nbsp;ou de&nbsp;MoneyGram....
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-25
+
+### EN DIRECT DE NOUAKCHOTT | C’est parti pour Fintech Mauritania Hackathon 2026 !
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/25/en-direct-de-nouakchott-cest-parti-pour-fintech-mauritania-hackathon-2026/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Coup d’envoi de la deuxième édition du Fintech Mauritania Hackathon, organisée par Financial Afrik et Nouakchott Innovation Lab, du 25 au 28 septembre 2026.
+Au programme : innovation, intelligence collective et développement de solutions digitales au service de l’entrepreneuriat ...
+- **Statut** : [ ] à trier
+
+### Du Hackathon à l’écosystème : la Mauritanie passe-t-elle un cap ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/24/du-hackathon-a-lecosysteme-la-mauritanie-passe-t-elle-un-cap/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Par Hapsa Dia, Fondatrice de Nouakchott Innovation Lab (NIL) et Directrice de Founder Institute Mauritanie
+À la veille du démarrage de la deuxième édition du Fintech Mauritanie Hackathon, Hapsa Dia, initiatrice de Nouakchott Innovation Lab (NIL) et co-organisatrice de l’événement...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-26
+
+### Entretien exclusif avec Guy-Martial Awona, président de la FAPBEF-UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/25/entretien-exclusif-avec-guy-martial-awona-president-de-la-fapbef-uemoa/
+- **Mots-clés déclencheurs** : UEMOA, intelligence artificielle
+- **Résumé (extrait automatique)** : Le secteur bancaire de l’UEMOA fait preuve d’une résilience globale, avec des fonds propres et des bénéfices en progression, souligne Guy-Martial Awona, président de la Fédération des Associations Professionnelles des Banques et Établissements Financiers de l’UEMOA (FAPBEF-UEMOA)...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-29
+
+### Cameroun : un PIB de près de 56 milliards USD en 2025
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/29/cameroun-un-pib-de-pres-de-56-milliards-usd-en-2025/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Selon les données de diverses institutions financières régionales et internationales (Banque de France et Fonds monétaire international (FMI)) qui suivent l’économie camerounaise, en 2025, le Produit intérieur brut (PIB) du pays est de 32.500 milliards de FCFA (environ 56,4 milli...
+- **Statut** : [ ] à trier
+
+### Les caisses de dépôt ont tenu leur rencontre annuelle 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/28/les-caisses-de-depot-ont-tenu-leur-rencontre-annuelle-2026/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : La Caisse des dépôts et consignations du Bénin a accueilli du 7 au 9 septembre 2026, au Sofitel Cotonou, la rencontre annuelle du Forum des caisses de dépôt, sur le thème « De la ressource à l&rsquo;impact : les CDC, catalyseurs du développement ». Une cinquantaine de délégations...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-09-30
+
+### Filiga Michel Sawadogo : « Nos produits doivent trouver leur place chez nous avant de conquérir le continent »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/30/filiga-michel-sawadogo-nos-produits-doivent-trouver-leur-place-chez-nous-avant-de-conquerir-le-continent/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : À l’occasion de la 7e édition de l’initiative « Mois d’octobre, mois du consommer local » dans l’UEMOA, le Professeur Filiga Michel Sawadogo, Commissaire chargé du Département du Marché régional et de la Coopération de la Commission de l’UEMOA, revient sur les enjeux de souverain...
+- **Statut** : [ ] à trier
+
+### Contes* et courants : Est-ce bien vrai que la propriété à elle seule résoudrait la question de la souveraineté dans l’économie numérique?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/30/contes-et-courants-est-ce-bien-vrai-que-la-propriete-a-elle-seule-resoudrait-la-question-de-la-souverainete-dans-leconomie-numerique/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Par Gnagna Koné,  spécialiste en affaires publiques et stratégie réglementaire
+Il y a un an, soit dix-sept ans après le lancement commercial effectif des premières offres de  services financiers via téléphone mobile, la Banque Centrale des États de l’Afrique de l’Ouest (BCEAO) pr...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-01
+
+### BCEAO : liste des 175 participants autorisés à ouvrir les services de PI-SPI au public au 30 septembre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/01/bceao-liste-des-175-participants-autorises-a-ouvrir-les-services-de-pi-spi-au-public-au-30-septembre-2026/
+- **Mots-clés déclencheurs** : BCEAO, Bénin
+- **Résumé (extrait automatique)** : La Banque centrale des États de l’Afrique de l’Ouest (BCEAO) a publié, mercredi 30 septembre 2026, la nouvelle liste des participants autorisés à ouvrir au public les services de la&nbsp;Plateforme interopérable du Système de paiement instantané (PI-SPI). Au total,&nbsp;175 établ...
+- **Statut** : [ ] à trier
+
+### Le Bénin obtient un financement bancaire international de 500 millions d’euros
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/09/30/le-benin-obtient-un-financement-bancaire-international-de-500-millions-deuros/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-02
+
+### ‎UMOA : croissance de 6 %, inflation et intégration financière au menu du Conseil des ministres
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/02/umoa-croissance-de-6-inflation-et-integration-financiere-au-menu-du-conseil-des-ministres/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : ‎La réunion ordinaire du Conseil des ministres de l’Union monétaire ouest-africaine (UMOA) s’est ouverte ce vendredi 2 octobre à Dakar, au siège de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO). Plusieurs dossiers portant notamment sur la protection sociale, l’inté...
+- **Statut** : [ ] à trier
+
+### AFRICA Day 2026 : au cœur des secteurs qui façonnent l’Afrique de demain
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/01/africa-day-2026-au-coeur-des-secteurs-qui-faconnent-lafrique-de-demain/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Porté par une adoption rapide du numérique, la montée en puissance de l&rsquo;intelligence artificielle et des investissements croissants dans la tech, le continent africain redéfinit ses modèles de croissance. A l’initiative de la French-African Foundation, du Groupe Axian et de...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-03
+
+### ‎À Dakar, le Conseil des ministres de l’UMOA adopte plusieurs réformes communautaires
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/02/a-dakar-le-conseil-des-ministres-de-lumoa-adopte-plusieurs-reformes-communautaires/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : ‎Au terme de la réunion ordinaire du Conseil des ministres de l’Union monétaire ouest-africaine (UMOA), tenue ce vendredi 2 octobre à Dakar, au siège de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), plusieurs décisions ont été adoptées. Elles traduisent la volonté...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-05
+
+### Investissements: Emmanuel Macron impulse une nouvelle dynamique avec le Bénin et le Sénégal
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/05/investissements-emmanuel-macron-impulse-une-nouvelle-dynamique-avec-le-benin-et-le-senegal/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-06
+
+### NSIA Banque Bénin : Edmond Koukou Adjikpè et Nina-Armelle Vignon Guendehou, un duo pour accélérer
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/06/nsia-banque-benin-edmond-koukou-adjikpe-et-nina-armelle-vignon-guendehou-un-duo-pour-accelerer/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : NSIA Banque Bénin ouvre une nouvelle page de sa gouvernance. Depuis le 1er octobre 2026, l’établissement est dirigé par Edmond Koukou Adjikpè, nommé Directeur général, tandis que Nina-Armelle Vignon Guendehou est reconduite dans ses fonctions de Directeur général adjoint. Un tand...
+- **Statut** : [ ] à trier
+
+### Bénin-France : reçu par Macron, Wadagni obtient près de 100 millions d’euros de financements
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/05/benin-france-recu-par-macron-wadagni-obtient-pres-de-100-millions-deuros-de-financements/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Sénégal : NSIA Banque Bénin fait condamner Africa Business Services à 111 millions FCFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/05/senegal-nsia-banque-benin-fait-condamner-africa-business-services-a-111-millions-fcfa/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-07
+
+### THÈME : Fraude au mobile money et responsabilité de l’émetteur de monnaie électronique dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/07/theme-fraude-au-mobile-money-et-responsabilite-de-lemetteur-de-monnaie-electronique-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Par KONÉ Péléni Jonathan Aimé, Docteur en droit privé de l’école de droit de l’Université Toulouse Capitole. Unité de recherche&nbsp;: Centre de Droit des Affaires. Spécialiste du droit bancaire, droit des services financiers, droit du crédit et de la consommation., 
+Résumé
+Le pr...
+- **Statut** : [ ] à trier
+
+### Lutte contre la criminalité financière : Cotonou accueille les « Benin Compliance Days » 2026 en novembre
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/06/lutte-contre-la-criminalite-financiere-cotonou-accueille-les-benin-compliance-days-2026-en-novembre/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Cotonou s’apprête à réunir les acteurs de la conformité et de la lutte contre la criminalité financière. L’Association Bénin Compliance (ABC) organisera les 13 et 14 novembre 2026 la première édition des Benin Compliance Days (BC Days), à l’Hôtel Azalaï de Cotonou. La rencontre, ...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-08
+
+### Mozambique : PawaPay, la fintech née avec un capital de 2 livres sterling,  décroche sa licence de paiement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/08/mozambique-pawapay-la-fintech-nee-avec-un-capital-de-2-livres-sterling-decroche-sa-licence-de-paiement/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Shelter Afrique lève 60 milliards FCFA sur le marché de l’UEMOA pour financer le logement abordable
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/07/shelter-afrique-leve-60-milliards-fcfa-sur-le-marche-de-luemoa-pour-financer-le-logement-abordable/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-09
+
+### Ghana : la Banque centrale pousse les fintechs vers l’usage réel des paiements numériques
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/ghana-la-banque-centrale-pousse-les-fintechs-vers-lusage-reel-des-paiements-numeriques/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-10
+
+### UEMOA : la guerre au Moyen-Orient renchérit le carburant et pèse sur les finances publiques
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/uemoa-la-guerre-au-moyen-orient-rencherit-le-carburant-et-pese-sur-les-finances-publiques/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Kouakou Hyppolite Konan, directeur de la Surveillance multilatérale de la Commission de l’UEMOA, analyse les effets du conflit au Moyen-Orient sur les économies de l’Union. Dans L’Invité de l’intégration, il évoque la hausse des prix du carburant, les tensions sur les engrais et ...
+- **Statut** : [ ] à trier
+
+### UMOA : la BCEAO double le plafond des avoirs en monnaie électronique à 4 millions de FCFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/umoa-la-bceao-double-le-plafond-des-avoirs-en-monnaie-electronique-a-4-millions-de-fcfa/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : La Banque centrale des États de l’Afrique de l’Ouest (BCEAO) a adopté, le 8 octobre 2026, l’Instruction n° 020 modifiant l’Instruction n° 008-05-2015 du 21 mai 2015, qui encadre les conditions et modalités d’exercice des activités des émetteurs de monnaie électronique dans les Ét...
+- **Statut** : [ ] à trier
+
+### UEMOA : à Cotonou, les experts-comptables au cœur des enjeux de souveraineté financière
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/09/uemoa-a-cotonou-les-experts-comptables-au-coeur-des-enjeux-de-souverainete-financiere/
+- **Mots-clés déclencheurs** : UEMOA, Bénin
+- **Résumé (extrait automatique)** : Les 21 et 22 octobre 2026, la capitale économique béninoise accueillera le 8ᵉ Congrès des experts-comptables de l’UEMOA. Entre mobilisation des ressources internes, transparence financière, transformation numérique et intégration régionale, cette rencontre entend repositionner la...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-12
+
+### UEMOA : les Trésors publics amorcent leur intégration au système de paiement instantané
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/12/uemoa-les-tresors-publics-amorcent-leur-integration-au-systeme-de-paiement-instantane/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : La connexion des Trésors publics à la Plateforme interopérable du système de paiement instantané (PI-SPI) marque une nouvelle avancée dans la digitalisation des paiements publics au sein de l’Union économique et monétaire ouest-africaine (UEMOA).
+Grâce à cette plateforme mise en ...
+- **Statut** : [ ] à trier
+
+### La BCEAO double le plafond des wallets : quid du Kenya, du Maroc et du Nigeria ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/12/la-bceao-double-le-plafond-des-wallets-quid-du-kenya-du-maroc-et-du-nigeria/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-14
+
+### Nigéria : le FMI anticipe une croissance de 4,3 % en 2027 sur fond de désinflation
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/14/nigeria-le-fmi-anticipe-une-croissance-de-43-en-2027-sur-fond-de-desinflation/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-17
+
+### Dette du Sénégal : le FMI précise la clé du déblocage
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/17/dette-du-senegal-le-fmi-precise-la-cle-du-deblocage/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Les garanties de financement des créanciers officiels ouvriront la voie à l’examen du programme sénégalais par le conseil d’administration du FMI. À Bangkok, Zeine Ould Zeidane, directeur du département Afrique de l’institution, décrit une procédure en plusieurs étapes et soulign...
+- **Statut** : [ ] à trier
+
+### La quotidienne des marchés financiers africains : à Dakar, la BCEAO injecte des liquidités ; à Nairobi, statu quo sur le contrôle de Safaricom
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/16/la-quotidienne-des-marches-financiers-africains-a-dakar-la-bceao-injecte-des-liquidites-a-nairobi-statu-quo-sur-le-controle-de-safaricom/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-18
+
+### Assemblée de la Banque Mondiale et du FMI à Bangkok : chômage des jeunes et les lapalissades des dirigeants
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/18/assemblee-de-la-banque-mondiale-et-du-fmi-a-bangkok-chomage-des-jeunes-et-les-lapalissades-des-dirigeants/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-20
+
+### Entretien avec Paul SODOKIN,  Directeur du Bureau Bénin de NSIA ASSET MANAGEMENT
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/19/entretien-avec-paul-sodokin-directeur-du-bureau-benin-de-nsia-asset-management/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : &nbsp;
+« L’investissement à la portée de tous : les fonds communs de placement au service de l’inclusion financière »
+«Il n’est pas nécessaire d’être riche pour commencer à investir en Bourse&nbsp;», explique le Directeur de NSIA ASSET MANAGEMENT Bénin. Dans cet entretien,&nbsp;&...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-23
+
+### UEMOA : Alassane Ouattara signe le nouveau pacte de convergence
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/23/uemoa-alassane-ouattara-signe-le-nouveau-pacte-de-convergence/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Maroc : Saham Bank allie expertise humaine et intelligence artificielle dans son nouveau family office
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/23/maroc-saham-bank-allie-expertise-humaine-et-intelligence-artificielle-dans-son-nouveau-family-office/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Lettre ouverte à Kristalina Georgieva, directrice générale du FMI, et à Ajay Banga, président de la Banque mondiale
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/22/lettre-ouverte-a-kristalina-georgieva-directrice-generale-du-fmi-et-a-ajay-banga-president-de-la-banque-mondiale/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Par Aboubakr Kaira Barry, CFA, directeur général de Results Associates et président du conseil d’administration de Omou Financial Literacy Center, Bethesda, Maryland, États-Unis
+D’abord, ne pas nuire : comment le FMI et la Banque mondiale peuvent aider l’Afrique à se financer ell...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-26
+
+### Assurance : en fiançailles au Maroc, ASK fait du dilatoire au Bénin
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/25/assurance-en-fiancailles-au-maroc-ask-fait-du-dilatoire-au-benin/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Le Sénégal emprunte à plus de 8% sur UMOA -Titres : faut-il réguler les taux ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/25/le-senegal-emprunte-a-plus-de-8-sur-umoa-titres-faut-il-reguler-les-taux/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Par Pr Amath NDIAYE FASEG-UCAD
+L’adjudication du 23 octobre 2026 confirme le coût particulièrement élevé du financement de l’État sénégalais sur le marché régional. Si, la dégradation des finances publiques justifie une prime de risque, les avantages prudentiels dont bénéficient ...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-27
+
+### Bénin : Bloomfield maintient la note A+ de la Loterie nationale (LNB)
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/26/benin-bloomfield-maintient-la-note-a-de-la-loterie-nationale-lnb/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Bénin: le Fonds d’investissement et de garantie des PME obtient l’agrément de la BCEAO
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/26/benin-le-fonds-dinvestissement-et-de-garantie-des-pme-obtient-lagrement-de-la-bceao/
+- **Mots-clés déclencheurs** : BCEAO, Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-28
+
+### Titrisation : Le pari réussi des 15 milliards de FCFA de BSIC Bénin pour le logement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/28/titrisation-le-pari-reussi-des-15-milliards-de-fcfa-de-bsic-benin-pour-le-logement/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Le FCTC ZAKA BSIC Bénin 2026-2033 a été intégralement souscrit et son placement clôturé, ce lundi 26 octobre, lors d’une cérémonie à Cotonou. Première opération de titrisation adossée à des créances commerciales dédiée au logement abordable au Bénin, elle a mobilisé 35 investisse...
+- **Statut** : [ ] à trier
+
+### Rapport InterGlobe : «Partenariats internationaux en Afrique de l’Ouest, quels apports ?»
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/27/rapport-interglobe-partenariats-internationaux-en-afrique-de-louest-quels-apports/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Présenté lors de la table ronde organisée par Bloomfield à Abidjan le 27 octobre sur la stratégie des pays côtiers de l’UEMOA et les pays de l’AES, le rapport d’InterGlobe s’intéresse au sujet clé « partenariats internationaux en Afrique de l’Ouest, quels apports ? ». Russie déce...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-29
+
+### UEMOA : le COFEB et HEC Paris forment 26 cadres bancaires aux défis du numérique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/29/uemoa-le-cofeb-et-hec-paris-forment-26-cadres-bancaires-aux-defis-du-numerique/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Le Centre ouest-africain de formation et d’études bancaires (COFEB), centre de formation et de recherche de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), et HEC Paris ont organisé, le 28 octobre 2026 à Dakar, une cérémonie de remise des certificats du parcours de ...
+- **Statut** : [ ] à trier
+
+### Ecobank franchit les 2 milliards de dollars de revenus en dépit du boulet Nigérian et du recul de l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/28/ecobank-franchit-les-2-milliards-de-dollars-de-revenus-en-depit-du-boulet-nigerian-et-du-recul-de-luemoa/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-30
+
+### Africa Prize 2026 : le Nigérien Mamane Kabirou Ousseini primé pour sa plateforme de surveillance médicale
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/29/africa-prize-2026-le-nigerien-mamane-kabirou-ousseini-prime-pour-sa-plateforme-de-surveillance-medicale/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Le Nigérien Mamane Kabirou Ousseini, directeur général et cofondateur de Likita Care, a remporté le 28 octobre 2026 l’Africa Prize for Engineering Innovation, présente comme le plus important prix consacré à l’ingénierie en Afrique, doté de 50 000 livres sterling (environ 67 000 ...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-10-31
+
+### La révolution manquante du financement du développement africain
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/30/la-revolution-manquante-du-financement-du-developpement-africain/
+- **Mots-clés déclencheurs** : notation souveraine, FMI
+- **Résumé (extrait automatique)** : Par Dr Papa Demba Thiam, Économiste, architecte des transformations stratégiques.
+Sénégal–FMI : chronique d’un risque annoncé et révélateur de ce que les institutions financières africaines de développement devraient changer
+Le Sénégal traverse une crise financière dont les consé...
+- **Statut** : [ ] à trier
+
+### Bénin : 30 millions d’euros de financement pour le premier projet solaire IPP du pays
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/30/benin-30-millions-deuros-de-financement-pour-le-premier-projet-solaire-ipp-du-pays/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-11-01
+
+### Cybersécurité et finance numérique : Wave appelle à une mobilisation collective pour renforcer la confiance des utilisateurs
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/01/cybersecurite-et-finance-numerique-wave-appelle-a-une-mobilisation-collective-pour-renforcer-la-confiance-des-utilisateurs/
+- **Mots-clés déclencheurs** : intelligence artificielle
+- **Résumé (extrait automatique)** : Hadjarata Ouattara, Bamako.
+À l&rsquo;occasion de la 4ᵉ édition des Journées Nationales de Cybersécurité (JNC), organisée à Bamako, Wave Mali a réaffirmé l&rsquo;importance d&rsquo;une collaboration renforcée entre les acteurs publics et privés pour sécuriser les services financi...
+- **Statut** : [ ] à trier
+
+### Loi des Finances Rectificative 2026 (LFR 2026) : sans accord avec le FMI, le Sénégal face au risque d’une crise systémique et d’une contagion régionale
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/10/31/loi-des-finances-rectificative-2026-lfr-2026-sans-accord-avec-le-fmi-le-senegal-face-au-risque-dune-crise-systemique-et-dune-contagion-regionale/
+- **Mots-clés déclencheurs** : UEMOA, dette souveraine, FMI
+- **Résumé (extrait automatique)** : Par Lansana Gagny SakhoSecrétaire général du Centre africain de veille et d’intelligence économique (CAVIE)
+Le second rejet de la Loi de finances rectificative fait entrer le Sénégal dans une zone de risque qui dépasse désormais le seul débat budgétaire. Dette souveraine, accès a...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-11-02
+
+### Banques vs Fintechs : 10 clés pour ne pas perdre la bataille de la diaspora
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/01/banques-vs-fintechs-10-cles-pour-ne-pas-perdre-la-bataille-de-la-diaspora/
+- **Mots-clés déclencheurs** : fintech
+- **Résumé (extrait automatique)** : Par Samir Bouzidi, spécialiste de la mobilisation des diasporas africaines, ethnomarketer et CEO d&rsquo;Impact Diaspora
+Stratégie, budget 2027 : le moment est venu pour les banques d’évaluer leur véritable potentiel sur ce marché clé. 
+À l’approche des arbitrages budgétaires de ...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-11-03
+
+### Sénégal : l’Assemblée nationale rejette le budget rectificatif 2026, l’accord avec le FMI dans l’impasse
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/03/senegal-lassemblee-nationale-rejette-le-budget-rectificatif-2026-laccord-avec-le-fmi-suspendu/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Inclusion financière dans l’UEMOA : le Bénin, champion toutes catégories
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/03/inclusion-financiere-dans-luemoa-le-benin-champion-toutes-categories/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO, Bénin
+- **Résumé (extrait automatique)** : Le rapport annuel 2025 de la BCEAO sur la situation de l&rsquo;inclusion financière  place le Bénin en tête des huit pays de l’Union économique et monétaire ouest-africaine (Uemoa) sur les six indicateurs de niveau retenus. Un sans-faute inédit, qui masque une région en pleine re...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-11-04
+
+### Financer les PME, bâtir le Bénin
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/04/financer-les-pme-batir-le-benin/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Par José Herbert Ahodode, Chef Service Subventions et Facilités d&rsquo;Accès aux Financements à l&rsquo;ADPME.
+Au Bénin, plus de 90% du tissu économique est constitué de micro, petites et moyennes entreprises. Elles emploient, innovent et irriguent l&rsquo;économie locale, mais ...
+- **Statut** : [ ] à trier
+
+
+## Veille du 2026-11-05
+
+### Shelter Afrique Development Bank clôture avec succès son émission d’obligations durables de 60 milliards FCFA avec CGF Bourse comme Arrangeur et Chef de File
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/shelter-afrique-development-bank-cloture-avec-succes-son-emission-dobligations-durables-de-60-milliards-fcfa-avec-cgf-bourse-comme-arrangeur-et-chef-de-file/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Une opération dédiée exclusivement au financement du logement dans l&rsquo;espace UEMOA, qui illustre le rôle du marché financier régional dans la mobilisation de ressources au service du développement durable.
+Shelter Afrique Development Bank (ShafDB) a clôturé avec succès le 30...
+- **Statut** : [ ] à trier
+
+### Pape Demba Thiam : au delà du Sénégal et du FMI, des questions stratégiques pour l’Afrique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/pape-demba-thiam-au-dela-du-senegal-et-du-fmi-des-questions-strategiques-pour-lafrique-2/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Économiste, entrepreneur et ancien cadre de la Banque mondiale, Pape Demba Thiam est l’invité spécial de Financial Afrik pour un grand entretien consacré aux choix économiques de l’Afrique et aux mécanismes qui, selon lui, continuent d’entraver la transformation du continent.Né à...
+- **Statut** : [ ] à trier
+
+### Entretien avec  Guy-Martial Awona, président de la FAPBEF-UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/entretien-avec-guy-martial-awona-president-de-la-fapbef-uemoa/
+- **Mots-clés déclencheurs** : UEMOA, intelligence artificielle
+- **Résumé (extrait automatique)** : À l’occasion du Forum régional de la Fédération des Associations Professionnelles des Banques et Établissements Financiers de l’UEMOA (FAPBEF-UEMOA), tenu les 23 et 24 septembre 2026 à Dakar autour de l’intelligence artificielle et de la transformation bancaire, Financial Afrik s...
+- **Statut** : [ ] à trier
+
+### Oulimata Ndiaye, Directeur de UMOA-Titres, revient sur les grandes dynamiques du Marché des Titres Publics de l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/oulimata-ndiaye-directeur-de-umoa-titres-revient-sur-les-grandes-dynamiques-du-marche-des-titres-publics-de-luemoa/
+- **Mots-clés déclencheurs** : UEMOA, dette souveraine
+- **Résumé (extrait automatique)** : Dans cet entretien exclusif accordé à Financial Afrik, Oulimata Ndiaye, Directeur de UMOA-Titres, revient sur les grandes dynamiques du Marché des Titres Publics de l’UEMOA, devenu un levier central du financement des États de l’Union.Évolution des encours, profil des investisseu...
+- **Statut** : [ ] à trier
+
