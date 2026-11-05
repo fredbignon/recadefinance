@@ -47,3 +47,33 @@ about_page:
   disclaimer: "Récade Finance est un blog d'analyse et de veille économique et financière sur le continent africain. Il ne sollicite aucun investissement, ne gère aucun fonds et ne propose aucun produit ou service financier. Le contenu publié est fourni à titre informatif et ne constitue pas un conseil en investissement."
 
 site_disclaimer_short: "Blog d'analyse et de veille économique et financière — aucune sollicitation d'investissement, aucune gestion de fonds."
+
+# ------------------------------------------------------------
+# Page « Assistant réglementaire UMOA » (assistant-umoa.html)
+# ------------------------------------------------------------
+# form_action : l'adresse Formspree du formulaire (https://formspree.io/f/xljjvwnk).
+# Tant qu'elle contient A_REMPLACER, le formulaire affiche un message
+# d'indisponibilité au lieu d'envoyer les réponses.
+pilote_page:
+  form_action: "https://formspree.io/f/xljjvwnk"
+  eyebrow: "Pilote · Inscriptions ouvertes"
+  title: "Assistant réglementaire UMOA"
+  lede: "Un assistant IA qui répond à vos questions sur la réglementation bancaire de l'UMOA, en citant à chaque fois le texte exact de la BCEAO et de la Commission Bancaire."
+  cta_label: "Rejoindre le pilote"
+  stat_1: "94 %"
+  stat_1_label: "de bonnes réponses sur 50 questions de référence"
+  stat_2: "9"
+  stat_2_label: "textes officiels, lus article par article"
+  stat_3: "0"
+  stat_3_label: "réponse fausse lors de l'évaluation"
+  stats_note: "Évaluation interne du 5 novembre 2026. Validation par des experts prévue pendant le pilote."
+  form_intro: "Le pilote est ouvert aux professionnels de la banque et de la finance de l'UEMOA. Laissez-nous quelques informations : nous revenons vers vous avec un accès et un guide de prise en main."
+  success_message: "Merci ! Votre demande est bien enregistrée. Nous revenons vers vous par email avec votre accès au pilote."
+  disclaimer: "L'Assistant réglementaire UMOA est un outil d'aide à la lecture des textes. Il ne remplace ni un avis de la BCEAO ou de la Commission Bancaire, ni la validation de vos équipes."
+
+# Bandeau de la page d'accueil qui renvoie vers la page du pilote
+home_banner_pilote:
+  badge: "Nouveau"
+  title: "Assistant réglementaire UMOA"
+  text: "La réglementation bancaire de l'UMOA, enfin lisible : des réponses sourcées, article par article. Le pilote est ouvert aux professionnels."
+  cta_label: "Découvrir et s'inscrire"

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assistant réglementaire UMOA — pilote — Récade Finance</title>
+<meta name="description" content="Un assistant IA qui répond à vos questions sur la réglementation bancaire de l&#x27;UMOA, en citant à chaque fois le texte exact de la BCEAO et de la Commission Bancaire.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<meta name="theme-color" content="#3D171D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Récade Finance",
+  "url": "https://recade-finance.com",
+  "logo": "https://recade-finance.com/assets/favicon-512.png",
+  "description": "Économie, finance, dette souveraine et IA — un regard africain.",
+  "sameAs": [
+    "https://instagram.com/recadefinance"
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <svg width="30" height="30" viewBox="0 0 100 100" fill="none">
+        <path d="M35 30 A18 14 0 1 0 63 26" stroke="#7A2E3A" stroke-width="5" stroke-linecap="round"/>
+        <line x1="47" y1="28" x2="47" y2="80" stroke="#7A2E3A" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="66" cy="20" r="6" fill="#C9A227"/>
+      </svg>
+      <span class="brand-name">RÉCADE FINANCE</span>
+    </a>
+    <nav class="main-nav" id="rf-main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="index.html#articles">Analyses</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="minute-eco.html">La Minute Éco</a>
+      <a href="instant-ia.html">L'Instant IA</a>
+      <a href="index.html#tribune">Tribune</a>
+      <a href="a-propos.html">À propos</a>
+    </nav>
+    <div class="header-actions">
+      <a href="index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
+      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<script>
+(function() {
+  var toggle = document.getElementById('rf-nav-toggle');
+  var nav = document.getElementById('rf-main-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function() {
+      var isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  }
+})();
+</script>
+
+<section class="pilote-hero">
+  <div class="wrap">
+    <span class="eyebrow">Pilote · Inscriptions ouvertes</span>
+    <h1>Assistant réglementaire UMOA</h1>
+    <p class="lede">Un assistant IA qui répond à vos questions sur la réglementation bancaire de l&#x27;UMOA, en citant à chaque fois le texte exact de la BCEAO et de la Commission Bancaire.</p>
+    <a href="#inscription" class="btn btn-primary">Rejoindre le pilote</a>
+  </div>
+</section>
+
+<section class="pilote-stats">
+  <div class="pilote-stats-inner">
+    <div class="pilote-stat"><span class="num">94 %</span><span class="label">de bonnes réponses sur 50 questions de référence</span></div>
+    <div class="pilote-stat"><span class="num">9</span><span class="label">textes officiels, lus article par article</span></div>
+    <div class="pilote-stat"><span class="num">0</span><span class="label">réponse fausse lors de l&#x27;évaluation</span></div>
+  </div>
+  <p class="pilote-stats-note">Évaluation interne du 5 novembre 2026. Validation par des experts prévue pendant le pilote.</p>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Ce que l'assistant fait pour vous</h2></div>
+    <div class="pilote-features">
+      <div class="pilote-feature"><h3>Une réponse sourcée</h3><p>Chaque affirmation renvoie à un article ou un paragraphe précis du dispositif prudentiel, du PCB révisé ou des instructions de la BCEAO.</p></div>
+      <div class="pilote-feature"><h3>Des calculs exacts</h3><p>Pondérations, ratios de solvabilité, division des risques et provisions sont calculés par des fonctions testées, pas « de tête ».</p></div>
+      <div class="pilote-feature"><h3>Des limites assumées</h3><p>Quand le texte ne répond pas, l'assistant le dit et indique ce qu'il faudrait vérifier, au lieu d'extrapoler.</p></div>
+    </div>
+    <div class="pilote-exemple">
+      <span class="eyebrow">Exemple de question</span>
+      <p class="pilote-question">« Un crédit de 200 millions FCFA, impayé depuis 120 jours, est garanti par une hypothèque : quel classement, et quelle provision ? »</p>
+      <p>L'assistant classe la créance en douteuse, distingue la part couverte et la part non couverte, donne les taux minimaux de dépréciation et cite l'instruction n° 026-11-2016 (art. 8 et 16).</p>
+    </div>
+  </div>
+</section>
+
+<section class="section pilote-form-section" id="inscription">
+  <div class="wrap pilote-form-wrap">
+    <div class="pilote-form-intro">
+      <h2>Rejoindre le pilote</h2>
+      <p>Le pilote est ouvert aux professionnels de la banque et de la finance de l&#x27;UEMOA. Laissez-nous quelques informations : nous revenons vers vous avec un accès et un guide de prise en main.</p>
+      <ol class="pilote-steps">
+        <li>Vous remplissez ce formulaire (2 minutes).</li>
+        <li>Nous vous envoyons un accès et un guide de prise en main.</li>
+        <li>Vous posez vos vraies questions et signalez les erreurs en un clic.</li>
+      </ol>
+    </div>
+
+    <form id="pilote-form" class="pilote-form" action="https://formspree.io/f/A_REMPLACER" method="POST" data-succes="Merci ! Votre demande est bien enregistrée. Nous revenons vers vous par email avec votre accès au pilote.">
+      <input type="hidden" name="_subject" value="Inscription au pilote — Assistant réglementaire UMOA">
+      <div class="pf-trap" aria-hidden="true">
+        <label for="pf-gotcha">Ne pas remplir ce champ</label>
+        <input type="text" id="pf-gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="pf-row">
+        <div class="pf-field">
+          <label for="pf-nom">Prénom et nom <span class="pf-req">*</span></label>
+          <input id="pf-nom" name="nom" type="text" autocomplete="name" required>
+        </div>
+        <div class="pf-field">
+          <label for="pf-email">Email professionnel <span class="pf-req">*</span></label>
+          <input id="pf-email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+
+      <div class="pf-row">
+        <div class="pf-field">
+          <label for="pf-fonction">Fonction <span class="pf-req">*</span></label>
+          <select id="pf-fonction" name="fonction" required>
+          <option value="">Choisir…</option>
+          <option value="Risk manager">Risk manager</option>
+          <option value="Conformité, contrôle permanent">Conformité, contrôle permanent</option>
+          <option value="Audit interne ou externe">Audit interne ou externe</option>
+          <option value="Consultant">Consultant</option>
+          <option value="Direction financière, comptabilité">Direction financière, comptabilité</option>
+          <option value="Supervision, institution publique">Supervision, institution publique</option>
+          <option value="Enseignant, chercheur, étudiant">Enseignant, chercheur, étudiant</option>
+          <option value="Autre">Autre</option>
+          </select>
+        </div>
+        <div class="pf-field">
+          <label for="pf-type">Type d'établissement <span class="pf-req">*</span></label>
+          <select id="pf-type" name="type_etablissement" required>
+          <option value="">Choisir…</option>
+          <option value="Banque">Banque</option>
+          <option value="Établissement financier à caractère bancaire">Établissement financier à caractère bancaire</option>
+          <option value="Système financier décentralisé (SFD)">Système financier décentralisé (SFD)</option>
+          <option value="Cabinet d&#x27;audit ou de conseil">Cabinet d&#x27;audit ou de conseil</option>
+          <option value="Institution publique ou régionale">Institution publique ou régionale</option>
+          <option value="École, université">École, université</option>
+          <option value="Autre">Autre</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="pf-row">
+        <div class="pf-field">
+          <label for="pf-etab">Établissement <span class="pf-req">*</span></label>
+          <input id="pf-etab" name="etablissement" type="text" autocomplete="organization" required>
+        </div>
+        <div class="pf-field">
+          <label for="pf-pays">Pays <span class="pf-req">*</span></label>
+          <select id="pf-pays" name="pays" required>
+          <option value="">Choisir…</option>
+          <option value="Bénin">Bénin</option>
+          <option value="Burkina Faso">Burkina Faso</option>
+          <option value="Côte d&#x27;Ivoire">Côte d&#x27;Ivoire</option>
+          <option value="Guinée-Bissau">Guinée-Bissau</option>
+          <option value="Mali">Mali</option>
+          <option value="Niger">Niger</option>
+          <option value="Sénégal">Sénégal</option>
+          <option value="Togo">Togo</option>
+          <option value="Hors UEMOA">Hors UEMOA</option>
+          </select>
+        </div>
+      </div>
+
+      <fieldset class="pf-group">
+        <legend>Thèmes qui vous intéressent</legend>
+        <div class="pf-checks">
+        <label class="pf-check"><input type="checkbox" name="themes" value="Fonds propres et solvabilité"> Fonds propres et solvabilité</label>
+        <label class="pf-check"><input type="checkbox" name="themes" value="Risque de crédit (approche standard)"> Risque de crédit (approche standard)</label>
+        <label class="pf-check"><input type="checkbox" name="themes" value="Division des risques"> Division des risques</label>
+        <label class="pf-check"><input type="checkbox" name="themes" value="Créances en souffrance et provisionnement"> Créances en souffrance et provisionnement</label>
+        <label class="pf-check"><input type="checkbox" name="themes" value="Plan comptable bancaire révisé"> Plan comptable bancaire révisé</label>
+        <label class="pf-check"><input type="checkbox" name="themes" value="Comparaison UE et UMOA (CRR, IFRS 9)"> Comparaison UE et UMOA (CRR, IFRS 9)</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="pf-group">
+        <legend>Fréquence d'usage envisagée</legend>
+        <div class="pf-checks pf-inline">
+        <label class="pf-check"><input type="radio" name="frequence" value="Chaque jour"> Chaque jour</label>
+        <label class="pf-check"><input type="radio" name="frequence" value="Chaque semaine"> Chaque semaine</label>
+        <label class="pf-check"><input type="radio" name="frequence" value="Ponctuellement"> Ponctuellement</label>
+        </div>
+      </fieldset>
+
+      <div class="pf-field">
+        <label for="pf-question">Une question que vous aimeriez poser à l'assistant</label>
+        <textarea id="pf-question" name="question" rows="4" placeholder="Par exemple : quelle pondération pour un prêt à une PME non notée, garanti par un dépôt ?"></textarea>
+        <span class="pf-hint">Facultatif. Les questions reçues servent à tester et améliorer l'outil.</span>
+      </div>
+
+      <label class="pf-check pf-consent"><input type="checkbox" name="consentement" value="oui" required> <span>J'accepte que Récade Finance utilise ces informations pour me contacter au sujet du pilote. Elles ne sont ni vendues ni partagées. <span class="pf-req">*</span></span></label>
+      <label class="pf-check"><input type="checkbox" name="newsletter" value="oui"> <span>Je souhaite aussi recevoir la lettre de Récade Finance.</span></label>
+
+      <button type="submit" class="btn btn-primary pf-submit">Envoyer ma demande</button>
+      <p class="pf-status" id="pf-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="section pilote-disclaimer-section">
+  <div class="wrap" style="max-width:760px;">
+    <p class="pilote-disclaimer">L&#x27;Assistant réglementaire UMOA est un outil d&#x27;aide à la lecture des textes. Il ne remplace ni un avis de la BCEAO ou de la Commission Bancaire, ni la validation de vos équipes.</p>
+  </div>
+</section>
+
+<script>
+(function() {
+  var form = document.getElementById('pilote-form');
+  var statut = document.getElementById('pf-status');
+  if (!form || !statut) { return; }
+  var MESSAGE_SUCCES = form.getAttribute('data-succes');
+  form.addEventListener('submit', function(evt) {
+    evt.preventDefault();
+    if (form.querySelector('#pf-gotcha').value !== '') { return; }
+    if (form.action.indexOf('A_REMPLACER') !== -1) {
+      statut.className = 'pf-status pf-erreur';
+      statut.textContent = "Le formulaire n'est pas encore activé. Écrivez-nous à contact@recade-finance.com.";
+      return;
+    }
+    var donnees = new FormData(form);
+    var themes = donnees.getAll('themes');
+    donnees.delete('themes');
+    donnees.append('themes', themes.join(', '));
+    var bouton = form.querySelector('.pf-submit');
+    bouton.disabled = true;
+    statut.className = 'pf-status';
+    statut.textContent = 'Envoi en cours…';
+    fetch(form.action, { method: 'POST', body: donnees, headers: { 'Accept': 'application/json' } })
+      .then(function(reponse) {
+        if (!reponse.ok) { throw new Error('envoi refusé'); }
+        form.reset();
+        statut.className = 'pf-status pf-succes';
+        statut.textContent = MESSAGE_SUCCES;
+      })
+      .catch(function() {
+        statut.className = 'pf-status pf-erreur';
+        statut.textContent = "L'envoi n'a pas abouti. Réessayez ou écrivez-nous à contact@recade-finance.com.";
+      })
+      .then(function() { bouton.disabled = false; });
+  });
+})();
+</script>
+
+<footer class="site">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">RÉCADE FINANCE</span>
+      <p class="footer-tagline">Économie · Finance · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Explorer</h4>
+        <a href="index.html#articles">Analyses</a>
+        <a href="actualites.html">Actualités</a>
+        <a href="minute-eco.html">La Minute Éco</a>
+        <a href="instant-ia.html">L'Instant IA</a>
+        <a href="index.html#tribune">Tribune</a>
+        <a href="assistant-umoa.html">Assistant UMOA</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="https://recade-finance.com" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><ellipse cx="20" cy="20" rx="7.5" ry="17" fill="none" stroke="currentColor" stroke-width="2.4"/><line x1="3" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="2.4"/></svg>
+          recade-finance.com
+        </a>
+        <a href="https://instagram.com/recadefinance" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34" rx="11" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="8.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="29.5" cy="10.5" r="2.2" fill="currentColor"/></svg>
+          @recadefinance
+        </a>
+        <a href="mailto:contact@recade-finance.com" class="contact-icon-row">
+          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="8" width="34" height="24" fill="none" stroke="currentColor" stroke-width="2.4"/><polyline points="3,8 20,23 37,8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
+          contact@recade-finance.com
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <span>⚠️ Blog d'analyse et de veille économique et financière — aucune sollicitation d'investissement, aucune gestion de fonds.</span>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Récade Finance.</span>
+    <span>recade-finance.com</span>
+  </div>
+</footer>
+</body>
+</html>

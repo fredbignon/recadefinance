@@ -16,6 +16,7 @@ import glob
 import yaml
 import markdown
 import shutil
+import html as html_lib
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -151,6 +152,7 @@ FOOTER_HTML = """
         <a href="{root}minute-eco.html">La Minute Éco</a>
         <a href="{root}instant-ia.html">L'Instant IA</a>
         <a href="{root}index.html#tribune">Tribune</a>
+        <a href="{root}assistant-umoa.html">Assistant UMOA</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -355,6 +357,8 @@ def render_homepage(posts):
     </div>
   </div>
 </section>
+
+{render_home_banner_pilote()}
 
 {render_brvm_widget()}
 
@@ -596,11 +600,267 @@ def render_about():
 
 
 # ---------------------------------------------------------------------------
+# Assistant réglementaire UMOA : bandeau d'accueil et page d'inscription au pilote
+# ---------------------------------------------------------------------------
+
+PILOTE_FONCTIONS = [
+    "Risk manager",
+    "Conformité, contrôle permanent",
+    "Audit interne ou externe",
+    "Consultant",
+    "Direction financière, comptabilité",
+    "Supervision, institution publique",
+    "Enseignant, chercheur, étudiant",
+    "Autre",
+]
+PILOTE_ETABLISSEMENTS = [
+    "Banque",
+    "Établissement financier à caractère bancaire",
+    "Système financier décentralisé (SFD)",
+    "Cabinet d'audit ou de conseil",
+    "Institution publique ou régionale",
+    "École, université",
+    "Autre",
+]
+PILOTE_PAYS = [
+    "Bénin", "Burkina Faso", "Côte d'Ivoire", "Guinée-Bissau",
+    "Mali", "Niger", "Sénégal", "Togo", "Hors UEMOA",
+]
+PILOTE_THEMES = [
+    "Fonds propres et solvabilité",
+    "Risque de crédit (approche standard)",
+    "Division des risques",
+    "Créances en souffrance et provisionnement",
+    "Plan comptable bancaire révisé",
+    "Comparaison UE et UMOA (CRR, IFRS 9)",
+]
+PILOTE_FREQUENCES = ["Chaque jour", "Chaque semaine", "Ponctuellement"]
+
+
+def _e(texte):
+    """Échappe un texte pour l'insérer dans du HTML (contenu ou attribut)."""
+    return html_lib.escape(str(texte), quote=True)
+
+
+def render_home_banner_pilote():
+    b = CONTENT.get("home_banner_pilote")
+    if not b:
+        return ""
+    return f"""
+<section class="pilote-banner">
+  <div class="pilote-banner-inner">
+    <div>
+      <span class="badge">{_e(b['badge'])}</span>
+      <h2>{_e(b['title'])}</h2>
+      <p>{_e(b['text'])}</p>
+    </div>
+    <a href="assistant-umoa.html" class="btn btn-ocre">{_e(b['cta_label'])}</a>
+  </div>
+</section>"""
+
+
+def _options(valeurs):
+    return "\n".join(f'          <option value="{_e(v)}">{_e(v)}</option>' for v in valeurs)
+
+
+def _cases(nom, valeurs, type_case):
+    return "\n".join(
+        f'        <label class="pf-check"><input type="{type_case}" name="{nom}" value="{_e(v)}"> {_e(v)}</label>'
+        for v in valeurs
+    )
+
+
+PILOTE_SCRIPT = """
+<script>
+(function() {
+  var form = document.getElementById('pilote-form');
+  var statut = document.getElementById('pf-status');
+  if (!form || !statut) { return; }
+  var MESSAGE_SUCCES = form.getAttribute('data-succes');
+  form.addEventListener('submit', function(evt) {
+    evt.preventDefault();
+    if (form.querySelector('#pf-gotcha').value !== '') { return; }
+    if (form.action.indexOf('A_REMPLACER') !== -1) {
+      statut.className = 'pf-status pf-erreur';
+      statut.textContent = "Le formulaire n'est pas encore activé. Écrivez-nous à contact@recade-finance.com.";
+      return;
+    }
+    var donnees = new FormData(form);
+    var themes = donnees.getAll('themes');
+    donnees.delete('themes');
+    donnees.append('themes', themes.join(', '));
+    var bouton = form.querySelector('.pf-submit');
+    bouton.disabled = true;
+    statut.className = 'pf-status';
+    statut.textContent = 'Envoi en cours…';
+    fetch(form.action, { method: 'POST', body: donnees, headers: { 'Accept': 'application/json' } })
+      .then(function(reponse) {
+        if (!reponse.ok) { throw new Error('envoi refusé'); }
+        form.reset();
+        statut.className = 'pf-status pf-succes';
+        statut.textContent = MESSAGE_SUCCES;
+      })
+      .catch(function() {
+        statut.className = 'pf-status pf-erreur';
+        statut.textContent = "L'envoi n'a pas abouti. Réessayez ou écrivez-nous à contact@recade-finance.com.";
+      })
+      .then(function() { bouton.disabled = false; });
+  });
+})();
+</script>
+"""
+
+
+def render_pilote_page():
+    c = CONTENT["pilote_page"]
+    html = HEAD.format(
+        title=f"Assistant réglementaire UMOA — pilote — {SITE_TITLE}",
+        description=_e(c["lede"]),
+        root="",
+    )
+    html += HEADER_HTML.format(root="")
+    html += f"""
+<section class="pilote-hero">
+  <div class="wrap">
+    <span class="eyebrow">{_e(c['eyebrow'])}</span>
+    <h1>{_e(c['title'])}</h1>
+    <p class="lede">{_e(c['lede'])}</p>
+    <a href="#inscription" class="btn btn-primary">{_e(c['cta_label'])}</a>
+  </div>
+</section>
+
+<section class="pilote-stats">
+  <div class="pilote-stats-inner">
+    <div class="pilote-stat"><span class="num">{_e(c['stat_1'])}</span><span class="label">{_e(c['stat_1_label'])}</span></div>
+    <div class="pilote-stat"><span class="num">{_e(c['stat_2'])}</span><span class="label">{_e(c['stat_2_label'])}</span></div>
+    <div class="pilote-stat"><span class="num">{_e(c['stat_3'])}</span><span class="label">{_e(c['stat_3_label'])}</span></div>
+  </div>
+  <p class="pilote-stats-note">{_e(c['stats_note'])}</p>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Ce que l'assistant fait pour vous</h2></div>
+    <div class="pilote-features">
+      <div class="pilote-feature"><h3>Une réponse sourcée</h3><p>Chaque affirmation renvoie à un article ou un paragraphe précis du dispositif prudentiel, du PCB révisé ou des instructions de la BCEAO.</p></div>
+      <div class="pilote-feature"><h3>Des calculs exacts</h3><p>Pondérations, ratios de solvabilité, division des risques et provisions sont calculés par des fonctions testées, pas « de tête ».</p></div>
+      <div class="pilote-feature"><h3>Des limites assumées</h3><p>Quand le texte ne répond pas, l'assistant le dit et indique ce qu'il faudrait vérifier, au lieu d'extrapoler.</p></div>
+    </div>
+    <div class="pilote-exemple">
+      <span class="eyebrow">Exemple de question</span>
+      <p class="pilote-question">« Un crédit de 200 millions FCFA, impayé depuis 120 jours, est garanti par une hypothèque : quel classement, et quelle provision ? »</p>
+      <p>L'assistant classe la créance en douteuse, distingue la part couverte et la part non couverte, donne les taux minimaux de dépréciation et cite l'instruction n° 026-11-2016 (art. 8 et 16).</p>
+    </div>
+  </div>
+</section>
+
+<section class="section pilote-form-section" id="inscription">
+  <div class="wrap pilote-form-wrap">
+    <div class="pilote-form-intro">
+      <h2>Rejoindre le pilote</h2>
+      <p>{_e(c['form_intro'])}</p>
+      <ol class="pilote-steps">
+        <li>Vous remplissez ce formulaire (2 minutes).</li>
+        <li>Nous vous envoyons un accès et un guide de prise en main.</li>
+        <li>Vous posez vos vraies questions et signalez les erreurs en un clic.</li>
+      </ol>
+    </div>
+
+    <form id="pilote-form" class="pilote-form" action="{_e(c['form_action'])}" method="POST" data-succes="{_e(c['success_message'])}">
+      <input type="hidden" name="_subject" value="Inscription au pilote — Assistant réglementaire UMOA">
+      <div class="pf-trap" aria-hidden="true">
+        <label for="pf-gotcha">Ne pas remplir ce champ</label>
+        <input type="text" id="pf-gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="pf-row">
+        <div class="pf-field">
+          <label for="pf-nom">Prénom et nom <span class="pf-req">*</span></label>
+          <input id="pf-nom" name="nom" type="text" autocomplete="name" required>
+        </div>
+        <div class="pf-field">
+          <label for="pf-email">Email professionnel <span class="pf-req">*</span></label>
+          <input id="pf-email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+
+      <div class="pf-row">
+        <div class="pf-field">
+          <label for="pf-fonction">Fonction <span class="pf-req">*</span></label>
+          <select id="pf-fonction" name="fonction" required>
+          <option value="">Choisir…</option>
+{_options(PILOTE_FONCTIONS)}
+          </select>
+        </div>
+        <div class="pf-field">
+          <label for="pf-type">Type d'établissement <span class="pf-req">*</span></label>
+          <select id="pf-type" name="type_etablissement" required>
+          <option value="">Choisir…</option>
+{_options(PILOTE_ETABLISSEMENTS)}
+          </select>
+        </div>
+      </div>
+
+      <div class="pf-row">
+        <div class="pf-field">
+          <label for="pf-etab">Établissement <span class="pf-req">*</span></label>
+          <input id="pf-etab" name="etablissement" type="text" autocomplete="organization" required>
+        </div>
+        <div class="pf-field">
+          <label for="pf-pays">Pays <span class="pf-req">*</span></label>
+          <select id="pf-pays" name="pays" required>
+          <option value="">Choisir…</option>
+{_options(PILOTE_PAYS)}
+          </select>
+        </div>
+      </div>
+
+      <fieldset class="pf-group">
+        <legend>Thèmes qui vous intéressent</legend>
+        <div class="pf-checks">
+{_cases("themes", PILOTE_THEMES, "checkbox")}
+        </div>
+      </fieldset>
+
+      <fieldset class="pf-group">
+        <legend>Fréquence d'usage envisagée</legend>
+        <div class="pf-checks pf-inline">
+{_cases("frequence", PILOTE_FREQUENCES, "radio")}
+        </div>
+      </fieldset>
+
+      <div class="pf-field">
+        <label for="pf-question">Une question que vous aimeriez poser à l'assistant</label>
+        <textarea id="pf-question" name="question" rows="4" placeholder="Par exemple : quelle pondération pour un prêt à une PME non notée, garanti par un dépôt ?"></textarea>
+        <span class="pf-hint">Facultatif. Les questions reçues servent à tester et améliorer l'outil.</span>
+      </div>
+
+      <label class="pf-check pf-consent"><input type="checkbox" name="consentement" value="oui" required> <span>J'accepte que Récade Finance utilise ces informations pour me contacter au sujet du pilote. Elles ne sont ni vendues ni partagées. <span class="pf-req">*</span></span></label>
+      <label class="pf-check"><input type="checkbox" name="newsletter" value="oui"> <span>Je souhaite aussi recevoir la lettre de Récade Finance.</span></label>
+
+      <button type="submit" class="btn btn-primary pf-submit">Envoyer ma demande</button>
+      <p class="pf-status" id="pf-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="section pilote-disclaimer-section">
+  <div class="wrap" style="max-width:760px;">
+    <p class="pilote-disclaimer">{_e(c['disclaimer'])}</p>
+  </div>
+</section>
+"""
+    html += PILOTE_SCRIPT
+    html += render_footer(root="")
+    return html
+
+
+# ---------------------------------------------------------------------------
 # Écriture des fichiers
 # ---------------------------------------------------------------------------
 
 def render_sitemap(posts):
-    urls = ["", "a-propos.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
+    urls = ["", "assistant-umoa.html", "a-propos.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
     urls += [f"articles/{p['slug']}.html" for p in posts]
     entries = "\n".join(
         f"  <url><loc>{SITE_URL}/{u}</loc></url>" for u in urls
@@ -652,6 +912,10 @@ def main():
 
     with open(os.path.join(DOCS_DIR, "a-propos.html"), "w", encoding="utf-8") as f:
         f.write(render_about())
+
+    with open(os.path.join(DOCS_DIR, "assistant-umoa.html"), "w", encoding="utf-8") as f:
+        f.write(render_pilote_page())
+    print("  → assistant-umoa.html")
 
     with open(os.path.join(DOCS_DIR, "minute-eco.html"), "w", encoding="utf-8") as f:
         f.write(render_contributor_page(
