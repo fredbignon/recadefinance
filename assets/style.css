@@ -87,6 +87,8 @@ th.num, td.num{text-align:right; padding-right:0;}
 /* Abonnement */
 .abonnement p{max-width:56ch;}
 .abonnement form{display:flex; flex-wrap:wrap; gap:12px; max-width:540px; position:relative;}
+.abonnement .statut{min-height:1.5em; margin:14px 0 4px; font-weight:600; color:var(--profond);}
+.abonnement .mention{font-size:0.88rem; color:var(--gris); max-width:60ch;}
 .abonnement input[type="email"]{flex:1 1 240px; font:inherit; color:var(--texte); background:#fff; border:1px solid #9C968E; border-radius:0; padding:12px 14px;}
 
 /* Pages de contenu : actualités, billets, à propos */

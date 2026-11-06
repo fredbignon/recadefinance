@@ -353,8 +353,8 @@ def render_homepage(posts):
   <div class="wrap">
     <h2>{n.get('title', 'Recevoir les analyses')}</h2>
     <p>{n.get('text', '')}</p>
-    <form action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank" novalidate onsubmit="return rfCheckHoneypot(this)">
-      <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" required>
+    <form id="abonnement-form" action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank">
+      <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" autocomplete="email" required>
       <div aria-hidden="true" style="position: absolute; left: -5000px;">
         <input type="text" name="b_0727619b3152a006e7015d1c8_cd759a0ccc" tabindex="-1" value="">
       </div>
@@ -366,15 +366,90 @@ def render_homepage(posts):
       </div>
       <button class="btn" type="submit">{n['cta_label']}</button>
     </form>
+    <p class="statut" id="abonnement-statut" role="status" aria-live="polite"></p>
+    <p class="mention">{n.get('mention', '')}</p>
   </div>
 </section>
+"""
+    html += newsletter_script(n)
+    html += render_footer(root="")
+    return html
+
+
+
+NEWSLETTER_SCRIPT = """
 <script>
-function rfCheckHoneypot(form) {{
-  var trap = form.querySelector('#rf-site-web');
-  if (trap && trap.value !== '') {{ return false; }}
-  return true;
-}}
+(function() {
+  var form = document.getElementById('abonnement-form');
+  var statut = document.getElementById('abonnement-statut');
+  if (!form || !statut) { return; }
+  var MESSAGE_SUCCES = __SUCCES__;
+  var MESSAGE_ERREUR = __ERREUR__;
+  var MESSAGE_DEJA = __DEJA__;
+  form.addEventListener('submit', function(evt) {
+    evt.preventDefault();
+    if (form.querySelector('#rf-site-web').value !== '') { return; }
+    var email = form.querySelector('input[name="EMAIL"]').value.trim();
+    var piege = form.querySelector('input[name^="b_"]');
+    var bouton = form.querySelector('button');
+    var rappel = 'rfMc' + Date.now();
+    var balise = document.createElement('script');
+    var fini = false;
+    var delai;
+    function terminer(message, reussi) {
+      if (fini) { return; }
+      fini = true;
+      clearTimeout(delai);
+      window[rappel] = function() {};
+      if (balise.parentNode) { balise.parentNode.removeChild(balise); }
+      statut.textContent = message;
+      bouton.disabled = false;
+      if (reussi) { form.reset(); }
+    }
+    window[rappel] = function(reponse) {
+      var msg = reponse && reponse.msg ? String(reponse.msg) : '';
+      if (reponse && reponse.result === 'success') { terminer(MESSAGE_SUCCES, true); }
+      else if (/already subscribed|déjà abonn/i.test(msg)) { terminer(MESSAGE_DEJA, false); }
+      else { terminer(MESSAGE_ERREUR, false); }
+    };
+    bouton.disabled = true;
+    statut.textContent = 'Envoi en cours…';
+    delai = setTimeout(function() { terminer(MESSAGE_ERREUR, false); }, 12000);
+    balise.onerror = function() { terminer(MESSAGE_ERREUR, false); };
+    balise.src = form.action.replace('/subscribe/post?', '/subscribe/post-json?') +
+      '&EMAIL=' + encodeURIComponent(email) + '&' + encodeURIComponent(piege.name) + '=&c=' + rappel;
+    document.body.appendChild(balise);
+  });
+})();
 </script>
+"""
+
+
+def newsletter_script(n):
+    import json
+    return (NEWSLETTER_SCRIPT
+            .replace("__SUCCES__", json.dumps(n.get("success_message", "Merci pour votre inscription."), ensure_ascii=False))
+            .replace("__ERREUR__", json.dumps(n.get("error_message", "L'inscription n'a pas abouti."), ensure_ascii=False))
+            .replace("__DEJA__", json.dumps(n.get("already_message", "Cette adresse est déjà abonnée."), ensure_ascii=False)))
+
+
+def render_abonnement_confirme():
+    n = CONTENT["newsletter"]
+    html = HEAD.format(title=titre_page(n["confirmed_title"]), description=SITE_TAGLINE, root="")
+    html = html.replace("</head>", '<meta name="robots" content="noindex">' + chr(10) + "</head>", 1)
+    html += render_header("")
+    html += f"""
+<section class="page-titre">
+  <div class="wrap etroit">
+    <h1>{n['confirmed_title']}</h1>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap etroit">
+    <p>{n['confirmed_text']}</p>
+    <p><a href="index.html">Retour à l'accueil</a></p>
+  </div>
+</section>
 """
     html += render_footer(root="")
     return html
@@ -839,6 +914,7 @@ def main():
 
     ecrire("index.html", render_homepage(posts))
     ecrire("a-propos.html", render_about())
+    ecrire("abonnement-confirme.html", render_abonnement_confirme())
     ecrire("assistant-umoa.html", render_pilote_page())
     ecrire("minute-eco.html", render_contributor_page(
         minute_eco, "La Minute Éco",
