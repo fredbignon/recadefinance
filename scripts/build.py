@@ -141,7 +141,7 @@ FOOTER_HTML = """
 <footer class="site">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="{root}assets/logo-recade-finance-clair.svg" alt="Récade Finance" class="footer-logo" width="188" height="56">
+      <img src="{root}assets/logo-recade-finance-entete-clair.svg" alt="Récade Finance" class="footer-logo" width="188" height="56">
       <p class="footer-tagline">{footer_tagline}</p>
     </div>
     <div class="footer-cols">
@@ -178,7 +178,7 @@ HEADER_HTML = """
 <header class="site">
   <div class="header-inner">
     <a href="{root}index.html" class="brand" aria-label="Récade Finance, accueil">
-      <img src="{root}assets/logo-recade-finance.svg" alt="Récade Finance" class="brand-logo" width="134" height="40">
+      <img src="{root}assets/logo-recade-finance-entete.svg" alt="Récade Finance" class="brand-logo" width="174" height="52">
     </a>
     <nav class="main-nav" id="rf-main-nav">
       <a href="{root}index.html">Accueil</a>

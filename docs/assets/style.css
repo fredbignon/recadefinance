@@ -37,9 +37,9 @@ img{max-width:100%;}
 
 /* En-tête */
 header.site{position:sticky; top:0; z-index:50; background:var(--fond); border-bottom:1px solid var(--filet);}
-.header-inner{display:flex; align-items:center; justify-content:space-between; gap:24px; padding:14px 28px; max-width:1040px; margin:0 auto;}
+.header-inner{display:flex; align-items:center; justify-content:space-between; gap:24px; padding:12px 28px; max-width:1040px; margin:0 auto;}
 .brand{display:block;}
-.brand-logo{display:block; height:38px; width:auto;}
+.brand-logo{display:block; height:52px; width:auto;}
 nav.main-nav{display:flex; gap:26px;}
 nav.main-nav a{color:var(--texte); text-decoration:none; font-size:0.98rem; padding:4px 0; white-space:nowrap;}
 nav.main-nav a:hover{color:var(--bordeaux); text-decoration:underline; text-underline-offset:6px;}
@@ -121,7 +121,7 @@ footer.site{background:var(--profond); color:var(--fond); padding:56px 0 28px;}
 footer.site a{color:#E9E2DA; text-decoration:none;}
 footer.site a:hover{text-decoration:underline; text-underline-offset:4px;}
 .footer-inner{max-width:1040px; margin:0 auto; padding:0 28px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:36px;}
-.footer-logo{display:block; height:52px; width:auto;}
+.footer-logo{display:block; height:56px; width:auto;}
 .footer-tagline{font-size:0.92rem; color:#D6CEC5; margin-top:12px; max-width:36ch;}
 .footer-cols{display:flex; gap:64px; flex-wrap:wrap;}
 .footer-col h4{font-family:var(--sans); font-size:0.95rem; font-weight:600; color:#fff; margin:0 0 12px;}
@@ -172,7 +172,7 @@ footer.site a:hover{text-decoration:underline; text-underline-offset:4px;}
 }
 @media (max-width:960px){
   .header-inner{padding:12px 16px; position:relative;}
-  .brand-logo{height:34px;}
+  .brand-logo{height:40px;}
   .nav-toggle{display:block;}
   nav.main-nav{display:none; position:absolute; top:100%; left:0; right:0; flex-direction:column; gap:0; background:var(--fond); border-bottom:1px solid var(--filet);}
   nav.main-nav.open{display:flex;}
@@ -180,7 +180,7 @@ footer.site a:hover{text-decoration:underline; text-underline-offset:4px;}
 }
 @media (max-width:760px){
   .article-body{font-size:1.08rem;}
-  .footer-logo{height:46px;}
+  .footer-logo{height:48px;}
   .hero{padding:56px 0 48px;}
   .section{padding:48px 0;}
   .wrap, .footer-inner, .footer-disclaimer, .footer-bottom{padding-left:20px; padding-right:20px;}
