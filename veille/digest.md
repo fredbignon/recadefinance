@@ -847,3 +847,13 @@ Shelter Afrique Development Bank (ShafDB) a clôturé avec succès le 30...
 - **Résumé (extrait automatique)** : Dans cet entretien exclusif accordé à Financial Afrik, Oulimata Ndiaye, Directeur de UMOA-Titres, revient sur les grandes dynamiques du Marché des Titres Publics de l’UEMOA, devenu un levier central du financement des États de l’Union.Évolution des encours, profil des investisseu...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-06
+
+### De la MONUSCO à la présidence béninoise, Damien Mama chargé de mettre en œuvre les pôles territoriaux
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/05/de-la-monusco-a-la-presidence-beninoise-damien-mama-charge-de-mettre-en-oeuvre-les-poles-territoriaux/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Réuni le 4 novembre 2026, le conseil des ministres du Bénin a nommé Damien Mama ministre, secrétaire permanent du Comité national de pilotage des pôles de développement territorial, rattaché à la présidence de la République. Passé par le Togo, le Burundi et la République démocrat...
+- **Statut** : [ ] à trier
+
