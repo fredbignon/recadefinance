@@ -1,28 +1,30 @@
 # ============================================================
-# Récade Finance — contenu éditable de la page d'accueil
+# Récade Finance : contenu éditable du site
 # ============================================================
-# Modifie librement les textes ci-dessous (entre guillemets).
-# Ne touche pas aux noms à gauche du ":" (ex. "hero_title:") —
+# Modifiez librement les textes ci-dessous (entre guillemets).
+# Ne touchez pas aux noms à gauche du ":" (par exemple "hero:") :
 # ce sont des repères utilisés par le générateur.
 # Après modification : python3 scripts/build.py, puis git push.
 
 hero:
-  eyebrow: "Économie · Finance · Dette souveraine · IA — Un regard africain"
-  title: "Un espace de veille et d'analyse économique et financière — regardés depuis et pour l'Afrique."
-  lede: "Récade Finance vulgarise l'économie, la finance, la notation souveraine et la finance climatique sur le continent africain — avec un focus sur le Bénin."
+  title: "Veille et analyse économiques et financières, depuis l'Afrique et pour elle."
+  lede: "Récade Finance explique l'économie, la finance, la notation souveraine et la finance climatique en Afrique, avec une attention particulière au Bénin."
   cta_label: "Lire les dernières analyses"
 
+# Affichée sur la page « À propos »
 video_section:
-  eyebrow: "En 60 secondes"
-  title: "Ce que Récade Finance apporte"
+  title: "Le projet en vidéo"
+  text: "Un aperçu de la démarche et du positionnement de Récade Finance."
 
+# Section non utilisée pour le moment (le bandeau de chiffres a été retiré de l'accueil).
 credibility:
   label_1: "analyses publiées, sources primaires citées"
   label_2: "sources institutionnelles vérifiées"
-  stat_2: "FMI · BCEAO · BM"
+  stat_2: "FMI, BCEAO, Banque mondiale"
   label_3: "méthode transparente, limites assumées"
-  stat_3: "100%"
+  stat_3: "100 %"
 
+# Rubrique Tribune. Pour la masquer : passer "tribune" à False dans SECTIONS_ACTIVES (scripts/build.py).
 tribune:
   eyebrow: "À venir"
   title: "Une tribune pour des voix qui comptent"
@@ -31,22 +33,24 @@ tribune:
   tag: "Prochainement"
 
 newsletter:
+  title: "Recevoir les analyses"
+  text: "Les nouvelles analyses de Récade Finance, directement par courriel."
   cta_label: "S'abonner"
 
 footer:
-  tagline: "Économie · Finance · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA."
+  tagline: "Économie, finance, dette souveraine et IA, vues d'Afrique, avec un ancrage au Bénin et dans l'UEMOA."
   email: "contact@recade-finance.com"
   instagram: "@recadefinance"
   website: "recade-finance.com"
 
 about_page:
-  intro_quote: "La récade — du portugais recado, « message » — était le sceptre remis par les rois du Dahomey à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance porte cette même exigence : une parole économique sourcée, vérifiable, qui ne se contente jamais d'un chiffre brut."
-  paragraph_1: "Récade Finance est un espace de veille et de vulgarisation consacré à trois sujets qui se recoupent de plus en plus : la finance bancaire et réglementaire, la dette souveraine, et l'intelligence artificielle appliquée à ces domaines — regardés depuis et pour l'Afrique."
-  paragraph_2: "Ce n'est pas un simple relais d'actualité. C'est un agora où chaque article et publication se veut être un véhicule d'analyse, de transmission et de partage de connaissances techniques sur les sujets phares ayant trait à l'économie, la finance et l'IA — vu du continent africain, spécialement la zone ouest africaine."
-  paragraph_3: "Récade Finance se veut être aussi un contributeur à l'essor et la promotion de profils inspirants de professionnels africains de la finance évoluant en Afrique et dans le monde."
+  intro_quote: "La récade, du portugais recado (« message »), était le sceptre que les rois du Dahomey remettaient à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance reprend cette exigence : une parole économique sourcée et vérifiable, jamais un chiffre sans son contexte."
+  paragraph_1: "Récade Finance est un espace de veille et de vulgarisation sur trois sujets de plus en plus liés : la finance bancaire et réglementaire, la dette souveraine et l'intelligence artificielle appliquée à ces domaines. Il les regarde depuis l'Afrique et pour elle."
+  paragraph_2: "Chaque article part d'une question précise, s'appuie sur des sources citées et transmet des connaissances techniques sur l'économie, la finance et l'IA, vues du continent africain et en particulier d'Afrique de l'Ouest."
+  paragraph_3: "Récade Finance veut aussi faire connaître des professionnels africains de la finance, qu'ils exercent en Afrique ou ailleurs dans le monde."
   disclaimer: "Récade Finance est un blog d'analyse et de veille économique et financière sur le continent africain. Il ne sollicite aucun investissement, ne gère aucun fonds et ne propose aucun produit ou service financier. Le contenu publié est fourni à titre informatif et ne constitue pas un conseil en investissement."
 
-site_disclaimer_short: "Blog d'analyse et de veille économique et financière — aucune sollicitation d'investissement, aucune gestion de fonds."
+site_disclaimer_short: "Blog d'analyse et de veille économique et financière. Aucune sollicitation d'investissement, aucune gestion de fonds."
 
 # ------------------------------------------------------------
 # Page « Assistant réglementaire UMOA » (assistant-umoa.html)
@@ -56,9 +60,8 @@ site_disclaimer_short: "Blog d'analyse et de veille économique et financière �
 # d'indisponibilité au lieu d'envoyer les réponses.
 pilote_page:
   form_action: "https://formspree.io/f/xljjvwnk"
-  eyebrow: "Pilote · Inscriptions ouvertes"
   title: "Assistant réglementaire UMOA"
-  lede: "Un assistant IA qui répond à vos questions sur la réglementation bancaire de l'UMOA, en citant à chaque fois le texte exact de la BCEAO et de la Commission Bancaire."
+  lede: "Un assistant IA qui répond à vos questions sur la réglementation bancaire de l'UMOA et cite à chaque fois le texte exact de la BCEAO et de la Commission Bancaire."
   cta_label: "Rejoindre le pilote"
   stat_1: "94 %"
   stat_1_label: "de bonnes réponses sur 50 questions de référence"
@@ -71,9 +74,8 @@ pilote_page:
   success_message: "Merci ! Votre demande est bien enregistrée. Nous revenons vers vous par email avec votre accès au pilote."
   disclaimer: "L'Assistant réglementaire UMOA est un outil d'aide à la lecture des textes. Il ne remplace ni un avis de la BCEAO ou de la Commission Bancaire, ni la validation de vos équipes."
 
-# Bandeau de la page d'accueil qui renvoie vers la page du pilote
+# Section de la page d'accueil qui renvoie vers la page du pilote
 home_banner_pilote:
-  badge: "Nouveau"
   title: "Assistant réglementaire UMOA"
-  text: "La réglementation bancaire de l'UMOA, enfin lisible : des réponses sourcées, article par article. Le pilote est ouvert aux professionnels."
+  text: "La réglementation bancaire de l'UMOA avec des réponses sourcées, article par article. Le pilote est ouvert aux professionnels."
   cta_label: "Découvrir et s'inscrire"

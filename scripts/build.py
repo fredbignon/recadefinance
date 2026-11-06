@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Générateur statique — Récade Finance
-======================================
-Lit les fichiers Markdown de /posts, génère les pages HTML dans /docs
-(le dossier servi par GitHub Pages). Aucune dépendance lourde : juste
-`markdown` et `pyyaml` (déjà présents dans la plupart des environnements
-Python, sinon : pip install markdown pyyaml).
+Générateur statique de Récade Finance
+=====================================
+Lit les fichiers Markdown (posts, actualités, billets courts) et les fichiers de
+contenu (content/*.yaml), puis génère les pages HTML dans /docs, le dossier servi
+par GitHub Pages. Dépendances : markdown et pyyaml.
 
 Usage : python3 scripts/build.py
 """
@@ -28,8 +27,15 @@ DOCS_DIR = os.path.join(ROOT, "docs")
 CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
 BRVM_FILE = os.path.join(ROOT, "content", "marche_brvm.yaml")
 SITE_TITLE = "Récade Finance"
-SITE_TAGLINE = "Économie · Dette souveraine · IA — Un regard africain"
+SITE_TAGLINE = "Économie, finance, dette souveraine et IA : un regard africain"
 SITE_URL = "https://recade-finance.com"
+
+# Rubriques désaffichées du site. Leur contenu reste dans content/site_content.yaml :
+# passer la valeur à True pour les réafficher (menu, pied de page et page d'accueil).
+SECTIONS_ACTIVES = {
+    "tribune": True,
+    "brvm": False,   # tableau et analyse du marché BRVM (données dans content/marche_brvm.yaml)
+}
 
 with open(CONTENT_FILE, encoding="utf-8") as f:
     CONTENT = yaml.safe_load(f)
@@ -51,8 +57,13 @@ def date_fr(d, with_day=False):
         return f"{d.day} {MOIS_FR[d.month - 1]} {d.year}"
     return f"{MOIS_FR[d.month - 1]} {d.year}"
 
+
+def titre_page(titre):
+    return f"{titre} | {SITE_TITLE}"
+
+
 # ---------------------------------------------------------------------------
-# Lecture des articles Markdown (frontmatter YAML + corps)
+# Lecture des articles Markdown (en-tête YAML + corps)
 # ---------------------------------------------------------------------------
 
 def parse_post(filepath):
@@ -60,10 +71,9 @@ def parse_post(filepath):
         raw = f.read()
     m = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)$", raw, re.DOTALL)
     if not m:
-        raise ValueError(f"Frontmatter manquant dans {filepath}")
+        raise ValueError(f"En-tête manquant dans {filepath}")
     meta = yaml.safe_load(m.group(1))
-    body_md = m.group(2)
-    html_body = markdown.markdown(body_md, extensions=["extra"])
+    html_body = markdown.markdown(m.group(2), extensions=["extra"])
     slug = os.path.splitext(os.path.basename(filepath))[0]
     slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", slug)  # retire la date du nom de fichier
     meta["slug"] = slug
@@ -73,26 +83,9 @@ def parse_post(filepath):
     return meta
 
 
-def load_all_posts():
-    files = sorted(glob.glob(os.path.join(POSTS_DIR, "*.md")), reverse=True)
-    files = [f for f in files if os.path.basename(f).upper() != "README.MD"]
-    posts = [parse_post(f) for f in files]
-    posts.sort(key=lambda p: p["date"], reverse=True)
-    return posts
-
-
-def load_all_actualites():
-    files = sorted(glob.glob(os.path.join(ACTUALITES_DIR, "*.md")), reverse=True)
-    files = [f for f in files if os.path.basename(f).upper() != "README.MD"]
-    items = [parse_post(f) for f in files]
-    items.sort(key=lambda p: p["date"], reverse=True)
-    return items
-
-
 def load_markdown_folder(folder):
-    """Chargeur générique réutilisé pour La Minute Éco et L'Instant IA —
-    même structure que /actualites (titre, date, extrait, corps Markdown).
-    Exclut README.md (documentation de format, pas un billet)."""
+    """Chargeur commun aux articles, actualités, La Minute Éco et L'Instant IA.
+    Exclut README.md (documentation du format, pas un billet)."""
     files = sorted(glob.glob(os.path.join(folder, "*.md")), reverse=True)
     files = [f for f in files if os.path.basename(f).upper() != "README.MD"]
     items = [parse_post(f) for f in files]
@@ -100,9 +93,16 @@ def load_markdown_folder(folder):
     return items
 
 
+def load_all_posts():
+    return load_markdown_folder(POSTS_DIR)
+
+
+def load_all_actualites():
+    return load_markdown_folder(ACTUALITES_DIR)
+
+
 # ---------------------------------------------------------------------------
-# Gabarits HTML (chaînes Python — volontairement simples, sans dépendance
-# à un moteur de templating externe)
+# Gabarits HTML (chaînes Python, sans moteur de gabarits externe)
 # ---------------------------------------------------------------------------
 
 HEAD = """<!DOCTYPE html>
@@ -117,8 +117,8 @@ HEAD = """<!DOCTYPE html>
 <link rel="apple-touch-icon" sizes="180x180" href="{root}assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="{root}assets/favicon-192.png">
 <meta name="theme-color" content="#3D171D">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="preload" href="{root}assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{root}assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{root}assets/style.css">
 <script type="application/ld+json">
 {{
@@ -127,7 +127,7 @@ HEAD = """<!DOCTYPE html>
   "name": "Récade Finance",
   "url": "https://recade-finance.com",
   "logo": "https://recade-finance.com/assets/favicon-512.png",
-  "description": "Économie, finance, dette souveraine et IA — un regard africain.",
+  "description": "Économie, finance, dette souveraine et IA : un regard africain.",
   "sameAs": [
     "https://instagram.com/recadefinance"
   ]
@@ -141,7 +141,7 @@ FOOTER_HTML = """
 <footer class="site">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="{root}assets/logo-recade-finance-clair.svg" alt="Récade Finance — Finance · Économie · IA" class="footer-logo" width="188" height="56">
+      <img src="{root}assets/logo-recade-finance-clair.svg" alt="Récade Finance" class="footer-logo" width="188" height="56">
       <p class="footer-tagline">{footer_tagline}</p>
     </div>
     <div class="footer-cols">
@@ -150,32 +150,23 @@ FOOTER_HTML = """
         <a href="{root}index.html#articles">Analyses</a>
         <a href="{root}actualites.html">Actualités</a>
         <a href="{root}minute-eco.html">La Minute Éco</a>
-        <a href="{root}instant-ia.html">L'Instant IA</a>
-        <a href="{root}index.html#tribune">Tribune</a>
+        <a href="{root}instant-ia.html">L'Instant IA</a>{footer_tribune}
         <a href="{root}assistant-umoa.html">Assistant UMOA</a>
+        <a href="{root}a-propos.html">À propos</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <a href="https://{footer_website}" class="contact-icon-row">
-          <svg width="18" height="18" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><ellipse cx="20" cy="20" rx="7.5" ry="17" fill="none" stroke="currentColor" stroke-width="2.4"/><line x1="3" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="2.4"/></svg>
-          {footer_website}
-        </a>
-        <a href="https://instagram.com/recadefinance" class="contact-icon-row">
-          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34" rx="11" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="8.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="29.5" cy="10.5" r="2.2" fill="currentColor"/></svg>
-          {footer_instagram}
-        </a>
-        <a href="mailto:{footer_email}" class="contact-icon-row">
-          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="8" width="34" height="24" fill="none" stroke="currentColor" stroke-width="2.4"/><polyline points="3,8 20,23 37,8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
-          {footer_email}
-        </a>
+        <a href="https://{footer_website}">{footer_website}</a>
+        <a href="https://instagram.com/recadefinance">{footer_instagram}</a>
+        <a href="mailto:{footer_email}">{footer_email}</a>
       </div>
     </div>
   </div>
   <div class="footer-disclaimer">
-    <span>⚠️ {site_disclaimer}</span>
+    <p>{site_disclaimer}</p>
   </div>
   <div class="footer-bottom">
-    <span>&copy; {year} Récade Finance.</span>
+    <span>&copy; {year} Récade Finance</span>
     <span>{footer_website}</span>
   </div>
 </footer>
@@ -186,21 +177,20 @@ FOOTER_HTML = """
 HEADER_HTML = """
 <header class="site">
   <div class="header-inner">
-    <a href="{root}index.html" class="brand" aria-label="Récade Finance — accueil">
-      <img src="{root}assets/logo-recade-finance.svg" alt="Récade Finance — Finance · Économie · IA" class="brand-logo" width="134" height="40">
+    <a href="{root}index.html" class="brand" aria-label="Récade Finance, accueil">
+      <img src="{root}assets/logo-recade-finance.svg" alt="Récade Finance" class="brand-logo" width="134" height="40">
     </a>
     <nav class="main-nav" id="rf-main-nav">
       <a href="{root}index.html">Accueil</a>
       <a href="{root}index.html#articles">Analyses</a>
       <a href="{root}actualites.html">Actualités</a>
       <a href="{root}minute-eco.html">La Minute Éco</a>
-      <a href="{root}instant-ia.html">L'Instant IA</a>
-      <a href="{root}index.html#tribune">Tribune</a>
+      <a href="{root}instant-ia.html">L'Instant IA</a>{nav_tribune}
       <a href="{root}a-propos.html">À propos</a>
     </nav>
     <div class="header-actions">
-      <a href="{root}index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
-      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <a href="{root}index.html#newsletter" class="btn btn-petit">S'abonner</a>
+      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">&#9776;</button>
     </div>
   </div>
 </header>
@@ -219,187 +209,150 @@ HEADER_HTML = """
 """
 
 
+def render_header(root=""):
+    nav_tribune = f'\n      <a href="{root}index.html#tribune">Tribune</a>' if SECTIONS_ACTIVES.get("tribune") else ""
+    return HEADER_HTML.format(root=root, nav_tribune=nav_tribune)
+
+
 def render_footer(root=""):
     f = CONTENT["footer"]
-    disclaimer = CONTENT.get("site_disclaimer_short", "")
+    footer_tribune = f'\n        <a href="{root}index.html#tribune">Tribune</a>' if SECTIONS_ACTIVES.get("tribune") else ""
     return FOOTER_HTML.format(
         root=root, year=datetime.now().year,
         footer_tagline=f["tagline"], footer_email=f["email"], footer_instagram=f["instagram"],
         footer_website=f.get("website", "recade-finance.com"),
-        site_disclaimer=disclaimer,
+        footer_tribune=footer_tribune,
+        site_disclaimer=CONTENT.get("site_disclaimer_short", ""),
     )
 
 
-def render_list_item(post, root=""):
-    cat_key = post.get("category", "analyses")
-    cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
-    date_str = date_fr(post["date"])
+def render_entree(post, root=""):
+    cat_label = CATEGORY_LABELS.get(post.get("category", "analyses"), post.get("category", ""))
+    lien = f"{root}articles/{post['slug']}.html"
     return f"""
-      <div class="article-list-item">
-        <span class="card-date">{cat_label} — {date_str}</span>
-        <h4><a href="{root}articles/{post['slug']}.html">{post['title']}</a></h4>
+      <article class="entree">
+        <p class="meta">{cat_label}, {date_fr(post['date'], with_day=True)}</p>
+        <h3><a href="{lien}">{post['title']}</a></h3>
         <p>{post['excerpt']}</p>
-      </div>"""
+        <a href="{lien}" class="lien">Lire l'analyse</a>
+      </article>"""
 
 
 def render_brvm_widget():
     date = BRVM.get("date_cloture", "")
-    source_label = BRVM.get("source_label", "")
-    interpretation = BRVM.get("interpretation", "")
-    cards = ""
+    lignes = ""
     for idx in BRVM.get("indices", []):
-        sens = idx.get("sens", "hausse")
-        css_class = "brvm-up" if sens == "hausse" else "brvm-down"
-        arrow = "▲" if sens == "hausse" else "▼"
-        cards += f"""
-      <div class="brvm-card">
-        <span class="brvm-nom">{idx['nom']}</span>
-        <span class="brvm-valeur">{idx['valeur']}</span>
-        <span class="brvm-variation {css_class}">{arrow} {idx['variation']}</span>
-      </div>"""
-
-    disagg_cards = ""
+        lignes += f"""
+        <tr><td>{idx['nom']}</td><td class="num">{idx['valeur']}</td><td class="num">{idx['variation']}</td></tr>"""
+    details = ""
     for d in BRVM.get("indicateurs_desagreges", []):
-        disagg_cards += f"""
-      <div class="brvm-disagg-card">
-        <span class="brvm-disagg-label">{d['label']}</span>
-        <span class="brvm-disagg-valeur">{d['valeur']}</span>
-        <span class="brvm-disagg-detail">{d['detail']}</span>
-      </div>"""
-    disagg_html = f'<div class="brvm-disagg-row">{disagg_cards}\n    </div>' if disagg_cards else ""
-
-    interpretation_html = f'<p class="brvm-interpretation">{interpretation}</p>' if interpretation else ""
+        details += f"""
+        <tr><td>{d['label']}</td><td>{d['valeur']}</td><td>{d['detail']}</td></tr>"""
+    detail_html = f"""
+    <table class="detail">
+      <tbody>{details}
+      </tbody>
+    </table>""" if details else ""
+    interpretation = BRVM.get("interpretation", "")
+    interpretation_html = f'<p class="interpretation">{interpretation}</p>' if interpretation else ""
     return f"""
-<section class="brvm-widget">
-  <div class="brvm-inner">
-    <div class="brvm-header">
-      <span class="eyebrow">Marché BRVM — clôture du {date}</span>
-    </div>
-    <div class="brvm-cards">{cards}
-    </div>
-    {disagg_html}
+<section class="section marche" id="marche">
+  <div class="wrap">
+    <h2>Marché BRVM</h2>
+    <p class="meta">Clôture du {date}</p>
+    <table>
+      <thead><tr><th>Indice</th><th class="num">Niveau</th><th class="num">Variation</th></tr></thead>
+      <tbody>{lignes}
+      </tbody>
+    </table>{detail_html}
     {interpretation_html}
-    <div class="brvm-footer">
-      <span>{source_label}</span>
-      <a href="https://www.brvm.org/fr/indices" target="_blank" rel="noopener">Voir en direct sur brvm.org →</a>
-    </div>
+    <p class="source">{BRVM.get('source_label', '')}. <a href="https://www.brvm.org/fr/indices" target="_blank" rel="noopener">Voir en direct sur brvm.org</a></p>
   </div>
 </section>
 """
 
 
+def render_home_pilote():
+    b = CONTENT.get("home_banner_pilote")
+    if not b:
+        return ""
+    return f"""
+<section class="section pilote-accueil">
+  <div class="wrap">
+    <h2>{_e(b['title'])}</h2>
+    <p>{_e(b['text'])}</p>
+    <a href="assistant-umoa.html" class="btn">{_e(b['cta_label'])}</a>
+  </div>
+</section>"""
+
+
+def render_tribune_section():
+    """Rubrique désaffichée (voir SECTIONS_ACTIVES). Le contenu reste dans site_content.yaml."""
+    if not SECTIONS_ACTIVES.get("tribune"):
+        return ""
+    t = CONTENT["tribune"]
+    return f"""
+<section class="section" id="tribune">
+  <div class="wrap">
+    <h2>{t['title']}</h2>
+    <h3>{t['card_title']}</h3>
+    <p>{t['card_text']}</p>
+  </div>
+</section>"""
+
+
 def render_homepage(posts):
     featured_project = next((p for p in posts if p.get("featured")), None)
     remaining = [p for p in posts if p is not featured_project]
-
-    # Article vedette (le plus récent des "remaining") + liste pour le reste
-    article_feature = remaining[0] if remaining else None
-    article_list = remaining[1:] if len(remaining) > 1 else []
-
-    featured_html = ""
-    if article_feature:
-        cat_key = article_feature.get("category", "analyses")
-        cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
-        banner = article_feature.get("banner_image")
-        banner_html = f'<img src="{banner}" alt="{article_feature["title"]}" class="feature-banner">' if banner else ""
-        featured_html = f"""
-        <article class="article-feature-card">
-          {banner_html}
-          <div class="card-body">
-            <span class="tag {cat_key}">{cat_label}</span>
-            <h3 style="margin-top:14px;"><a href="articles/{article_feature['slug']}.html">{article_feature['title']}</a></h3>
-            <p>{article_feature['excerpt']}</p>
-            <a href="articles/{article_feature['slug']}.html" class="read-more">Lire l'analyse →</a>
-          </div>
-        </article>"""
-
-    list_html = "\n".join(render_list_item(p) for p in article_list)
+    entrees_html = "\n".join(render_entree(p) for p in remaining)
 
     featured_project_block = ""
     if featured_project:
         featured_project_block = f"""
-<section class="featured" id="souverain-ia">
-  <div class="featured-inner">
-    <div class="featured-text">
-      <span class="badge">Projet phare</span>
-      <h2>{featured_project['title']}</h2>
-      <p>{featured_project['excerpt']}</p>
-      <a href="articles/{featured_project['slug']}.html" class="btn btn-primary">Lire le livre blanc</a>
-    </div>
+<section class="section" id="souverain-ia">
+  <div class="wrap">
+    <h2>{featured_project['title']}</h2>
+    <p>{featured_project['excerpt']}</p>
+    <a href="articles/{featured_project['slug']}.html" class="btn">Lire le livre blanc</a>
   </div>
 </section>"""
 
     html = HEAD.format(
-        title=f"{SITE_TITLE} — {SITE_TAGLINE}",
+        title=titre_page(SITE_TAGLINE),
         description=SITE_TAGLINE,
         root="",
     )
-    html += HEADER_HTML.format(root="")
+    html += render_header("")
     h = CONTENT["hero"]
-    v = CONTENT["video_section"]
-    c = CONTENT["credibility"]
-    t = CONTENT["tribune"]
     n = CONTENT["newsletter"]
     html += f"""
 <section class="hero">
-  <div class="staff-thread" aria-hidden="true"></div>
-  <div class="hero-inner">
-    <span class="eyebrow">{h['eyebrow']}</span>
+  <div class="wrap">
     <h1>{h['title']}</h1>
     <p class="lede">{h['lede']}</p>
-    <div class="hero-actions">
-      <a href="#articles" class="btn btn-primary">{h['cta_label']}</a>
-    </div>
+    <a href="#articles" class="btn">{h['cta_label']}</a>
   </div>
 </section>
 
-{render_home_banner_pilote()}
-
-{render_brvm_widget()}
-
-<section class="video-section">
-  <div class="video-inner">
-    <div class="video-text">
-      <span class="eyebrow">{v['eyebrow']}</span>
-      <h2>{v['title']}</h2>
-      <p>Un aperçu rapide de la démarche et du positionnement de Récade Finance, en une minute.</p>
-    </div>
-    <div class="video-frame">
-      <video src="assets/recade_finance_teaser.mp4" autoplay muted loop playsinline controls></video>
-    </div>
+<section class="section" id="articles">
+  <div class="wrap">
+    <h2>Dernières analyses</h2>
+    {entrees_html}
   </div>
 </section>
 
 {featured_project_block}
 
-<section class="section" id="articles">
+{render_home_pilote()}
+
+{render_brvm_widget() if SECTIONS_ACTIVES.get('brvm') else ''}
+
+{render_tribune_section()}
+
+<section class="section abonnement" id="newsletter">
   <div class="wrap">
-    <div class="section-head"><h2>Dernières analyses</h2></div>
-    <div class="articles-diversified">
-      <div>{featured_html}</div>
-      <div>{list_html}</div>
-    </div>
-  </div>
-</section>
-
-<section class="tribune" id="tribune">
-  <div class="tribune-inner">
-    <div class="tribune-header">
-      <span class="eyebrow">{t['eyebrow']}</span>
-      <h2>{t['title']}</h2>
-    </div>
-    <div class="tribune-card">
-      <div class="tribune-card-text">
-        <h3>{t['card_title']}</h3>
-        <p>{t['card_text']}</p>
-      </div>
-      <span class="coming-soon-tag">{t['tag']}</span>
-    </div>
-  </div>
-</section>
-
-<section class="newsletter" id="newsletter">
-  <div class="newsletter-inner">
+    <h2>{n.get('title', 'Recevoir les analyses')}</h2>
+    <p>{n.get('text', '')}</p>
     <form action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank" novalidate onsubmit="return rfCheckHoneypot(this)">
       <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" required>
       <div aria-hidden="true" style="position: absolute; left: -5000px;">
@@ -411,7 +364,7 @@ def render_homepage(posts):
         <label for="rf-site-web">Ne pas remplir ce champ</label>
         <input type="text" id="rf-site-web" name="site_web" tabindex="-1" autocomplete="off">
       </div>
-      <button class="btn btn-primary" type="submit">{n['cta_label']}</button>
+      <button class="btn" type="submit">{n['cta_label']}</button>
     </form>
   </div>
 </section>
@@ -429,22 +382,18 @@ function rfCheckHoneypot(form) {{
 
 def render_article(post):
     html = HEAD.format(
-        title=f"{post['title']} — {SITE_TITLE}",
+        title=titre_page(post["title"]),
         description=post["excerpt"],
         root="../",
     )
-    html += HEADER_HTML.format(root="../")
-    cat_key = post.get("category", "analyses")
-    cat_label = CATEGORY_LABELS.get(cat_key, cat_key)
-    banner = post.get("banner_image")
-    banner_html = f'<img src="../{banner}" alt="{post["title"]}" class="article-banner">' if banner else ""
+    html += render_header("../")
+    cat_label = CATEGORY_LABELS.get(post.get("category", "analyses"), post.get("category", ""))
+    # La bannière (banner_image) reste dans les fichiers sources mais n'est plus affichée.
     html += f"""
-<article class="section article-single">
-  <div class="wrap" style="max-width:760px;">
-    <span class="tag {cat_key}">{cat_label}</span>
-    <span class="card-date" style="margin-left:10px;">{date_fr(post['date'], with_day=True)}</span>
-    <h1 style="margin-top:18px;">{post['title']}</h1>
-    {banner_html}
+<article class="section article-single" style="border-top:0;">
+  <div class="wrap etroit">
+    <p class="meta article-meta">{cat_label}, {date_fr(post['date'], with_day=True)}</p>
+    <h1>{post['title']}</h1>
     <div class="article-body">
       {post['html_body']}
     </div>
@@ -461,7 +410,6 @@ def render_video_embed(video_url):
     if not video_url:
         return ""
     if "youtube.com" in video_url or "youtu.be" in video_url:
-        # Extrait l'identifiant de la vidéo pour construire l'URL d'intégration
         vid_id = ""
         if "youtu.be/" in video_url:
             vid_id = video_url.split("youtu.be/")[-1].split("?")[0]
@@ -474,7 +422,6 @@ def render_video_embed(video_url):
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
         </div>"""
-    # sinon on suppose un fichier vidéo local (mp4) référencé depuis /assets
     return f"""
         <div class="video-embed-wrapper">
           <video src="{video_url}" controls></video>
@@ -486,19 +433,15 @@ def render_contributor_item(item, root=""):
     author_title = item.get("author_title", "")
     byline_html = ""
     if author_name:
-        byline_html = f'<div class="contrib-byline"><span class="contrib-name">{author_name}</span>'
-        if author_title:
-            byline_html += f'<span class="contrib-title"> — {author_title}</span>'
-        byline_html += '</div>'
+        titre = f", {author_title}" if author_title else ""
+        byline_html = f'<p class="byline"><strong>{author_name}</strong>{titre}</p>'
 
     video_url = item.get("video_url", "")
     video_html = render_video_embed(f"{root}{video_url}" if video_url and not video_url.startswith("http") else video_url)
 
     return f"""
       <article class="actu-item">
-        <div class="actu-meta">
-          <span class="card-date">{date_fr(item['date'], with_day=True)}</span>
-        </div>
+        <p class="meta">{date_fr(item['date'], with_day=True)}</p>
         <h3>{item['title']}</h3>
         {video_html}
         <div class="actu-body">{item['html_body']}</div>
@@ -506,20 +449,21 @@ def render_contributor_item(item, root=""):
       </article>"""
 
 
-def render_contributor_page(items, page_title, eyebrow, intro_text, description):
-    html = HEAD.format(title=f"{page_title} — {SITE_TITLE}", description=description, root="")
-    html += HEADER_HTML.format(root="")
+def render_contributor_page(items, page_title, intro_text, description):
+    html = HEAD.format(title=titre_page(page_title), description=description, root="")
+    html += render_header("")
     items_html = "\n".join(render_contributor_item(i) for i in items) if items else \
-        '<p style="color:#8a7a6a;">Aucun billet publié pour le moment — le premier arrive bientôt.</p>'
+        '<p class="vide">Aucun billet publié pour le moment. Le premier arrive bientôt.</p>'
     html += f"""
-<section class="section">
-  <div class="wrap" style="max-width:760px;">
-    <div class="section-head">
-      <span class="eyebrow">{eyebrow}</span>
-      <h1>{page_title}</h1>
-      <p style="margin-top:14px; color:#5a4f44;">{intro_text}</p>
-    </div>
-    <div class="actu-list" style="margin-top:36px;">
+<section class="page-titre">
+  <div class="wrap etroit">
+    <h1>{page_title}</h1>
+    <p class="page-intro">{intro_text}</p>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap etroit">
+    <div class="actu-list">
       {items_html}
     </div>
   </div>
@@ -530,39 +474,35 @@ def render_contributor_page(items, page_title, eyebrow, intro_text, description)
 
 
 def render_actualite_item(item):
-    tags = item.get("tags", [])
-    tags_html = " ".join(f'<span class="actu-tag">{t}</span>' for t in tags)
+    sujets = ", ".join(item.get("tags", []))
+    sujets_html = f'<span class="sujets">{sujets}</span>' if sujets else ""
     source = item.get("source", "")
     source_url = item.get("source_url", "")
-    source_html = f'<a href="{source_url}" target="_blank" rel="noopener">Source : {source} ↗</a>' if source else ""
+    source_html = f'<a href="{source_url}" target="_blank" rel="noopener">Source : {source}</a>' if source else ""
     return f"""
       <article class="actu-item">
-        <div class="actu-meta">
-          <span class="card-date">{date_fr(item['date'], with_day=True)}</span>
-          {tags_html}
-        </div>
+        <p class="meta">{date_fr(item['date'], with_day=True)}{sujets_html}</p>
         <h3>{item['title']}</h3>
         <div class="actu-body">{item['html_body']}</div>
-        <div class="actu-source">{source_html}</div>
+        <p class="actu-source">{source_html}</p>
       </article>"""
 
 
 def render_actualites_page(actualites):
-    html = HEAD.format(
-        title=f"Actualités — {SITE_TITLE}",
-        description="Veille régulière sur la finance, la dette souveraine et l'économie africaine.",
-        root="",
-    )
-    html += HEADER_HTML.format(root="")
+    description = "Veille régulière sur la finance, la dette souveraine et l'économie africaine."
+    html = HEAD.format(title=titre_page("Actualités"), description=description, root="")
+    html += render_header("")
     items_html = "\n".join(render_actualite_item(a) for a in actualites) if actualites else \
-        '<p style="color:#8a7a6a;">Aucune actualité publiée pour le moment — revenez bientôt.</p>'
+        '<p class="vide">Aucune actualité publiée pour le moment. Revenez bientôt.</p>'
     html += f"""
-<section class="section">
-  <div class="wrap" style="max-width:760px;">
-    <div class="section-head">
-      <span class="eyebrow">Veille régulière</span>
-      <h1>Actualités</h1>
-    </div>
+<section class="page-titre">
+  <div class="wrap etroit">
+    <h1>Actualités</h1>
+    <p class="page-intro">{description}</p>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap etroit">
     <div class="actu-list">
       {items_html}
     </div>
@@ -575,18 +515,30 @@ def render_actualites_page(actualites):
 
 def render_about():
     a = CONTENT["about_page"]
-    html = HEAD.format(title=f"À propos — {SITE_TITLE}", description=SITE_TAGLINE, root="")
-    html += HEADER_HTML.format(root="")
-    disclaimer_html = f"<p><em>{a['disclaimer']}</em></p>" if a.get("disclaimer") else ""
+    v = CONTENT["video_section"]
+    html = HEAD.format(title=titre_page("À propos"), description=SITE_TAGLINE, root="")
+    html += render_header("")
+    disclaimer_html = f'<p class="petit">{a["disclaimer"]}</p>' if a.get("disclaimer") else ""
     html += f"""
-<section class="section">
-  <div class="wrap" style="max-width:760px;">
+<section class="page-titre">
+  <div class="wrap etroit">
     <h1>Récade Finance</h1>
-    <p style="margin-top:20px; font-size:1.05rem;"><em>{a['intro_quote']}</em></p>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap etroit">
+    <p class="citation">{a['intro_quote']}</p>
     <p>{a['paragraph_1']}</p>
     <p>{a['paragraph_2']}</p>
     <p>{a.get('paragraph_3', '')}</p>
     {disclaimer_html}
+  </div>
+</section>
+<section class="section video-projet">
+  <div class="wrap etroit">
+    <h2>{v['title']}</h2>
+    <p>{v['text']}</p>
+    <video src="assets/recade_finance_teaser.mp4" controls preload="metadata" playsinline></video>
   </div>
 </section>
 """
@@ -595,7 +547,7 @@ def render_about():
 
 
 # ---------------------------------------------------------------------------
-# Assistant réglementaire UMOA : bandeau d'accueil et page d'inscription au pilote
+# Assistant réglementaire UMOA : page d'inscription au pilote
 # ---------------------------------------------------------------------------
 
 PILOTE_FONCTIONS = [
@@ -635,23 +587,6 @@ PILOTE_FREQUENCES = ["Chaque jour", "Chaque semaine", "Ponctuellement"]
 def _e(texte):
     """Échappe un texte pour l'insérer dans du HTML (contenu ou attribut)."""
     return html_lib.escape(str(texte), quote=True)
-
-
-def render_home_banner_pilote():
-    b = CONTENT.get("home_banner_pilote")
-    if not b:
-        return ""
-    return f"""
-<section class="pilote-banner">
-  <div class="pilote-banner-inner">
-    <div>
-      <span class="badge">{_e(b['badge'])}</span>
-      <h2>{_e(b['title'])}</h2>
-      <p>{_e(b['text'])}</p>
-    </div>
-    <a href="assistant-umoa.html" class="btn btn-ocre">{_e(b['cta_label'])}</a>
-  </div>
-</section>"""
 
 
 def _options(valeurs):
@@ -709,52 +644,48 @@ PILOTE_SCRIPT = """
 def render_pilote_page():
     c = CONTENT["pilote_page"]
     html = HEAD.format(
-        title=f"Assistant réglementaire UMOA — pilote — {SITE_TITLE}",
+        title=titre_page(f"{c['title']} (pilote)"),
         description=_e(c["lede"]),
         root="",
     )
-    html += HEADER_HTML.format(root="")
+    html += render_header("")
     html += f"""
-<section class="pilote-hero">
+<section class="hero">
   <div class="wrap">
-    <span class="eyebrow">{_e(c['eyebrow'])}</span>
     <h1>{_e(c['title'])}</h1>
     <p class="lede">{_e(c['lede'])}</p>
-    <a href="#inscription" class="btn btn-primary">{_e(c['cta_label'])}</a>
+    <a href="#inscription" class="btn">{_e(c['cta_label'])}</a>
+    <div class="stats">
+      <div class="stat"><span class="num">{_e(c['stat_1'])}</span><span class="label">{_e(c['stat_1_label'])}</span></div>
+      <div class="stat"><span class="num">{_e(c['stat_2'])}</span><span class="label">{_e(c['stat_2_label'])}</span></div>
+      <div class="stat"><span class="num">{_e(c['stat_3'])}</span><span class="label">{_e(c['stat_3_label'])}</span></div>
+    </div>
+    <p class="stats-note">{_e(c['stats_note'])}</p>
   </div>
-</section>
-
-<section class="pilote-stats">
-  <div class="pilote-stats-inner">
-    <div class="pilote-stat"><span class="num">{_e(c['stat_1'])}</span><span class="label">{_e(c['stat_1_label'])}</span></div>
-    <div class="pilote-stat"><span class="num">{_e(c['stat_2'])}</span><span class="label">{_e(c['stat_2_label'])}</span></div>
-    <div class="pilote-stat"><span class="num">{_e(c['stat_3'])}</span><span class="label">{_e(c['stat_3_label'])}</span></div>
-  </div>
-  <p class="pilote-stats-note">{_e(c['stats_note'])}</p>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <div class="section-head"><h2>Ce que l'assistant fait pour vous</h2></div>
-    <div class="pilote-features">
-      <div class="pilote-feature"><h3>Une réponse sourcée</h3><p>Chaque affirmation renvoie à un article ou un paragraphe précis du dispositif prudentiel, du PCB révisé ou des instructions de la BCEAO.</p></div>
-      <div class="pilote-feature"><h3>Des calculs exacts</h3><p>Pondérations, ratios de solvabilité, division des risques et provisions sont calculés par des fonctions testées, pas « de tête ».</p></div>
-      <div class="pilote-feature"><h3>Des limites assumées</h3><p>Quand le texte ne répond pas, l'assistant le dit et indique ce qu'il faudrait vérifier, au lieu d'extrapoler.</p></div>
+    <h2>Ce que l'assistant fait pour vous</h2>
+    <div class="colonnes">
+      <div><h3>Une réponse sourcée</h3><p>Chaque affirmation renvoie à un article ou un paragraphe précis du dispositif prudentiel, du PCB révisé ou des instructions de la BCEAO.</p></div>
+      <div><h3>Des calculs exacts</h3><p>Pondérations, ratios de solvabilité, division des risques et provisions sont calculés par des fonctions testées, pas « de tête ».</p></div>
+      <div><h3>Des limites annoncées</h3><p>Quand le texte ne répond pas, l'assistant le dit et indique ce qu'il faudrait vérifier, au lieu d'extrapoler.</p></div>
     </div>
-    <div class="pilote-exemple">
-      <span class="eyebrow">Exemple de question</span>
-      <p class="pilote-question">« Un crédit de 200 millions FCFA, impayé depuis 120 jours, est garanti par une hypothèque : quel classement, et quelle provision ? »</p>
+    <div class="exemple">
+      <p class="titre-exemple">Exemple de question</p>
+      <p class="question">« Un crédit de 200 millions FCFA, impayé depuis 120 jours, est garanti par une hypothèque : quel classement, et quelle provision ? »</p>
       <p>L'assistant classe la créance en douteuse, distingue la part couverte et la part non couverte, donne les taux minimaux de dépréciation et cite l'instruction n° 026-11-2016 (art. 8 et 16).</p>
     </div>
   </div>
 </section>
 
-<section class="section pilote-form-section" id="inscription">
-  <div class="wrap pilote-form-wrap">
-    <div class="pilote-form-intro">
+<section class="section" id="inscription">
+  <div class="wrap form-wrap">
+    <div>
       <h2>Rejoindre le pilote</h2>
       <p>{_e(c['form_intro'])}</p>
-      <ol class="pilote-steps">
+      <ol>
         <li>Vous remplissez ce formulaire (2 minutes).</li>
         <li>Nous vous envoyons un accès et un guide de prise en main.</li>
         <li>Vous posez vos vraies questions et signalez les erreurs en un clic.</li>
@@ -762,7 +693,7 @@ def render_pilote_page():
     </div>
 
     <form id="pilote-form" class="pilote-form" action="{_e(c['form_action'])}" method="POST" data-succes="{_e(c['success_message'])}">
-      <input type="hidden" name="_subject" value="Inscription au pilote — Assistant réglementaire UMOA">
+      <input type="hidden" name="_subject" value="Inscription au pilote : Assistant réglementaire UMOA">
       <div class="pf-trap" aria-hidden="true">
         <label for="pf-gotcha">Ne pas remplir ce champ</label>
         <input type="text" id="pf-gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
@@ -833,15 +764,15 @@ def render_pilote_page():
       <label class="pf-check pf-consent"><input type="checkbox" name="consentement" value="oui" required> <span>J'accepte que Récade Finance utilise ces informations pour me contacter au sujet du pilote. Elles ne sont ni vendues ni partagées. <span class="pf-req">*</span></span></label>
       <label class="pf-check"><input type="checkbox" name="newsletter" value="oui"> <span>Je souhaite aussi recevoir la lettre de Récade Finance.</span></label>
 
-      <button type="submit" class="btn btn-primary pf-submit">Envoyer ma demande</button>
+      <button type="submit" class="btn pf-submit">Envoyer ma demande</button>
       <p class="pf-status" id="pf-status" role="status" aria-live="polite"></p>
     </form>
   </div>
 </section>
 
-<section class="section pilote-disclaimer-section">
-  <div class="wrap" style="max-width:760px;">
-    <p class="pilote-disclaimer">{_e(c['disclaimer'])}</p>
+<section class="section">
+  <div class="wrap etroit">
+    <p class="petit">{_e(c['disclaimer'])}</p>
   </div>
 </section>
 """
@@ -857,9 +788,7 @@ def render_pilote_page():
 def render_sitemap(posts):
     urls = ["", "assistant-umoa.html", "a-propos.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
     urls += [f"articles/{p['slug']}.html" for p in posts]
-    entries = "\n".join(
-        f"  <url><loc>{SITE_URL}/{u}</loc></url>" for u in urls
-    )
+    entries = "\n".join(f"  <url><loc>{SITE_URL}/{u}</loc></url>" for u in urls)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {entries}
@@ -875,75 +804,61 @@ Sitemap: {SITE_URL}/sitemap.xml
 """
 
 
-def main():
-    os.makedirs(DOCS_DIR, exist_ok=True)
-    os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
-
-    # Copie systématique de /assets vers /docs/assets — garantit que tout
-    # changement de style, image ou vidéo se propage sans étape manuelle.
+def copier_assets():
+    """Copie /assets vers /docs/assets (fichiers et sous-dossiers, dont les polices)."""
     assets_src = os.path.join(ROOT, "assets")
     assets_dst = os.path.join(DOCS_DIR, "assets")
     os.makedirs(assets_dst, exist_ok=True)
-    for filename in os.listdir(assets_src):
-        src_path = os.path.join(assets_src, filename)
-        if os.path.isfile(src_path):
-            shutil.copy2(src_path, os.path.join(assets_dst, filename))
+    for nom in os.listdir(assets_src):
+        src = os.path.join(assets_src, nom)
+        dst = os.path.join(assets_dst, nom)
+        if os.path.isdir(src):
+            shutil.copytree(src, dst, dirs_exist_ok=True)
+        else:
+            shutil.copy2(src, dst)
     print(f"Assets copiés vers {assets_dst}")
+
+
+def main():
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
+    copier_assets()
 
     posts = load_all_posts()
     print(f"{len(posts)} article(s) trouvé(s) dans /posts")
-
     actualites = load_all_actualites()
     print(f"{len(actualites)} actualité(s) trouvée(s) dans /actualites")
-
     minute_eco = load_markdown_folder(MINUTE_ECO_DIR)
     print(f"{len(minute_eco)} billet(s) trouvé(s) dans /minute-eco")
-
     instant_ia = load_markdown_folder(INSTANT_IA_DIR)
     print(f"{len(instant_ia)} billet(s) trouvé(s) dans /instant-ia")
 
-    with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(render_homepage(posts))
+    def ecrire(chemin, contenu):
+        with open(os.path.join(DOCS_DIR, chemin), "w", encoding="utf-8") as f:
+            f.write(contenu)
 
-    with open(os.path.join(DOCS_DIR, "a-propos.html"), "w", encoding="utf-8") as f:
-        f.write(render_about())
-
-    with open(os.path.join(DOCS_DIR, "assistant-umoa.html"), "w", encoding="utf-8") as f:
-        f.write(render_pilote_page())
-    print("  → assistant-umoa.html")
-
-    with open(os.path.join(DOCS_DIR, "minute-eco.html"), "w", encoding="utf-8") as f:
-        f.write(render_contributor_page(
-            minute_eco, "La Minute Éco", "Format court, écrit ou vidéo",
-            "Une notion ou une thématique économique, souvent trop technique, expliquée simplement — en quelques minutes, à l'écrit ou en vidéo.",
-            "La Minute Éco — vulgariser une notion économique à la fois, en quelques minutes.",
-        ))
-
-    with open(os.path.join(DOCS_DIR, "instant-ia.html"), "w", encoding="utf-8") as f:
-        f.write(render_contributor_page(
-            instant_ia, "L'Instant IA", "Format court, écrit ou vidéo",
-            "Une notion ou une thématique liée à l'intelligence artificielle, souvent trop technique, expliquée simplement — en quelques minutes, à l'écrit ou en vidéo.",
-            "L'Instant IA — vulgariser une notion d'IA à la fois, en quelques minutes.",
-        ))
-
-    with open(os.path.join(DOCS_DIR, "actualites.html"), "w", encoding="utf-8") as f:
-        f.write(render_actualites_page(actualites))
+    ecrire("index.html", render_homepage(posts))
+    ecrire("a-propos.html", render_about())
+    ecrire("assistant-umoa.html", render_pilote_page())
+    ecrire("minute-eco.html", render_contributor_page(
+        minute_eco, "La Minute Éco",
+        "Une notion économique souvent technique, expliquée simplement en quelques minutes, à l'écrit ou en vidéo.",
+        "La Minute Éco : une notion économique expliquée simplement, en quelques minutes.",
+    ))
+    ecrire("instant-ia.html", render_contributor_page(
+        instant_ia, "L'Instant IA",
+        "Une notion d'intelligence artificielle souvent technique, expliquée simplement en quelques minutes, à l'écrit ou en vidéo.",
+        "L'Instant IA : une notion d'IA expliquée simplement, en quelques minutes.",
+    ))
+    ecrire("actualites.html", render_actualites_page(actualites))
 
     for post in posts:
-        out_path = os.path.join(DOCS_DIR, "articles", f"{post['slug']}.html")
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(render_article(post))
-        print(f"  → articles/{post['slug']}.html")
+        ecrire(os.path.join("articles", f"{post['slug']}.html"), render_article(post))
+        print(f"  articles/{post['slug']}.html")
 
-    with open(os.path.join(DOCS_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
-        f.write(render_sitemap(posts))
-    print("  → sitemap.xml")
-
-    with open(os.path.join(DOCS_DIR, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write(render_robots())
-    print("  → robots.txt")
-
-    print("Site généré dans /docs — prêt à être poussé sur GitHub.")
+    ecrire("sitemap.xml", render_sitemap(posts))
+    ecrire("robots.txt", render_robots())
+    print("Site généré dans /docs, prêt à être poussé sur GitHub.")
 
 
 if __name__ == "__main__":

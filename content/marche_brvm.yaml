@@ -1,13 +1,16 @@
 # ============================================================
-# Récade Finance — données du marché BRVM
+# Récade Finance : données du marché BRVM
 # ============================================================
-# À mettre à jour manuellement, idéalement chaque jour ouvré,
-# à partir des chiffres officiels publiés sur brvm.org (section
-# "Indices" et "Résumé") ou d'un agrégateur fiable (ex. Sika
-# Finance, brvmscreener.com).
+# Rubrique désaffichée du site pour le moment. Les données restent ici.
+# Pour la réafficher : passer "brvm" à True dans SECTIONS_ACTIVES (scripts/build.py).
 #
-# "sens" doit être "hausse" ou "baisse" — ça pilote la couleur
-# affichée (vert ou rouge) sur le site.
+# À mettre à jour manuellement, idéalement chaque jour ouvré,
+# à partir des chiffres officiels publiés sur brvm.org (sections
+# "Indices" et "Résumé") ou d'un agrégateur fiable (par exemple
+# Sika Finance ou brvmscreener.com).
+#
+# La variation s'écrit avec son signe ("+0,02 %" ou "-0,15 %").
+# Le champ "sens" n'est plus utilisé pour l'affichage.
 #
 # Après modification : python3 scripts/build.py puis git push
 # (ou laisser l'automatisation GitHub Actions s'en charger si le
@@ -15,7 +18,7 @@
 
 date_cloture: "28 août 2026"
 
-# Indicateurs clés — résument le marché en un coup d'œil
+# Indicateurs clés : résument le marché en un coup d'œil
 indices:
   - nom: "BRVM Composite"
     valeur: "530,06"
@@ -27,11 +30,11 @@ indices:
     variation: "+0,19 %"
     sens: "hausse"
 
-# Indicateurs désagrégés — donnent une lecture plus fine de la
+# Indicateurs détaillés : donnent une lecture plus fine de la
 # même séance (respiration du marché, activité, taille)
 indicateurs_desagreges:
-  - label: "Avance / Déclin"
-    valeur: "17 ▲ · 22 ▼ · 8 ="
+  - label: "Avance et déclin"
+    valeur: "17 en hausse, 22 en baisse, 8 inchangées"
     detail: "sur 47 valeurs cotées"
 
   - label: "Volume échangé"
@@ -42,9 +45,9 @@ indicateurs_desagreges:
     valeur: "19 803 Md FCFA"
     detail: "45 sociétés valorisées sur 47"
 
-source_label: "Cours officiels de clôture — Source : BRVM (brvm.org)"
+source_label: "Cours officiels de clôture. Source : BRVM (brvm.org)"
 
 # Interprétation courte, à réécrire à chaque mise à jour des chiffres
-# ci-dessus — une lecture automatisée n'est pas possible ici, ça demande
+# ci-dessus. Une lecture automatisée n'est pas possible ici : elle demande
 # un vrai regard sur ce que les chiffres du jour signifient.
-interpretation: "Une séance de faible amplitude en surface, mais plus contrastée en profondeur : malgré la légère hausse du Composite (+0,02 %), 22 valeurs reculent contre seulement 17 qui progressent. La performance de l'indice tient donc à quelques poids lourds plutôt qu'à un mouvement de marché généralisé — une nuance que le seul chiffre agrégé ne montre pas."
+interpretation: "Une séance de faible amplitude en surface, mais plus contrastée en profondeur : malgré la légère hausse du Composite (+0,02 %), 22 valeurs reculent contre seulement 17 qui progressent. La performance de l'indice tient donc à quelques poids lourds plutôt qu'à un mouvement de marché généralisé. Le chiffre agrégé seul ne montre pas cette nuance."

@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>À propos — Récade Finance</title>
-<meta name="description" content="Économie · Dette souveraine · IA — Un regard africain">
+<title>À propos | Récade Finance</title>
+<meta name="description" content="Économie, finance, dette souveraine et IA : un regard africain">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
 <meta name="theme-color" content="#3D171D">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">
 {
@@ -20,7 +20,7 @@
   "name": "Récade Finance",
   "url": "https://recade-finance.com",
   "logo": "https://recade-finance.com/assets/favicon-512.png",
-  "description": "Économie, finance, dette souveraine et IA — un regard africain.",
+  "description": "Économie, finance, dette souveraine et IA : un regard africain.",
   "sameAs": [
     "https://instagram.com/recadefinance"
   ]
@@ -31,8 +31,8 @@
 
 <header class="site">
   <div class="header-inner">
-    <a href="index.html" class="brand" aria-label="Récade Finance — accueil">
-      <img src="assets/logo-recade-finance.svg" alt="Récade Finance — Finance · Économie · IA" class="brand-logo" width="134" height="40">
+    <a href="index.html" class="brand" aria-label="Récade Finance, accueil">
+      <img src="assets/logo-recade-finance.svg" alt="Récade Finance" class="brand-logo" width="134" height="40">
     </a>
     <nav class="main-nav" id="rf-main-nav">
       <a href="index.html">Accueil</a>
@@ -44,8 +44,8 @@
       <a href="a-propos.html">À propos</a>
     </nav>
     <div class="header-actions">
-      <a href="index.html#newsletter" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">S'abonner</a>
-      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <a href="index.html#newsletter" class="btn btn-petit">S'abonner</a>
+      <button class="nav-toggle" id="rf-nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">&#9776;</button>
     </div>
   </div>
 </header>
@@ -62,22 +62,33 @@
 })();
 </script>
 
-<section class="section">
-  <div class="wrap" style="max-width:760px;">
+<section class="page-titre">
+  <div class="wrap etroit">
     <h1>Récade Finance</h1>
-    <p style="margin-top:20px; font-size:1.05rem;"><em>La récade — du portugais recado, « message » — était le sceptre remis par les rois du Dahomey à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance porte cette même exigence : une parole économique sourcée, vérifiable, qui ne se contente jamais d'un chiffre brut.</em></p>
-    <p>Récade Finance est un espace de veille et de vulgarisation consacré à trois sujets qui se recoupent de plus en plus : la finance bancaire et réglementaire, la dette souveraine, et l'intelligence artificielle appliquée à ces domaines — regardés depuis et pour l'Afrique.</p>
-    <p>Ce n'est pas un simple relais d'actualité. C'est un agora où chaque article et publication se veut être un véhicule d'analyse, de transmission et de partage de connaissances techniques sur les sujets phares ayant trait à l'économie, la finance et l'IA — vu du continent africain, spécialement la zone ouest africaine.</p>
-    <p>Récade Finance se veut être aussi un contributeur à l'essor et la promotion de profils inspirants de professionnels africains de la finance évoluant en Afrique et dans le monde.</p>
-    <p><em>Récade Finance est un blog d'analyse et de veille économique et financière sur le continent africain. Il ne sollicite aucun investissement, ne gère aucun fonds et ne propose aucun produit ou service financier. Le contenu publié est fourni à titre informatif et ne constitue pas un conseil en investissement.</em></p>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap etroit">
+    <p class="citation">La récade, du portugais recado (« message »), était le sceptre que les rois du Dahomey remettaient à leurs messagers pour authentifier leur parole auprès de son destinataire. Récade Finance reprend cette exigence : une parole économique sourcée et vérifiable, jamais un chiffre sans son contexte.</p>
+    <p>Récade Finance est un espace de veille et de vulgarisation sur trois sujets de plus en plus liés : la finance bancaire et réglementaire, la dette souveraine et l'intelligence artificielle appliquée à ces domaines. Il les regarde depuis l'Afrique et pour elle.</p>
+    <p>Chaque article part d'une question précise, s'appuie sur des sources citées et transmet des connaissances techniques sur l'économie, la finance et l'IA, vues du continent africain et en particulier d'Afrique de l'Ouest.</p>
+    <p>Récade Finance veut aussi faire connaître des professionnels africains de la finance, qu'ils exercent en Afrique ou ailleurs dans le monde.</p>
+    <p class="petit">Récade Finance est un blog d'analyse et de veille économique et financière sur le continent africain. Il ne sollicite aucun investissement, ne gère aucun fonds et ne propose aucun produit ou service financier. Le contenu publié est fourni à titre informatif et ne constitue pas un conseil en investissement.</p>
+  </div>
+</section>
+<section class="section video-projet">
+  <div class="wrap etroit">
+    <h2>Le projet en vidéo</h2>
+    <p>Un aperçu de la démarche et du positionnement de Récade Finance.</p>
+    <video src="assets/recade_finance_teaser.mp4" controls preload="metadata" playsinline></video>
   </div>
 </section>
 
 <footer class="site">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="assets/logo-recade-finance-clair.svg" alt="Récade Finance — Finance · Économie · IA" class="footer-logo" width="188" height="56">
-      <p class="footer-tagline">Économie · Finance · Dette souveraine · IA — Un regard africain, avec un ancrage particulier sur le Bénin et l'UEMOA.</p>
+      <img src="assets/logo-recade-finance-clair.svg" alt="Récade Finance" class="footer-logo" width="188" height="56">
+      <p class="footer-tagline">Économie, finance, dette souveraine et IA, vues d'Afrique, avec un ancrage au Bénin et dans l'UEMOA.</p>
     </div>
     <div class="footer-cols">
       <div class="footer-col">
@@ -88,29 +99,21 @@
         <a href="instant-ia.html">L'Instant IA</a>
         <a href="index.html#tribune">Tribune</a>
         <a href="assistant-umoa.html">Assistant UMOA</a>
+        <a href="a-propos.html">À propos</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
-        <a href="https://recade-finance.com" class="contact-icon-row">
-          <svg width="18" height="18" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><ellipse cx="20" cy="20" rx="7.5" ry="17" fill="none" stroke="currentColor" stroke-width="2.4"/><line x1="3" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="2.4"/></svg>
-          recade-finance.com
-        </a>
-        <a href="https://instagram.com/recadefinance" class="contact-icon-row">
-          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34" rx="11" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="8.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="29.5" cy="10.5" r="2.2" fill="currentColor"/></svg>
-          @recadefinance
-        </a>
-        <a href="mailto:contact@recade-finance.com" class="contact-icon-row">
-          <svg width="18" height="18" viewBox="0 0 40 40"><rect x="3" y="8" width="34" height="24" fill="none" stroke="currentColor" stroke-width="2.4"/><polyline points="3,8 20,23 37,8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
-          contact@recade-finance.com
-        </a>
+        <a href="https://recade-finance.com">recade-finance.com</a>
+        <a href="https://instagram.com/recadefinance">@recadefinance</a>
+        <a href="mailto:contact@recade-finance.com">contact@recade-finance.com</a>
       </div>
     </div>
   </div>
   <div class="footer-disclaimer">
-    <span>⚠️ Blog d'analyse et de veille économique et financière — aucune sollicitation d'investissement, aucune gestion de fonds.</span>
+    <p>Blog d'analyse et de veille économique et financière. Aucune sollicitation d'investissement, aucune gestion de fonds.</p>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2026 Récade Finance.</span>
+    <span>&copy; 2026 Récade Finance</span>
     <span>recade-finance.com</span>
   </div>
 </footer>
