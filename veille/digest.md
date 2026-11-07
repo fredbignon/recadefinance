@@ -857,3 +857,28 @@ Shelter Afrique Development Bank (ShafDB) a clôturé avec succès le 30...
 - **Résumé (extrait automatique)** : Réuni le 4 novembre 2026, le conseil des ministres du Bénin a nommé Damien Mama ministre, secrétaire permanent du Comité national de pilotage des pôles de développement territorial, rattaché à la présidence de la République. Passé par le Togo, le Burundi et la République démocrat...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-07
+
+### COFEB-HEC Paris : 29 dirigeants de la sous-région certifiés en management stratégique bancaire à Dakar
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/07/cofeb-hec-paris-29-dirigeants-de-la-sous-region-certifies-en-management-strategique-bancaire-a-dakar/
+- **Mots-clés déclencheurs** : BCEAO
+- **Résumé (extrait automatique)** : Le Centre ouest-africain de formation et d’études bancaires (COFEB), centre de formation et de recherche de la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), et HEC Paris ont procédé, vendredi 6 novembre 2026 à Dakar, à la remise des certificats du programme Executive...
+- **Statut** : [ ] à trier
+
+### Wave rejoint le système d’interopérabilité PI-SPI
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/06/wave-rejoint-le-systeme-dinteroperabilite-pi-spi/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Au Sénégal et en Côte d’Ivoire, Wave a intégré le système d&rsquo;interopérabilité PI-SPI mis en place par la Banque Centrale des États de l’Afrique de l’Ouest (BCEAO). La plateforme permet aux utilisateurs d’envoyer et de recevoir de l’argent entre Wave et plus de 170 autres ins...
+- **Statut** : [ ] à trier
+
+### RDC-FMI : un accord préliminaire ouvre la voie à 771 millions de dollars de financements supplémentaires
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/06/rdc-fmi-un-accord-preliminaire-ouvre-la-voie-a-771-millions-de-dollars-de-financements-supplementaires/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
