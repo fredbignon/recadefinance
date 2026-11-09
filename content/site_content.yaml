@@ -37,7 +37,7 @@ newsletter:
   text: "Les nouvelles analyses de Récade Finance, directement par courriel."
   cta_label: "S'abonner"
   mention: "En vous abonnant, vous acceptez de recevoir la lettre de Récade Finance. Vous pouvez vous désinscrire à tout moment."
-  success_message: "Merci. Un courriel de confirmation vient de vous être envoyé : cliquez sur le lien qu'il contient pour finaliser votre abonnement. Pensez à vérifier vos courriers indésirables."
+  success_message: "Merci, votre abonnement est enregistré. Vous recevrez les prochaines analyses par courriel."
   error_message: "L'inscription n'a pas abouti. Vérifiez votre adresse ou écrivez-nous à contact@recade-finance.com."
   already_message: "Cette adresse est déjà abonnée."
   # Page d'arrivée après le clic sur le lien de confirmation (abonnement-confirme.html)

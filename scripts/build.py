@@ -354,6 +354,10 @@ def render_homepage(posts):
     <h2>{n.get('title', 'Recevoir les analyses')}</h2>
     <p>{n.get('text', '')}</p>
     <form id="abonnement-form" action="https://gmail.us6.list-manage.com/subscribe/post?u=0727619b3152a006e7015d1c8&amp;id=cd759a0ccc&amp;f_id=00e6c2e1f0" method="post" class="subscribe-form" target="_blank">
+      <div class="identite">
+        <input type="text" name="FNAME" placeholder="Prénom" aria-label="Prénom" autocomplete="given-name" maxlength="60">
+        <input type="text" name="LNAME" placeholder="Nom" aria-label="Nom" autocomplete="family-name" maxlength="60">
+      </div>
       <input type="email" name="EMAIL" placeholder="votre@email.com" aria-label="Adresse email" autocomplete="email" required>
       <div aria-hidden="true" style="position: absolute; left: -5000px;">
         <input type="text" name="b_0727619b3152a006e7015d1c8_cd759a0ccc" tabindex="-1" value="">
@@ -390,6 +394,8 @@ NEWSLETTER_SCRIPT = """
     evt.preventDefault();
     if (form.querySelector('#rf-site-web').value !== '') { return; }
     var email = form.querySelector('input[name="EMAIL"]').value.trim();
+    var prenom = form.querySelector('input[name="FNAME"]').value.trim();
+    var nom = form.querySelector('input[name="LNAME"]').value.trim();
     var piege = form.querySelector('input[name^="b_"]');
     var bouton = form.querySelector('button');
     var rappel = 'rfMc' + Date.now();
@@ -417,7 +423,7 @@ NEWSLETTER_SCRIPT = """
     delai = setTimeout(function() { terminer(MESSAGE_ERREUR, false); }, 12000);
     balise.onerror = function() { terminer(MESSAGE_ERREUR, false); };
     balise.src = form.action.replace('/subscribe/post?', '/subscribe/post-json?') +
-      '&EMAIL=' + encodeURIComponent(email) + '&' + encodeURIComponent(piege.name) + '=&c=' + rappel;
+      '&EMAIL=' + encodeURIComponent(email) + '&FNAME=' + encodeURIComponent(prenom) + '&LNAME=' + encodeURIComponent(nom) + '&' + encodeURIComponent(piege.name) + '=&c=' + rappel;
     document.body.appendChild(balise);
   });
 })();
