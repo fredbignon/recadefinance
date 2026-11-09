@@ -227,7 +227,7 @@
     if (form.querySelector('#pf-gotcha').value !== '') { return; }
     if (form.action.indexOf('A_REMPLACER') !== -1) {
       statut.className = 'pf-status pf-erreur';
-      statut.textContent = "Le formulaire n'est pas encore activé. Écrivez-nous à contact@recade-finance.com.";
+      statut.textContent = "Le formulaire n'est pas encore activé. Écrivez-nous à contact.recadefinance@gmail.com.";
       return;
     }
     var donnees = new FormData(form);
@@ -247,7 +247,7 @@
       })
       .catch(function() {
         statut.className = 'pf-status pf-erreur';
-        statut.textContent = "L'envoi n'a pas abouti. Réessayez ou écrivez-nous à contact@recade-finance.com.";
+        statut.textContent = "L'envoi n'a pas abouti. Réessayez ou écrivez-nous à contact.recadefinance@gmail.com.";
       })
       .then(function() { bouton.disabled = false; });
   });
@@ -275,7 +275,7 @@
         <h4>Contact</h4>
         <a href="https://recade-finance.com">recade-finance.com</a>
         <a href="https://instagram.com/recadefinance">@recadefinance</a>
-        <a href="mailto:contact@recade-finance.com">contact@recade-finance.com</a>
+        <a href="mailto:contact.recadefinance@gmail.com">contact.recadefinance@gmail.com</a>
       </div>
     </div>
   </div>

@@ -38,7 +38,7 @@ newsletter:
   cta_label: "S'abonner"
   mention: "En vous abonnant, vous acceptez de recevoir la lettre de Récade Finance. Vous pouvez vous désinscrire à tout moment."
   success_message: "Merci, votre abonnement est enregistré. Vous recevrez les prochaines analyses par courriel."
-  error_message: "L'inscription n'a pas abouti. Vérifiez votre adresse ou écrivez-nous à contact@recade-finance.com."
+  error_message: "L'inscription n'a pas abouti. Vérifiez votre adresse ou écrivez-nous à contact.recadefinance@gmail.com."
   already_message: "Cette adresse est déjà abonnée."
   # Page d'arrivée après le clic sur le lien de confirmation (abonnement-confirme.html)
   confirmed_title: "Abonnement confirmé"
@@ -46,7 +46,7 @@ newsletter:
 
 footer:
   tagline: "Économie, finance, dette souveraine et IA, vues d'Afrique, avec un ancrage au Bénin et dans l'UEMOA."
-  email: "contact@recade-finance.com"
+  email: "contact.recadefinance@gmail.com"
   instagram: "@recadefinance"
   website: "recade-finance.com"
 
