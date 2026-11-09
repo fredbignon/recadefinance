@@ -8,7 +8,7 @@
 
 hero:
   title: "Veille et analyse économiques et financières, depuis l'Afrique et pour elle."
-  lede: "Récade Finance explique l'économie, la finance, la notation souveraine et la finance climatique en Afrique, avec une attention particulière au Bénin."
+  lede: "Récade Finance explique la finance, l'économie et l'intelligence artificielle appliquée à ces domaines. La dette et la notation souveraine en sont un sujet phare, la finance climatique un angle de la finance. Une attention particulière est portée au Bénin."
   cta_label: "Lire les dernières analyses"
 
 # Affichée sur la page « À propos »
@@ -29,7 +29,7 @@ tribune:
   eyebrow: "À venir"
   title: "Une tribune pour des voix qui comptent"
   card_title: "Interviews et regards croisés"
-  card_text: "À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de la dette souveraine et de l'économie africaine viennent partager leur analyse."
+  card_text: "À terme, Récade Finance veut devenir un espace où des figures crédibles de la finance, de l'économie et de l'intelligence artificielle viennent partager leur analyse."
   tag: "Prochainement"
 
 newsletter:
@@ -45,16 +45,15 @@ newsletter:
   confirmed_text: "Merci, votre adresse est confirmée. Vous recevrez les prochaines analyses de Récade Finance directement par courriel."
 
 footer:
-  tagline: "Économie, finance, dette souveraine et IA, vues d'Afrique, avec un ancrage au Bénin et dans l'UEMOA."
+  tagline: "Finance, Économie, et IA, vues d'Afrique, avec un ancrage au Bénin et dans l'UEMOA."
   email: "contact.recadefinance@gmail.com"
   instagram: "@recadefinance"
   website: "recade-finance.com"
 
 about_page:
-  intro_quote: "Au Dahomey, le messager d'un roi portait une récade. Le mot vient du portugais recado, le message. Cet objet disait d'où venait la parole : celui qui la recevait savait qui l'envoyait et pouvait la croire. Récade Finance se donne la même règle pour l'information économique : dire d'où vient chaque chiffre, citer ses sources, indiquer ses limites."
-  paragraph_1: "Récade Finance est un espace de veille et de vulgarisation sur trois sujets de plus en plus liés : la finance bancaire et réglementaire, la dette souveraine et l'intelligence artificielle appliquée à ces domaines. Il les regarde depuis l'Afrique et pour elle."
-  paragraph_2: "Chaque article part d'une question précise, s'appuie sur des sources citées et transmet des connaissances techniques sur l'économie, la finance et l'IA, vues du continent africain et en particulier d'Afrique de l'Ouest."
-  paragraph_3: "Récade Finance veut aussi faire connaître des professionnels africains de la finance, qu'ils exercent en Afrique ou ailleurs dans le monde."
+  intro_quote: "Au Dahomey, le messager d'un roi portait une récade. Le mot vient du portugais recado, le message. Cet objet disait d'où venait la parole : celui qui la recevait savait qui l'envoyait et pouvait la croire. Récade Finance se donne la même règle pour l'information économique et financière : dire d'où vient chaque chiffre, citer ses sources, indiquer ses limites."
+  paragraph_1: "Récade Finance est un espace de veille et de vulgarisation sur trois sujets de plus en plus liés : la finance, y compris la finance climatique, l'économie, en l'occurrence la dette et la notation souveraine, et l'intelligence artificielle appliquée à ces domaines. Il les regarde depuis l'Afrique et pour elle."
+  paragraph_2: "Au-delà de la vulgarisation et d'une lucarne d'apports de solutions, Récade Finance veut aussi être une tribune permettant de faire connaître des professionnels africains de la finance et de l'économie, qu'ils exercent en Afrique ou ailleurs dans le monde."
   disclaimer: "Récade Finance est un blog d'analyse et de veille économique et financière sur le continent africain. Il ne sollicite aucun investissement, ne gère aucun fonds et ne propose aucun produit ou service financier. Le contenu publié est fourni à titre informatif et ne constitue pas un conseil en investissement."
 
 site_disclaimer_short: "Blog d'analyse et de veille économique et financière. Aucune sollicitation d'investissement, aucune gestion de fonds."

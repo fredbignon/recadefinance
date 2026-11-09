@@ -27,7 +27,7 @@ DOCS_DIR = os.path.join(ROOT, "docs")
 CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
 BRVM_FILE = os.path.join(ROOT, "content", "marche_brvm.yaml")
 SITE_TITLE = "Récade Finance"
-SITE_TAGLINE = "Économie, finance, dette souveraine et IA : un regard africain"
+SITE_TAGLINE = "Finance, économie et IA : un regard africain"
 SITE_URL = "https://recade-finance.com"
 
 # Rubriques désaffichées du site. Leur contenu reste dans content/site_content.yaml :
@@ -127,7 +127,7 @@ HEAD = """<!DOCTYPE html>
   "name": "Récade Finance",
   "url": "https://recade-finance.com",
   "logo": "https://recade-finance.com/assets/favicon-512.png",
-  "description": "Économie, finance, dette souveraine et IA : un regard africain.",
+  "description": "Finance, économie et IA : un regard africain.",
   "sameAs": [
     "https://instagram.com/recadefinance"
   ]
@@ -564,7 +564,7 @@ def render_actualite_item(item):
 
 
 def render_actualites_page(actualites):
-    description = "Veille régulière sur la finance, la dette souveraine et l'économie africaine."
+    description = "Veille régulière sur la finance, l'économie, et l'intelligence artificielle en Afrique."
     html = HEAD.format(title=titre_page("Actualités"), description=description, root="")
     html += render_header("")
     items_html = "\n".join(render_actualite_item(a) for a in actualites) if actualites else \
@@ -605,7 +605,7 @@ def render_about():
     <p class="citation">{a['intro_quote']}</p>
     <p>{a['paragraph_1']}</p>
     <p>{a['paragraph_2']}</p>
-    <p>{a.get('paragraph_3', '')}</p>
+    {('<p>' + a['paragraph_3'] + '</p>') if a.get('paragraph_3') else ''}
     {disclaimer_html}
   </div>
 </section>
