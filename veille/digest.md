@@ -882,3 +882,13 @@ Shelter Afrique Development Bank (ShafDB) a clôturé avec succès le 30...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-10
+
+### UEMOA : le Sénégal soumis à l’évaluation de 149 réformes communautaires
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/10/uemoa-le-senegal-soumis-a-levaluation-de-149-reformes-communautaires/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Le Sénégal accueillera, du 17 au 19 novembre 2026 à Dakar, la phase technique de la 12e édition de la Revue annuelle des réformes, politiques, programmes et projets communautaires de l’Union économique et monétaire ouest-africaine (UEMOA). Cette évaluation portera sur 149 textes ...
+- **Statut** : [ ] à trier
+
