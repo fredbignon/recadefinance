@@ -892,3 +892,15 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Le Sénégal accueillera, du 17 au 19 novembre 2026 à Dakar, la phase technique de la 12e édition de la Revue annuelle des réformes, politiques, programmes et projets communautaires de l’Union économique et monétaire ouest-africaine (UEMOA). Cette évaluation portera sur 149 textes ...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-11
+
+### Sénégal 2027 : un budget de vérité, premier pas vers la stabilité
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/11/senegal-2027-un-budget-de-verite-premier-pas-vers-la-stabilite/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Par Lansana Gagny SAKHO &nbsp;Adm.A, C.M.C
+Ce que la comparaison Sénégal-Bénin révèle sur l’état réel des finances publiques
+Le projet de loi de finances initiale 2027 du Sénégal a été présenté à l’Assemblée nationale en octobre 2026 dans un contexte exigeant. Le gouvernement hér...
+- **Statut** : [ ] à trier
+
