@@ -1,0 +1,27 @@
+---
+title: "UEMOA : la BCEAO relève à 4 millions de FCFA le plafond des avoirs en monnaie électronique"
+date: 2026-11-11
+source: "Droit, Médias et Finance"
+source_url: "https://www.droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1407-umoa-monnaie-electronique-ce-qui-change-avec-linstruction-n-020-du-8-octobre-2026-pour-les-activites-des-emetteurs-de-monnaie-electronique-eme"
+tags: ["BCEAO", "UEMOA", "Monnaie électronique", "Mobile money"]
+---
+
+Depuis le 2 novembre 2026, un client de l'UEMOA peut conserver jusqu'à 4 millions de FCFA, environ 6 100 euros, auprès d'un même émetteur de monnaie électronique, contre 2 millions de FCFA précédemment.
+
+L'Instruction n° 020 de la BCEAO, adoptée le 8 octobre 2026, réécrit les articles 31 et 34 de l'instruction de 2015 relative aux émetteurs de monnaie électronique. Le plafond s'applique par client et par émetteur : les avoirs détenus sur plusieurs instruments du même émetteur sont cumulés. Le cumul mensuel des rechargements est fixé à 15 millions de FCFA, contre 10 millions auparavant.
+
+Les plafonds ne s'appliquent pas aux distributeurs ni aux accepteurs de monnaie électronique agissant dans le cadre de leur activité professionnelle. Un dépassement reste possible avec l'autorisation préalable de la BCEAO. La demande est portée par l'établissement émetteur, qui doit indiquer les motifs, la durée, les montants concernés et les mesures renforcées de contrôle et de gestion des risques.
+
+L'instruction précise aussi le placement de la contrepartie de la monnaie émise : dépôts à vue, dépôts à terme auprès de banques ou d'institutions de microfinance, ou titres de dette. Les dépôts à vue doivent représenter au moins 65 % de l'encours à tout moment.
+
+**Pourquoi cette décision compte.** La BCEAO présente cette révision comme une adaptation du cadre pour mieux encadrer les risques et la liquidité des émetteurs. Elle intervient alors que le mobile money occupe une place croissante dans les transferts, les paiements et les transactions commerciales, y compris pour des personnes peu bancarisées. Notre lecture : un plafond doublé permet de laisser davantage de valeur sur un portefeuille mobile, qui devient moins un simple outil de passage et davantage un lieu de conservation de l'argent. Aucune des sources lues ne chiffre le poids de la monnaie électronique dans la région, donc nous ne pouvons pas mesurer l'ampleur du changement.
+
+**Le contrôle des dérogations.** Le texte prévoit que l'émetteur justifie chaque demande de dépassement et que la BCEAO l'autorise au préalable. Selon la presse, la BCEAO sera particulièrement vigilante sur le suivi des opérations, la gestion des risques et le contrôle renforcé pour toute demande de dépassement. Les sources lues ne décrivent en revanche ni les seuils des dérogations, ni les critères d'octroi, ni les exigences d'identification des clients. Un économiste, Seydou Bocoum, interrogé par Dakaractu, relève un possible écart entre les volumes autorisés et les moyens de suivi, et rappelle que les réserves de liquidité ne suffisent pas à prévenir les escroqueries, détecter le blanchiment ou garantir la traçabilité fiscale. Il recommande des contrôles renforcés des opérateurs, une meilleure identification des clients et une coopération entre la BCEAO, les cellules de renseignement financier et les administrations fiscales. Ce sont des opinions, pas des constats.
+
+**Ce que cela change pour Wave, Orange Money et les utilisateurs.** Le plafond s'applique émetteur par émetteur et concerne un client identifié ; il ne se multiplie pas avec le nombre de comptes chez le même émetteur. Les distributeurs et les accepteurs professionnels sont exclus. Les sources lues ne signalent aucun changement des frais de dépôt, de retrait ou de transfert lié à cette instruction. Elles décrivent en revanche une mesure distincte, applicable à partir de la même date : les transferts interopérables par PI-SPI, la plateforme de paiement instantané de la BCEAO. D'après Droit, Médias et Finance, l'envoi est gratuit jusqu'à 8 000 FCFA cumulés par jour et par utilisateur, des frais pouvant aller jusqu'à 0,8 % au-delà, et la réception est gratuite. Wave a annoncé rejoindre PI-SPI au Sénégal et en Côte d'Ivoire. D'après le résumé que nous avons pu lire de son communiqué, relayé par Financial Afrik, le retrait en espèces d'un fonds reçu par PI-SPI coûterait 1 % chez un agent Wave, les autres retraits restant gratuits. Nous n'avons trouvé aucune communication d'Orange Money sur le sujet.
+
+Notre lecture : pour un usage quotidien, rien ne change à ce stade. L'effet se fera surtout sentir pour ceux qui approchaient l'ancien plafond, par exemple des entrepreneurs ou des commerçants informels qui font transiter des montants importants. Mais l'effet réel dépendra des politiques tarifaires de chaque opérateur, qu'aucune source n'établit pour le moment.
+
+**À suivre.** Les critères d'octroi des dérogations, les tarifs publiés par chaque opérateur et les moyens de supervision de la BCEAO.
+
+*Sources : Droit, Médias et Finance (instruction n° 020 et PI-SPI) ; Dakaractu, d'après L'Observateur ; Sika Finance ; Bénin Web TV ; Financial Afrik (communiqué de Wave). Nous n'avons consulté ni le texte officiel de l'instruction ni le communiqué de la BCEAO du 2 octobre. Un communiqué de Wave cite un avis n° 0019 de la BCEAO pour les plafonds de PI-SPI, alors que d'autres sources parlent de l'instruction n° 020 : à vérifier sur le texte officiel.*
