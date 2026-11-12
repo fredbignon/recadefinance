@@ -904,3 +904,30 @@ Ce que la comparaison Sénégal-Bénin révèle sur l’état réel des finances
 Le projet de loi de finances initiale 2027 du Sénégal a été présenté à l’Assemblée nationale en octobre 2026 dans un contexte exigeant. Le gouvernement hér...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-12
+
+### CEMAC : le FMI alerte sur les risques de financement et d’endettement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/12/cemac-le-fmi-alerte-sur-les-risques-de-financement-et-dendettement/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Assurance automobile : le Bénin lance Asa-Connect pour lutter contre la fraude
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/12/assurance-automobile-le-benin-lance-asa-connect-pour-lutter-contre-la-fraude/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Ghana : un budget 2027 axé sur la discipline fiscale et la sortie du programme du FMI
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/12/ghana-un-budget-2027-axe-sur-la-discipline-fiscale-et-la-sortie-du-programme-du-fmi/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
