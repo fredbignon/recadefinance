@@ -931,3 +931,22 @@ Lire la suite»...
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-14
+
+### Banques : Hausse de 64% du bénéfice de la Banque Internationale pour l’Industrie et le Commerce du Bénin au troisième trimestre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/13/banques-hausse-de-64-du-benefice-de-la-banque-internationale-pour-lindustrie-et-le-commerce-du-benin-au-troisieme-trimestre-2026/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
+### Sans les femmes à la Bourse Régionale des Valeurs Mobilières (BRVM), la Côte d’Ivoire s’appauvrit tous les ans
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/13/sans-les-femmes-a-la-bourse-regionale-des-valeurs-mobilieres-brvm-la-cote-divoire-sappauvrit-tous-les-ans/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Par Chris-Jordan MBOCK, Fondateur et Gérant de&nbsp;Propre’Terre&nbsp;Finance™
+Le débat sur l’autonomisation économique des femmes en Côte d’Ivoire s’est trop longtemps enfermé dans le carcan réducteur de la simple subsistance et du micro-crédit. Ce constat d&rsquo;une urgence cr...
+- **Statut** : [ ] à trier
+
