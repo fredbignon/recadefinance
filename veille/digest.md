@@ -950,3 +950,14 @@ Lire la suite»...
 Le débat sur l’autonomisation économique des femmes en Côte d’Ivoire s’est trop longtemps enfermé dans le carcan réducteur de la simple subsistance et du micro-crédit. Ce constat d&rsquo;une urgence cr...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-15
+
+### L’arrimage du Franc CFA à l’euro est-il une source de non-compétitivité ?
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/15/larrimage-du-franc-cfa-a-leuro-est-il-une-source-de-non-competitivite/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Par Professeur  Amath NDIAYE, économiste, FASEG-UCAD, Dakar.
+Le franc CFA est régulièrement accusé de pénaliser la compétitivité des économies africaines en raison de son arrimage à l’euro. Selon cette thèse, les pays disposant de monnaies nationales pourraient améliorer leurs ba...
+- **Statut** : [ ] à trier
+
