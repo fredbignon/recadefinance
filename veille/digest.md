@@ -961,3 +961,21 @@ Le débat sur l’autonomisation économique des femmes en Côte d’Ivoire s’
 Le franc CFA est régulièrement accusé de pénaliser la compétitivité des économies africaines en raison de son arrimage à l’euro. Selon cette thèse, les pays disposant de monnaies nationales pourraient améliorer leurs ba...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-17
+
+### UEMOA : la 12ᵉ revue annuelle des réformes communautaires fait étape au Sénégal
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/17/uemoa-la-12%e1%b5%89-revue-annuelle-des-reformes-communautaires-fait-etape-au-senegal/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Les travaux de la phase technique de la 12e édition de la Revue annuelle des réformes, politiques, programmes et projets communautaires de l’Union économique et monétaire ouest-africaine (UEMOA) se sont ouverts ce mardi 17 novembre 2026 à Dakar. L’exercice porte sur l’évaluation ...
+- **Statut** : [ ] à trier
+
+### Bénin : la famille Ajavon déboutée par la Cour africaine dans un litige patrimonial
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/17/benin-la-famille-ajavon-deboutee-par-la-cour-africaine-dans-un-litige-patrimonial/
+- **Mots-clés déclencheurs** : Bénin
+- **Résumé (extrait automatique)** : Ce contenu est réservé aux membres. Visitez le site et connectez-vous ou bien adhérez pour le lire.
+Lire la suite»...
+- **Statut** : [ ] à trier
+
