@@ -979,3 +979,27 @@ Le franc CFA est régulièrement accusé de pénaliser la compétitivité des é
 Lire la suite»...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-19
+
+### GIM-UEMOA : 219 620 milliards de FCFA de transactions, la sécurité des paiements au cœur du 9e Salon monétique régional
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/19/gim-uemoa-219-620-milliards-de-fcfa-de-transactions-la-securite-des-paiements-au-coeur-du-9e-salon-monetique-regional/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Dakar, 19 novembre 2026. Le 9e Salon monétique régional du GIM-UEMOA s’est ouvert ce jeudi à Dakar, autour des enjeux de l’innovation, de l’interopérabilité et de la sécurité des paiements. Dans un espace financier qui totalise, selon les chiffres présentés par la Banque centrale...
+- **Statut** : [ ] à trier
+
+### La quotidienne des marchés financiers africains : à la BRVM, la pression vendeuse l’emporte
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/17/la-quotidienne-des-marches-financiers-africains-a-la-brvm-la-pression-vendeuse-lemporte/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Mardi 17 novembre 2026 — À la clôture des marchés africainsToute la finance africaine Abonnez-vous et rejoignez la communauté Madiba de l’information financière premium.https://financialafrik.us16.list-manage.com/subscribe?u=ae89dc87935dae67b9ac142dd&#38;id=9838bcad04 ━━━━━━━━━━━...
+- **Statut** : [ ] à trier
+
+### Salon Monétique Régional – 9ème édition (SMR9)
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/17/salon-monetique-regional-9eme-edition-smr9/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Paiements dans l’UEMOA : Dakar réunit les acteurs de l’écosystème régional autour des enjeux d’innovation et de sécurité le Groupement Interbancaire Monétique de l&#8217;UEMOA (GIM-UEMOA) réunit au King Fahd Palace les 19 et 20 novembre 2026, les acteurs de l’écosystème monétaire...
+- **Statut** : [ ] à trier
+
