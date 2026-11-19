@@ -4,6 +4,9 @@ date: 2026-11-11
 source: "Droit, Médias et Finance"
 source_url: "https://www.droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1407-umoa-monnaie-electronique-ce-qui-change-avec-linstruction-n-020-du-8-octobre-2026-pour-les-activites-des-emetteurs-de-monnaie-electronique-eme"
 tags: ["BCEAO", "UEMOA", "Monnaie électronique", "Mobile money"]
+accroche: "Un client peut désormais garder jusqu'à 4 millions de FCFA sur son portefeuille mobile. Ce que cela change, et ce qui reste à préciser."
+visuel: "4 M FCFA"
+visuel_legende: "Plafond des avoirs en monnaie électronique"
 ---
 
 Depuis le 2 novembre 2026, un client de l'UEMOA peut conserver jusqu'à 4 millions de FCFA, environ 6 100 euros, auprès d'un même émetteur de monnaie électronique, contre 2 millions de FCFA précédemment.

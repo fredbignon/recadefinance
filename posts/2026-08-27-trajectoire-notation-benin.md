@@ -4,6 +4,9 @@ date: 2026-08-27
 category: focus-benin
 excerpt: "De B2 à Ba3 en cinq ans : ce que la trajectoire de notation du Bénin révèle sur la manière dont les agences lisent réellement un pays."
 banner_image: "assets/banniere-trajectoire-notation-benin.png"
+accroche: "De B2 à Ba3 en cinq ans : ce que la trajectoire du Bénin dit de la façon dont les agences lisent un pays."
+visuel: "Ba3"
+visuel_legende: "Notation de Moody's, août 2026"
 ---
 
 Le 7 août 2026, Moody's a relevé la notation souveraine du Bénin de B1 à Ba3, perspective stable. Pris isolément, ce relèvement pourrait sembler être un événement ponctuel parmi tant d'autres décisions d'agences. Il ne l'est pas : c'est l'aboutissement d'une trajectoire continue engagée cinq ans plus tôt, et cette trajectoire, prise dans son ensemble, en dit plus sur la méthode des agences de notation que n'importe quelle décision isolée.

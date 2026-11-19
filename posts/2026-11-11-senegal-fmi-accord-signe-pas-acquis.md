@@ -3,6 +3,9 @@ title: "Sénégal : l'accord avec le FMI est signé, mais pas encore acquis"
 date: 2026-11-11
 category: analyses
 excerpt: "Accord technique, plan de traitement de la dette, dégradations en série et rejet du budget rectificatif : ce que lisent les agences de notation, et ce qu'il reste à franchir avant un décaissement."
+accroche: "Un accord technique n'est pas un décaissement : ce que lisent les agences de notation, et ce qui reste à franchir."
+visuel: "2,2 Md$"
+visuel_legende: "Accord avec le FMI du 1er septembre 2026"
 ---
 
 Le 1er septembre 2026, les services du FMI et les autorités sénégalaises ont annoncé un accord sur un programme de 36 mois au titre de la Facilité élargie de crédit, d'environ 2,2 milliards de dollars. Deux mois plus tard, le 3 novembre, l'Assemblée nationale a rejeté le projet de loi de finances rectificative 2026, un texte que la presse présente comme crucial pour obtenir cette aide. Entre ces deux dates, deux agences de notation ont abaissé la note du pays. Cette séquence illustre une règle simple : un accord technique n'est pas un décaissement, et une notation lit des instruments, pas des intentions.

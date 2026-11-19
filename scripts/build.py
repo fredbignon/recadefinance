@@ -147,7 +147,7 @@ FOOTER_HTML = """
     <div class="footer-cols">
       <div class="footer-col">
         <h4>Explorer</h4>
-        <a href="{root}index.html#articles">Analyses</a>
+        <a href="{root}analyses.html">Analyses</a>
         <a href="{root}actualites.html">Actualités</a>
         <a href="{root}minute-eco.html">La Minute Éco</a>
         <a href="{root}instant-ia.html">L'Instant IA</a>{footer_tribune}
@@ -182,7 +182,7 @@ HEADER_HTML = """
     </a>
     <nav class="main-nav" id="rf-main-nav">
       <a href="{root}index.html">Accueil</a>
-      <a href="{root}index.html#articles">Analyses</a>
+      <a href="{root}analyses.html">Analyses</a>
       <a href="{root}actualites.html">Actualités</a>
       <a href="{root}minute-eco.html">La Minute Éco</a>
       <a href="{root}instant-ia.html">L'Instant IA</a>{nav_tribune}
@@ -236,6 +236,51 @@ def render_entree(post, root=""):
         <p>{post['excerpt']}</p>
         <a href="{lien}" class="lien">Lire l'analyse</a>
       </article>"""
+
+
+def accroche_de(item):
+    """Phrase d'accroche d'une tuile : champ accroche, sinon extrait, sinon début du texte."""
+    if item.get("accroche"):
+        return item["accroche"]
+    if item.get("excerpt"):
+        return item["excerpt"]
+    texte = re.sub(r"<[^>]+>", " ", item.get("html_body", ""))
+    texte = re.sub(r"\s+", " ", texte).strip()
+    return (texte[:150].rsplit(" ", 1)[0] + "...") if len(texte) > 150 else texte
+
+
+def render_couverture(item, root=""):
+    """Visuel de couverture : image si elle est fournie, sinon visuel typographique à la charte."""
+    if item.get("image"):
+        alt = item.get("image_alt", "")
+        return f'<div class="couverture"><img src="{root}{item["image"]}" alt="{alt}" loading="lazy"></div>'
+    visuel = item.get("visuel")
+    legende = item.get("visuel_legende", "")
+    if visuel:
+        leg = f'<span class="couv-legende">{legende}</span>' if legende else ""
+        return f'<div class="couverture couv-texte" aria-hidden="true"><span class="couv-chiffre">{visuel}</span>{leg}</div>'
+    return (f'<div class="couverture couv-defaut" aria-hidden="true">'
+            f'<img src="{root}assets/monogramme-recade-finance.png" alt="" width="64" height="64"></div>')
+
+
+def render_tuile(item, lien, etiquette, root=""):
+    return f"""
+      <li>
+        <a class="tuile" href="{lien}">
+          {render_couverture(item, root)}
+          <p class="meta">{etiquette}, {date_fr(item['date'], with_day=True)}</p>
+          <h3>{item['title']}</h3>
+          <p class="accroche">{accroche_de(item)}</p>
+        </a>
+      </li>"""
+
+
+def render_grille(items, lien_de, etiquette_de, root=""):
+    return '<ul class="grille">' + "".join(render_tuile(i, lien_de(i), etiquette_de(i), root) for i in items) + "\n    </ul>"
+
+
+def etiquette_analyse(post):
+    return CATEGORY_LABELS.get(post.get("category", "analyses"), post.get("category", "Analyse"))
 
 
 def render_brvm_widget():
@@ -301,10 +346,23 @@ def render_tribune_section():
 </section>"""
 
 
-def render_homepage(posts):
+def render_homepage(posts, actualites=()):
     featured_project = next((p for p in posts if p.get("featured")), None)
     remaining = [p for p in posts if p is not featured_project]
-    entrees_html = "\n".join(render_entree(p) for p in remaining)
+    dernieres = remaining[:6]
+    grille_html = render_grille(dernieres, lambda p: f"articles/{p['slug']}.html", etiquette_analyse)
+    toutes_html = '<p><a href="analyses.html" class="lien">Toutes les analyses</a></p>' if len(remaining) > 6 else ""
+    bande_actus = ""
+    if actualites:
+        grille_actus = render_grille(list(actualites)[:3], lambda a: f"actualites/{a['slug']}.html", lambda a: "Actualité")
+        bande_actus = f"""
+<section class="section" id="actualites">
+  <div class="wrap">
+    <h2>Dernières actualités</h2>
+    {grille_actus}
+    <p><a href="actualites.html" class="lien">Toutes les actualités</a></p>
+  </div>
+</section>"""
 
     featured_project_block = ""
     if featured_project:
@@ -337,9 +395,12 @@ def render_homepage(posts):
 <section class="section" id="articles">
   <div class="wrap">
     <h2>Dernières analyses</h2>
-    {entrees_html}
+    {grille_html}
+    {toutes_html}
   </div>
 </section>
+
+{bande_actus}
 
 {featured_project_block}
 
@@ -455,6 +516,29 @@ def render_abonnement_confirme():
     return html
 
 
+def render_analyses_page(posts):
+    description = "Analyses de fond sur la finance, l'économie, la dette souveraine et l'intelligence artificielle en Afrique."
+    html = HEAD.format(title=titre_page("Analyses"), description=description, root="")
+    html += render_header("")
+    corps = render_grille(posts, lambda p: f"articles/{p['slug']}.html", etiquette_analyse) if posts else \
+        '<p class="vide">Aucune analyse publiée pour le moment. Revenez bientôt.</p>'
+    html += f"""
+<section class="page-titre">
+  <div class="wrap">
+    <h1>Analyses</h1>
+    <p class="page-intro">{description}</p>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap">
+    {corps}
+  </div>
+</section>
+"""
+    html += render_footer(root="")
+    return html
+
+
 def render_article(post):
     html = HEAD.format(
         title=titre_page(post["title"]),
@@ -548,39 +632,48 @@ def render_contributor_page(items, page_title, intro_text, description):
     return html
 
 
-def render_actualite_item(item):
+def render_actualite_page(item):
     sujets = ", ".join(item.get("tags", []))
     sujets_html = f'<span class="sujets">{sujets}</span>' if sujets else ""
     source = item.get("source", "")
     source_url = item.get("source_url", "")
-    source_html = f'<a href="{source_url}" target="_blank" rel="noopener">Source : {source}</a>' if source else ""
-    return f"""
-      <article class="actu-item">
-        <p class="meta">{date_fr(item['date'], with_day=True)}{sujets_html}</p>
-        <h3>{item['title']}</h3>
-        <div class="actu-body">{item['html_body']}</div>
-        <p class="actu-source">{source_html}</p>
-      </article>"""
+    source_html = (f'<p class="actu-source"><a href="{source_url}" target="_blank" rel="noopener">Source : {source}</a></p>'
+                   if source else "")
+    html = HEAD.format(title=titre_page(item["title"]), description=accroche_de(item), root="../")
+    html += render_header("../")
+    html += f"""
+<article class="section article-single" style="border-top:0;">
+  <div class="wrap etroit">
+    <p class="meta article-meta"><a href="../actualites.html" class="retour">Toutes les actualités</a></p>
+    <p class="meta article-meta">Actualité, {date_fr(item['date'], with_day=True)}{sujets_html}</p>
+    <h1>{item['title']}</h1>
+    <div class="article-body">
+      {item['html_body']}
+    </div>
+    {source_html}
+  </div>
+</article>
+"""
+    html += render_footer(root="../")
+    return html
 
 
 def render_actualites_page(actualites):
     description = "Veille régulière sur la finance, l'économie, et l'intelligence artificielle en Afrique."
     html = HEAD.format(title=titre_page("Actualités"), description=description, root="")
     html += render_header("")
-    items_html = "\n".join(render_actualite_item(a) for a in actualites) if actualites else \
+    corps = render_grille(actualites, lambda a: f"actualites/{a['slug']}.html", lambda a: "Actualité") if actualites else \
         '<p class="vide">Aucune actualité publiée pour le moment. Revenez bientôt.</p>'
     html += f"""
 <section class="page-titre">
-  <div class="wrap etroit">
+  <div class="wrap">
     <h1>Actualités</h1>
     <p class="page-intro">{description}</p>
   </div>
 </section>
 <section class="section" style="border-top:0; padding-top:24px;">
-  <div class="wrap etroit">
-    <div class="actu-list">
-      {items_html}
-    </div>
+  <div class="wrap">
+    {corps}
   </div>
 </section>
 """
@@ -860,9 +953,10 @@ def render_pilote_page():
 # Écriture des fichiers
 # ---------------------------------------------------------------------------
 
-def render_sitemap(posts):
-    urls = ["", "assistant-umoa.html", "a-propos.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
+def render_sitemap(posts, actualites=()):
+    urls = ["", "assistant-umoa.html", "a-propos.html", "analyses.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
     urls += [f"articles/{p['slug']}.html" for p in posts]
+    urls += [f"actualites/{a['slug']}.html" for a in actualites]
     entries = "\n".join(f"  <url><loc>{SITE_URL}/{u}</loc></url>" for u in urls)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -897,6 +991,7 @@ def copier_assets():
 def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
+    os.makedirs(os.path.join(DOCS_DIR, "actualites"), exist_ok=True)
     copier_assets()
 
     posts = load_all_posts()
@@ -912,7 +1007,7 @@ def main():
         with open(os.path.join(DOCS_DIR, chemin), "w", encoding="utf-8") as f:
             f.write(contenu)
 
-    ecrire("index.html", render_homepage(posts))
+    ecrire("index.html", render_homepage(posts, actualites))
     ecrire("a-propos.html", render_about())
     ecrire("abonnement-confirme.html", render_abonnement_confirme())
     ecrire("assistant-umoa.html", render_pilote_page())
@@ -927,12 +1022,16 @@ def main():
         "L'Instant IA : une notion d'IA expliquée simplement, en quelques minutes.",
     ))
     ecrire("actualites.html", render_actualites_page(actualites))
+    ecrire("analyses.html", render_analyses_page(posts))
+    for a in actualites:
+        ecrire(os.path.join("actualites", f"{a['slug']}.html"), render_actualite_page(a))
+        print(f"  actualites/{a['slug']}.html")
 
     for post in posts:
         ecrire(os.path.join("articles", f"{post['slug']}.html"), render_article(post))
         print(f"  articles/{post['slug']}.html")
 
-    ecrire("sitemap.xml", render_sitemap(posts))
+    ecrire("sitemap.xml", render_sitemap(posts, actualites))
     ecrire("robots.txt", render_robots())
     print("Site généré dans /docs, prêt à être poussé sur GitHub.")
 

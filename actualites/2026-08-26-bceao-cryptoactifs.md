@@ -4,6 +4,9 @@ date: 2026-08-26
 source: "Financial Afrik"
 source_url: "https://www.financialafrik.com/2026/08/26/lencadrement-des-cryptoactifs-dans-luemoa-entre-innovation-financiere-et-preservation-de-la-stabilite-monetaire/"
 tags: ["BCEAO", "UEMOA", "Cryptoactifs"]
+accroche: "Après des années de silence, l'UEMOA entre dans une phase active d'élaboration réglementaire sur les cryptoactifs."
+visuel: "C-CRYPTO"
+visuel_legende: "Le comité de la BCEAO sur les cryptoactifs"
 ---
 
 Comité dédié (C-CRYPTO), conférence internationale de haut niveau en mai 2026, réflexions sur un e-CFA : l'UEMOA passe d'une posture prudente à une phase active d'élaboration réglementaire sur les cryptoactifs.
