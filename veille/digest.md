@@ -1003,3 +1003,34 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : Paiements dans l’UEMOA : Dakar réunit les acteurs de l’écosystème régional autour des enjeux d’innovation et de sécurité le Groupement Interbancaire Monétique de l&#8217;UEMOA (GIM-UEMOA) réunit au King Fahd Palace les 19 et 20 novembre 2026, les acteurs de l’écosystème monétaire...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-20
+
+### Face au recul de l’aide extérieure, l’UEMOA et Abidjan activent les leviers du financement endogène
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/20/face-au-recul-de-laide-exterieure-luemoa-et-abidjan-activent-les-leviers-du-financement-endogene/
+- **Mots-clés déclencheurs** : UEMOA
+- **Résumé (extrait automatique)** : Les décideurs publics et financiers ont dressé un constat sans appel sur l’urgence de réduire la dépendance aux capitaux étrangers. Face au renchérissement de la dette extérieure et à la volatilité des flux internationaux, la mobilisation des ressources domestiques s’impose, selo...
+- **Statut** : [ ] à trier
+
+### SIIPS 2026 : le PI-SPI dépasse les 4 millions de transactions en un an dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/20/siips-2026-le-pi-spi-depasse-les-4-millions-de-transactions-en-un-an-dans-luemoa/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : Lancé le 30 septembre 2025 par la Banque centrale des États de l’Afrique de l’Ouest (BCEAO), le système de paiement instantané interopérable de l’UEMOA (PI-SPI) figure parmi les nouvelles infrastructures régionales recensées dans le rapport SIIPS 2026 d’AfricaNenda. Couvrant les ...
+- **Statut** : [ ] à trier
+
+### En direct de Dakar | GIM-UEMOA : 9e édition du Salon monétique régional
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/20/en-direct-de-dakar-gim-uemoa-9e-edition-du-salon-monetique-regional/
+- **Mots-clés déclencheurs** : UEMOA, BCEAO
+- **Résumé (extrait automatique)** : La 9e édition du Salon monétique régional (SMR9), organisée par le Groupement interbancaire monétique de l’UEMOA (GIM-UEMOA), se tient depuis le 19 et jusqu’au 20 novembre 2026 au King Fahd Palace de Dakar, sous le haut patronage du gouverneur de la BCEAO, Jean-Claude Kassi Brou....
+- **Statut** : [ ] à trier
+
+### Sierra Leone : un accord avec le FMI ouvre la voie à 78,2 millions de dollars de financements
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/20/sierra-leone-un-accord-avec-le-fmi-ouvre-la-voie-a-782-millions-de-dollars-de-financements/
+- **Mots-clés déclencheurs** : FMI
+- **Résumé (extrait automatique)** : La Sierra Leone est parvenue à un accord au niveau des services avec le Fonds monétaire international (FMI) sur le quatrième examen de son programme au titre de la Facilité élargie de crédit (FEC) et le premier examen de la Facilité pour la résilience et la durabilité (FRD). L’is...
+- **Statut** : [ ] à trier
+
