@@ -1,54 +1,231 @@
 # ============================================================
-# Récade Finance — sources de veille automatisée
+# Récade Finance : sources de veille automatisée
 # ============================================================
-# Chaque source a besoin d'une URL de flux RSS valide. Beaucoup de
-# sites d'actualité (WordPress notamment) exposent un flux à
-# l'adresse "https://LE-SITE.com/feed/" — souvent trouvable en
-# cherchant "rss" dans le code source de la page d'accueil, ou en
-# testant simplement cette URL.
+# Périmètre : économie, finance classique, finance climatique et
+# durabilité, data et intelligence artificielle, au Bénin et en
+# Afrique de l'Ouest. La politique est volontairement écartée.
 #
-# Les URLs ci-dessous sont des CANDIDATS À VÉRIFIER — je n'ai pas pu
-# tester de vraies requêtes réseau en écrivant ce fichier (mon
-# environnement n'y a pas accès). Teste chaque URL dans un
-# navigateur avant la première exécution : si elle affiche du XML,
-# c'est bon ; si elle affiche une erreur 404, cherche le bon lien
-# directement sur le site concerné.
+# Les adresses ci-dessous ont été testées le 22 novembre 2026.
+# Chaque source a une adresse de flux RSS valide. Options :
+#   type: agenda        toutes les entrées sont retenues et signalées
+#                       comme événements à vérifier
+#   exiger_zone: true   l'article doit aussi citer une zone ou une
+#                       institution d'Afrique de l'Ouest (liste "zone")
+#   theme_dans_titre: true   un mot d'un thème doit figurer dans le titre
+#                       (pour les médias généralistes, plus bruyants)
+#   poids               indicatif, non utilisé pour le tri pour l'instant
 
 sources:
   - name: "Financial Afrik"
     rss_url: "https://www.financialafrik.com/feed/"
     poids: 1.0
 
-  - name: "Agence Ecofin — Finance"
-    rss_url: "https://www.agenceecofin.com/finance/rss"
+  - name: "Financial Afrik, agenda"
+    rss_url: "https://www.financialafrik.com/agenda/feed/"
+    type: agenda
     poids: 1.0
 
-  - name: "Agence Ecofin — Gouvernance économique"
-    rss_url: "https://www.agenceecofin.com/gouvernance-economique/rss"
+  # Les anciennes adresses d'Agence Ecofin (finance/rss, gouvernance-economique/rss)
+  # ne répondaient plus : le site a changé de système. Ce flux général est à jour.
+  - name: "Agence Ecofin"
+    rss_url: "https://www.agenceecofin.com/component/obrss/agence-large-rss"
+    exiger_zone: true
+    poids: 1.0
+
+  - name: "Digital Mag (Côte d'Ivoire)"
+    rss_url: "https://digitalmag.ci/feed/"
+    exiger_zone: true
     poids: 0.8
 
-  # La BCEAO n'expose pas de flux RSS public connu à ce jour — ses
-  # communiqués (bceao.int/fr/communique-presse) sont à vérifier
-  # manuellement en complément de ce script, au moins au début.
-  # Idem pour la CAGD (cagd.bj), dont le site bloque l'accès
-  # automatisé (bot detection) d'après nos tests précédents.
+  - name: "TechCabal"
+    rss_url: "https://techcabal.com/fr/feed/"
+    exiger_zone: true
+    poids: 0.8
 
-# Mots-clés qui déclenchent une remontée dans le digest (recherche
-# insensible à la casse, sur le titre ET le résumé de chaque article)
-mots_cles:
-  - "UEMOA"
-  - "BCEAO"
+  # Médias généralistes du Bénin : seuls les articles qui touchent aux thèmes
+  # ci-dessous remontent.
+  - name: "Bénin Web TV"
+    rss_url: "https://beninwebtv.bj/feed/"
+    exiger_zone: true
+    theme_dans_titre: true
+    poids: 0.6
+
+  - name: "La Nouvelle Tribune"
+    rss_url: "https://lanouvelletribune.info/feed/"
+    exiger_zone: true
+    theme_dans_titre: true
+    poids: 0.6
+
+  # À suivre à la main (pas de flux RSS public trouvé) : communiqués de la BCEAO
+  # (bceao.int/fr/communique-presse), BRVM, UMOA-Titres, Alliance Fintech UEMOA,
+  # Banque mondiale, sites des ministères. La CAGD (cagd.bj) bloque l'accès
+  # automatisé. Pas de flux dédié à la finance climatique : elle est repérée par
+  # mots-clés dans les flux ci-dessus.
+
+# Un article remonte s'il contient au moins un mot d'un thème.
+# Les mots courts (3 lettres ou moins) doivent apparaître entiers.
+themes:
+  "Économie":
+    - "économie"
+    - "économique"
+    - "croissance"
+    - "PIB"
+    - "inflation"
+    - "dette"
+    - "notation"
+    - "Moody's"
+    - "Fitch"
+    - "S&P"
+    - "FMI"
+    - "Banque mondiale"
+    - "budget"
+    - "déficit"
+    - "exportations"
+    - "commerce"
+    - "ZLECAf"
+    - "UEMOA"
+    - "UMOA"
+    - "CEDEAO"
+    - "BCEAO"
+    - "taux directeur"
+    - "politique monétaire"
+    - "franc CFA"
+    - "FCFA"
+    - "financement endogène"
+    - "marché des titres publics"
+    - "UMOA-Titres"
+
+  "Finance":
+    - "banque"
+    - "bancaire"
+    - "assurance"
+    - "microfinance"
+    - "crédit"
+    - "Bâle"
+    - "IFRS 9"
+    - "solvabilité"
+    - "BRVM"
+    - "bourse"
+    - "obligation"
+    - "marché financier"
+    - "capital-investissement"
+    - "private equity"
+    - "fintech"
+    - "paiement"
+    - "mobile money"
+    - "monnaie électronique"
+    - "PI-SPI"
+    - "conformité"
+    - "blanchiment"
+    - "crypto"
+    - "stress test"
+    - "Commission bancaire"
+    - "AMF-UMOA"
+    - "BOAD"
+    - "Afreximbank"
+    - "BAD"
+
+  "Finance climatique et durabilité":
+    - "climat"
+    - "finance verte"
+    - "obligation verte"
+    - "obligations vertes"
+    - "obligation durable"
+    - "obligations durables"
+    - "durabilité"
+    - "développement durable"
+    - "ESG"
+    - "carbone"
+    - "transition énergétique"
+    - "énergies renouvelables"
+    - "énergie renouvelable"
+    - "résilience"
+    - "COP30"
+    - "COP31"
+    - "Fonds vert"
+    - "financement climatique"
+    - "taxonomie"
+
+  "Data et IA":
+    - "intelligence artificielle"
+    - "IA"
+    - "data"
+    - "données"
+    - "big data"
+    - "open data"
+    - "cloud"
+    - "cybersécurité"
+    - "algorithme"
+    - "machine learning"
+    - "apprentissage automatique"
+    - "transformation numérique"
+    - "numérique"
+    - "data center"
+    - "centre de données"
+    - "GovTech"
+    - "identité numérique"
+    - "scoring"
+
+# Zone suivie : sert aux sources marquées "exiger_zone".
+zone:
   - "Bénin"
+  - "Benin"
+  - "Afrique de l'Ouest"
+  - "UEMOA"
+  - "UMOA"
+  - "CEDEAO"
+  - "BCEAO"
+  - "BRVM"
+  - "FCFA"
   - "Côte d'Ivoire"
-  - "dette souveraine"
-  - "notation souveraine"
-  - "Moody's"
-  - "FMI"
-  - "Bâle"
-  - "IFRS 9"
-  - "risque de crédit"
-  - "crypto"
-  - "fintech"
-  - "intelligence artificielle"
-  - "stress test"
-  - "CAGD"
+  - "Sénégal"
+  - "Togo"
+  - "Niger"
+  - "Mali"
+  - "Burkina"
+  - "Guinée"
+  - "Ghana"
+  - "Nigeria"
+  - "Cotonou"
+  - "Abidjan"
+  - "Dakar"
+  - "Lomé"
+  - "Afrique"
+
+# Mots qui signalent un possible événement à ajouter à la rubrique Événements.
+mots_evenements:
+  - "forum"
+  - "sommet"
+  - "salon"
+  - "conférence"
+  - "colloque"
+  - "séminaire"
+  - "webinaire"
+  - "atelier"
+  - "assemblées annuelles"
+  - "semaine de"
+  - "rencontres"
+  - "journées"
+  - "awards"
+  - "édition"
+
+# Politique et faits divers : les articles dont le TITRE contient l'un de ces
+# mots sont écartés, même s'ils parlent aussi d'économie.
+mots_exclus:
+  - "élection"
+  - "législatives"
+  - "présidentielle"
+  - "coup d'État"
+  - "Pastef"
+  - "parti politique"
+  - "opposant"
+  - "manifestation"
+  - "football"
+  - "Real Madrid"
+  - "Mbappé"
+  - "chanteuse"
+  - "chanteur"
+  - "Grimes"
+  - "procès"
+  - "assassinat"
+  - "grève"

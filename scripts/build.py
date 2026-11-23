@@ -23,6 +23,7 @@ POSTS_DIR = os.path.join(ROOT, "posts")
 ACTUALITES_DIR = os.path.join(ROOT, "actualites")
 MINUTE_ECO_DIR = os.path.join(ROOT, "minute-eco")
 INSTANT_IA_DIR = os.path.join(ROOT, "instant-ia")
+EVENEMENTS_DIR = os.path.join(ROOT, "evenements")
 DOCS_DIR = os.path.join(ROOT, "docs")
 CONTENT_FILE = os.path.join(ROOT, "content", "site_content.yaml")
 BRVM_FILE = os.path.join(ROOT, "content", "marche_brvm.yaml")
@@ -97,6 +98,24 @@ def load_all_posts():
     return load_markdown_folder(POSTS_DIR)
 
 
+def _en_date(valeur):
+    if isinstance(valeur, str):
+        return datetime.strptime(valeur, "%Y-%m-%d").date()
+    return valeur
+
+
+def load_evenements():
+    """Événements triés du plus proche au plus lointain."""
+    items = load_markdown_folder(EVENEMENTS_DIR)
+    for e in items:
+        e["date"] = _en_date(e["date"])
+        e["date_fin"] = _en_date(e.get("date_fin") or e["date"])
+        if e.get("verifie_le"):
+            e["verifie_le"] = _en_date(e["verifie_le"])
+    items.sort(key=lambda e: e["date"])
+    return items
+
+
 def load_all_actualites():
     return load_markdown_folder(ACTUALITES_DIR)
 
@@ -149,6 +168,7 @@ FOOTER_HTML = """
         <h4>Explorer</h4>
         <a href="{root}analyses.html">Analyses</a>
         <a href="{root}actualites.html">Actualités</a>
+        <a href="{root}evenements.html">Événements</a>
         <a href="{root}minute-eco.html">La Minute Éco</a>
         <a href="{root}instant-ia.html">L'Instant IA</a>{footer_tribune}
         <a href="{root}assistant-umoa.html">Assistant UMOA</a>
@@ -184,6 +204,7 @@ HEADER_HTML = """
       <a href="{root}index.html">Accueil</a>
       <a href="{root}analyses.html">Analyses</a>
       <a href="{root}actualites.html">Actualités</a>
+      <a href="{root}evenements.html">Événements</a>
       <a href="{root}minute-eco.html">La Minute Éco</a>
       <a href="{root}instant-ia.html">L'Instant IA</a>{nav_tribune}
       <a href="{root}a-propos.html">À propos</a>
@@ -346,12 +367,25 @@ def render_tribune_section():
 </section>"""
 
 
-def render_homepage(posts, actualites=()):
+def render_homepage(posts, actualites=(), evenements=()):
     featured_project = next((p for p in posts if p.get("featured")), None)
     remaining = [p for p in posts if p is not featured_project]
     dernieres = remaining[:6]
     grille_html = render_grille(dernieres, lambda p: f"articles/{p['slug']}.html", etiquette_analyse)
     toutes_html = '<p><a href="analyses.html" class="lien">Toutes les analyses</a></p>' if len(remaining) > 6 else ""
+    bande_events = ""
+    prochains = [e for e in evenements if e["date_fin"] >= datetime.now().date()][:3]
+    if prochains:
+        lignes_ev = "".join(render_evenement_ligne(e) for e in prochains)
+        bande_events = f"""
+<section class="section" id="evenements">
+  <div class="wrap">
+    <h2>Prochains événements</h2>
+    <ul class="agenda">{lignes_ev}
+    </ul>
+    <p><a href="evenements.html" class="lien">Tous les événements</a></p>
+  </div>
+</section>"""
     bande_actus = ""
     if actualites:
         grille_actus = render_grille(list(actualites)[:3], lambda a: f"actualites/{a['slug']}.html", lambda a: "Actualité")
@@ -401,6 +435,8 @@ def render_homepage(posts, actualites=()):
 </section>
 
 {bande_actus}
+
+{bande_events}
 
 {featured_project_block}
 
@@ -681,6 +717,158 @@ def render_actualites_page(actualites):
     return html
 
 
+def plage_dates(debut, fin):
+    if fin == debut:
+        return date_fr(debut, with_day=True)
+    if (debut.year, debut.month) == (fin.year, fin.month):
+        liaison = "et" if fin.day == debut.day + 1 else "au"
+        return f"{debut.day} {liaison} {fin.day} {MOIS_FR[fin.month - 1]} {fin.year}"
+    return f"{debut.day} {MOIS_FR[debut.month - 1]} au {fin.day} {MOIS_FR[fin.month - 1]} {fin.year}"
+
+
+def lieu_evenement(ev, complet=False):
+    morceaux = [ev.get("ville"), ev.get("pays")]
+    texte = ", ".join(x for x in morceaux if x)
+    if complet and ev.get("lieu"):
+        texte = f"{ev['lieu']}, {texte}" if texte else ev["lieu"]
+    return texte
+
+
+def render_evenement_ligne(ev, root=""):
+    lien = f"{root}evenements/{ev['slug']}.html"
+    themes = ", ".join(ev.get("themes", []))
+    themes_html = f'<p class="meta">{themes}</p>' if themes else ""
+    a_confirmer = ' <span class="ev-statut">dates à confirmer</span>' if ev.get("statut") == "à confirmer" else ""
+    return f"""
+      <li class="evenement" data-fin="{ev['date_fin'].isoformat()}">
+        <p class="ev-date">{plage_dates(ev['date'], ev['date_fin'])}</p>
+        <div class="ev-corps">
+          <h3><a href="{lien}">{ev['title']}</a>{a_confirmer}</h3>
+          <p class="meta">{lieu_evenement(ev, complet=True)}</p>
+          <p class="accroche">{accroche_de(ev)}</p>
+          {themes_html}
+        </div>
+      </li>"""
+
+
+AGENDA_SCRIPT = """
+<script>
+(function() {
+  var auj = new Date().toISOString().slice(0, 10);
+  var avenir = document.getElementById('agenda-avenir');
+  var passe = document.getElementById('agenda-passe');
+  if (!avenir || !passe) { return; }
+  Array.prototype.slice.call(avenir.querySelectorAll('li[data-fin]')).forEach(function(li) {
+    if (li.getAttribute('data-fin') < auj) { passe.insertBefore(li, passe.firstChild); }
+  });
+  var vide = document.getElementById('agenda-vide');
+  if (vide) { vide.hidden = avenir.children.length > 0; }
+  var bloc = document.getElementById('agenda-passe-bloc');
+  if (bloc) { bloc.hidden = passe.children.length === 0; }
+})();
+</script>
+"""
+
+
+def render_evenements_page(evenements):
+    description = "Les prochains événements majeurs en économie, finance et intelligence artificielle au Bénin et en Afrique de l'Ouest."
+    aujourdhui = datetime.now().date()
+    avenir = [e for e in evenements if e["date_fin"] >= aujourdhui]
+    passes = [e for e in evenements if e["date_fin"] < aujourdhui][::-1]
+    html = HEAD.format(title=titre_page("Événements"), description=description, root="")
+    html += render_header("")
+    lignes_avenir = "".join(render_evenement_ligne(e) for e in avenir)
+    lignes_passes = "".join(render_evenement_ligne(e) for e in passes)
+    vide_cache = " hidden" if avenir else ""
+    passe_cache = "" if passes else " hidden"
+    html += f"""
+<section class="page-titre">
+  <div class="wrap etroit">
+    <h1>Événements</h1>
+    <p class="page-intro">{description}</p>
+  </div>
+</section>
+<section class="section" style="border-top:0; padding-top:24px;">
+  <div class="wrap etroit">
+    <h2>À venir</h2>
+    <p class="vide" id="agenda-vide"{vide_cache}>Aucun événement à venir pour le moment. Revenez bientôt.</p>
+    <ul class="agenda" id="agenda-avenir">{lignes_avenir}
+    </ul>
+    <div id="agenda-passe-bloc"{passe_cache}>
+      <h2 class="agenda-titre-passe">Événements passés</h2>
+      <ul class="agenda agenda-passe" id="agenda-passe">{lignes_passes}
+      </ul>
+    </div>
+    <p class="ev-mention">Informations relevées auprès des organisateurs et vérifiées à la date indiquée sur chaque fiche. Vérifiez toujours les dates et les conditions d'accès sur le site officiel avant de vous déplacer.</p>
+  </div>
+</section>
+"""
+    html += AGENDA_SCRIPT
+    html += render_footer(root="")
+    return html
+
+
+def render_evenement_page(ev):
+    infos = [("Dates", plage_dates(ev["date"], ev["date_fin"])),
+             ("Lieu", lieu_evenement(ev, complet=True)),
+             ("Organisateur", ev.get("organisateur", "")),
+             ("Thèmes", ", ".join(ev.get("themes", []))),
+             ("Accès", ev.get("acces", "")),
+             ("Tarif", ev.get("tarif", ""))]
+    if ev.get("lien"):
+        infos.append(("Site officiel", f'<a href="{ev["lien"]}" target="_blank" rel="noopener">{ev["lien"].replace("https://", "").rstrip("/")}</a>'))
+    infos_html = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in infos if v)
+    note = ""
+    if ev.get("statut") == "à confirmer":
+        note = '<p class="ev-note">Les dates de cet événement sont à confirmer par les organisateurs.</p>'
+    verif = ""
+    if ev.get("verifie_le"):
+        src = f", d'après {ev['source']}" if ev.get("source") else ""
+        verif = f'<p class="meta">Informations vérifiées le {date_fr(ev["verifie_le"], with_day=True)}{src}.</p>'
+    jsonld = {
+        "@context": "https://schema.org", "@type": "Event", "name": ev["title"],
+        "startDate": ev["date"].isoformat(), "endDate": ev["date_fin"].isoformat(),
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {"@type": "Place", "name": ev.get("lieu", ""),
+                     "address": {"@type": "PostalAddress", "addressLocality": ev.get("ville", ""), "addressCountry": ev.get("pays", "")}},
+        "description": accroche_de(ev),
+    }
+    if ev.get("organisateur"):
+        jsonld["organizer"] = {"@type": "Organization", "name": ev["organisateur"]}
+    if ev.get("lien"):
+        jsonld["url"] = ev["lien"]
+    import json
+    html = HEAD.format(title=titre_page(ev["title"]), description=accroche_de(ev), root="../")
+    if ev.get("image_partage"):
+        from html import escape as echapper
+        og = (f'<meta property="og:type" content="website">\n'
+              f'<meta property="og:title" content="{echapper(titre_page(ev["title"]), quote=True)}">\n'
+              f'<meta property="og:description" content="{echapper(accroche_de(ev), quote=True)}">\n'
+              f'<meta property="og:url" content="{SITE_URL}/evenements/{ev["slug"]}.html">\n'
+              f'<meta property="og:image" content="{SITE_URL}/{ev["image_partage"]}">\n'
+              f'<meta name="twitter:card" content="summary_large_image">\n')
+        html = html.replace("</head>", og + "</head>", 1)
+    html += render_header("../")
+    html += f"""
+<article class="section article-single" style="border-top:0;">
+  <div class="wrap etroit">
+    <p class="meta article-meta"><a href="../evenements.html" class="retour">Tous les événements</a></p>
+    <p class="meta article-meta">Événement</p>
+    <h1>{ev['title']}</h1>
+    {note}
+    <dl class="ev-infos">{infos_html}</dl>
+    <div class="article-body">
+      {ev['html_body']}
+    </div>
+    {verif}
+  </div>
+</article>
+<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
+"""
+    html += render_footer(root="../")
+    return html
+
+
 def render_about():
     a = CONTENT["about_page"]
     v = CONTENT["video_section"]
@@ -953,10 +1141,11 @@ def render_pilote_page():
 # Écriture des fichiers
 # ---------------------------------------------------------------------------
 
-def render_sitemap(posts, actualites=()):
-    urls = ["", "assistant-umoa.html", "a-propos.html", "analyses.html", "actualites.html", "minute-eco.html", "instant-ia.html"]
+def render_sitemap(posts, actualites=(), evenements=()):
+    urls = ["", "assistant-umoa.html", "a-propos.html", "analyses.html", "actualites.html", "evenements.html", "minute-eco.html", "instant-ia.html"]
     urls += [f"articles/{p['slug']}.html" for p in posts]
     urls += [f"actualites/{a['slug']}.html" for a in actualites]
+    urls += [f"evenements/{e['slug']}.html" for e in evenements]
     entries = "\n".join(f"  <url><loc>{SITE_URL}/{u}</loc></url>" for u in urls)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -992,12 +1181,15 @@ def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(os.path.join(DOCS_DIR, "articles"), exist_ok=True)
     os.makedirs(os.path.join(DOCS_DIR, "actualites"), exist_ok=True)
+    os.makedirs(os.path.join(DOCS_DIR, "evenements"), exist_ok=True)
     copier_assets()
 
     posts = load_all_posts()
     print(f"{len(posts)} article(s) trouvé(s) dans /posts")
     actualites = load_all_actualites()
     print(f"{len(actualites)} actualité(s) trouvée(s) dans /actualites")
+    evenements = load_evenements()
+    print(f"{len(evenements)} événement(s) trouvé(s) dans /evenements")
     minute_eco = load_markdown_folder(MINUTE_ECO_DIR)
     print(f"{len(minute_eco)} billet(s) trouvé(s) dans /minute-eco")
     instant_ia = load_markdown_folder(INSTANT_IA_DIR)
@@ -1007,7 +1199,7 @@ def main():
         with open(os.path.join(DOCS_DIR, chemin), "w", encoding="utf-8") as f:
             f.write(contenu)
 
-    ecrire("index.html", render_homepage(posts, actualites))
+    ecrire("index.html", render_homepage(posts, actualites, evenements))
     ecrire("a-propos.html", render_about())
     ecrire("abonnement-confirme.html", render_abonnement_confirme())
     ecrire("assistant-umoa.html", render_pilote_page())
@@ -1023,6 +1215,10 @@ def main():
     ))
     ecrire("actualites.html", render_actualites_page(actualites))
     ecrire("analyses.html", render_analyses_page(posts))
+    ecrire("evenements.html", render_evenements_page(evenements))
+    for ev in evenements:
+        ecrire(os.path.join("evenements", f"{ev['slug']}.html"), render_evenement_page(ev))
+        print(f"  evenements/{ev['slug']}.html")
     for a in actualites:
         ecrire(os.path.join("actualites", f"{a['slug']}.html"), render_actualite_page(a))
         print(f"  actualites/{a['slug']}.html")
@@ -1031,7 +1227,7 @@ def main():
         ecrire(os.path.join("articles", f"{post['slug']}.html"), render_article(post))
         print(f"  articles/{post['slug']}.html")
 
-    ecrire("sitemap.xml", render_sitemap(posts, actualites))
+    ecrire("sitemap.xml", render_sitemap(posts, actualites, evenements))
     ecrire("robots.txt", render_robots())
     print("Site généré dans /docs, prêt à être poussé sur GitHub.")
 
