@@ -1034,3 +1034,348 @@ Lire la suite»...
 - **Résumé (extrait automatique)** : La Sierra Leone est parvenue à un accord au niveau des services avec le Fonds monétaire international (FMI) sur le quatrième examen de son programme au titre de la Facilité élargie de crédit (FEC) et le premier examen de la Facilité pour la résilience et la durabilité (FRD). L’is...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-23
+
+### L’Afrique rend les paiements numériques presque gratuits. Et les taxe dans le même mouvement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/lafrique-rend-les-paiements-numeriques-presque-gratuits-et-les-taxe-dans-le-meme-mouvement/
+- **Thèmes** : Économie (économique) ; Finance (paiement) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Les États du continent investissent dans des infrastructures de paiement partagées pour faire tomber le coût d’une transaction. Plusieurs taxent ces mêmes transactions. Le risque, documenté, est le retour vers l’espèce des usagers les plus modestes. Le débat sur la fiscalité des ...
+- **Statut** : [ ] à trier
+
+### Nigeria : les enjeux financiers derrière la nomination de Stanley Amuchie à la tête de Fidelity Bank
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/nigeria-les-enjeux-financiers-derriere-la-nomination-de-stanley-amuchie-a-la-tete-de-fidelity-bank/
+- **Thèmes** : Finance (banque)
+- **Résumé (extrait automatique)** : Fidelity Bank Plc a confirmé la nomination de Stanley Chiedoziem Amuchie au poste de directeur général (CEO), avec une prise de fonction prévue le 1er janvier 2027, après approbation de la Banque centrale du Nigeria (CBN). Il succéde à Nneka Onyeali-Ikpe, dont le mandat prendra f...
+- **Statut** : [ ] à trier
+
+### Capital-investissement au Maroc : les entreprises accompagnées par les fonds affichent une croissance près de quatre fois supérieure au PIB
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/capital-investissement-au-maroc-les-entreprises-accompagnees-par-les-fonds-affichent-une-croissance-pres-de-quatre-fois-superieure-au-pib/
+- **Thèmes** : Économie (croissance, PIB) ; Finance (capital-investissement)
+- **Résumé (extrait automatique)** : Le capital-investissement marocain revendique une contribution croissante à la transformation des entreprises. Publiée le 19 novembre 2026, la septième édition du Rapport d’impact de l ’Association marocaine des investisseurs en capital (AMIC) met en lumière les performances des ...
+- **Statut** : [ ] à trier
+
+### De Bruxelles à Antalya, The Okwelians porte les ambitions africaines au cœur de l’agenda économique mondial
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/de-bruxelles-a-antalya-the-okwelians-porte-les-ambitions-africaines-au-coeur-de-lagenda-economique-mondial/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Pendant plus de vingt ans, la société civile africaine a été conviée aux grands sommets pour témoigner. Elle s’y invite désormais pour négocier. Le Think Do Tank camerounais The Okwelians a voulu en faire la démonstration, en un mois et trois escales. Bruxelles le 22 octobre, Cot...
+- **Statut** : [ ] à trier
+
+### Nvidia réinstalle son mythique PDG et voir son cours boursier s’envoler de 25%
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/nvidia-reinstalle-son-mythique-pdg-et-voir-son-cours-boursier-senvoler-de-25/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Onze jours. C’est le temps qu’il aura fallu à Nvidia pour passer de la condamnation morale à la réhabilitation économique. Écarté le 12 novembre 2026 à la suite de révélations sur sa vie privée et de soupçons touchant à la sécurité nationale américaine, Jensen Huang retrouve, ce ...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : la BERD et Société Générale mobilisent 250 millions d’euros pour financer les entreprises
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/cote-divoire-la-berd-et-societe-generale-mobilisent-250-millions-deuros-pour-financer-les-entreprises/
+- **Thèmes** : Économie (commerce) ; Finance (banque, bancaire, crédit)
+- **Résumé (extrait automatique)** : La Banque européenne pour la reconstruction et le développement (BERD) et Société Générale Côte d’Ivoire (SGCI) ont conclu un partenariat financier de 250 millions d’euros, destiné à renforcer l’accès au crédit des entreprises ivoiriennes. L’opération combine deux mécanismes de g...
+- **Statut** : [ ] à trier
+
+### Mines en Côte d’Ivoire : moins de 10 % de femmes malgré un boom de la production d’or
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/mines-en-cote-divoire-moins-de-10-de-femmes-malgre-un-boom-de-la-production-dor/
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : Alors que l’industrie aurifère ivoirienne connaît une croissance spectaculaire — passant d’environ 23,5 tonnes d’or produites en 2015 à plus de 59 tonnes en 2024, avec une hausse de 4 à 13 mines industrielles en exploitation —, la participation féminine demeure marginale. Selon u...
+- **Statut** : [ ] à trier
+
+### Maroc : S&P maintient la note « BBB- » d’OCP malgré la crise des approvisionnements
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/maroc-sp-maintient-la-note-bbb-docp-malgre-la-crise-des-approvisionnements/
+- **Thèmes** : Économie (S&P) ; Finance (crédit)
+- **Résumé (extrait automatique)** : S&#38;P Global Ratings maintient la note de crédit « BBB- » du groupe marocain OCP S.A., assortie d’une perspective stable. Dans son évaluation publiée le 19 novembre 2026, l’agence estime que le producteur de phosphates et d’engrais conserve les moyens financiers nécessaires pou...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : Le SIREXE referme ses portes avec 4 913 milliards FCFA de perspectives d’investissement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/cote-divoire-le-sirexe-referme-ses-portes-avec-4-913-milliards-fcfa-de-perspectives-dinvestissement/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : La deuxième édition du Salon international des ressources extractives et de l’énergie (SIREXE 2026) a redéfini les standards financiers du secteur en Afrique de l’Ouest. en mobilisant 4 913 milliards de francs CFA d’intentions d’investissement et 27 conventions signées en quelque...
+- **Statut** : [ ] à trier
+
+### Kenya : les banques demandent un report des nouvelles exigences de fonds propres à 2028
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/kenya-les-banques-demandent-un-report-des-nouvelles-exigences-de-fonds-propres-a-2028/
+- **Thèmes** : Économie (économie) ; Finance (banque)
+- **Résumé (extrait automatique)** : Les banques commerciales kényanes demandent à la Banque centrale du Kenya (CBK) de reporter d&#8217;un an, à janvier 2028, l&#8217;entrée en vigueur des nouvelles exigences de fonds propres applicables aux établissements d&#8217;importance systémique. Ce délai permettra aux banqu...
+- **Statut** : [ ] à trier
+
+### Nigeria : Cornerstone Insurance devient une holding et sépare ses activités vie et non-vie
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/nigeria-cornerstone-insurance-devient-une-holding-et-separe-ses-activites-vie-et-non-vie/
+- **Thèmes** : Finance (assurance)
+- **Résumé (extrait automatique)** : Le groupe nigérian Cornerstone Insurance Plc engage une restructuration de ses activités en séparant l’assurance-vie et l’assurance non-vie au sein de filiales distinctes. Cette réorganisation vise à se conformer à la loi nigériane de réforme du secteur des assurances de 2025, qu...
+- **Statut** : [ ] à trier
+
+### AvePLUS présente ses solutions de paiement au 9ᵉ Salon monétique régional du GIM-UEMOA à Dakar
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/aveplus-presente-ses-solutions-de-paiement-au-9%e1%b5%89-salon-monetique-regional-du-gim-uemoa-a-dakar/
+- **Thèmes** : Économie (UEMOA) ; Finance (fintech, paiement) ; Data et IA (numérique)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Présente à la 9ᵉ édition du Salon monétique régional, organisée les 19 et 20 novembre 2026 à Dakar par le GIM-UEMOA, la fintech burkinabè AvePLUS entend accompagner la digitalisation des services financiers en Afrique de l’Ouest. Son directeur général, Lassane Ouédraogo, revient ...
+- **Statut** : [ ] à trier
+
+### Cotonou: L’Africa Blockchain Crypto Conference 2026
+- **Source** : Financial Afrik, agenda
+- **Lien** : https://www.financialafrik.com/agenda/cotonou-lafrica-blockchain-crypto-conference-2026/
+- **Thèmes** : Économie (UEMOA) ; Finance (crypto) ; Data et IA (numérique)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Ce qui sortira de Cotonou ne restera pas à Cotonou. Le 25 novembre 2026, l&#8217;#AfricaBlockchainCryptoConference &#8211; #ABCC2026 ne se contentera pas de poser des questions. Elle est conçue pour produire des réponses concrètes, documentées et actionnables. Après les dialogues...
+- **Statut** : [ ] à trier
+
+### Cotonou: 8ᵉ édition du Next Fintech Forum 2026
+- **Source** : Financial Afrik, agenda
+- **Lien** : https://www.financialafrik.com/agenda/cotonou-8%e1%b5%89-edition-du-next-fintech-forum-2026/
+- **Thèmes** : Économie (croissance, UEMOA) ; Finance (fintech)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : ???? 26–27 NOVEMBRE 2026 ???? SOFITEL COTONOU MARINA HOTEL &#38; SPA Cotonou, Bénin · Afrique de l’Ouest DE L’ADOPTION À LA VALEUR Industrialiser la Fintech pour accélérer la croissance de l’UEMOA Le Next Fintech Forum 2026 réunira à Cotonou les principaux acteurs de l’écosystème...
+- **Statut** : [ ] à trier
+
+### Luxembourg: Luxembourg Finance Forum 2026
+- **Source** : Financial Afrik, agenda
+- **Lien** : https://www.financialafrik.com/agenda/luxembourg-luxembourg-finance-forum-2026/
+- **Thèmes** : Finance (blanchiment)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : 1ère édition — 9 &#38; 10 décembre 2026 &#124; Luxembourg 1. Présentation de l’événement Le Luxembourg Finance Forum 2026 est un événement international consacré aux enjeux de régulation, de supervision du secteur financier et de lutte contre le blanchiment de capitaux et le fina...
+- **Statut** : [ ] à trier
+
+### Davos: World Economic Forum Annual Meeting 2027
+- **Source** : Financial Afrik, agenda
+- **Lien** : https://www.financialafrik.com/agenda/world-economic-forum-annual-meeting-2027/
+- **Thèmes** : Économie (économique)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Date et lieu ???? Du 18 au 22 janvier 2027???? Davos – Centre des congrès de Davos, Suisse ???? Nombre de participants attendus : environ 3 000 personnes????️ Thématique générale : Collaboration public-privé Présentation de l’événement La Réunion annuelle du World Economic Forum ...
+- **Statut** : [ ] à trier
+
+### Lagos: Sub-Saharan Africa International Petroleum Exhibition & Conference (SAIPEC 2027)
+- **Source** : Financial Afrik, agenda
+- **Lien** : https://www.financialafrik.com/agenda/lagos-sub-saharan-africa-international-petroleum-exhibition-conference-saipec-2027/
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Statut** : [ ] à trier
+
+### Casablanca Finance City lance la troisième édition de son Africa Tour en Afrique Centrale
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2311-143709-casablanca-finance-city-lance-la-troisieme-edition-de-son-africa-tour-en-afrique-centrale
+- **Thèmes** : Économie (économique)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Casablanca Finance City (CFC), premier centre financier d’Afrique selon le Global Financial Centres Index, lance la troisième édition de son Africa Tour, dont la première étape se tiendra au Cameroun du 22 au 25 novembre, avec une délégation d'entreprises membres. Après deux prem...
+- **Statut** : [ ] à trier
+
+### BRVM : Coris Holding ramènera sa participation à 64,6 % après l’OPV de Coris Bank CI
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2311-143706-brvm-coris-holding-ramenera-sa-participation-a-64-6-apres-l-opv-de-coris-bank-ci
+- **Thèmes** : Économie (croissance) ; Finance (BRVM, bourse)
+- **Résumé (extrait automatique)** : L’introduction de Coris Bank International Côte d’Ivoire à la BRVM doit permettre à sa maison mère de céder 20&nbsp;% du capital de la filiale tout en conservant le contrôle. L’opération vise également à mobiliser des ressources pour financer l’expansion du groupe et soutenir la ...
+- **Statut** : [ ] à trier
+
+### Chez NSIA Banque Côte d'Ivoire, chaque geste compte pour bâtir une culture durable de la qualité
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2311-143705-chez-nsia-banque-cote-divoire-chaque-geste-compte-pour-batir-une-culture-durable-de-la-qualite
+- **Thèmes** : Finance (banque)
+- **Résumé (extrait automatique)** : Dans le cadre de sa démarche d'amélioration continue et de son engagement en faveur de l'excellence opérationnelle, NSIA Banque Côte d'Ivoire, certifiée ISO 9001, a organisé du 11 au 13 novembre 2026 les Journées de la Qualité, placées sous le thème&nbsp;: «&nbsp;Chaque geste com...
+- **Statut** : [ ] à trier
+
+### Burkina Faso : les cyberarnaques ont déjà coûté plus cher en neuf mois qu’en 2025
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2311-143701-burkina-faso-les-cyberarnaques-ont-deja-coute-plus-cher-en-neuf-mois-qu-en-2025
+- **Thèmes** : Économie (FCFA) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : La multiplication des escroqueries en ligne pose la question de la sécurité des transactions numériques au Burkina Faso. Malgré une stratégie nationale de lutte contre la cybercriminalité et des outils de signalement, les utilisateurs continuent de subir des pertes financières im...
+- **Statut** : [ ] à trier
+
+### Afrique du Sud : un fonds de 5,7 millions $ envisagé pour financer les start-up de l’IAfils
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2311-143700-afrique-du-sud-un-fonds-de-5-7-millions-envisage-pour-financer-les-start-up-de-l-iafils
+- **Thèmes** : Économie (économie) ; Finance (crédit) ; Data et IA (intelligence artificielle, IA, données, numérique)
+- **Résumé (extrait automatique)** : Cette initiative s’inscrit dans la volonté de Pretoria de renforcer son positionnement dans l’économie mondiale de l’IA. Le pays entend notamment tirer parti de ses infrastructures numériques pour attirer les investissements dans les centres de données et répondre à la demande cr...
+- **Statut** : [ ] à trier
+
+### BDEAC : succès de l’Eurobond « AYOP » et feu vert pour 298,3 milliards FCFA de mobilisations supplémentaires
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2311-143698-bdeac-succes-de-l-eurobond-ayop-et-feu-vert-pour-298-3-milliards-fcfa-de-mobilisations-supplementaires
+- **Thèmes** : Économie (budget, FCFA) ; Finance (banque)
+- **Résumé (extrait automatique)** : La Banque de Développement des États de l'Afrique Centrale (BDEAC) a tenu, le 18 novembre 2026, une session extraordinaire de son Conseil d'administration par visioconférence, sous la présidence de Monsieur Hervé NDOBA, Ministre des Finances et du Budget de la République Centrafr...
+- **Statut** : [ ] à trier
+
+### La BERD prévoit 275 millions $ d’investissements supplémentaires en Côte d’Ivoire
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2311-143696-la-berd-prevoit-275-millions-d-investissements-supplementaires-en-cote-d-ivoire
+- **Thèmes** : Finance (banque)
+- **Résumé (extrait automatique)** : A l’occasion de la visite de sa présidente à Abidjan, du 23 au 25 novembre, la Banque prévoit de signer de nouveaux accords de financement dans le pays. Elle inaugurera également son bureau de représentation et lancera un programme dédié au financement des PME.
+La Banque européen...
+- **Statut** : [ ] à trier
+
+### Irrigation : l’américain Valmont veut faire du Nigeria un nouveau relais de croissance en Afrique
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-agro/2311-143693-irrigation-l-americain-valmont-veut-faire-du-nigeria-un-nouveau-relais-de-croissance-en-afrique
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : En Afrique subsaharienne, l’irrigation est considérée comme un levier stratégique pour accroître la productivité et la production agricoles. La volonté des États de développer leur potentiel dans ce domaine ouvre de nouvelles perspectives d’investissement pour les opérateurs étra...
+- **Statut** : [ ] à trier
+
+### SIREXE 2026 : Schneider Electric fait de la fiabilité énergétique l’enjeu clé de l’industrialisation
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2311-143690-sirexe-2026-schneider-electric-fait-de-la-fiabilite-energetique-l-enjeu-cle-de-l-industrialisation
+- **Thèmes** : Économie (économie, croissance)
+- **Résumé (extrait automatique)** : Alors que les économies africaines accélèrent leur transformation industrielle, la question énergétique ne se limite plus à l'accès à l'électricité. La capacité à garantir une alimentation stable, continue et efficacement maîtrisée devient tout aussi déterminante pour accompagner...
+- **Statut** : [ ] à trier
+
+### Pourquoi le nigérian NGX Group prend 10 % du capital de la Bourse de Nairobi, après celle d’Éthiopie
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2311-143687-pourquoi-le-nigerian-ngx-group-prend-10-du-capital-de-la-bourse-de-nairobi-apres-celle-d-ethiopie
+- **Thèmes** : Finance (bourse) ; Data et IA (données)
+- **Résumé (extrait automatique)** : Après son investissement dans la Bourse éthiopienne en 2024, l’opérateur nigérian poursuit son expansion régionale en entrant au capital de Nairobi Securities Exchange. L’opération, dont le montant n’a pas été officiellement dévoilé, pourrait avoisiner 7 millions de dollars, selo...
+- **Statut** : [ ] à trier
+
+### Au Bénin, Orange Corners lie formation et financement pour accompagner les jeunes entrepreneurs
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-services/2311-143677-au-benin-orange-corners-lie-formation-et-financement-pour-accompagner-les-jeunes-entrepreneurs
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : Alors que les dispositifs d’appui aux entrepreneurs béninois privilégient la création d’activité, l’accompagnement de la croissance reste limité. Les besoins en compétences de gestion, en débouchés commerciaux et en financement figurent parmi les lacunes relevées dans le diagnost...
+- **Statut** : [ ] à trier
+
+### SIREXE 2026 / Industrie 4.0 : la stratégie d’Orange CI pour automatiser et mutualiser le réseau électrique
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/sirexe-2026-industrie-4-0-la-strategie-dorange-ci-pour-automatiser-et-mutualiser-le-reseau-electrique/
+- **Thèmes** : Data et IA (données, numérique)
+- **Résumé (extrait automatique)** : Infrastructures numériques et industrie énergétique 4.0 : c’est la thématique d’un panel au SIREXE 2026 ce 20 novembre, au parc des expositions d’Abidjan. Objectif : rendre les systèmes énergétiques plus intelligents, efficaces et durables grâce aux données et à l&#8217;automatis...
+- **Statut** : [ ] à trier
+
+### Ecosystème digital en 2026: le Sénégal intègre le top 10 des nations les plus avancées du continent
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/ecosysteme-digital-en-2026-le-senegal-integre-le-top-10-des-nations-les-plus-avancees-du-continent/
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : Le Sénégal rejoint officiellement les dix pays africains les plus avancés en matière de développement numérique et de cadre réglementaire favorable. C’est l’un des principaux enseignements de l’Indice Afrique Numérique 2026, publié le 18 novembre 2026 par l’association mondiale d...
+- **Statut** : [ ] à trier
+
+### CAF 2026 / Cybercriminalité en Afrique : L’industrialisation des arnaques par l’intelligence artificielle (IA)
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/cybercriminalite-en-afrique-lindustrialisation-des-arnaques-par-lintelligence-artificielle-ia/
+- **Thèmes** : Data et IA (intelligence artificielle, IA, numérique)
+- **Résumé (extrait automatique)** : Un constat universel qui met d’accord experts et non experts de l’écosystème numérique : l’intelligence artificielle (IA) facilite la production de contenus trompeurs, la personnalisation des escroqueries et l’automatisation des campagnes frauduleuses.  Lors de la 6e édition du C...
+- **Statut** : [ ] à trier
+
+### Télécoms : MTN Côte d’Ivoire va lancer le réseau 5G dans les prochains jours
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/telecoms-mtn-cote-divoire-va-lancer-le-reseau-5g-dans-les-prochains-jours/
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : Le groupe MTN lancera commercialement son réseau 5G en Côte d’Ivoire dans les tout prochains jours. L’opérateur sud-africain a également confirmé le déploiement d’investissements dès 2027 pour étendre sa couverture nationale et accompagner les projets numériques de l’État. À l’is...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : 96 235 tonnes de cacao enlevées pour 269,46 milliards FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/cote-divoire-96-235-tonnes-de-cacao-enlevees-pour-26946-milliards-fcfa/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Le régulateur ivoirien détaille les volumes pris en charge auprès des coopératives, les refus au déchargement et les dépenses du programme financé par l’État....
+- **Statut** : [ ] à trier
+
+### Burkina Faso : Ibrahim Traoré ouvre une académie technologique de 37,37 milliards FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/burkina-faso-ibrahim-traore-ouvre-une-academie-technologique-de-3737-milliards-fcfa/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Inaugurée à Pabré, l’Académie technologique du Faso doit former des ingénieurs dans onze domaines. La première phase a coûté 37,37 milliards de FCFA....
+- **Statut** : [ ] à trier
+
+### Bénin: la Chine offre un lot d’équipements agricoles d’une valeur de 20 millions de FCFA aux Forces armées béninoises
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-la-chine-offre-un-lot-dequipements-agricoles-dune-valeur-de-20-millions-de-fcfa-aux-forces-armees-beninoises/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : À Ségbana et Karimama, les coopératives féminines doivent recevoir gratuitement les machines annoncées, avec formation et pièces de rechange....
+- **Statut** : [ ] à trier
+
+### Bénin : Afonds 2 vise une assurance agricole pour 150 000 producteurs
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-afonds-2-vise-une-assurance-agricole-pour-150-000-producteurs/
+- **Thèmes** : Finance (assurance)
+- **Résumé (extrait automatique)** : Soutenu par huit millions de francs suisses, le programme prévoit aussi des investissements agricoles dans 35 communes....
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : 4 913 milliards FCFA de perspectives d’investissement au SIREXE 2026
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/cote-divoire-4-913-milliards-fcfa-de-perspectives-dinvestissement-au-sirexe-2026/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : À la clôture du salon à Abidjan, 27 conventions ont été annoncées et 107 164 participants recensés. Cinq projets sont déjà en négociation de financement....
+- **Statut** : [ ] à trier
+
+### Burkina Faso : 956 victimes de cybercriminalité et plus de 261 millions FCFA perdus en octobre
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/burkina-cybercriminalite-956-victimes-261-millions-octobre-2026/
+- **Thèmes** : Économie (FCFA) ; Finance (mobile money)
+- **Résumé (extrait automatique)** : Les fraudes au mobile money représentent plus de 104 millions FCFA de pertes. La brigade spécialisée annonce 21 interpellations....
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : 27,8 milliards FCFA de financement pour la centrale solaire de Tongon
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/cote-divoire-278-milliards-fcfa-de-financement-pour-la-centrale-solaire-de-tongon/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Signés le 20 novembre à Abidjan, les accords portent sur 42,4 millions d’euros destinés à une installation photovoltaïque de 52 MWc dans le nord ivoirien....
+- **Statut** : [ ] à trier
+
+### ECO : le Nigeria pose ses conditions pour la gouvernance de la future monnaie de la CEDEAO
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/eco-le-nigeria-pose-ses-conditions-pour-la-gouvernance-de-la-future-monnaie-de-la-cedeao/
+- **Thèmes** : Économie (CEDEAO) ; Finance (banque)
+- **Résumé (extrait automatique)** : Le Nigeria conditionne son soutien à la future monnaie ouest-africaine à une règle simple : ceux qui financent doivent aussi décider. Le gouverneur de la Banque centrale du Nigeria, Olayemi Cardoso, réclame une représentation proportionnelle dans la gouvernance de l&#8217;Union m...
+- **Statut** : [ ] à trier
+
+### Terrorisme : la CEDEAO fixe une échéance pour sa force régionale
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/terrorisme-la-cedeao-fixe-une-echeance-pour-sa-force-regionale/
+- **Thèmes** : Économie (CEDEAO)
+- **Résumé (extrait automatique)** : Les chefs d’état-major des armées ouest-africaines ont adopté un plan d’action visant à rendre opérationnelle la force antiterroriste régionale d’ici décembre 2027. Ainsi, le projet, engagé depuis plusieurs mois, entre dans une nouvelle phase. La Cédéao veut accélérer la mise en ...
+- **Statut** : [ ] à trier
+
+### Budget du MEMP 2027 au Bénin : La volonté d’augmenter les circonscription scolaires
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/budget-du-memp-2027-au-benin-la-volonte-daugmenter-les-circonscription-scolaires/
+- **Thèmes** : Économie (budget)
+- **Résumé (extrait automatique)** : Les ressources prévues pour le ministère de l’enseignement primaire et maternel sont chiffrées à 212,26 milliards de francs CFA contre 202,80 au titre de l’année 2026. Le contenu a été exposé aux parlementaires dans le cadre des travaux budgétaires par le ministre Armand Kuyema N...
+- **Statut** : [ ] à trier
+
+### Enseignement secondaire au Bénin : Un budget 124.838.383.589 francs CFA pour des actions urgentes
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/enseignement-secondaire-au-benin-un-budget-124-838-383-589-francs-cfa-pour-des-actions-urgentes/
+- **Thèmes** : Économie (économique, budget)
+- **Résumé (extrait automatique)** : Le ministre Clément Kouchadé de l’enseignement secondaire a attiré l’attention des parlementaires lors des travaux budgétaires sur la spécificité du budget 2027 de son ministère concernant la volonté gouvernementale de faire de la formation du capital humain, un levier de dévelop...
+- **Statut** : [ ] à trier
+
+### CBDH au Bénin : Un budget de 1.030.613.708 francs CFA pour 2027
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/cbdh-au-benin-un-budget-de-1-030-613-708-francs-cfa-pour-2027/
+- **Thèmes** : Économie (budget)
+- **Résumé (extrait automatique)** : Le budget à exécuter en 2027 à la Commission nationale béninoise des Droits de l’Homme s’élève à 1.030.613.708 francs CFA et a connu une augmentation de 23,36% par rapport à celui dont la gestion est d’actualité. Il a été présenté et défendu par son président Abou-Bakari Imorou e...
+- **Statut** : [ ] à trier
+
+### Mois de l’impact numérique : CanalBox, partenaire de la promotion de l’inclusion numérique au Bénin
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/605724/
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : La cérémonie de lancement officiel de la 3ᵉ édition du Mois de l&#8217;impact numérique s’est déroulée le vendredi 20 novembre 2026 à Cotonou. À l’initiative de Simplon Africa, avec l’appui de ses différents partenaires, dont Canalbox, l’événement a été entamé depuis le 15 novemb...
+- **Statut** : [ ] à trier
+
+### Bénin : SaH Analytics débarque avec ses solutions d’IA et de cybersécurité
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-sah-analytics-debarque-avec-ses-solutions-dia-et-de-cybersecurite/
+- **Thèmes** : Data et IA (IA, cybersécurité)
+- **Résumé (extrait automatique)** : SaH Analytics International étend ses activités au Bénin. La société ivoirienne de services et de conseil informatique a procédé au lancement de sa filiale béninoise à l’occasion du Cyber Africa Forum 2026, organisé à Cotonou. Son directeur général au Bénin, Jean Folly, revient s...
+- **Statut** : [ ] à trier
+
+### Bénin : la Chine accorde des bourses d’études dans sept filières pour 2027-2028
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-la-chine-accorde-des-bourses-detudes-dans-sept-filieres-pour-2027-2028/
+- **Thèmes** : Finance (bourse) ; Finance climatique et durabilité (énergies renouvelables) ; Data et IA (intelligence artificielle)
+- **Résumé (extrait automatique)** : Pékin met sept places de formation supérieure à la disposition des jeunes Béninois pour l’année universitaire 2027-2028. Trois places concernent la licence (robotique, énergies renouvelables et électricité propre, hydraulique), trois le master (intelligence artificielle, énergies...
+- **Statut** : [ ] à trier
+
+### Bénin : la Chine offre 20 millions FCFA de matériel agricole pour les actions sociales de l’armée
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-la-chine-offre-20-millions-fcfa-de-materiel-agricole-pour-les-actions-sociales-de-larmee/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Pékin vient de faire un geste envers les forces armées béninoises. L’ambassadeur chinois Zhang Wei et le général de brigade Abdoul-Baki Sanni Bachabi, directeur de cabinet au ministère de la Défense nationale, ont paraphé les actes formalisant la remise. L&#8217;annonce a été fai...
+- **Statut** : [ ] à trier
+
