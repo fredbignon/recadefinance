@@ -1379,3 +1379,273 @@ La Banque européen...
 - **Résumé (extrait automatique)** : Pékin vient de faire un geste envers les forces armées béninoises. L’ambassadeur chinois Zhang Wei et le général de brigade Abdoul-Baki Sanni Bachabi, directeur de cabinet au ministère de la Défense nationale, ont paraphé les actes formalisant la remise. L&#8217;annonce a été fai...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-24
+
+### Après la Côte d’Ivoire, Coris Bank International Bénin se lance à la conquête de la BRVM
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/apres-la-cote-divoire-coris-bank-international-benin-se-lance-a-la-conquete-de-la-brvm/
+- **Thèmes** : Économie (FCFA) ; Finance (bancaire, BRVM, bourse)
+- **Résumé (extrait automatique)** : Le groupe bancaire d’Idrissa Nassa accélère sa stratégie d’ouverture du capital de ses filiales. Après la Côte d’Ivoire, Coris Bank International Bénin a lancé, ce mardi 24 novembre 2026, son opération d’introduction à la Bourse régionale des valeurs mobilières (BRVM), à travers ...
+- **Statut** : [ ] à trier
+
+### BAD : Sidi Ould Tah installe une équipe de choc
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/bad-sidi-ould-tah-installe-une-equipe-de-choc/
+- **Thèmes** : Économie (Banque mondiale) ; Finance (banque, BAD)
+- **Résumé (extrait automatique)** : Goldman Sachs, Morgan Stanley, Google, Banque mondiale, Fonds monétaire international, banques centrales et fonds souverains : Sidi Ould Tah a puisé dans les grands viviers de compétences internationales pour constituer son état-major à la Banque africaine de développement (BAD)....
+- **Statut** : [ ] à trier
+
+### Les principaux pays producteurs africains de cajou tiennent leur 8e Conseil des ministres à Abidjan
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/les-principaux-pays-producteurs-africains-de-cajou-tiennent-leur-8e-conseil-des-ministres-a-abidjan/
+- **Thèmes** : Économie (économique) ; Finance climatique et durabilité (climat)
+- **Résumé (extrait automatique)** : Par OSSÈNE OUATTARA « Face au ralentissement conjoncturel de 2026, les pays producteurs doivent repenser leurs modèles économiques. Il s’agit de capter la valeur ajoutée par l’industrialisation locale, de diversifier les marchés avec des produits finis, de renforcer la coopératio...
+- **Statut** : [ ] à trier
+
+### Franck Olivier Diagou appelle les assureurs à adapter leurs placements à leurs engagements
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/franck-olivier-diagou-appelle-les-assureurs-a-adapter-leurs-placements-a-leurs-engagements/
+- **Thèmes** : Finance (assurance)
+- **Résumé (extrait automatique)** : Au 3ᵉ Kenya Re CEOs Summit, tenu à Abidjan du 9 au 12 novembre 2026, Franck Olivier Diagou, Directeur Général de NSIA Asset Management, est intervenu dans le panel intitulé “Capital resilience, strategic solvency and capital adequacy frameworks for sustainable growth”. Il a défen...
+- **Statut** : [ ] à trier
+
+### Absa veut réduire ses coûts de 287 millions USD pour améliorer sa rentabilité
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/absa-veut-reduire-ses-couts-de-287-millions-usd-pour-ameliorer-sa-rentabilite/
+- **Thèmes** : Économie (économie) ; Finance (bancaire)
+- **Résumé (extrait automatique)** : Le groupe bancaire sud-africain Absa prévoit de dégager 5 milliards de rands (287 millions USD) d&#8217;économies sur sa base de coûts de 2026, à l&#8217;issue d&#8217;un programme de restructuration de trois ans. L&#8217;objectif est de ramener son ratio coût/revenu à environ 50...
+- **Statut** : [ ] à trier
+
+### Sénégal : Cheikh Diba, un argentier à l’épreuve d’une tempête politico-budgétaire
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/senegal-cheikh-diba-un-argentier-a-lepreuve-dune-tempete-politico-budgetaire/
+- **Thèmes** : Économie (dette, FCFA) ; Finance (obligation)
+- **Résumé (extrait automatique)** : Le Sénégal a encore payé. Ce lundi 23 novembre 2026, le Trésor public a confirmé avoir honoré une échéance de sa dette extérieure, réglant dans les délais un coupon de près de 18,7 milliards de FCFA (31,25 millions de dollars) sur ses obligations souveraines à échéance 2033. Dans...
+- **Statut** : [ ] à trier
+
+### Nigeria : Guinea Insurance renforce ses fonds propres à 4,2 millions de dollars et maintient sa rentabilité en 2025
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/nigeria-guinea-insurance-renforce-ses-fonds-propres-a-42-millions-de-dollars-et-maintient-sa-rentabilite-en-2025/
+- **Thèmes** : Économie (croissance) ; Finance climatique et durabilité (résilience)
+- **Résumé (extrait automatique)** : Guinea Insurance Plc a réaffirmé sa résilience financière et ses ambitions de croissance lors de sa 68ᵉ assemblée générale annuelle (AGA), tenue en ligne le 20 novembre 2026. À cette occasion, les actionnaires ont examiné et approuvé les états financiers audités de l’exercice clo...
+- **Statut** : [ ] à trier
+
+### Égypte : Misr Life Insurance met 15 % de son capital en Bourse
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/egypte-misr-life-insurance-met-15-de-son-capital-en-bourse/
+- **Thèmes** : Finance (bourse)
+- **Résumé (extrait automatique)** : L’assureur-vie public égyptien Misr Life Insurance Company prévoit d’introduire 15 % de son capital à la Bourse égyptienne (EGX), dans le cadre d’une opération soumise aux autorisations réglementaires et aux conditions du marché. L’annonce a été faite le 17 novembre 2026. Le débu...
+- **Statut** : [ ] à trier
+
+### Makutano Mining : Félix Tshisekedi met l’accent sur la traçabilité et la transformation des minerais
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/makutano-mining-felix-tshisekedi-met-laccent-sur-la-tracabilite-et-la-transformation-des-minerais/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Le président de la République démocratique du Congo (RDC), Félix Antoine Tshisekedi, a procédé, le 23 novembre 2026, à l’ouverture de la 12ᵉ édition de l’International Business Forum Makutano, à l’hôtel Fleuve Congo, à Kinshasa. Organisé du 22 au 25 novembre dans la capitale cong...
+- **Statut** : [ ] à trier
+
+### Algérie : Alliance Assurances et la BDL lancent le paiement fractionné de l’assurance automobile sans frais
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/algerie-alliance-assurances-et-la-bdl-lancent-le-paiement-fractionne-de-lassurance-automobile-sans-frais/
+- **Thèmes** : Finance (banque, bancaire, assurance, paiement)
+- **Résumé (extrait automatique)** : Alliance Assurances et la Banque de Développement Local (BDL) ont conclu, le 18 novembre 2026, un partenariat permettant aux automobilistes de régler leur assurance tous risques en plusieurs échéances, sans intérêts ni frais supplémentaires. Le dispositif est accessible aux déten...
+- **Statut** : [ ] à trier
+
+### Mediterrania Capital Partners se lance dans le capital-risque avec MC Outlierz Ventures
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/24/mediterrania-capital-partners-se-lance-dans-le-capital-risque-avec-mc-outlierz-ventures/
+- **Thèmes** : Finance (fintech) ; Data et IA (intelligence artificielle)
+- **Résumé (extrait automatique)** : Mediterrania Capital Partners (MCP), gestionnaire de 1,2 milliard d’euros d’actifs, annonce son entrée sur le marché du capital-risque à travers un partenariat stratégique avec Outlierz Ventures. Baptisée MC Outlierz Ventures, la nouvelle plateforme ciblera les startups technolog...
+- **Statut** : [ ] à trier
+
+### SIREXE 2026 : le rendez-vous des industries extractives et énergétiques mobilise 4 913 milliards FCFA de perspectives d’investissement
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/23/sirexe-2026-le-rendez-vous-des-industries-extractives-et-energetiques-mobilise-4-913-milliards-fcfa-de-perspectives-dinvestissement/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : 4 913 milliards FCFA de perspectives d’investissement, 27 conventions signées et un accord de coopération entre la Côte d’Ivoire et le Botswana : la deuxième édition du Salon international des ressources extractives et de l’énergie (SIREXE), organisée du 18 au 22 novembre à Abidj...
+- **Statut** : [ ] à trier
+
+### La BERD lance sa « Guarantee for Growth » en Afrique, via la Côte d’Ivoire
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2411-143744-la-berd-lance-sa-guarantee-for-growth-en-afrique-via-la-cote-d-ivoire
+- **Thèmes** : Finance (banque, crédit)
+- **Résumé (extrait automatique)** : Introduite pour la première fois sur le continent africain, la garantie entend permettre à Société Générale Côte d’Ivoire (SGCI) d’accorder jusqu’à 120 millions d’euros de nouveaux crédits aux entreprises, dont au moins 100 millions aux MPME ivoiriennes. Ce mécanisme s’inscrit da...
+- **Statut** : [ ] à trier
+
+### IA : l'ONU veut encadrer une technologie dont l'Afrique veut aussi peser sur les règles
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2411-143743-ia-lonu-veut-encadrer-une-technologie-dont-lafrique-veut-aussi-peser-sur-les-regles
+- **Thèmes** : Data et IA (intelligence artificielle, IA, données)
+- **Résumé (extrait automatique)** : L’intelligence artificielle s’impose progressivement comme un enjeu de gouvernance internationale. Au-delà des questions d’innovation et de compétitivité, son développement soulève des enjeux de sécurité, de droits, de souveraineté des données et de représentation des populations...
+- **Statut** : [ ] à trier
+
+### Sabine Mensah (AfricaNenda) : « Le cash demeure roi, mais le numérique gagne du terrain »
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2411-143739-sabine-mensah-africanenda-le-cash-demeure-roi-mais-le-numerique-gagne-du-terrain
+- **Thèmes** : Économie (UEMOA, BCEAO) ; Finance (banque, paiement, mobile money, PI-SPI) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Le 30 septembre 2025, la BCEAO lançait la Plateforme interopérable du système de paiement instantané (PI-SPI) pour relier les banques, les opérateurs de mobile money et les autres prestataires de paiement des huit pays de l’UEMOA. Pour un commerçant de Lomé qui règle un fournisse...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : ce que le bâtiment industriel change à la transformation locale
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2411-143736-cote-d-ivoire-ce-que-le-batiment-industriel-change-a-la-transformation-locale
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Alors que la Côte d’Ivoire veut transformer davantage de matières premières sur place, ses industriels ont besoin d’ateliers adaptés à leurs machines et d’entrepôts capables d’absorber des récoltes saisonnières. Rencontré à Abidjan lors de la mission économique luxembourgeoise de...
+- **Statut** : [ ] à trier
+
+### Nigeria : 850 millions $ pour renforcer la prévention des inondations et les services à l'enfance
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2411-143732-nigeria-850-millions-pour-renforcer-la-prevention-des-inondations-et-les-services-a-lenfance
+- **Thèmes** : Économie (économique, Banque mondiale) ; Finance (banque)
+- **Résumé (extrait automatique)** : Entre la vulnérabilité aux inondations et les difficultés d'accès aux services essentiels pour les enfants, le Nigeria prévoit deux programmes soutenus par la Banque mondiale, visant à couvrir la prévention des catastrophes naturelles et le développement de la petite enfance dans...
+- **Statut** : [ ] à trier
+
+### Inclusion numérique : la Sierra Leone envisage l’assemblage local de smartphones
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2411-143730-inclusion-numerique-la-sierra-leone-envisage-l-assemblage-local-de-smartphones
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : En Afrique, les investissements réalisés ces dernières années dans les infrastructures télécoms ont permis d’étendre significativement la couverture des réseaux. L’adoption des services ne progresse toutefois pas au même rythme, en raison de plusieurs obstacles, dont le coût des ...
+- **Statut** : [ ] à trier
+
+### Apis Partners prend le contrôle de Korridor spécialisée dans le transport routier en Afrique
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2411-143726-apis-partners-prend-le-controle-de-korridor-specialisee-dans-le-transport-routier-en-afrique
+- **Thèmes** : Économie (croissance, commerce) ; Finance (assurance, crédit, capital-investissement, fintech, paiement)
+- **Résumé (extrait automatique)** : Le gestionnaire britannique de capital-investissement mise sur la digitalisation des paiements liés au commerce transfrontalier africain. Au-delà des transactions courantes des transporteurs, il entend développer de nouveaux services financiers, notamment dans le crédit et l’assu...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : les perspectives d’investissement du SIREXE atteignent 8 milliards $
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2411-143723-cote-d-ivoire-les-perspectives-d-investissement-du-sirexe-atteignent-8-milliards
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Cette évolution reflète les perspectives de mobilisation de capitaux dans les industries extractives et énergétiques ivoiriennes. Le gouvernement entend capitaliser sur cette dynamique pour mobiliser les financements nécessaires au développement de nouveaux projets et renforcer l...
+- **Statut** : [ ] à trier
+
+### Burkina Faso : 174 millions $ prévus pour construire trois marchés modernes
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2411-143722-burkina-faso-174-millions-prevus-pour-construire-trois-marches-modernes
+- **Thèmes** : Économie (économique, FCFA)
+- **Résumé (extrait automatique)** : Avec le projet RAAGA, le Burkina Faso entend améliorer les infrastructures de son secteur commercial, qui représente 52,7&nbsp;% des unités économiques recensées en 2024. Cet investissement doit permettre de construire trois complexes de marchés modernes à Ouagadougou et Bobo-Dio...
+- **Statut** : [ ] à trier
+
+### En Afrique, les ventes de smartphones s’effondrent sous l’effet de la hausse des prix (Omdia)
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2411-143721-en-afrique-les-ventes-de-smartphones-s-effondrent-sous-l-effet-de-la-hausse-des-prix-omdia
+- **Thèmes** : Data et IA (intelligence artificielle, données)
+- **Résumé (extrait automatique)** : Alors que la demande des centres de données dédiés à l’intelligence artificielle en composants liés à la mémoire explose, la baisse de la marge bénéficiaire sur les smartphones de moins de 100 dollars conduit les fabricants à reconsidérer les modèles qu'ils proposent et la façon ...
+- **Statut** : [ ] à trier
+
+### Shadow AI : les usages non encadrés de l’IA interrogent la souveraineté numérique africaine
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2411-143718-shadow-ai-les-usages-non-encadres-de-l-ia-interrogent-la-souverainete-numerique-africaine
+- **Thèmes** : Data et IA (intelligence artificielle, IA, données, cybersécurité, numérique)
+- **Résumé (extrait automatique)** : Le Shadow AI désigne l'utilisation, par des employés, d'outils d'intelligence artificielle que leur organisation n'a ni validés ni contractualisés. Dans les administrations africaines, cette pratique soulève la question de la protection des données traitées par les services publi...
+- **Statut** : [ ] à trier
+
+### BHP projette 17 milliards $ dans le cuivre, toujours sans la RDC, numéro 2 mondial
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2411-143716-bhp-projette-17-milliards-dans-le-cuivre-toujours-sans-la-rdc-numero-2-mondial
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : Le groupe australien dispose de projets pour accroître sa production et finance aussi l’exploration en Afrique. En RDC, les discussions rapportées avec Ivanhoe n’ont débouché sur aucun investissement annoncé, sur fond de réserves concernant les risques.
+BHP veut doubler sa produc...
+- **Statut** : [ ] à trier
+
+### Veone et Cloud4Africa dévoilent OWORKS, une nouvelle suite collaborative conçue pour les organisations africaines
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/veone-et-cloud4africa-devoilent-oworks-une-nouvelle-suite-collaborative-concue-pour-les-organisations-africaines/
+- **Thèmes** : Data et IA (données, cloud)
+- **Résumé (extrait automatique)** : À l’occasion d’Ivoire Tech Forum 2026, à Abidjan, nous avons découvert en avant-première OWORKS, une suite collaborative développée par Veone et Cloud4Africa. Elle regroupe plusieurs outils de travail dans un environnement unique et mise sur l’hébergement local et la maîtrise des...
+- **Statut** : [ ] à trier
+
+### CAF 2026 / Dr. Moussa Traoré (DG SaH Analytics France) : « La souveraineté numérique, ce n’est pas l’isolement »
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/caf-2026-dr-moussa-traore-dg-sah-analytics-france-la-souverainete-numerique-ce-nest-pas-lisolement/
+- **Thèmes** : Data et IA (IA, data, cybersécurité, numérique)
+- **Résumé (extrait automatique)** : Dr. Moussa Traoré, directeur général de SaH Analytics France, était au Cyber Africa Forum (CAF), au Bénin, les 16 et 17 novembre 2026. Il y a présenté le savoir-faire des siens en termes de data analytics, d’IA, de cybersécurité et de traitement d’imagerie satellitaire. Mais auss...
+- **Statut** : [ ] à trier
+
+### MTN Benin’s $215 million plan is running into a good problem with customers’ demand for more data
+- **Source** : TechCabal
+- **Lien** : https://techcabal.com/2026/11/24/mtn-benin-customers-data/
+- **Thèmes** : Data et IA (data)
+- **Résumé (extrait automatique)** : A jump in traffic is forcing MTN to spend faster than planned. Getting customers onto 5G will take more than building the network. MTN Benin has a problem that most telecom operators would welcome: people are using its network more, and keeping up is proving expensive. But that e...
+- **Statut** : [ ] à trier
+
+### Nigeria wants to turn data protection into a 500,000-job pipeline
+- **Source** : TechCabal
+- **Lien** : https://techcabal.com/2026/11/24/nigeria-data-protection-500000-jobs/
+- **Thèmes** : Data et IA (data)
+- **Résumé (extrait automatique)** : Nigeria’s data protection regulator wants more mid-career professionals to step into the country’s growing privacy workforce, betting that local talent can fill a global shortage of certified experts....
+- **Statut** : [ ] à trier
+
+### Nigeria : Tinubu veut retrancher 3 147 milliards de nairas du budget 2026
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/nigeria-tinubu-reduction-budget-2026-3147-milliards-nairas/
+- **Thèmes** : Économie (budget, déficit)
+- **Résumé (extrait automatique)** : Le projet transmis au Parlement ramène les dépenses fédérales à 65 176 milliards de nairas. Le déficit et les nouveaux emprunts resteraient inchangés....
+- **Statut** : [ ] à trier
+
+### Nigeria : la Banque centrale maintient son taux directeur à 23 %
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/nigeria-banque-centrale-maintient-taux-directeur-23-novembre-2026/
+- **Thèmes** : Économie (inflation, taux directeur) ; Finance (banque)
+- **Résumé (extrait automatique)** : La Banque centrale du Nigeria a laissé son principal taux inchangé le 24 novembre, malgré le recul de l’inflation à 14,06 % en octobre. Les dépenses liées aux élections de janvier 2027 figurent parmi les risques surveillés....
+- **Statut** : [ ] à trier
+
+### Filière cajou : douze pays africains examinent un projet de bourse à Abidjan
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/filiere-cajou-douze-pays-africains-bourse-abidjan/
+- **Thèmes** : Finance (bourse)
+- **Résumé (extrait automatique)** : Les experts des États membres du Conseil international consultatif du cajou préparent une réunion ministérielle prévue mercredi 25 novembre en Côte d’Ivoire. La transformation locale et la coordination des politiques commerciales figurent au programme....
+- **Statut** : [ ] à trier
+
+### Tourisme et hôtellerie: l’État mobilise 450 millions de FCFA pour auditer les hôtels et restaurants du Grand Nokoué
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/tourisme-et-hotellerie-letat-mobilise-450-millions-de-fcfa-pour-auditer-les-hotels-et-restaurants-du-grand-nokoue/
+- **Thèmes** : Économie (FCFA) ; Finance (conformité)
+- **Résumé (extrait automatique)** : Le diagnostic prévu sur quatre mois doit permettre de recenser les établissements, de contrôler leur conformité aux normes et de chiffrer les investissements nécessaires à leur modernisation....
+- **Statut** : [ ] à trier
+
+### Droits de l’enfant au Bénin : 25 structures sur 43 n’ont pas encore transmis leurs données
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-droits-enfant-rapport-25-structures-contributions-manquantes/
+- **Thèmes** : Data et IA (données)
+- **Résumé (extrait automatique)** : Le ministère de la Justice a transformé la session de validation du rapport destiné au Comité africain en atelier de rédaction collective. Les travaux durent jusqu’au 26 novembre....
+- **Statut** : [ ] à trier
+
+### Douanes : à Cotonou, les États examinent leurs contributions et le budget régional 2027
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-douanes-cotonou-budget-regional-2027-contributions-etats/
+- **Thèmes** : Économie (budget)
+- **Résumé (extrait automatique)** : Les travaux ouverts lundi réunissent une dizaine de pays d’Afrique de l’Ouest et du Centre. Deux autres rencontres douanières internationales sont prévues au Bénin en décembre....
+- **Statut** : [ ] à trier
+
+### Sénégal : le gouvernement rejette la hausse du prix du pain à 210 FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/senegal-le-gouvernement-rejette-la-hausse-du-prix-du-pain-a-210-fcfa/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Dakar refuse une revalorisation de la baguette à 210 FCFA et privilégie une baisse des coûts de production au premier jour d'un appel à la grève....
+- **Statut** : [ ] à trier
+
+### Tchad : les députés adoptent le budget 2027, avec 3 065 milliards FCFA de ressources prévues
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/tchad-les-deputes-adoptent-le-budget-2027-avec-3-065-milliards-fcfa-de-ressources-prevues/
+- **Thèmes** : Économie (budget, FCFA)
+- **Résumé (extrait automatique)** : Les députés tchadiens ont voté le projet de budget 2027, fondé sur des recettes pétrolières en hausse. Le Sénat doit encore examiner le texte....
+- **Statut** : [ ] à trier
+
+### Sénégal : 31,25 millions de dollars versés sur la dette obligataire extérieure
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/senegal-dette-coupon-31-25-millions-dollars-obligations-2033/
+- **Thèmes** : Économie (dette) ; Finance (obligation)
+- **Résumé (extrait automatique)** : Le Trésor sénégalais confirme le règlement dans les délais d’un coupon dû sur ses obligations en dollars arrivant à échéance en 2033....
+- **Statut** : [ ] à trier
+
+### CEDEAO : les chefs d’état-major visent décembre 2027 pour la force antiterroriste
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/cedeao-chefs-etat-major-force-antiterroriste-decembre-2027/
+- **Thèmes** : Économie (CEDEAO)
+- **Résumé (extrait automatique)** : Réunis à Dakar, les responsables militaires ouest-africains ont adopté une feuille de route pour préparer le déploiement d’une force régionale contre le terrorisme....
+- **Statut** : [ ] à trier
+
