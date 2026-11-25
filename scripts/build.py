@@ -676,6 +676,15 @@ def render_actualite_page(item):
     source_html = (f'<p class="actu-source"><a href="{source_url}" target="_blank" rel="noopener">Source : {source}</a></p>'
                    if source else "")
     html = HEAD.format(title=titre_page(item["title"]), description=accroche_de(item), root="../")
+    if item.get("image_partage"):
+        from html import escape as echapper
+        og = (f'<meta property="og:type" content="article">\n'
+              f'<meta property="og:title" content="{echapper(titre_page(item["title"]), quote=True)}">\n'
+              f'<meta property="og:description" content="{echapper(accroche_de(item), quote=True)}">\n'
+              f'<meta property="og:url" content="{SITE_URL}/actualites/{item["slug"]}.html">\n'
+              f'<meta property="og:image" content="{SITE_URL}/{item["image_partage"]}">\n'
+              f'<meta name="twitter:card" content="summary_large_image">\n')
+        html = html.replace("</head>", og + "</head>", 1)
     html += render_header("../")
     html += f"""
 <article class="section article-single" style="border-top:0;">
@@ -738,7 +747,7 @@ def render_evenement_ligne(ev, root=""):
     lien = f"{root}evenements/{ev['slug']}.html"
     themes = ", ".join(ev.get("themes", []))
     themes_html = f'<p class="meta">{themes}</p>' if themes else ""
-    a_confirmer = ' <span class="ev-statut">dates à confirmer</span>' if ev.get("statut") == "à confirmer" else ""
+    a_confirmer = ' <span class="ev-statut">à confirmer</span>' if ev.get("statut") == "à confirmer" else ""
     return f"""
       <li class="evenement" data-fin="{ev['date_fin'].isoformat()}">
         <p class="ev-date">{plage_dates(ev['date'], ev['date_fin'])}</p>
@@ -820,7 +829,7 @@ def render_evenement_page(ev):
     infos_html = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in infos if v)
     note = ""
     if ev.get("statut") == "à confirmer":
-        note = '<p class="ev-note">Les dates de cet événement sont à confirmer par les organisateurs.</p>'
+        note = '<p class="ev-note">Les informations de cet événement sont à confirmer auprès des organisateurs.</p>'
     verif = ""
     if ev.get("verifie_le"):
         src = f", d'après {ev['source']}" if ev.get("source") else ""
