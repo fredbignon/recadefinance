@@ -1649,3 +1649,317 @@ BHP veut doubler sa produc...
 - **Résumé (extrait automatique)** : Réunis à Dakar, les responsables militaires ouest-africains ont adopté une feuille de route pour préparer le déploiement d’une force régionale contre le terrorisme....
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-25
+
+### La BIDC consacrée meilleure banque pour l’intégration régionale aux West African Bankers’ Awards 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/la-bidc-consacree-meilleure-banque-pour-lintegration-regionale-aux-west-african-bankers-awards-2026/
+- **Thèmes** : Économie (CEDEAO) ; Finance (banque)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : La Banque d’Investissement et de Développement de la CEDEAO (BIDC) a été désignée Meilleure Banque pour l’Intégration Régionale 2025 lors de la 2ème édition des West African Bankers’ Awards, tenue le 7 novembre 2026 à Freetown, en Sierra Leone. Cette distinction met en lumière le...
+- **Statut** : [ ] à trier
+
+### UEMOA : l’interopérabilité des paiements à l’épreuve de la cybersécurité
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/uemoa-linteroperabilite-des-paiements-a-lepreuve-de-la-cybersecurite/
+- **Thèmes** : Économie (UEMOA) ; Finance (bancaire, paiement) ; Data et IA (cybersécurité)
+- **Résumé (extrait automatique)** : L’interconnexion des systèmes de paiement dans l’UEMOA ouvre de nouvelles perspectives en matière d’inclusion financière, mais expose également les institutions financières à des risques de cybersécurité plus complexes. Cette problématique était au cœur de l’intervention d’Abouba...
+- **Statut** : [ ] à trier
+
+### Salon monétique régional : entretien avec Emmanuel Cullin, directeur général adjoint de CBAO Groupe Attijariwafa bank
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/salon-monetique-regional-entretien-avec-emmanuel-cullin-directeur-general-adjoint-de-cbao-groupe-attijariwafa-bank/
+- **Thèmes** : Économie (UEMOA) ; Finance (banque, paiement) ; Data et IA (intelligence artificielle)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Entre l’essor du paiement instantané, la montée en puissance de l’intelligence artificielle et la sophistication des risques de fraude, les banques de l’UEMOA sont appelées à repenser leurs infrastructures monétiques. En marge de la 9ᵉ édition du Salon monétique régional, organis...
+- **Statut** : [ ] à trier
+
+### Ilyas Berrajaa (BPC) : moderniser et sécuriser les infrastructures de paiement dans l’UEMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/ilyas-berrajaa-bpc-moderniser-et-securiser-les-infrastructures-de-paiement-dans-luemoa/
+- **Thèmes** : Économie (UEMOA) ; Finance (paiement) ; Data et IA (cybersécurité)
+- **Résumé (extrait automatique)** : À l’occasion de la 9ᵉ édition du Salon monétique régional, organisée les 19 et 20 novembre 2026 à Dakar par le Groupement interbancaire monétique de l’UEMOA (GIM-UEMOA), Ilyas Berrajaa, directeur général Afrique de BPC, a accordé un entretien à Financial Afrik. Au cœur des échang...
+- **Statut** : [ ] à trier
+
+### Entretien exclusif avec Martino de CICCIO, CEO de Montage Gold
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/entretien-exclusif-avec-martino-de-ciccio-ceo-de-montage-gold/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : » La mine de Koné représente, à ce jour, le plus gros investissement dans le secteur minier, avec près d’un milliard de dollars US investis, soit près de 600 milliards de francs CFA en Côte d’Ivoire « Avec un investissement de 580 milliards de FCFA (960 millions de dollars), la m...
+- **Statut** : [ ] à trier
+
+### Makutano Mining : près d’un milliard de dollars d’opérations financières dévoilées à Kinshasa
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/makutano-mining-pres-dun-milliard-de-dollars-doperations-financieres-devoilees-a-kinshasa/
+- **Thèmes** : Économie (commerce)
+- **Résumé (extrait automatique)** : À l’occasion de Makutano Mining, six institutions ont présenté, le 23 novembre 2026 à Kinshasa, des opérations représentant 966 millions de dollars, dont plus de 400 millions jusque-là non rendus publics. Du financement du commerce à la sous-traitance minière, en passant par la t...
+- **Statut** : [ ] à trier
+
+### Congo Terminal investit 5 millions d’euros pour soutenir la croissance des activités  portuaires
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/congo-terminal-investit-5-millions-deuros-pour-soutenir-la-croissance-des-activites-portuaires/
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : Le 17 novembre 2026, Congo Terminal a réceptionné une nouvelle grue mobile portuaire Gottwald Génération 6, acquise pour 5 millions d&#8217;euros (plus de 3 milliards de francs CFA). Cet investissement s’inscrit dans la stratégie de modernisation du terminal à conteneurs du port ...
+- **Statut** : [ ] à trier
+
+### Nigeria : un taux directeur de 23 %, contre 3 % dans l’UEMOA, deux mondes monétaires
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/nigeria-un-taux-directeur-de-23-contre-3-dans-luemoa-deux-mondes-monetaires/
+- **Thèmes** : Économie (UEMOA, BCEAO, taux directeur, politique monétaire) ; Finance (banque)
+- **Résumé (extrait automatique)** : En maintenant son taux directeur à 23 %, la Banque centrale du Nigeria (CBN) prolonge une politique monétaire restrictive destinée à consolider la désinflation et à défendre la stabilité du naira. À quelques centaines de kilomètres d’Abuja, la Banque centrale des États de l’Afriq...
+- **Statut** : [ ] à trier
+
+### Tunisie : Hausse de 4,2% du revenu global des sociétés cotées à la Bourse de Tunis à fin septembre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/tunisie-hausse-de-42-du-revenu-global-des-societes-cotees-a-la-bourse-de-tunis-a-fin-septembre-2026/
+- **Thèmes** : Finance (bourse)
+- **Résumé (extrait automatique)** : Le revenu global des sociétés cotées à la Bourse des Valeurs Mobilières de Tunis (BVMT) a enregistré une hausse de 4,2% au terme des neuf premiers mois de l’année 2026 comparé à la même période de l’année 2025, selon une note établie par les dirigeants de cette Bourse basée à Tun...
+- **Statut** : [ ] à trier
+
+### UMOA : la Côte d’Ivoire lève 110 milliards de FCFA et conforte son statut de signature souveraine de référence
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/umoa-la-cote-divoire-leve-110-milliards-de-fcfa-et-conforte-son-statut-de-signature-souveraine-de-reference/
+- **Thèmes** : Économie (UMOA, FCFA, marché des titres publics)
+- **Résumé (extrait automatique)** : Avec un taux de couverture de 201,90% et des rendements de 6,26% à trois ans et de 7,03% à cinq ans, la Côte d’Ivoire a mobilisé, mardi 24 novembre 2026, 110 milliards de FCFA (187 millions de dollars) sur le marché des titres publics de l’Union monétaire ouest-africaine (UMOA). ...
+- **Statut** : [ ] à trier
+
+### RDC : Doudou Fwamba dévoile sa stratégie pour concilier fiscalité, attractivité et souveraineté économique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/rdc-doudou-fwamba-devoile-sa-strategie-pour-concilier-fiscalite-attractivite-et-souverainete-economique/
+- **Thèmes** : Économie (économie, économique)
+- **Résumé (extrait automatique)** : En marge du Makutano Mining, où il est intervenu sur le thème « Fiscalité, parafiscalité et attractivité : comment trouver l’équilibre ? », Doudou Roussel Fwamba Likunde Li-Botayi, ministre des Finances de la RDC, revient, dans cet entretien accordé à Financial Afrik, sur les réf...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : la BERD inaugure son bureau à Abidjan et vise 3 milliards d’euros d’investissements
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/cote-divoire-la-berd-inaugure-son-bureau-a-abidjan-et-vise-3-milliards-deuros-dinvestissements/
+- **Thèmes** : Économie (croissance) ; Finance (banque)
+- **Résumé (extrait automatique)** : La Banque européenne pour la reconstruction et le développement (BERD) a officiellement inauguré, le 23 novembre, son siège abidjanais à l’Ivoire Trade Center, dans la commune de Cocody. Cette étape décisive répond à l’ambition de la Côte d’Ivoire de stimuler l’investissement pri...
+- **Statut** : [ ] à trier
+
+### Dette africaine : la BAD et l’ALSF s’attaquent au surcoût du financement souverain
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/dette-africaine-la-bad-et-lalsf-sattaquent-au-surcout-du-financement-souverain/
+- **Thèmes** : Économie (dette, notation) ; Finance (banque, crédit, BAD)
+- **Résumé (extrait automatique)** : La Banque africaine de développement (BAD) et la Facilité africaine de soutien juridique (ALSF) ont officiellement lancé, les 23 et 24 novembre 2026 à Abidjan, l’Initiative africaine de notation de crédit souverain (ASCRI). Le dispositif vise à renforcer les capacités des États a...
+- **Statut** : [ ] à trier
+
+### Nigeria : la NAICOM accélère l’application de l’assurance obligatoire des bâtiments publics
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/nigeria-la-naicom-accelere-lapplication-de-lassurance-obligatoire-des-batiments-publics/
+- **Thèmes** : Finance (assurance)
+- **Résumé (extrait automatique)** : La Commission nationale des assurances du Nigeria (NAICOM) et le Service fédéral des incendies (FFS) ont renforcé leur coopération afin d&#039;assurer l&#039;application effective de l&#039;assurance obligatoire des bâtiments publics et d&#039;améliorer la prévention des risques ...
+- **Statut** : [ ] à trier
+
+### Fret aérien en Afrique : le partage des données devient un levier de compétitivité
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2511-143784-fret-aerien-en-afrique-le-partage-des-donnees-devient-un-levier-de-competitivite
+- **Thèmes** : Économie (économique) ; Data et IA (données)
+- **Résumé (extrait automatique)** : La numérisation gagne les compagnies aériennes et les entrepôts africains. Son intérêt économique se joue aussi dans la circulation des informations entre partenaires, pour faciliter les réservations, accélérer les formalités, et rendre les expéditions plus fiables pour les clien...
+- **Statut** : [ ] à trier
+
+### Le Niger vise 9 milliards $ d’investissements à son premier Forum international
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143783-le-niger-vise-9-milliards-d-investissements-a-son-premier-forum-international
+- **Thèmes** : Économie (économie, FCFA)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Alors que le Niger cherche à diversifier son économie et à mieux valoriser ses ressources naturelles, le gouvernement mise sur le secteur privé pour accélérer le financement des activités productives. Le premier Forum international de l’investissement doit permettre de rapprocher...
+- **Statut** : [ ] à trier
+
+### Après un premier report, la première cotation de Renaprov à la BVMAC prévue en décembre
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143782-apres-un-premier-report-la-premiere-cotation-de-renaprov-a-la-bvmac-prevue-en-decembre
+- **Thèmes** : Finance (bourse)
+- **Résumé (extrait automatique)** : Ouverte le 15 décembre 2025, la souscription de Renaprov a marqué le début d’un processus qui aura duré près d’un an. Son aboutissement permettra l’admission de 58&nbsp;919 actions, issues des deux opérations d’appel public à l’épargne, au compartiment B-Medium de la BVMAC.
+La Bo...
+- **Statut** : [ ] à trier
+
+### NSIA Banque, partenaire Platinum du SICA 2026, soutient les industries culturelles et créatives
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-culture/2511-143781-nsia-banque-partenaire-platinum-du-sica-2026-soutient-les-industries-culturelles-et-creatives
+- **Thèmes** : Économie (croissance) ; Finance (banque)
+- **Résumé (extrait automatique)** : NSIA Banque Côte d'Ivoire participe en qualité de Partenaire Platinum à la 3ᵉ édition du Salon International du Contenu Audiovisuel (SICA 2026), qui se déroule du 26 au 28 novembre 2026 au Sofitel Abidjan Hôtel Ivoire.
+Véritable rendez-vous de référence des industries audiovisuel...
+- **Statut** : [ ] à trier
+
+### Bénin : une plateforme pour faciliter l’accès à des crédits jusqu’à 83 000 $
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2511-143780-benin-une-plateforme-pour-faciliter-l-acces-a-des-credits-jusqu-a-83-000
+- **Thèmes** : Économie (UEMOA, BCEAO) ; Finance (microfinance, crédit)
+- **Résumé (extrait automatique)** : La PNIF réunit 14 institutions de microfinance (IMF) et permet à leurs clients de demander en ligne des crédits à la consommation, d’investissement ou de trésorerie, sur des durées de trois à 36 mois. Elle arrive alors que le taux global d’utilisation des services financiers du B...
+- **Statut** : [ ] à trier
+
+### Nigeria : un hub d’innovation numérique inauguré dans l’État de Borno
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2511-143777-nigeria-un-hub-d-innovation-numerique-inaugure-dans-l-etat-de-borno
+- **Thèmes** : Économie (économie) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Depuis le lancement du programme «&nbsp;3 Million Technical Talent (3MTT)&nbsp;» par les autorités nigérianes, fin 2023, les initiatives se multiplient pour former 3 millions de citoyens aux métiers du numérique d’ici 2027. Dans l’État de Borno, une nouvelle infrastructure vient ...
+- **Statut** : [ ] à trier
+
+### Le Ministre Adama Coulibaly appelle à accélérer les réformes pour le lancement de l’ECO en 2027
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143776-le-ministre-adama-coulibaly-appelle-a-accelerer-les-reformes-pour-le-lancement-de-l-eco-en-2027
+- **Thèmes** : Économie (économique, budget, CEDEAO)
+- **Résumé (extrait automatique)** : Le ministre de l’Economie, des Finances et du Budget, Adama Coulibaly, a appelé les pays membres de la Communauté économique des Etats de l’Afrique de l’Ouest (CEDEAO) à accélérer les réformes nécessaires à la mise en place de l’ECO, la monnaie unique communautaire. Il a lancé ce...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : les députés de la CAEF adoptent à l’unanimité le budget 2027 et son annexe fiscale
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2511-143773-cote-d-ivoire-les-deputes-de-la-caef-adoptent-a-l-unanimite-le-budget-2027-et-son-annexe-fiscale
+- **Thèmes** : Économie (économique, budget, FCFA)
+- **Résumé (extrait automatique)** : D’un montant de 18&nbsp;466,1 milliards de FCFA et en hausse de 6,4&nbsp;% par rapport à l’exercice 2026, le projet de budget de l’Etat pour l’année 2027 a reçu le quitus unanime des députés membres de la Commission des Affaires économiques et financières (CAEF). Réunis durant qu...
+- **Statut** : [ ] à trier
+
+### Gabon : TikTok poursuit les discussions sur sa mise en conformité réglementaire
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2511-143772-gabon-tiktok-poursuit-les-discussions-sur-sa-mise-en-conformite-reglementaire
+- **Thèmes** : Finance (conformité) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Au fur et à mesure que l’accès à Internet progresse en Afrique, les réseaux sociaux occupent une place grandissante dans les usages numériques. Leur popularité croissante amène les gouvernements à s'interroger sur les moyens d'encadrer leur fonctionnement.
+La plateforme de partag...
+- **Statut** : [ ] à trier
+
+### Ghana : après son revers judiciaire, Tullow accepte un règlement à l’amiable
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-industries/2511-143771-ghana-apres-son-revers-judiciaire-tullow-accepte-un-reglement-a-l-amiable
+- **Thèmes** : Finance (paiement)
+- **Résumé (extrait automatique)** : Le Ghana cherche à redresser sa production pétrolière après plusieurs années de recul, tout en préservant les revenus issus de ses ressources. La capacité des compagnies présentes sur ses champs offshores à poursuivre leurs investissements constitue un élément important de cette ...
+- **Statut** : [ ] à trier
+
+### Guinée : le FMI approuve un programme de financement de 417 millions $ sur 38 mois
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143770-guinee-le-fmi-approuve-un-programme-de-financement-de-417-millions-sur-38-mois
+- **Thèmes** : Économie (FMI)
+- **Résumé (extrait automatique)** : Dans un contexte de hausse attendue de la production minière et de tensions sur les finances publiques, la Guinée entend encadrer les retombées de ses ressources naturelles. Le nouveau programme du FMI accompagne cet objectif à travers des réformes budgétaires, monétaires et de g...
+- **Statut** : [ ] à trier
+
+### Aéroport de Lomé : la croissance du trafic aérien ravive les besoins de financement
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-infrastructures/2511-143766-aeroport-de-lome-la-croissance-du-trafic-aerien-ravive-les-besoins-de-financement
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : L’aéroport togolais poursuit le développement de ses installations pour tenir son rôle de hub sous-régional. Entre optimisation des équipements et projets d’extension, son gestionnaire cherche à réunir les ressources nécessaires à cette montée en capacité.
+
+Le financement des cap...
+- **Statut** : [ ] à trier
+
+### Côte d'Ivoire, Ghana, Kenya : Berlin consolide ses relations avec trois partenaires africains
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143765-cote-divoire-ghana-kenya-berlin-consolide-ses-relations-avec-trois-partenaires-africains
+- **Thèmes** : Économie (économie, économique)
+- **Résumé (extrait automatique)** : Dans un contexte de diversification des partenariats commerciaux, l’Allemagne entend approfondir ses relations avec trois économies stratégiques du continent. La tournée de Frank-Walter Steinmeier met notamment l’accent sur les échanges économiques, les investissements et la form...
+- **Statut** : [ ] à trier
+
+### Nigeria : Abuja vise 2027 pour solder les dettes dues aux producteurs d’électricité
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-industries/2511-143764-nigeria-abuja-vise-2027-pour-solder-les-dettes-dues-aux-producteurs-d-electricite
+- **Thèmes** : Économie (dette)
+- **Résumé (extrait automatique)** : Le secteur électrique nigérian reste confronté à des déséquilibres financiers qui fragilisent les relations entre les différents acteurs du marché. Le traitement de ces difficultés constitue un enjeu majeur pour les autorités, qui cherchent à améliorer son fonctionnement.
+Le Nige...
+- **Statut** : [ ] à trier
+
+### Tchad : les investissements publics progresseront de 24 % à 2,4 milliards $ en 2027
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143759-tchad-les-investissements-publics-progresseront-de-24-a-2-4-milliards-en-2027
+- **Thèmes** : Économie (économique, FCFA)
+- **Résumé (extrait automatique)** : Le gouvernement tchadien prévoit de consacrer près de la moitié de ses dépenses budgétaires aux investissements en 2027. Cette hausse doit soutenir les infrastructures, la santé, l’agriculture et l’accès à l’eau, dans le cadre des ambitions de diversification économique portées p...
+- **Statut** : [ ] à trier
+
+### « Le principal concurrent du paiement numérique, ce n'est ni le mobile money ni la carte, c'est le cash », Ismahill Diaby (Visa)
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143758-le-principal-concurrent-du-paiement-numerique-ce-nest-ni-le-mobile-money-ni-la-carte-cest-le-cash-ismahill-diaby-visa
+- **Thèmes** : Économie (économique) ; Finance (paiement, mobile money) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : La progression des paiements numériques transforme progressivement les échanges économiques en Afrique, mais leur adoption reste freinée par la place du cash, les coûts et les préoccupations liées à la sécurité des transactions. Dans ce contexte, les acteurs du secteur cherchent ...
+- **Statut** : [ ] à trier
+
+### Entreprises africaines : de la simple connexion aux outils métiers
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2511-143757-entreprises-africaines-de-la-simple-connexion-aux-outils-metiers
+- **Thèmes** : Finance (paiement) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Alors que les États et les particuliers africains accélèrent leur adoption du numérique, les entreprises avancent nettement moins vite. Au-delà du paiement mobile, la diffusion des outils de gestion reste freinée par plusieurs facteurs.
+En Afrique, accéder à Internet ne suffit pa...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : Divo accueillera un centre de recherche sur le cacao et le café
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143754-cote-d-ivoire-divo-accueillera-un-centre-de-recherche-sur-le-cacao-et-le-cafe
+- **Thèmes** : Finance climatique et durabilité (climat)
+- **Résumé (extrait automatique)** : En Côte d’Ivoire, le cacao et le café font partie des principales cultures d’exportation avec le cajou, l’hévéa et la banane. Le pays doit toutefois faire face à des pressions croissantes sur ses vergers, notamment liées au vieillissement des plantations, aux maladies et aux aléa...
+- **Statut** : [ ] à trier
+
+### Le Burkina ouvre son académie technologique pour réduire sa dépendance numérique
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/le-burkina-ouvre-son-academie-technologique-pour-reduire-sa-dependance-numerique/
+- **Thèmes** : Économie (déficit, FCFA) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Les Etats africains mettent en place des actions pour combler le déficit de compétences numériques et consolider leur souveraineté technologique. Le Burkina Faso, par exemple, vient d&#8217;inaugurer son académie technologique d&#8217;une valeur de plus de 37 milliards de FCFA. O...
+- **Statut** : [ ] à trier
+
+### BRVM : Coris Bank Bénin ouvre 20 % de son capital, l’action à 4 700 FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/brvm-coris-bank-benin-ouvre-20-de-son-capital-laction-a-4-700-fcfa/
+- **Thèmes** : Économie (FCFA) ; Finance (BRVM)
+- **Résumé (extrait automatique)** : Coris Holding met en vente 4,1 millions d’actions de sa filiale béninoise pour 19,19 milliards de FCFA. Les souscriptions sont prévues du 7 au 11 décembre 2026....
+- **Statut** : [ ] à trier
+
+### Niger : Niamey vise 5 500 milliards de FCFA de conventions d’investissement
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/niger-forum-investissement-niamey-5500-milliards-fcfa/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Cinquante projets dans treize secteurs sont présentés aux investisseurs jusqu’au 26 novembre. Niamey prévoit un mécanisme de suivi des engagements....
+- **Statut** : [ ] à trier
+
+### Bénin : 7,40 milliards de FCFA proposés pour le Commerce intérieur en 2027
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-budget-2027-739-milliards-de-fcfa-pour-le-commerce-interieur-et-la-formalisation/
+- **Thèmes** : Économie (économie, commerce, FCFA) ; Finance (crédit)
+- **Résumé (extrait automatique)** : Le programme consacré au commerce intérieur et à la formalisation de l’économie représente 77,52 % des crédits demandés pour l’exercice 2027....
+- **Statut** : [ ] à trier
+
+### Sécurité: Djibril Mama Cissé Moussa défend un projet de budget 2027 de 90,73 milliards de FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/securite-djibril-mama-cisse-moussa-defend-un-projet-de-budget-2027-de-9073-milliards-de-fcfa/
+- **Thèmes** : Économie (budget, FCFA)
+- **Résumé (extrait automatique)** : Le ministère de l’Intérieur prévoit notamment de construire 15 unités de police et cinq centres de protection civile en 2027....
+- **Statut** : [ ] à trier
+
+### Bénin : la ministre des Médias défend un budget de 12,39 milliards FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-budget-2027-communication-medias/
+- **Thèmes** : Économie (budget, FCFA)
+- **Résumé (extrait automatique)** : Plus de neuf francs sur dix seraient consacrés au programme métier, qui prévoit notamment d’étendre l’accès aux médias et de soutenir la production audiovisuelle nationale....
+- **Statut** : [ ] à trier
+
+### UEMOA : les ministres de l’Emploi réunis au Sénégal pour améliorer l’insertion des jeunes
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/uemoa-emploi-jeunes-formation-professionnelle-diamniadio-novembre-2026/
+- **Thèmes** : Économie (UEMOA)
+- **Résumé (extrait automatique)** : La rencontre de Diamniadio se poursuit jusqu’au 27 novembre, alors que plusieurs États de l’Union réforment déjà leurs dispositifs de formation professionnelle....
+- **Statut** : [ ] à trier
+
+### BRVM : Coris Bank Bénin ouvre son capital pour 19,19 milliards FCFA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/coris-bank-benin-brvm-offre-vente-2026/
+- **Thèmes** : Économie (FCFA) ; Finance (BRVM)
+- **Résumé (extrait automatique)** : Les particuliers et les entreprises pourront souscrire du 7 au 11 décembre à 4 700 FCFA l’action. Une décote est réservée aux salariés du groupe....
+- **Statut** : [ ] à trier
+
+### Bénin : Comment bénéficier du programme gouvernemental « Crédit en 48H »
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-comment-beneficier-du-programme-gouvernemental-credit-en-48h/
+- **Thèmes** : Économie (économique) ; Finance (microfinance, crédit)
+- **Résumé (extrait automatique)** : Le Fonds national de la microfinance (FNM) a annoncé, mardi 24 novembre 2026, la mise en service de la plateforme nationale d’inclusion financière. Ce dispositif permet désormais aux acteurs économiques béninois de solliciter des financements dans le cadre du programme gouverneme...
+- **Statut** : [ ] à trier
+
+### Burkina : les escroqueries au Mobile Money ont coûté plus de 104 millions FCFA (Octobre)
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/burkina-les-escroqueries-au-mobile-money-ont-coute-plus-de-104-millions-fcfa-octobre/
+- **Thèmes** : Économie (FCFA) ; Finance (mobile money) ; Data et IA (données)
+- **Résumé (extrait automatique)** : Les escroqueries liées au Mobile Money ont pris une ampleur importante au Burkina Faso. D’après les données communiqués par le ministère de la Sécurité, les arnaques Mobile Money ont fait 263 victimes au cours du mois d’octobre pour un préjudice financier avoisinant les 104 milli...
+- **Statut** : [ ] à trier
+
+### Bénin : Coris Bank International ouvre son capital au public à partir de 4 700 FCFA
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-coris-bank-international-ouvre-son-capital-au-public-a-partir-de-4-700-fcfa/
+- **Thèmes** : Économie (FCFA) ; Finance (BRVM, bourse)
+- **Résumé (extrait automatique)** : Coris Bank International Bénin a officiellement lancé, mardi 24 novembre 2026 à Cotonou, son offre publique de vente (OPV), première étape de son introduction à la Bourse régionale des valeurs mobilières (BRVM). L’opération porte sur 4,1 millions d’actions existantes détenues par...
+- **Statut** : [ ] à trier
+
