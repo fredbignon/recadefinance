@@ -1963,3 +1963,286 @@ En Afrique, accéder à Internet ne suffit pa...
 - **Résumé (extrait automatique)** : Coris Bank International Bénin a officiellement lancé, mardi 24 novembre 2026 à Cotonou, son offre publique de vente (OPV), première étape de son introduction à la Bourse régionale des valeurs mobilières (BRVM). L’opération porte sur 4,1 millions d’actions existantes détenues par...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-26
+
+### BVMAC : Renaprov Finance entre en Bourse le 1er décembre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/bvmac-renaprov-finance-entre-en-bourse-le-1er-decembre-2026/
+- **Thèmes** : Finance (microfinance, bourse)
+- **Résumé (extrait automatique)** : Renaprov Finance fera ses premiers pas en Bourse le 1er décembre 2026. L’annonce a été faite par la Bourse des valeurs mobilières de l’Afrique centrale (BVMAC) dans un avis rendu public le 24 novembre 2026. L’établissement camerounais de microfinance rejoint ainsi le marché régio...
+- **Statut** : [ ] à trier
+
+### Tunisie : le CGA lance un portail numérique pour les demandes d’agrément des intermédiaires d’assurance
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/tunisie-le-cga-lance-un-portail-numerique-pour-les-demandes-dagrement-des-intermediaires-dassurance/
+- **Thèmes** : Finance (assurance) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Le Comité général des assurances (CGA) de Tunisie a lancé, le 25 novembre 2026, CGAgréments, une plateforme numérique dédiée à la gestion des demandes d’octroi et de retrait d’agrément des intermédiaires d’assurance. Accessible en ligne, ce portail permet de dématérialiser les pr...
+- **Statut** : [ ] à trier
+
+### Égypte : le régulateur autorise les polices d’assurance en langues étrangères pour les opérations internationales
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/egypte-le-regulateur-autorise-les-polices-dassurance-en-langues-etrangeres-pour-les-operations-internationales/
+- **Thèmes** : Finance (assurance)
+- **Résumé (extrait automatique)** : L’Autorité de régulation financière (FRA) égyptienne a autorisé les compagnies d’assurance à émettre des polices en langues étrangères dans le cadre des opérations internationales et de la couverture de risques techniques spécialisés. Annoncée le 24 novembre 2026, cette mesure vi...
+- **Statut** : [ ] à trier
+
+### Sénégal : la BRM obtient une condamnation de 6,83 milliards de FCFA contre KF SARL
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/senegal-la-brm-obtient-une-condamnation-de-683-milliards-de-fcfa-contre-kf-sarl/
+- **Thèmes** : Économie (commerce, FCFA) ; Finance (banque, bancaire)
+- **Résumé (extrait automatique)** : La Banque régionale des marchés (BRM) a obtenu gain de cause en première instance dans le contentieux commercial qui l&#8217;a opposé à KF Sénégal SARL le mercredi 25 novembre. La juridiction saisie, en l’occurrence le tribunal de commerce de Dakar, a condamné la société à payer ...
+- **Statut** : [ ] à trier
+
+### Banques : Hausse de 10,3% du bénéfice consolidé du Groupe Attijariwafa Bank au troisième trimestre 2026
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/banques-hausse-de-103-du-benefice-consolide-du-groupe-attijariwafa-bank-au-troisieme-trimestre-2026/
+- **Thèmes** : Finance (banque, bancaire)
+- **Résumé (extrait automatique)** : Le bénéfice consolidé du groupe Attijariwafa Bank, présent dans 26 pays en Afrique, en Europe et au Moyen Orient, a enregistré une hausse de 10,3% au terme du troisième trimestre 2026 comparé à la même période de l’exercice 2025, ont annoncé les dirigeants de ce groupe bancaire m...
+- **Statut** : [ ] à trier
+
+### Mali : Le Trésor Public encaisse 53,162 milliards de FCFA au niveau du marché financier de l’UMOA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/mali-le-tresor-public-encaisse-53162-milliards-de-fcfa-au-niveau-du-marche-financier-de-lumoa/
+- **Thèmes** : Économie (budget, UMOA, FCFA) ; Finance (marché financier)
+- **Résumé (extrait automatique)** : Dans le but d&#039;assurer la couverture des besoins de financement du budget de l&#039;Etat Malien, la Direction Générale du Trésor et de la Comptabilité Publique (DGTCP) du Mali a encaissé le mercredi 25 novembre 2026 au niveau du marché financier de l’Union Monétaire Ouest Afr...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : Atinkou, un investissement de 265 milliards FCFA qui confirme sa performance énergétique
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/cote-divoire-atinkou-un-investissement-de-265-milliards-fcfa-qui-confirme-sa-performance-energetique/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Avec 1 934 GWh d’électricité injectés sur le réseau national en 2025, au-delà de ses engagements contractuels, la centrale thermique d’Atinkou confirme son rôle dans le renforcement du système électrique ivoirien. Officiellement inaugurée le 6 novembre 2026, cette infrastructure ...
+- **Statut** : [ ] à trier
+
+### Sénégal : le Groupe EDK boucle par anticipation son emprunt obligataire de 30 milliards de FCFA
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/25/senegal-le-groupe-edk-boucle-par-anticipation-son-emprunt-obligataire-de-30-milliards-de-fcfa/
+- **Thèmes** : Économie (FCFA) ; Finance (marché financier)
+- **Résumé (extrait automatique)** : Le Groupe EDK confirme l’appétit du marché financier régional pour les signatures du secteur privé sénégalais. Le groupe dirigé par Demba Ka a annoncé, ce mercredi 25 novembre 2026, la clôture anticipée de son emprunt obligataire de 30 milliards de FCFA, cinq jours avant l’échéan...
+- **Statut** : [ ] à trier
+
+### Souveraineté alimentaire, foncier, financement : le Togo adopte sa première loi agricole
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143824-souverainete-alimentaire-foncier-financement-le-togo-adopte-sa-premiere-loi-agricole
+- **Thèmes** : Économie (économie)
+- **Résumé (extrait automatique)** : Le secteur agricole occupe une place importante dans l'économie togolaise et les revenus des ménages ruraux. Son développement suppose de mieux organiser les conditions de production, de financement et de valorisation des récoltes.
+Au Togo, l’Assemblée nationale a définitivement ...
+- **Statut** : [ ] à trier
+
+### Togo : une initiative publique crée de nouvelles opportunités pour les éditeurs de logiciels
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143823-togo-une-initiative-publique-cree-de-nouvelles-opportunites-pour-les-editeurs-de-logiciels
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : Les jeunes entreprises technologiques africaines doivent souvent surmonter des difficultés d'accès aux clients et aux débouchés commerciaux. Le marché des petites entreprises représente une piste de développement pour les éditeurs de logiciels.
+Au Togo, les entreprises spécialisé...
+- **Statut** : [ ] à trier
+
+### A Cotonou, le Next Fintech Forum 2026 met l’industrialisation de la fintech au cœur des débats
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2611-143821-a-cotonou-le-next-fintech-forum-2026-met-l-industrialisation-de-la-fintech-au-c-ur-des-debats
+- **Thèmes** : Économie (économie, économique, croissance, UEMOA) ; Finance (fintech, paiement) ; Data et IA (numérique)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : La finance numérique occupe une place croissante dans les économies africaines, portée par l'essor des paiements mobiles et des nouveaux services financiers. Les acteurs du secteur cherchent désormais à renforcer la contribution de ces innovations à la croissance économique.
+La 8...
+- **Statut** : [ ] à trier
+
+### Centrafrique : les députés adoptent un programme militaire de 1,1 milliard $ pour 2026-2030
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143820-centrafrique-les-deputes-adoptent-un-programme-militaire-de-1-1-milliard-pour-2026-2030
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : La loi prévoit la mobilisation de 662 milliards FCFA sur cinq ans pour financer la formation, l'équipement et les infrastructures des Forces armées centrafricaines. Elle intervient alors que l'ONU prépare un transfert progressif des responsabilités sécuritaires aux autorités nati...
+- **Statut** : [ ] à trier
+
+### Nigeria : la Pologne envisage jusqu'à 2 milliards $ de financements pour des projets clés
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143815-nigeria-la-pologne-envisage-jusqua-2-milliards-de-financements-pour-des-projets-cles
+- **Thèmes** : Économie (économie) ; Finance (assurance, crédit)
+- **Résumé (extrait automatique)** : Le Nigeria entend tirer parti de ses relations avec la Pologne pour attirer des financements dans des secteurs stratégiques, notamment les infrastructures, l'énergie et l'industrie. La perspective d'un financement de KUKE s'inscrit dans cette démarche, alors qu'Abuja cherche à mo...
+- **Statut** : [ ] à trier
+
+### IA à l'école : comment le Ghana prépare un cadre national pour encadrer les usages
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-services/2611-143813-ia-a-lecole-comment-le-ghana-prepare-un-cadre-national-pour-encadrer-les-usages
+- **Thèmes** : Data et IA (intelligence artificielle, IA)
+- **Résumé (extrait automatique)** : L’arrivée de l’intelligence artificielle dans l’éducation engage autant les pratiques pédagogiques que la protection des élèves. Au Ghana, les autorités entendent s’appuyer sur la recherche pour concevoir un encadrement national et accompagner son application dans les établisseme...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire : 21,7 milliards $ de projets d’infrastructures présentés au secteur privé d’ici 2030
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143812-cote-d-ivoire-21-7-milliards-de-projets-d-infrastructures-presentes-au-secteur-prive-d-ici-2030
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Les autorités ivoiriennes misent sur l’implication des investisseurs privés pour accélérer la réalisation de ces infrastructures et renforcer les capacités de transport et de logistique du pays.
+La Côte d’Ivoire prévoit de réaliser 500 projets prioritaires d’infrastructures pour ...
+- **Statut** : [ ] à trier
+
+### Commerce : l’Afrique du Sud et la Zambie interconnectent leurs données douanières pour fluidifier le transit
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143811-commerce-l-afrique-du-sud-et-la-zambie-interconnectent-leurs-donnees-douanieres-pour-fluidifier-le-transit
+- **Thèmes** : Économie (commerce) ; Data et IA (données)
+- **Résumé (extrait automatique)** : L’accord s’inscrit dans le cadre d’un nouveau modèle de coopération douanière, qui vise à faire circuler l’information douanière avant la marchandise en Afrique australe. Il soutient également la mise en œuvre de la Zone de libre-échange continentale africaine.
+Le South African R...
+- **Statut** : [ ] à trier
+
+### Nucleon Security-Thales : alliance pour mieux protéger les infrastructures critiques en Afrique
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2611-143809-nucleon-security-thales-alliance-pour-mieux-proteger-les-infrastructures-critiques-en-afrique
+- **Thèmes** : Data et IA (cybersécurité, numérique)
+- **Résumé (extrait automatique)** : Alors que les cybermenaces pèsent de plus en plus lourdement sur les écosystèmes africains et que la souveraineté numérique devient un enjeu central de politiques publiques nationales, Thales et la scale-up franco-marocaine Nucleon Security associent leurs expertises pour renforc...
+- **Statut** : [ ] à trier
+
+### Forum Ambition Africa 2026 : à Paris, Adama Coulibaly invite les investisseurs français à co-investir en Côte d’Ivoire
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143806-forum-ambition-africa-2026-a-paris-adama-coulibaly-invite-les-investisseurs-francais-a-co-investir-en-cote-d-ivoire
+- **Thèmes** : Économie (économie, économique, budget)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Invité de la table ronde inaugurale du Forum Ambition Africa 2026, à Paris, le Ministre de l’Économie, des Finances et du Budget, Adama Coulibaly, a présenté les progrès économiques et sociaux de la Côte d’Ivoire et les opportunités d’investissement du Plan national de développem...
+- **Statut** : [ ] à trier
+
+### Guinée : le Parlement adopte la création d'un fonds souverain prévoyant 1 milliard $
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2611-143805-guinee-le-parlement-adopte-la-creation-dun-fonds-souverain-prevoyant-1-milliard
+- **Thèmes** : Économie (économie)
+- **Résumé (extrait automatique)** : Avec le lancement du fonds souverain, la Guinée entend mieux encadrer l'utilisation des revenus tirés de ses ressources minières. Le dispositif prévoit notamment d'affecter une partie des recettes de Simandou et des futurs projets extractifs au financement de l'économie, à la sta...
+- **Statut** : [ ] à trier
+
+### Comment l’IA redessine les métiers des services, du transport à la livraison (Serge-Eric Gnamkey, Yango Food)
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2611-143800-comment-l-ia-redessine-les-metiers-des-services-du-transport-a-la-livraison-serge-eric-gnamkey-yango-food
+- **Thèmes** : Économie (économique, commerce) ; Data et IA (intelligence artificielle, IA)
+- **Résumé (extrait automatique)** : L’intelligence artificielle s’impose progressivement dans les usages quotidiens et les activités économiques en Afrique. Du transport à la livraison, en passant par le commerce et les services, elle ouvre de nouvelles perspectives de productivité, tout en soulevant des questions ...
+- **Statut** : [ ] à trier
+
+### Groupe EDK : clôture anticipée de son emprunt obligataire de 30 milliards FCFA (7,50 %, 2026-2033)
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2611-143799-groupe-edk-cloture-anticipee-de-son-emprunt-obligataire-de-30-milliards-fcfa-7-50-2026-2033
+- **Thèmes** : Économie (UEMOA, FCFA) ; Finance (marché financier)
+- **Résumé (extrait automatique)** : Groupe EDK SA annonce la clôture anticipée, ce 25 novembre 2026, de son emprunt obligataire par appel public à l'épargne «&nbsp;GROUPE EDK 7,50% 2026-2033&nbsp;». Ouverte le 10 novembre et initialement prévue jusqu’au 30 novembre, l’opération a réuni l’intégralité des 30 milliard...
+- **Statut** : [ ] à trier
+
+### Energie houlomotrice : le potentiel énergétique des vagues suscite un intérêt croissant en Afrique
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-industries/2611-143797-energie-houlomotrice-le-potentiel-energetique-des-vagues-suscite-un-interet-croissant-en-afrique
+- **Thèmes** : Finance climatique et durabilité (énergies renouvelables)
+- **Résumé (extrait automatique)** : Le développement des énergies renouvelables en Afrique repose principalement sur l’hydroélectricité, le solaire et l’éolien. Le continent dispose pourtant d’autres ressources, notamment ses océans, dont l’exploitation suscite l’intérêt de développeurs.
+
+La société suédoise Eco Wa...
+- **Statut** : [ ] à trier
+
+### Monnaie unique : le Ghana se dit prêt à adopter l’ECO dès 2027
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2611-143792-monnaie-unique-le-ghana-se-dit-pret-a-adopter-l-eco-des-2027
+- **Thèmes** : Économie (économique, CEDEAO)
+- **Résumé (extrait automatique)** : Cette position fait suite à une proposition du président ghanéen John Dramani Mahama, formulée lors du Sommet sur l’intégration et l’investissement en Afrique de l’Ouest à Freetown, en Sierra Leone. Il avait plaidé pour une adoption progressive de l’ECO, permettant aux pays rempl...
+- **Statut** : [ ] à trier
+
+### Mali : le litige passé, Barrick veut « contribuer durablement à l’économie nationale »
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2611-143790-mali-le-litige-passe-barrick-veut-contribuer-durablement-a-l-economie-nationale
+- **Thèmes** : Économie (économie)
+- **Résumé (extrait automatique)** : Autrefois première mine d’or du Mali, Loulo-Gounkoto a passé l’essentiel de l’année 2025 à l’arrêt, sur fond de différend entre son opérateur Barrick Mining et l’État. Depuis, la production a repris et les deux parties semblent désormais regarder vers l’avenir.
+Mercredi 25 novemb...
+- **Statut** : [ ] à trier
+
+### La BIDC consacrée meilleure banque pour l’intégration régionale aux West African Bankers’ Awards 2026
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2511-143786-la-bidc-consacree-meilleure-banque-pour-l-integration-regionale-aux-west-african-bankers-awards-2026
+- **Thèmes** : Économie (CEDEAO) ; Finance (banque)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : La Banque d’Investissement et de Développement de la CEDEAO (BIDC) a été désignée Meilleure Banque pour l’Intégration Régionale 2025 lors de la 2ème édition des West African Bankers’ Awards, tenue le 7 novembre 2026 à Freetown, en Sierra Leone.
+Cette distinction met en lumière le...
+- **Statut** : [ ] à trier
+
+### Bpifrance garantit un crédit pour une centrale solaire et des lignes électriques en Guinée
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-industries/2511-143785-bpifrance-garantit-un-credit-pour-une-centrale-solaire-et-des-lignes-electriques-en-guinee
+- **Thèmes** : Finance (banque, assurance, crédit)
+- **Résumé (extrait automatique)** : Le financement des infrastructures énergétiques en Afrique reste confronté à une perception du risque élevée. Les services de crédit à l’exportation peuvent contribuer à surmonter cet obstacle, tout en soutenant les entreprises de leurs pays d’origine.
+Bpifrance Assurance Export ...
+- **Statut** : [ ] à trier
+
+### Souveraineté numérique: le Sénégal veut «héberger 100% des données sensibles de l’Etat à l’horizon 2034»
+- **Source** : Digital Mag (Côte d'Ivoire)
+- **Lien** : https://digitalmag.ci/souverainete-numerique-le-senegal-veut-heberger-100-des-donnees-sensibles-de-letat-a-lhorizon-2034/
+- **Thèmes** : Data et IA (données, numérique)
+- **Résumé (extrait automatique)** : «la donnée est devenue le socle de la gouvernance, de la souveraineté et du développement» a déclaré  le Premier ministre du Sénégal, Ahmadou Al Aminou Lô, lors du Forum international sur les données à Dakar qu&#8217;il a présidé ce 23 ce 25 novembre 2026.  Elle conditionne, selo...
+- **Statut** : [ ] à trier
+
+### UEMOA : Romuald Wadagni travaille à réunir les chefs d’État début 2027
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/uemoa-romuald-wadagni-sommet-chefs-etat-2027/
+- **Thèmes** : Économie (UEMOA)
+- **Résumé (extrait automatique)** : Un accord de principe aurait été obtenu par le président béninois après des échanges avec les dirigeants des pays du Sahel, selon Africa Intelligence....
+- **Statut** : [ ] à trier
+
+### Budget 2027 : 20,78 milliards de FCFA prévus pour les Affaires étrangères
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/budget-2027-2077-milliards-de-fcfa-pour-les-affaires-etrangeres-et-lintegration-des-afrodescendants/
+- **Thèmes** : Économie (budget, FCFA) ; Finance (crédit)
+- **Résumé (extrait automatique)** : Le projet de budget prévoit un quasi-doublement des crédits d’investissement, notamment pour rénover plusieurs représentations diplomatiques du Bénin....
+- **Statut** : [ ] à trier
+
+### Budget 2027 : 62,95 milliards de FCFA prévus pour la décentralisation
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/budget-2027-6294-milliards-de-fcfa-pour-la-decentralisation-et-la-gouvernance-locale/
+- **Thèmes** : Économie (budget, FCFA) ; Finance (crédit)
+- **Résumé (extrait automatique)** : Les crédits d’investissement proposés pour les collectivités territoriales passent de 24,62 à 32,67 milliards de FCFA....
+- **Statut** : [ ] à trier
+
+### Sénégal : EDK lève 30 milliards de FCFA en quinze jours sur le marché de l’UEMOA
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/senegal-edk-leve-30-milliards-fcfa-emprunt-obligataire-uemoa/
+- **Thèmes** : Économie (UEMOA, FCFA) ; Finance (BRVM)
+- **Résumé (extrait automatique)** : L’emprunt obligataire à 7,50 % a été entièrement souscrit avant le 30 novembre. Le groupe sénégalais prévoit d’ouvrir 45 points de vente et de demander la cotation des titres à la BRVM....
+- **Statut** : [ ] à trier
+
+### Budget 2027 : 174,83 milliards de FCFA prévus pour le ministère de la Santé
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/loi-de-finances-exercise-2027-17482-milliards-de-fcfa-pour-le-ministere-de-la-sante/
+- **Thèmes** : Économie (budget, FCFA)
+- **Résumé (extrait automatique)** : Le projet prévoit la construction de huit hôpitaux de zone et le recrutement de plus de 500 agents contractuels....
+- **Statut** : [ ] à trier
+
+### Filière riz : la CEDEAO lance un programme de 850 millions $ dans 15 pays, dont le Bénin
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/filiere-riz-la-cedeao-lance-un-programme-de-850-millions-dans-15-pays-dont-le-benin/
+- **Thèmes** : Économie (CEDEAO) ; Finance (banque, BAD)
+- **Résumé (extrait automatique)** : La CEDEAO a officiellement lancé le programme régional REWARD-CEDEAO, conduit en partenariat avec la Banque africaine de développement (BAD) et le Centre africain du riz (AfricaRice) les 11 et 12 novembre 2026. Ces deux journées ont également été marquées par l&#8217;inauguration...
+- **Statut** : [ ] à trier
+
+### Bénin : Romuald Wadagni obtient un accord pour un sommet de l’UEMOA en 2027
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-romuald-wadagni-obtient-un-accord-pour-un-sommet-de-luemoa-en-2027/
+- **Thèmes** : Économie (économique, UEMOA)
+- **Type** : événement possible. À vérifier avant de publier : dates, lieu, organisateur, accès, tarif, site officiel.
+- **Résumé (extrait automatique)** : Le président béninois Romuald Wadagni tente de relancer le dialogue entre les dirigeants de l’Union économique et monétaire ouest-africaine (UEMOA). Selon des informations rapportées par Africa Intelligence, il aurait obtenu un accord de principe pour réunir les chefs d’État des ...
+- **Statut** : [ ] à trier
+
+### Canada-Bénin : les perspectives économiques au cœur des échanges entre Bio Tchané et l'ambassadrice Évelyne Dabiré
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/canada-benin-les-perspectives-economiques-au-coeur-des-echanges-entre-le-president-bio-tchane-et-lambassadrice-evelyne-dabire/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Le Canada souhaite donner un nouvel élan à ses relations avec le Bénin. Cette ambition a notamment été évoquée lors d&#8217;une audience entre le président du Conseil économique et social (CES), Abdoulaye Bio Tchané, et la nouvelle ambassadrice canadienne, Évelyne Dabiré, au cour...
+- **Statut** : [ ] à trier
+
+### Bénin : 174,8 milliards FCFA prévus pour la Santé en 2027 et plus de 500 agents à recruter
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/benin-1748-milliards-fcfa-prevus-pour-la-sante-en-2027-et-plus-de-500-agents-a-recruter/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : Le mercredi 25 novembre à Porto-Novo, le ministre de la santé Benjamin Ignace Bodounrin Hounkpatin a exposé aux élus, une enveloppe estimée à 174,826 milliards de FCFA pour 2027. Elle servira à secourir les patients en danger immédiat, à faire reculer la mortalité des mères et de...
+- **Statut** : [ ] à trier
+
+### Médias au Bénin : le gouvernement et les professionnels en quête de nouveaux modèles économiques
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/medias-au-benin-le-gouvernement-et-les-professionnels-en-quete-de-nouveaux-modeles-economiques/
+- **Thèmes** : Économie (économique) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Confrontées à la mutation rapide des usages numériques, à l’effritement des recettes publicitaires traditionnelles et à des charges d’exploitation croissantes, les entreprises de presse béninoises traversent une zone de turbulences économiques qui fragilise leur pérennité. C’est ...
+- **Statut** : [ ] à trier
+
+### Assemblée Nationale du Bénin :  Les programmes du projet de budget 2027 exposés aux députés
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/assemblee-nationale-du-benin-les-programmes-du-projet-de-budget-2027-exposes-aux-deputes/
+- **Thèmes** : Économie (budget, FCFA)
+- **Résumé (extrait automatique)** : Le ministre délégué Djibril Mama Cissé Moussa auprès du Président de la République, chargé de l&#8217;Intérieur et de la Sécurité publique a soumis son projet de budget 2027 aux députés de la commission budgétaire. Il s’élève à 90,73 milliards Fcfa avec une baisse de 6,84% compar...
+- **Statut** : [ ] à trier
+
