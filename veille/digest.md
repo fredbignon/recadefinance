@@ -2246,3 +2246,276 @@ Bpifrance Assurance Export ...
 - **Résumé (extrait automatique)** : Le ministre délégué Djibril Mama Cissé Moussa auprès du Président de la République, chargé de l&#8217;Intérieur et de la Sécurité publique a soumis son projet de budget 2027 aux députés de la commission budgétaire. Il s’élève à 90,73 milliards Fcfa avec une baisse de 6,84% compar...
 - **Statut** : [ ] à trier
 
+
+## Veille du 2026-11-27
+
+### Rwanda : face à une inflation de 19,5 %, la Banque centrale durcit sa politique monétaire
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/rwanda-face-a-une-inflation-de-195-la-banque-centrale-durcit-sa-politique-monetaire/
+- **Thèmes** : Économie (inflation, taux directeur, politique monétaire) ; Finance (banque)
+- **Résumé (extrait automatique)** : Confrontée à une accélération brutale de l’inflation, la Banque nationale du Rwanda (BNR) a annoncé, le 26 novembre 2026, le relèvement de son taux directeur de 8,75 % à 9,5 %. Cette hausse de 75 points de base, la quatrième de l’année, s’accompagne d’un durcissement des exigence...
+- **Statut** : [ ] à trier
+
+### Centrafrique : le FMI recommande de rétablir la discipline budgétaire
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/centrafrique-le-fmi-recommande-de-retablir-la-discipline-budgetaire/
+- **Thèmes** : Économie (FMI)
+- **Résumé (extrait automatique)** : Le Fonds monétaire international (FMI) appelle la République centrafricaine (RCA) à accélérer ses réformes budgétaires pour desserrer l’étau de la trésorerie et restaurer la confiance des partenaires financiers. La recommandation a été faite au terme d’une mission de l’institutio...
+- **Statut** : [ ] à trier
+
+### AEZO 2026 à Abidjan : la SOGEDI redessine l’avenir industriel ivoirien
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/aezo-2026-a-abidjan-la-sogedi-redessine-lavenir-industriel-ivoirien/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Réunie à Abidjan pour la 11ᵉ édition de la réunion annuelle de l’Organisation des zones économiques africaines (AEZO), rassemblant les représentants de plus de 47 pays africains, depuis le mercredi 25 novembre, la Côte d’Ivoire réaffirme son ambition de s’imposer comme un hub ind...
+- **Statut** : [ ] à trier
+
+### Simandou 2040 : ces experts sénégalais qui accompagnent la nouvelle Guinée
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/simandou-2040-ces-experts-senegalais-qui-accompagnent-la-nouvelle-guinee/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Par Abdoulaye Cissé, grand reporter De la haute finance à l’immobilier, en passant par la communication, l’hôtellerie et les nouvelles technologies, les compétences sénégalaises accompagnent la transformation économique de la Guinée. Le Simandou Mining Summit, organisé du 11 au 1...
+- **Statut** : [ ] à trier
+
+### Capital-investissement en Afrique : les derniers deals, levées de fonds et sorties
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/capital-investissement-en-afrique-les-derniers-deals-levees-de-fonds-et-sorties/
+- **Thèmes** : Finance (capital-investissement) ; Finance climatique et durabilité (transition énergétique) ; Data et IA (intelligence artificielle)
+- **Résumé (extrait automatique)** : Le marché africain du capital-investissement poursuit son animation, avec de nouvelles opérations dans les services financiers, l’agritech, l’intelligence artificielle, l’industrie et la transition énergétique. Les dernières transactions recensées par l’African Private Capital As...
+- **Statut** : [ ] à trier
+
+### Interview de Cyrille Onana, président de Horus Investment Group : « le développement de l’Afrique centrale passe nécessairement par des marchés financiers plus profonds »
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/interview-de-cyrille-onana-president-de-horus-investment-group-e-developpement-de-lafrique-centrale-passe-necessairement-par-des-marches-financiers-plus-profonds/
+- **Thèmes** : Économie (économie)
+- **Résumé (extrait automatique)** : Comment transformer l’épargne africaine en investissements productifs, repenser les stratégies de financement souverain et attirer davantage de capitaux internationaux ? En marge de l’Africa Financial Summit (AFIS 2026), à Luanda, Cyrille Onana, président de Horus Investment Grou...
+- **Statut** : [ ] à trier
+
+### RDC : à la clôture de Makutano Mining, Judith Suminwa insiste sur les retombées économiques de l’exploitation minière
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/27/rdc-a-la-cloture-de-makutano-mining-judith-suminwa-insiste-sur-les-retombees-economiques-de-lexploitation-miniere/
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : Le Forum Makutano Mining, organisée du 22 au 25 novembre 2026 à Kinshasa autour du thème « La souveraineté minière en actes », a placé la valorisation des ressources naturelles et leurs retombées économiques au centre des échanges. Ce rendez-vous a réuni des membres du gouverneme...
+- **Statut** : [ ] à trier
+
+### PME africaines : à Abidjan, la BAD et la BERD mobilisent les acteurs autour d’une coalition tournée  vers l’action
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/pme-africaines-a-abidjan-la-bad-et-la-berd-mobilisent-les-acteurs-autour-dune-coalition-tournee-vers-laction/
+- **Thèmes** : Économie (croissance) ; Finance (banque, BAD)
+- **Résumé (extrait automatique)** : Le Africa SME Business Day 2026 a réuni institutions de développement, banques, investisseurs et entrepreneurs autour d’une ambition commune : mieux coordonner les financements, les expertises et l’accès aux marchés pour accélérer la croissance des PME africaines. Cette première ...
+- **Statut** : [ ] à trier
+
+### Côte d’Ivoire – projet minier Assafo-Dibibango et « Vision Tanda » : plus de 700 milliards FCFA pour accélérer le développement local
+- **Source** : Financial Afrik
+- **Lien** : https://www.financialafrik.com/2026/11/26/cote-divoire-projet-minier-assafo-dibibango-et-vision-tanda-plus-de-700-milliards-fcfa-pour-accelerer-le-developpement-local/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : En marge de la deuxième édition du Salon international des ressources extractives et énergétiques (SIREXE), le 18-22 novembre 2026 à Abidjan, Endeavour Mining a officiellement dévoilé le programme « Vision Tanda », en présence du ministre d’État et président du Conseil régional d...
+- **Statut** : [ ] à trier
+
+### Afreximbank vise 262,7 milliards $ d’affacturage pour financer les PME africaines
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2711-143870-afreximbank-vise-262-7-milliards-d-affacturage-pour-financer-les-pme-africaines
+- **Thèmes** : Économie (déficit) ; Finance (bancaire, crédit, paiement, Afreximbank)
+- **Résumé (extrait automatique)** : Face aux difficultés d’accès au crédit bancaire, Afreximbank mise sur l’affacturage et le financement de la chaîne logistique pour améliorer la trésorerie des PME africaines et réduire leur déficit de financement.
+Afreximbank veut porter le volume de l’affacturage en Afrique à au...
+- **Statut** : [ ] à trier
+
+### Afrique de l’Ouest : le producteur d’or Perseus en quête d’un nouveau directeur financier
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-industries/2711-143867-afrique-de-l-ouest-le-producteur-d-or-perseus-en-quete-d-un-nouveau-directeur-financier
+- **Thèmes** : Économie (croissance)
+- **Résumé (extrait automatique)** : Présent au Ghana et en Côte d’Ivoire, Perseus Mining prépare une nouvelle phase de croissance avec son expansion en Afrique de l’Est. La compagnie australienne entend financer ses ambitions tout en maintenant une politique de rémunération de ses actionnaires.
+Perseus Mining va re...
+- **Statut** : [ ] à trier
+
+### Afrique du Sud : le FMI voit un potentiel de croissance de 4 % grâce aux réformes
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2711-143866-afrique-du-sud-le-fmi-voit-un-potentiel-de-croissance-de-4-grace-aux-reformes
+- **Thèmes** : Économie (économique, croissance, FMI)
+- **Résumé (extrait automatique)** : Face à une croissance limitée et à un chômage élevé, l’Afrique du Sud doit accélérer ses réformes structurelles pour attirer davantage d’investissements et améliorer la création d’emplois, selon le FMI.
+La croissance économique de l’Afrique du Sud pourrait atteindre 4&nbsp;% à mo...
+- **Statut** : [ ] à trier
+
+### E-gouvernement : l’Afrique du Sud en tête d’un classement africain de l’ONU marqué par de forts écarts
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2711-143863-e-gouvernement-l-afrique-du-sud-en-tete-d-un-classement-africain-de-l-onu-marque-par-de-forts-ecarts
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : Le développement de l’administration numérique progresse sur le continent, mais à des rythmes inégaux. Les écarts entre les pays les mieux classés et ceux qui ferment le classement restent particulièrement marqués.&nbsp;
+L’Afrique du Sud (0,8379), le Maroc (0,7350), Maurice (0,72...
+- **Statut** : [ ] à trier
+
+### Cyberattaques : quand une panne numérique peut paralyser les services essentiels
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2711-143861-cyberattaques-quand-une-panne-numerique-peut-paralyser-les-services-essentiels
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : Lors du Cyber Africa Forum 2026, à Cotonou, au Bénin, les discussions sur la confiance numérique se sont orientées vers la dématérialisation des services publics. Les intervenants d’un panel ont débattu de la capacité de l’État à garantir la continuité des services dématérialisés...
+- **Statut** : [ ] à trier
+
+### Ghana : les opérateurs télécoms appelés à renforcer leurs réseaux avant les fêtes
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2711-143859-ghana-les-operateurs-telecoms-appeles-a-renforcer-leurs-reseaux-avant-les-fetes
+- **Thèmes** : Data et IA (numérique)
+- **Résumé (extrait automatique)** : La progression des usages numériques en Afrique s'accompagne d'exigences accrues en matière de qualité des services télécoms. Les opérateurs doivent ainsi composer avec la pression des consommateurs et le renforcement des contrôles des régulateurs.
+Le gouvernement ghanéen a appel...
+- **Statut** : [ ] à trier
+
+### Minerais critiques : l’UE lance un mécanisme de 335 millions $ dans la course en Afrique
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-industries/2711-143857-minerais-critiques-l-ue-lance-un-mecanisme-de-335-millions-dans-la-course-en-afrique
+- **Thèmes** : Finance (banque)
+- **Résumé (extrait automatique)** : Avec un potentiel estimé à près de 30&nbsp;% des réserves mondiales, l’Afrique suscite l’intérêt croissant des partenaires internationaux pour ses minerais critiques. Chine, États-Unis ou encore Union européenne affinent leurs stratégies pour se positionner sur ce secteur.
+Dans u...
+- **Statut** : [ ] à trier
+
+### Momo Mastercard : MTN lance la phase commerciale de sa carte bancaire virtuelle au Bénin
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-services/2711-143855-momo-mastercard-mtn-lance-la-phase-commerciale-de-sa-carte-bancaire-virtuelle-au-benin
+- **Thèmes** : Finance (bancaire, crédit, fintech, paiement) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Depuis quelques années, MTN multiplie les initiatives pour devenir la plus grande plateforme fintech d’Afrique. Au Bénin, l’un de ses principaux marchés ouest-africains, cette ambition se traduisait déjà par la mise en place de services qui vont du crédit à l’épargne.
+Au Bénin, M...
+- **Statut** : [ ] à trier
+
+### Sénégal – Émirats arabes unis : de nouveaux accords pour élargir la coopération
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2711-143852-senegal-emirats-arabes-unis-de-nouveaux-accords-pour-elargir-la-cooperation
+- **Thèmes** : Économie (économique, commerce) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : Après plusieurs accords conclus en 2025, le Sénégal et les Émirats arabes unis poursuivent le développement de leur partenariat économique, avec une coopération renforcée dans les hydrocarbures et le numérique. Les deux pays examinent également de nouvelles possibilités d’investi...
+- **Statut** : [ ] à trier
+
+### Burkina Faso : une rocade de 12 km pour fluidifier le trafic à Bobo-Dioulasso
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-infrastructures/2711-143850-burkina-faso-une-rocade-de-12-km-pour-fluidifier-le-trafic-a-bobo-dioulasso
+- **Thèmes** : Économie (économique)
+- **Résumé (extrait automatique)** : A Bobo-Dioulasso, les autorités burkinabè misent sur de nouvelles liaisons routières pour soutenir l'activité économique et améliorer la desserte logistique du port sec.
+
+Au Burkina Faso, les travaux de construction de la rocade sud-est de Bobo-Dioulasso seront officiellement lan...
+- **Statut** : [ ] à trier
+
+### Kaspersky révèle une campagne du groupe de rançongiciel AuditTeam en Europe, en Asie et en Afrique
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2711-143849-kaspersky-revele-une-campagne-du-groupe-de-rancongiciel-auditteam-en-europe-en-asie-et-en-afrique
+- **Thèmes** : Data et IA (intelligence artificielle)
+- **Résumé (extrait automatique)** : L'équipe mondiale de recherche et d'analyse de Kaspersky (GReAT) a mis au jour une campagne menée par AuditTeam, un groupe de rançongiciel qui a compromis des dizaines d'organisations dans au moins sept pays et territoires entre janvier et octobre 2026. Des victimes ont été ident...
+- **Statut** : [ ] à trier
+
+### Le Nigeria engage près de 1 milliard $ pour moderniser les ports d'Apapa et Tin Can Island
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-infrastructures/2711-143848-le-nigeria-engage-pres-de-1-milliard-pour-moderniser-les-ports-dapapa-et-tin-can-island
+- **Thèmes** : Économie (économique, commerce)
+- **Résumé (extrait automatique)** : Pour le Nigeria, la modernisation des infrastructures portuaires constitue un enjeu de compétitivité économique. Dans un pays où le commerce extérieur repose en grande partie sur le transport maritime, l’amélioration des performances apparaît essentielle pour soutenir les échange...
+- **Statut** : [ ] à trier
+
+### BRVM : 4,9 milliards $ de capitalisation perdus en dix séances de baisse
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-finance/2711-143842-brvm-4-9-milliards-de-capitalisation-perdus-en-dix-seances-de-baisse
+- **Thèmes** : Finance (BRVM, bourse)
+- **Résumé (extrait automatique)** : La Bourse régionale des valeurs mobilières a enregistré dix séances consécutives de recul entre le vendredi 13 et le jeudi 26 novembre. Son indice principal a abandonné 12,6&nbsp;%, dans une correction généralisée dont Sonatel et Orange Côte d'Ivoire concentrent plus du tiers de ...
+- **Statut** : [ ] à trier
+
+### Inclusion numérique : l’Angola prévoit 209 points d’accès Internet supplémentaires en 2027
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2711-143841-inclusion-numerique-l-angola-prevoit-209-points-d-acces-internet-supplementaires-en-2027
+- **Thèmes** : Économie (économique) ; Data et IA (numérique)
+- **Résumé (extrait automatique)** : En Afrique, le numérique s'impose progressivement comme un levier de développement socio-économique. Sa contribution dépend toutefois de la capacité des pays à élargir l'accès à Internet et à permettre au plus grand nombre de profiter des services numériques.&nbsp;
+Le gouvernemen...
+- **Statut** : [ ] à trier
+
+### L’Éthiopie espère clôturer le processus de restructuration de son eurobond d'ici le 18 décembre 2026
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites/2711-143838-l-ethiopie-espere-cloturer-le-processus-de-restructuration-de-son-eurobond-dici-le-18-decembre-2026
+- **Thèmes** : Économie (dette) ; Finance (obligation)
+- **Résumé (extrait automatique)** : Le pays d’Afrique de l’Est avait demandé en 2021 la restructuration de sa dette extérieure au titre du cadre commun du G20, bien avant de faire défaut sur son unique eurobond en décembre 2023. Mais le processus a connu de nombreux atermoiements, en raison notamment du conflit au ...
+- **Statut** : [ ] à trier
+
+### Dans l’UEMOA, l’agrément devient un argument commercial pour les fintechs
+- **Source** : Agence Ecofin
+- **Lien** : https://www.agenceecofin.com/actualites-numerique/2711-143836-dans-l-uemoa-l-agrement-devient-un-argument-commercial-pour-les-fintechs
+- **Thèmes** : Économie (UEMOA, BCEAO) ; Finance (banque, fintech, paiement, conformité)
+- **Résumé (extrait automatique)** : La réglementation de la BCEAO sur les services de paiement impose de nouvelles exigences aux acteurs qui souhaitent exercer dans l’UEMOA. Si leur respect représente un coût pour les fintechs, l’agrément peut aussi renforcer leur crédibilité auprès des clients et des partenaires.
+...
+- **Statut** : [ ] à trier
+
+### After two decades in global finance, Tamer Bahgat is betting on social commerce in Nigeria
+- **Source** : TechCabal
+- **Lien** : https://techcabal.com/2026/11/27/how-tamer-bahgat-founded-we-yan/
+- **Thèmes** : Économie (commerce)
+- **Résumé (extrait automatique)** : How Tamer Bahgat built we.yan, a digital ecosystem that brings communication, commerce, and financial services onto a single platform....
+- **Statut** : [ ] à trier
+
+### Nigeria, Togo seek investors for $50 million data park project
+- **Source** : TechCabal
+- **Lien** : https://techcabal.com/2026/11/27/nigeria-togo-seek-data-park-investors/
+- **Thèmes** : Data et IA (data)
+- **Résumé (extrait automatique)** : Nigeria and Togo are seeking private investors for a $30 million to $50 million twin data park project, with one facility in each country....
+- **Statut** : [ ] à trier
+
+### Défense nationale: Gildas Agonkan présente à l’Assemblée nationale un projet de budget 2027 en hausse
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/defense-nationale-gildas-agonkan-presente-a-lassemblee-nationale-un-projet-de-budget-2027-en-hausse/
+- **Thèmes** : Économie (budget)
+- **Résumé (extrait automatique)** : Au Bénin, les moyens alloués à la sécurité et à l’intégrité territoriale connaissent une progression notable pour l’exercice à venir. Accompagné du Haut commandement militaire, le ministre délégué auprès du Président de la République chargé de la Défense nationale, Gildas Agonkan...
+- **Statut** : [ ] à trier
+
+### Budget 2027 au Bénin : 123,1 milliards FCFA d’investissements prévus dans l’agriculture
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-budget-2027-agriculture-123-milliards-investissements/
+- **Thèmes** : Économie (budget, FCFA) ; Finance (assurance)
+- **Résumé (extrait automatique)** : En hausse de 26,24 %, le projet de budget du ministère doit financer notamment des programmes liés à l’aviculture, à l’assurance agricole et à l’emploi rural....
+- **Statut** : [ ] à trier
+
+### Assemblée nationale: la Cour constitutionnelle défend un projet de budget de 2,84 milliards de FCFA pour 2027
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/assemblee-nationale-la-cour-constitutionnelle-defend-un-projet-de-budget-de-284-milliards-de-fcfa-pour-2027/
+- **Thèmes** : Économie (budget, FCFA)
+- **Résumé (extrait automatique)** : Au Bénin, le projet de budget de la Cour constitutionnelle pour l’exercice 2027 s’établit à 2 841 680 160 francs CFA. Cette prévision affiche une hausse modérée de 2,65 % par rapport à la dotation de l’année précédente, traduisant une évolution mesurée des ressources financières ...
+- **Statut** : [ ] à trier
+
+### Bénin : l’UE annonce près de 230 millions FCFA pour les déplacés du Nord
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-ue-aide-humanitaire-350000-euros-deplaces-nord/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : L’enveloppe supplémentaire de 350 000 euros doit notamment soutenir la protection, les soins de santé, la nutrition et la préparation aux catastrophes....
+- **Statut** : [ ] à trier
+
+### Sénégal : Diamba Sud, un projet aurifère de 240 milliards FCFA lancé à Kédougou
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/senegal-diamba-sud-projet-aurifere-kedougou-240-milliards/
+- **Thèmes** : Économie (FCFA)
+- **Résumé (extrait automatique)** : La future mine de Fortuna Mining vise une première production d’or en 2028. Le projet prévoit 900 emplois pendant les travaux et 750 en phase d’exploitation....
+- **Statut** : [ ] à trier
+
+### Budget 2027 au Bénin : 238,65 milliards FCFA pour les investissements dans l’enseignement supérieur et technique
+- **Source** : Bénin Web TV
+- **Lien** : https://beninwebtv.bj/benin-budget-2027-enseignement-superieur-technique-investissements/
+- **Thèmes** : Économie (budget, FCFA) ; Data et IA (intelligence artificielle)
+- **Résumé (extrait automatique)** : Six lycées scientifiques, deux écoles normales supérieures et un institut d’intelligence artificielle figurent parmi les priorités présentées aux députés....
+- **Statut** : [ ] à trier
+
+### Nigeria : la raffinerie Dangote sera cotée en bourse le 1er décembre après une demande de 4,5 milliards $
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/nigeria-la-raffinerie-dangote-sera-cotee-en-bourse-le-1er-decembre-apres-une-demande-de-45-milliards/
+- **Thèmes** : Finance (bourse)
+- **Résumé (extrait automatique)** : Les actions de la raffinerie Dangote commenceront à être échangées à la Bourse du Nigeria (NGX) le mardi 1er décembre 2026. Devakumar Edwin, vice-président pétrole et gaz du groupe Dangote, a donné cette date mercredi 25 novembre dans un entretien accordé à Reuters. Le lancement ...
+- **Statut** : [ ] à trier
+
+### Budget 2027 du CES au Bénin: 5,295 milliards FCFA sollicités pour accompagner l’élargissement de ses attributions
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/budget-2027-du-ces-au-benin-5295-milliards-fcfa-sollicites-pour-accompagner-lelargissement-de-ses-attributions/
+- **Thèmes** : Économie (économique, budget, FCFA)
+- **Résumé (extrait automatique)** : Le Conseil économique et social (CES) veut disposer de moyens financiers à la hauteur de ses nouvelles responsabilités. Son projet de budget pour 2027, présenté le jeudi 26 novembre devant la Commission des finances et des échanges de l’Assemblée nationale, porte sur 5,295 millia...
+- **Statut** : [ ] à trier
+
+### L'AES associée à un programme de 850 millions de dollars de la CEDEAO
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/laes-associee-a-un-programme-de-850-millions-de-dollars-de-la-cedeao/
+- **Thèmes** : Économie (CEDEAO) ; Finance (banque, BAD)
+- **Résumé (extrait automatique)** : Le Burkina Faso, le Mali et le Niger prennent part au Programme régional de développement de chaînes de valeur résilientes du riz (REWARD-CEDEAO). Cette initiative est portée par la CEDEAO (Communauté Economique des Etats de l’Afrique de l’Ouest), avec le soutien de la Banque Afr...
+- **Statut** : [ ] à trier
+
+### AES : l’ONU salue le rapprochement avec la CEDEAO et les avancées diplomatiques de l'Alliance
+- **Source** : La Nouvelle Tribune
+- **Lien** : https://lanouvelletribune.info/2026/11/aes-lonu-salue-le-rapprochement-avec-la-cedeao-et-les-avancees-diplomatiques-de-lalliance/
+- **Thèmes** : Économie (CEDEAO)
+- **Résumé (extrait automatique)** : Les initiatives diplomatiques de l’Alliance des États du Sahel (AES) commencent à recevoir des appréciations positives au sein des Nations Unies. En visite officielle au Burkina Faso, le Représentant spécial du Secrétaire général de l’ONU pour l’Afrique de l’Ouest et le Sahel, Le...
+- **Statut** : [ ] à trier
+
